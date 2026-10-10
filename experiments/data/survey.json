@@ -1,0 +1,737 @@
+{
+ "probed_on": "2026-10-06",
+ "yahoo": {
+  "index": {
+   "^GSPC": {
+    "status": 200,
+    "rows": 14312,
+    "first": "1970-01-02",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 0,
+    "min_close": 62.279998779296875,
+    "instrument": "INDEX"
+   },
+   "^NDX": {
+    "status": 200,
+    "rows": 10333,
+    "first": "1985-10-01",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 0,
+    "min_close": 107.16000366210938,
+    "instrument": "INDEX"
+   },
+   "^SP500TR": {
+    "status": 200,
+    "rows": 9763,
+    "first": "1988-01-04",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 0,
+    "min_close": 242.8699951171875,
+    "instrument": "INDEX"
+   },
+   "^IXIC": {
+    "status": 200,
+    "rows": 14034,
+    "first": "1971-02-05",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 0,
+    "min_close": 54.869998931884766,
+    "instrument": "INDEX"
+   }
+  },
+  "etf": {
+   "SPY": {
+    "status": 200,
+    "rows": 8479,
+    "first": "1993-01-29",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 136,
+    "min_close": 43.40625,
+    "instrument": "ETF"
+   },
+   "QQQ": {
+    "status": 200,
+    "rows": 6937,
+    "first": "1999-03-10",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 1,
+    "dividends": 90,
+    "min_close": 20.059999465942383,
+    "instrument": "ETF"
+   }
+  },
+  "leveraged_inverse": {
+   "SSO": {
+    "status": 200,
+    "rows": 5105,
+    "first": "2006-06-21",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 4,
+    "dividends": 70,
+    "min_close": 0.9087499976158142,
+    "instrument": "ETF"
+   },
+   "UPRO": {
+    "status": 200,
+    "rows": 4347,
+    "first": "2009-06-25",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 5,
+    "dividends": 47,
+    "min_close": 1.0473610162734985,
+    "instrument": "ETF"
+   },
+   "SPXU": {
+    "status": 200,
+    "rows": 4347,
+    "first": "2009-06-25",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 6,
+    "dividends": 26,
+    "min_close": 32.650001525878906,
+    "instrument": "ETF"
+   },
+   "SDS": {
+    "status": 200,
+    "rows": 5090,
+    "first": "2006-07-13",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 4,
+    "dividends": 35,
+    "min_close": 52.25960159301758,
+    "instrument": "ETF"
+   },
+   "QLD": {
+    "status": 200,
+    "rows": 5105,
+    "first": "2006-06-21",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 6,
+    "dividends": 33,
+    "min_close": 0.3062500059604645,
+    "instrument": "ETF"
+   },
+   "TQQQ": {
+    "status": 200,
+    "rows": 4188,
+    "first": "2010-02-11",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 8,
+    "dividends": 22,
+    "min_close": 0.18942700326442719,
+    "instrument": "ETF"
+   },
+   "SQQQ": {
+    "status": 200,
+    "rows": 4188,
+    "first": "2010-02-11",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 8,
+    "dividends": 26,
+    "min_close": 31.7549991607666,
+    "instrument": "ETF"
+   },
+   "QID": {
+    "status": 200,
+    "rows": 5090,
+    "first": "2006-07-13",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 5,
+    "dividends": 35,
+    "min_close": 12.508899688720703,
+    "instrument": "ETF"
+   }
+  },
+  "current_constituents": {
+   "AAPL": {
+    "status": 200,
+    "rows": 11546,
+    "first": "1980-12-12",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 5,
+    "dividends": 92,
+    "min_close": 0.04910700023174286,
+    "instrument": "EQUITY"
+   },
+   "MSFT": {
+    "status": 200,
+    "rows": 10220,
+    "first": "1986-03-13",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 9,
+    "dividends": 91,
+    "min_close": 0.09027799963951111,
+    "instrument": "EQUITY"
+   },
+   "CSCO": {
+    "status": 200,
+    "rows": 9225,
+    "first": "1990-02-16",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 9,
+    "dividends": 63,
+    "min_close": 0.07118099927902222,
+    "instrument": "EQUITY"
+   },
+   "QCOM": {
+    "status": 200,
+    "rows": 8764,
+    "first": "1991-12-13",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 4,
+    "dividends": 96,
+    "min_close": 0.4101560115814209,
+    "instrument": "EQUITY"
+   },
+   "ORCL": {
+    "status": 200,
+    "rows": 10221,
+    "first": "1986-03-12",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 10,
+    "dividends": 69,
+    "min_close": 0.04166699945926666,
+    "instrument": "EQUITY"
+   },
+   "NVDA": {
+    "status": 200,
+    "rows": 6969,
+    "first": "1999-01-22",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 6,
+    "dividends": 56,
+    "min_close": 0.03411500155925751,
+    "instrument": "EQUITY"
+   }
+  },
+  "delisted_or_acquired": {
+   "YHOO": {
+    "status": 404
+   },
+   "AABA": {
+    "status": 404
+   },
+   "JAVA": {
+    "status": 200,
+    "rows": 1256,
+    "first": "2021-10-05",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 22,
+    "min_close": 45.77000045776367,
+    "instrument": "ETF"
+   },
+   "ENRNQ": {
+    "status": 404
+   },
+   "WCOEQ": {
+    "status": 404
+   },
+   "LEHMQ": {
+    "status": 404
+   },
+   "LU": {
+    "status": 200,
+    "rows": 1489,
+    "first": "2020-10-30",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 1,
+    "dividends": 5,
+    "min_close": 1.0199999809265137,
+    "instrument": "EQUITY"
+   },
+   "NT": {
+    "status": 404
+   },
+   "INSP": {
+    "status": 200,
+    "rows": 2118,
+    "first": "2018-05-03",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 0,
+    "min_close": 24.049999237060547,
+    "instrument": "EQUITY"
+   },
+   "BCOR": {
+    "status": 200,
+    "rows": 361,
+    "first": "2025-04-30",
+    "last": "2026-10-06",
+    "adjclose": true,
+    "fields": [
+     "close",
+     "high",
+     "low",
+     "open",
+     "volume"
+    ],
+    "splits": 0,
+    "dividends": 3,
+    "min_close": 20.461999893188477,
+    "instrument": "ETF"
+   },
+   "CMGI": {
+    "status": 404
+   },
+   "JDSU": {
+    "status": 404
+   },
+   "EXDS": {
+    "status": 404
+   },
+   "ETYS": {
+    "status": 404
+   },
+   "GCTY": {
+    "status": 404
+   },
+   "LMC": {
+    "status": 404
+   }
+  }
+ },
+ "stooq": {
+  "status": 200,
+  "csv": false,
+  "js_challenge": true
+ },
+ "tiingo": {
+  "status": 403,
+  "body_head": "{\"detail\":\"Please supply a token\"}"
+ },
+ "wikipedia_sp500": {
+  "status": 200,
+  "tables": 2,
+  "has_date_added_column": true,
+  "has_selected_changes_section": false
+ },
+ "wikipedia_ndx": {
+  "status": 200,
+  "tables": 18,
+  "has_component_change_table": false
+ },
+ "github_hanshof_sp500_constituents": {
+  "listing_status": 200,
+  "files": [
+   "LICENSE",
+   "README.md",
+   "sp500.py",
+   "sp500_constituents.csv",
+   "sp_500_historical_components.csv"
+  ],
+  "sp500_constituents.csv": {
+   "rows": 503,
+   "first": "MMM",
+   "last": "ZTS",
+   "header": [
+    "symbol",
+    "security",
+    "gics sector"
+   ]
+  },
+  "sp_500_historical_components.csv": {
+   "rows": 3482,
+   "first": "1996-01-02",
+   "last": "2025-08-23",
+   "header": [
+    "date",
+    "tickers"
+   ],
+   "membership_checks": {
+    "1996-01-02": {
+     "as_of": "1996-01-02",
+     "names": 469,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    },
+    "2000-03-10": {
+     "as_of": "2000-03-09",
+     "names": 466,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    },
+    "2001-12-31": {
+     "as_of": "2001-12-24",
+     "names": 463,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    },
+    "2008-09-12": {
+     "as_of": "2008-09-12",
+     "names": 443,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    },
+    "2020-03-02": {
+     "as_of": "2020-01-28",
+     "names": 499,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    },
+    "2025-08-22": {
+     "as_of": "2025-08-22",
+     "names": 503,
+     "ENE": false,
+     "WCOM": false,
+     "LEH": false,
+     "YHOO": false,
+     "AAPL": true
+    }
+   }
+  }
+ },
+ "sec_xbrl_shares_aapl": {
+  "status": 200,
+  "points": 70,
+  "first_end": "2009-06-27",
+  "last_end": "2026-07-17"
+ },
+ "fred": {
+  "DTB3": {
+   "status": "error: ReadTimeout"
+  },
+  "DGS3MO": {
+   "status": "error: ConnectionError"
+  },
+  "SOFR": {
+   "status": "error: ReadTimeout"
+  },
+  "DFF": {
+   "status": "error: ConnectionError"
+  }
+ },
+ "treasury_bill_rates": {
+  "status": 403,
+  "access_denied": true
+ },
+ "nyfed_sofr": {
+  "status": 200,
+  "rows": 2126,
+  "first": "2018-04-02",
+  "last": "2026-10-05"
+ },
+ "yahoo_IRX_13w_tbill": {
+  "status": 200,
+  "rows": 14312,
+  "first": "1970-01-02",
+  "last": "2026-10-06",
+  "adjclose": true,
+  "fields": [
+   "close",
+   "high",
+   "low",
+   "open",
+   "volume"
+  ],
+  "splits": 0,
+  "dividends": 0,
+  "min_close": -0.10499999672174454,
+  "instrument": "INDEX"
+ },
+ "cboe_delayed": {
+  "_SPX": {
+   "status": 200,
+   "contracts": 29478,
+   "timestamp": "2026-10-06 19:48:38"
+  },
+  "_NDX": {
+   "status": 200,
+   "contracts": 15914,
+   "timestamp": "2026-10-06 19:48:53"
+  },
+  "SPY": {
+   "status": 200,
+   "contracts": 13182,
+   "timestamp": "2026-10-06 19:48:43"
+  },
+  "QQQ": {
+   "status": 200,
+   "contracts": 11422,
+   "timestamp": "2026-10-06 19:48:41"
+  },
+  "TQQQ": {
+   "status": 200,
+   "contracts": 1818,
+   "timestamp": "2026-10-06 19:48:36"
+  },
+  "SQQQ": {
+   "status": 200,
+   "contracts": 1388,
+   "timestamp": "2026-10-06 19:48:40"
+  }
+ },
+ "yahoo_options": {
+  "status": 401,
+  "body_head": "{\"finance\":{\"result\":null,\"error\":{\"code\":\"Unauthorized\",\"description\":\"Invalid Crumb\"}}}"
+ },
+ "proshares_expense_ratio": {
+  "QLD": {
+   "status": 200,
+   "expense_ratio_pct": "0.98"
+  },
+  "TQQQ": {
+   "status": 200,
+   "expense_ratio_pct": "0.97"
+  },
+  "SQQQ": {
+   "status": 200,
+   "expense_ratio_pct": "0.99"
+  },
+  "QID": {
+   "status": 200,
+   "expense_ratio_pct": "1.02"
+  },
+  "SSO": {
+   "status": 200,
+   "expense_ratio_pct": "0.88"
+  },
+  "UPRO": {
+   "status": 200,
+   "expense_ratio_pct": "0.89"
+  },
+  "SPXU": {
+   "status": 200,
+   "expense_ratio_pct": "0.90"
+  },
+  "SDS": {
+   "status": 200,
+   "expense_ratio_pct": "0.91"
+  }
+ },
+ "sec_proshares_trust": {
+  "status": 200,
+  "name": "PROSHARES TRUST",
+  "recent_reports_and_prospectuses": [
+   [
+    "485BPOS",
+    "2026-09-25"
+   ],
+   [
+    "N-CSR",
+    "2026-08-06"
+   ],
+   [
+    "N-CSR",
+    "2026-08-06"
+   ],
+   [
+    "485BPOS",
+    "2026-07-23"
+   ],
+   [
+    "485BPOS",
+    "2026-07-15"
+   ],
+   [
+    "485BPOS",
+    "2026-07-02"
+   ]
+  ],
+  "older_filing_pages": 4
+ }
+}

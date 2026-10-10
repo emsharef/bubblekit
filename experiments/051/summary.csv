@@ -1,0 +1,82 @@
+block,subset,score,level,flags,n,rate
+all,all starts,new,1/20,485,10000,0.0485
+all,all starts,new,1/100,62,10000,0.0062
+all,all starts,new,1/10,930,10000,0.093
+all,all starts,v1,1/20,80,10000,0.008
+all,all starts,v1,1/100,80,10000,0.008
+all,all starts,v1,1/10,1315,10000,0.1315
+all,all starts,gsadf,1/20,587,10000,0.0587
+all,all starts,gsadf,1/100,161,10000,0.0161
+all,all starts,gsadf,1/10,1037,10000,0.1037
+all,calm starts,new,1/20,234,3319,0.07050316360349503
+all,calm starts,new,1/100,26,3319,0.00783368484483278
+all,calm starts,new,1/10,444,3319,0.1337752335040675
+all,calm starts,v1,1/20,42,3319,0.012654413980114493
+all,calm starts,v1,1/100,42,3319,0.012654413980114493
+all,calm starts,v1,1/10,422,3319,0.12714673094305515
+all,calm starts,gsadf,1/20,168,3319,0.05061765592045797
+all,calm starts,gsadf,1/100,52,3319,0.01566736968966556
+all,calm starts,gsadf,1/10,301,3319,0.09068996685748719
+all,other starts,new,1/20,251,6681,0.03756922616374794
+all,other starts,new,1/100,36,6681,0.005388414907947912
+all,other starts,new,1/10,486,6681,0.07274360125729681
+all,other starts,v1,1/20,38,6681,0.005687771291722796
+all,other starts,v1,1/100,38,6681,0.005687771291722796
+all,other starts,v1,1/10,893,6681,0.1336626253554857
+all,other starts,gsadf,1/20,419,6681,0.0627151624008382
+all,other starts,gsadf,1/100,109,6681,0.016314922915731177
+all,other starts,gsadf,1/10,736,6681,0.1101631492291573
+holdout (start >= 2011),all starts,new,1/20,252,5033,0.05006954102920723
+holdout (start >= 2011),all starts,new,1/100,28,5033,0.005563282336578581
+holdout (start >= 2011),all starts,new,1/10,503,5033,0.09994039340353666
+holdout (start >= 2011),all starts,v1,1/20,36,5033,0.007152791575601033
+holdout (start >= 2011),all starts,v1,1/100,36,5033,0.007152791575601033
+holdout (start >= 2011),all starts,v1,1/10,656,5033,0.13033975759984104
+holdout (start >= 2011),all starts,gsadf,1/20,293,5033,0.058215775879197296
+holdout (start >= 2011),all starts,gsadf,1/100,88,5033,0.01748460162924697
+holdout (start >= 2011),all starts,gsadf,1/10,493,5033,0.09795350685475859
+holdout (start >= 2011),calm starts,new,1/20,143,1899,0.07530279094260137
+holdout (start >= 2011),calm starts,new,1/100,10,1899,0.0052659294365455505
+holdout (start >= 2011),calm starts,new,1/10,276,1899,0.14533965244865718
+holdout (start >= 2011),calm starts,v1,1/20,20,1899,0.010531858873091101
+holdout (start >= 2011),calm starts,v1,1/100,20,1899,0.010531858873091101
+holdout (start >= 2011),calm starts,v1,1/10,253,1899,0.1332280147446024
+holdout (start >= 2011),calm starts,gsadf,1/20,99,1899,0.052132701421800945
+holdout (start >= 2011),calm starts,gsadf,1/100,39,1899,0.020537124802527645
+holdout (start >= 2011),calm starts,gsadf,1/10,177,1899,0.09320695102685624
+holdout (start >= 2011),other starts,new,1/20,109,3134,0.03477983407785577
+holdout (start >= 2011),other starts,new,1/100,18,3134,0.00574345883854499
+holdout (start >= 2011),other starts,new,1/10,227,3134,0.07243139757498404
+holdout (start >= 2011),other starts,v1,1/20,16,3134,0.005105296745373325
+holdout (start >= 2011),other starts,v1,1/100,16,3134,0.005105296745373325
+holdout (start >= 2011),other starts,v1,1/10,403,3134,0.12858966177409062
+holdout (start >= 2011),other starts,gsadf,1/20,194,3134,0.06190172303765156
+holdout (start >= 2011),other starts,gsadf,1/100,49,3134,0.015634971282705808
+holdout (start >= 2011),other starts,gsadf,1/10,316,3134,0.10082961072112316
+retrospective (start < 2011),all starts,new,1/20,233,4967,0.046909603382323334
+retrospective (start < 2011),all starts,new,1/100,34,4967,0.006845178175961345
+retrospective (start < 2011),all starts,new,1/10,427,4967,0.08596738473927924
+retrospective (start < 2011),all starts,v1,1/20,44,4967,0.008858465874773505
+retrospective (start < 2011),all starts,v1,1/100,44,4967,0.008858465874773505
+retrospective (start < 2011),all starts,v1,1/10,659,4967,0.13267565935172135
+retrospective (start < 2011),all starts,gsadf,1/20,294,4967,0.05919065834507751
+retrospective (start < 2011),all starts,gsadf,1/100,73,4967,0.01469700020132877
+retrospective (start < 2011),all starts,gsadf,1/10,544,4967,0.10952285081538152
+retrospective (start < 2011),calm starts,new,1/20,91,1420,0.06408450704225352
+retrospective (start < 2011),calm starts,new,1/100,16,1420,0.011267605633802818
+retrospective (start < 2011),calm starts,new,1/10,168,1420,0.11830985915492957
+retrospective (start < 2011),calm starts,v1,1/20,22,1420,0.015492957746478873
+retrospective (start < 2011),calm starts,v1,1/100,22,1420,0.015492957746478873
+retrospective (start < 2011),calm starts,v1,1/10,169,1420,0.11901408450704225
+retrospective (start < 2011),calm starts,gsadf,1/20,69,1420,0.048591549295774646
+retrospective (start < 2011),calm starts,gsadf,1/100,13,1420,0.009154929577464789
+retrospective (start < 2011),calm starts,gsadf,1/10,124,1420,0.08732394366197183
+retrospective (start < 2011),other starts,new,1/20,142,3547,0.040033831406822665
+retrospective (start < 2011),other starts,new,1/100,18,3547,0.005074711023400056
+retrospective (start < 2011),other starts,new,1/10,259,3547,0.07301945305892303
+retrospective (start < 2011),other starts,v1,1/20,22,3547,0.006202424584155625
+retrospective (start < 2011),other starts,v1,1/100,22,3547,0.006202424584155625
+retrospective (start < 2011),other starts,v1,1/10,490,3547,0.1381449111925571
+retrospective (start < 2011),other starts,gsadf,1/20,225,3547,0.0634338877925007
+retrospective (start < 2011),other starts,gsadf,1/100,60,3547,0.01691570341133352
+retrospective (start < 2011),other starts,gsadf,1/10,420,3547,0.11840992387933465

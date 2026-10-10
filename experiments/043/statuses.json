@@ -1,0 +1,732 @@
+{
+"C-const|b=-0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=-0.1|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.0|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-const|b=0.1|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=-0.1|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.0|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-switch|b=0.1|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=-0.1|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.0|w=1.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.25|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.3|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.3|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.45|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.45|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.5|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=0.5|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=1.0|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=1.0|N=504": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=1.25|N=252": {
+"failed": 0,
+"statuses": []
+},
+"C-feedback|b=0.1|w=1.25|N=504": {
+"failed": 1,
+"statuses": [
+"numerical_failure"
+]
+},
+"Heston|ratio=fixed|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Heston|ratio=fixed|N=504": {
+"failed": 0,
+"statuses": []
+},
+"Heston|ratio=varying|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Heston|ratio=varying|N=504": {
+"failed": 0,
+"statuses": []
+},
+"Switch-intraday|ratio=fixed|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Switch-intraday|ratio=fixed|N=504": {
+"failed": 0,
+"statuses": []
+},
+"Switch-intraday|ratio=varying|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Switch-intraday|ratio=varying|N=504": {
+"failed": 0,
+"statuses": []
+},
+"Merton|ratio=fixed|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Merton|ratio=fixed|N=504": {
+"failed": 0,
+"statuses": []
+},
+"Merton|ratio=varying|N=252": {
+"failed": 0,
+"statuses": []
+},
+"Merton|ratio=varying|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.2|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.4|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.25|k=0.8|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.2|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.4|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=1.5|k=0.8|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.2|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.4|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|background|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|background|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|partial|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|partial|N=504": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|full|N=252": {
+"failed": 0,
+"statuses": []
+},
+"CEV|p=2.0|k=0.8|full|N=504": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=1.5|k=0.2|N=252": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=1.5|k=0.2|N=504": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=1.5|k=0.4|N=252": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=1.5|k=0.4|N=504": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=2.0|k=0.2|N=252": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=2.0|k=0.2|N=504": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=2.0|k=0.4|N=252": {
+"failed": 0,
+"statuses": []
+},
+"A-switch|p=2.0|k=0.4|N=504": {
+"failed": 0,
+"statuses": []
+}
+}

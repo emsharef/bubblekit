@@ -1,0 +1,313 @@
+{
+ "data_dir_note": "data/delisted (gitignored), read in place",
+ "splits": [
+  [
+   "1999-05-05",
+   2.0
+  ],
+  [
+   "2000-01-05",
+   2.0
+  ],
+  [
+   "2000-04-07",
+   2.0
+  ],
+  [
+   "2002-09-13",
+   0.1
+  ]
+ ],
+ "rows": [
+  {
+   "key": "InfoSpace|wiki, split-adjusted (primary)",
+   "n": 945,
+   "log_e": -2311.3167727457076,
+   "raw_log_e": -1004.0906001694981,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 4.84264522050767,
+   "gsadf": 7.527206958837225,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "name": "InfoSpace",
+   "series": "wiki, split-adjusted (primary)",
+   "first": "1998-12-15",
+   "last": "2002-09-19",
+   "first_price": 25.0,
+   "jkp_published": "bubble",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   },
+   "cv": {
+    "sadf": {
+     "5%": 1.5252903469372427,
+     "10%": 1.2544271577924315
+    },
+    "gsadf": {
+     "5%": 2.299889065131543,
+     "10%": 2.0961975194228937
+    }
+   },
+   "jkp_params": {
+    "m1_s0": 2.581789769740614,
+    "m1_a": 0.9927986840937981,
+    "m2": {
+     "M_used": 2.0,
+     "tikhonov_b": false,
+     "fb_nonpositive": false,
+     "slope": 1.7449105188973346,
+     "tikhonov_q_any": false,
+     "verdict": "bubble",
+     "m": 1.2747964780785226,
+     "alpha": 1.1373982390392614,
+     "step": "iv"
+    }
+   }
+  },
+  {
+   "key": "InfoSpace|sye close (cross-check, unknown provenance)",
+   "n": 945,
+   "log_e": -2596.022339462379,
+   "raw_log_e": -1245.7897952662704,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 4.83054593469834,
+   "gsadf": 7.520588714075598,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "name": "InfoSpace",
+   "series": "sye close (cross-check, unknown provenance)",
+   "first": "1998-12-15",
+   "last": "2002-09-19",
+   "first_price": 25.000840554505718,
+   "jkp_published": "bubble",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   },
+   "cv": {
+    "sadf": {
+     "5%": 1.5252903469372427,
+     "10%": 1.2544271577924315
+    },
+    "gsadf": {
+     "5%": 2.299889065131543,
+     "10%": 2.0961975194228937
+    }
+   },
+   "jkp_params": {
+    "m1_s0": 2.6138683647334164,
+    "m1_a": 0.9864819196043996,
+    "m2": {
+     "M_used": 2.0,
+     "tikhonov_b": false,
+     "fb_nonpositive": false,
+     "slope": 1.7449103159241075,
+     "tikhonov_q_any": false,
+     "verdict": "bubble",
+     "m": 1.2676164581675489,
+     "alpha": 1.1338082290837743,
+     "step": "iv"
+    }
+   }
+  },
+  {
+   "key": "InfoSpace|wiki, split dates shifted -1 day (sensitivity)",
+   "n": 945,
+   "log_e": -130257.43740870088,
+   "raw_log_e": -127499.41471313547,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 4.189083466299588,
+   "gsadf": 7.527206958837225,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "name": "InfoSpace",
+   "series": "wiki, split dates shifted -1 day (sensitivity)",
+   "first": "1998-12-15",
+   "last": "2002-09-19",
+   "first_price": 25.0,
+   "jkp_published": "bubble",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   },
+   "cv": {
+    "sadf": {
+     "5%": 1.5252903469372427,
+     "10%": 1.2544271577924315
+    },
+    "gsadf": {
+     "5%": 2.299889065131543,
+     "10%": 2.0961975194228937
+    }
+   },
+   "jkp_params": {
+    "m1_s0": 6.457216461623592,
+    "m1_a": 0.7376124248813151,
+    "m2": {
+     "M_used": 2.0,
+     "tikhonov_b": false,
+     "fb_nonpositive": false,
+     "slope": 1.746145517763461,
+     "tikhonov_q_any": false,
+     "verdict": "bubble",
+     "m": 3.9076228689858765,
+     "alpha": 2.4538114344929385,
+     "step": "iv"
+    }
+   }
+  },
+  {
+   "key": "InfoSpace|wiki, split dates shifted +1 day (sensitivity)",
+   "n": 945,
+   "log_e": -14877.93351752998,
+   "raw_log_e": -8471.375878473835,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 3.286652389632175,
+   "gsadf": 7.527206958837225,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "name": "InfoSpace",
+   "series": "wiki, split dates shifted +1 day (sensitivity)",
+   "first": "1998-12-15",
+   "last": "2002-09-19",
+   "first_price": 25.0,
+   "jkp_published": "bubble",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   },
+   "cv": {
+    "sadf": {
+     "5%": 1.5252903469372427,
+     "10%": 1.2544271577924315
+    },
+    "gsadf": {
+     "5%": 2.299889065131543,
+     "10%": 2.0961975194228937
+    }
+   },
+   "jkp_params": {
+    "m1_s0": 7.931576307963977,
+    "m1_a": 0.6054587520905841,
+    "m2": {
+     "M_used": 2.0,
+     "tikhonov_b": false,
+     "fb_nonpositive": false,
+     "slope": 1.7449105188973324,
+     "tikhonov_q_any": false,
+     "verdict": "bubble",
+     "m": 3.9333993072853013,
+     "alpha": 2.4666996536426504,
+     "step": "iv"
+    }
+   }
+  },
+  {
+   "key": "GeoCities|sye single daily price (unknown provenance)",
+   "n": 202,
+   "log_e": -1007.2963887174358,
+   "raw_log_e": -632.2024516262725,
+   "status": [
+    "ok"
+   ],
+   "fit": 2,
+   "detail": null,
+   "sadf": 1.8563897640500602,
+   "gsadf": 4.134782216857101,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "name": "GeoCities",
+   "series": "sye single daily price (unknown provenance)",
+   "first": "1998-08-11",
+   "last": "1999-05-28",
+   "first_price": 37.3125,
+   "jkp_published": "no bubble",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   },
+   "cv": {
+    "sadf": {
+     "5%": 1.4079451643730838,
+     "10%": 1.0997165469975008
+    },
+    "gsadf": {
+     "5%": 2.1145163459056064,
+     "10%": 1.8288506208053963
+    }
+   },
+   "jkp_params": {
+    "m1_s0": 1.438740276273284,
+    "m1_a": 0.8127758321544695,
+    "m2": {
+     "M_used": 1.0,
+     "tikhonov_b": false,
+     "fb_nonpositive": false,
+     "slope": 1.6900872888758836,
+     "tikhonov_q_any": false,
+     "verdict": "bubble",
+     "m": 2.9437472765626453,
+     "alpha": 1.9718736382813227,
+     "step": "iv"
+    }
+   }
+  }
+ ]
+}

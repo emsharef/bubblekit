@@ -1,0 +1,48 @@
+{
+  "source": "Existing experiments/data/d19_conditional_probe.py seed 5; consume H=5 before H=20. Saved for deterministic regression; no new statistical experiment.",
+  "scope": "Same saved record and settings; one replay per implementation, no power evidence.",
+  "settings": {
+    "count": 4,
+    "max_count": 64,
+    "max_evaluations": 128,
+    "factor": 2
+  },
+  "rows": [
+    {
+      "cache_bounds": false,
+      "seconds": 3.2917391252703965,
+      "status": "tolerance met",
+      "evaluations": 72,
+      "transition_terms": 2442848,
+      "leaves": 27,
+      "prunable": 10,
+      "log_width": 0.6687723743531251,
+      "lower_hex": [
+        "0xae3daee30278575a0b959ae022bdca57",
+        "0x2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_hex": [
+        "0x5505c939b24619d13d879b7d9eedfa6b",
+        "0x800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "cache_bounds": true,
+      "seconds": 2.6387793752364814,
+      "status": "tolerance met",
+      "evaluations": 72,
+      "transition_terms": 2442848,
+      "leaves": 27,
+      "prunable": 10,
+      "log_width": 0.6687723743531251,
+      "lower_hex": [
+        "0x2b8f6bb8c09e15d682e566b808af7295",
+        "0x800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "upper_hex": [
+        "0x5505c939b24619d13d879b7d9eedfa6d",
+        "0x800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    }
+  ]
+}

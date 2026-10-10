@@ -1,0 +1,142 @@
+{
+"E2-C|InfoSpace|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "inconclusive"
+},
+"E2-C|InfoSpace|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|CMGI|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|CMGI|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|JDS Uniphase|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|JDS Uniphase|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "no bubble"
+},
+"E2-C|VA Linux|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "no bubble",
+"jkp_m2": "bubble"
+},
+"E2-C|VA Linux|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|theglobe.com|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E2-C|theglobe.com|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "bubble",
+"jkp_m2": "no bubble"
+},
+"E4-C|Lehman|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Lehman|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Wachovia|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Wachovia|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Countrywide|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Countrywide|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Merrill Lynch|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Merrill Lynch|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Freddie Mac|full": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"E4-C|Freddie Mac|to_peak": {
+"status": [
+"ok"
+],
+"jkp_m1": "no bubble",
+"jkp_m2": "bubble"
+}
+}

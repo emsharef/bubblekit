@@ -1,0 +1,15 @@
+Refuted target: restart a valid test with fresh unit capital after each
+failure, or use a success observed at a chosen launch as scored evidence,
+while keeping the original anytime threshold without a budget correction.
+
+Two independent fair bits X_1,X_2 give unit-mean individual scores 2X_i.
+The rule rejects at threshold 2 if either is one. Its probability is 3/4,
+exceeding alpha=1/2. Funding both at unit capital spends two units, even
+if the first losing score is discarded from the display. Choosing the
+first observed success as the launch and retroactively scoring it yields
+the same event; it uses a training trigger as if it were future data.
+
+Corrected application: proposed claim 041 funds fresh conditional tests
+from a single lifetime budget, scores strictly after each stopping-time
+launch, and retains unused capital. No capital refill or retroactive
+gain is licensed. checks/041/check.py enumerates this finite obstruction.

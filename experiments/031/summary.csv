@@ -1,0 +1,21 @@
+row,class,name,variant,n,first,last,log_e,raw_log_e,lab_0.05,lab_0.1,lab054_0.05,lab054_0.1,sadf_5%,sadf_10%,gsadf_5%,gsadf_10%,jkp_m2,jkp_m1
+E2-C,B,InfoSpace,full,763,1998-12-15,2001-12-28,-733.3374108631956,450.32693946155143,False,False,True,True,True,True,True,True,False,False
+E2-C,B,InfoSpace,to_peak,323,1998-12-15,2000-03-27,-209.9398285292283,-12.144662991546454,False,False,False,False,True,True,True,True,True,False
+E2-C,B,CMGI,full,1762,1995-01-03,2001-12-28,-578.9118783031181,1633.5339684788805,False,False,True,True,True,True,True,True,True,False
+E2-C,B,CMGI,to_peak,1322,1995-01-03,2000-03-27,-373.12290248668546,516.5656207652708,False,False,True,True,True,True,True,True,True,False
+E2-C,B,JDS Uniphase,full,1762,1995-01-03,2001-12-28,-71.87635802983459,758.7493285022997,False,False,True,True,True,True,True,True,True,False
+E2-C,B,JDS Uniphase,to_peak,1322,1995-01-03,2000-03-27,-82.66978734241206,173.76672087726752,False,False,True,True,True,True,True,True,False,False
+E2-C,B,VA Linux,full,506,1999-12-09,2001-12-28,-159.12785906756176,-153.07650809208326,False,False,False,False,False,False,True,True,True,False
+E2-C,B,VA Linux,to_peak,72,1999-12-09,2000-03-27,-3.642892406156733,0.0,False,False,False,False,False,False,False,False,True,False
+E2-C,B,theglobe.com,full,784,1998-11-13,2001-12-28,-217.1857858579956,-202.58130163307715,False,False,False,False,False,False,False,False,True,False
+E2-C,B,theglobe.com,to_peak,344,1998-11-13,2000-03-27,-16.88222296191475,0.0,False,False,False,False,False,False,False,False,False,True
+E4-C,C,Lehman,full,1510,2003-01-02,2008-12-30,-1403.0761599349987,-1403.0761599349987,False,False,False,False,False,True,False,False,True,False
+E4-C,C,Lehman,to_peak,1005,2003-01-02,2006-12-27,-41.342682734986965,-34.272991059177,False,False,False,False,True,True,False,False,True,False
+E4-C,C,Wachovia,full,1510,2003-01-02,2008-12-30,-2472.7523337818347,-2472.7523337818347,False,False,False,False,False,True,True,True,True,False
+E4-C,C,Wachovia,to_peak,1005,2003-01-02,2006-12-27,-1.578938272291225,0.0,False,False,False,False,False,False,False,False,True,False
+E4-C,C,Countrywide,full,1383,2003-01-02,2008-06-30,-882.4374391814209,-877.6989688804787,False,False,False,False,True,True,True,True,True,False
+E4-C,C,Countrywide,to_peak,1005,2003-01-02,2006-12-27,-6.458400136737168,-6.458400136737168,False,False,False,False,True,True,True,True,True,False
+E4-C,C,Merrill Lynch,full,1510,2003-01-02,2008-12-30,-631.170998949653,-631.170998949653,False,False,False,False,False,False,False,False,True,False
+E4-C,C,Merrill Lynch,to_peak,1005,2003-01-02,2006-12-27,-21.89418583027532,-17.261283230423942,False,False,False,False,False,False,False,False,True,False
+E4-C,C,Freddie Mac,full,1510,2003-01-02,2008-12-30,-1183.3461297555511,-1183.3461297555511,False,False,False,False,False,False,True,True,True,False
+E4-C,C,Freddie Mac,to_peak,1005,2003-01-02,2006-12-27,-71.69692768030109,-71.69692768030109,False,False,False,False,False,False,False,False,True,False

@@ -1,0 +1,77 @@
+D15 candidate rejected: freely enlarging the likelihood null to the full
+Gaussian compound-Poisson family, or a single volatility switch with a
+singleton segment, leaves a finite useful denominator.
+
+Mechanism without model nouns: a positive-weight narrow component can fit one
+observation exactly, while other positive-weight components support the rest.
+This is the known Gaussian-mixture singularity [snoussi2001mixtures], Proposition
+1, not a new general theorem. The constrained parameter paths below are the
+D15 application checks. AX-59's stochastic source audit is pending; these are
+calculations for the explicitly defined density functions, not an approved
+statistical claim or a proof of a pricing-null model.
+
+Poisson mixture. Fix any n>=1 finite returns R_j and positive durations Δ_j.
+Let h_J be the function displayed in AX-59; fix λ_J>0, η_J>0 and finite μ_J.
+Choose a_J=R_1/Δ_1 and let 0<σ_J<=1 tend to zero. In the first factor keep
+only count zero; in every other factor keep only count one. Positivity gives
+
+  product_j h_J(R_j;Δ_j) >= exp(-λ_J sum_j Δ_j)
+     /[sqrt(2πΔ_1) σ_J]
+     * product_(j>1) [λ_JΔ_j φ(R_j; a_JΔ_j+μ_J, σ_J²Δ_j+η_J²)].
+
+Each latter Gaussian factor is bounded below uniformly in 0<σ_J<=1 by
+
+  exp(-(R_j-a_JΔ_j-μ_J)²/(2η_J²)) / sqrt(2π(η_J²+Δ_j)) > 0.
+
+Thus the displayed product is at least a strictly positive constant divided
+by σ_J. The supremum is infinite at EVERY finite return vector, even with
+jump intensity, mean and positive variance fixed. One does not need large
+intensity, a jump at every increment, or shrinking jump variance. Multiplying
+by the fixed positive price Jacobian product_j(1/y_j) changes none of this.
+The zero-at-infinite-denominator convention would give zero evidence on all
+positive arrays for this unrestricted envelope. A numerical parameter grid
+that reports a finite maximum has simply missed the singularity.
+
+Two-regime volatility, even with common physical drift. For n>=2 allow a
+change after the first increment. Give the first segment scale σ_J and the
+second a fixed κ>0. Set b=R_1/Δ_1+σ_J²/2. The first Gaussian log-return mean
+is exactly R_1, so its density is 1/[sqrt(2πΔ_1) σ_J]. The remaining factors
+have mean (b-κ²/2)Δ_j and variance κ²Δ_j; each tends to a finite strictly
+positive value as σ_J tends to zero. Their product times σ_J therefore has
+a positive limit. The joint supremum is infinite at every finite return
+vector. Allowing separate segment drifts cannot repair this. This example
+uses one switch, not independent fitted regimes at each time.
+
+Restrictions that leave a route open (not a proved power claim).
+1. A fixed σ_J>=σ_min>0 bounds every component of h_J by
+   1/sqrt(2π σ_min² Δ). Since its weights sum to one, this also bounds h_J,
+   uniformly in log drift, intensity and jump parameters. The product times
+   the price Jacobian is a finite upper envelope. For a fixed parameter and
+   count cutoff K_J, the omitted density is bounded by that same constant
+   times P(Poisson(λ_JΔ)>K_J). A truncated sum alone is a LOWER bound and
+   cannot certify a composite-null denominator. Uniform bounds over a search
+   domain, and its optimization error, remain necessary for a tighter score.
+   No source audit, lower scale justification or useful power is supplied by
+   these algebraic bounds. Penalized likelihood is also not a replacement
+   for an unpenalized pointwise dominating denominator.
+2. For one switch, fix permitted cut indices so each segment has at least two
+   increments. Enlarge further to separate drift and scale per segment.
+   Claim 055's already-proved Gaussian profile computes each segment's exact
+   supremum; multiply the two and maximize over the finite permitted cuts.
+   This dominates the common-drift one-switch family. It is finite whenever
+   every permitted segment has positive weighted residual Q_G. The exceptional
+   zero-residual segments still give infinity; they cannot silently be removed
+   from the observation domain. With at least two increments each exceptional
+   set has Lebesgue measure zero, but rounded observations need not avoid it.
+   This does not cover arbitrary repeated switches, a hidden-state model with
+   singleton runs, or general stochastic volatility.
+
+No direction-close conclusion: restrictions do exist, and whether their
+resulting tests are informative is unresolved. The next application must
+check measurable domination, actual conditional laws, retained CEV nulls,
+all-array score conventions and pricing interpretation before invoking AX-58.
+
+Diagnostic evidence: checks/d15-null-input/check.py checks the lower bound and
+rescaled positive limits on three fixed irregular paths, 162 scale-floor and
+Poisson-tail comparisons, and 18 two-segment profile bounds. No simulations,
+floating-point upper certificates or new calibrated score are claimed.

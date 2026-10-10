@@ -1,0 +1,340 @@
+{
+ "measured_on": "2026-10-06",
+ "download_date": "2026-10-06",
+ "location": "/Users/esharef/Documents/Fun/Vibe/proof_bubble/data/kaggle",
+ "datasets": {
+  "dudesurfin/spy-options-eod-volatility-surface-2010-2023": {
+   "title": "SPY Options EOD Data (2010-2023)",
+   "licenses": [
+    {
+     "name": "MIT"
+    }
+   ],
+   "command": "kaggle datasets download -d dudesurfin/spy-options-eod-volatility-surface-2010-2023",
+   "files": [
+    "spy_eod_2010.parquet",
+    "spy_eod_2011.parquet",
+    "spy_eod_2012.parquet",
+    "spy_eod_2013.parquet",
+    "spy_eod_2014.parquet",
+    "spy_eod_2015.parquet",
+    "spy_eod_2016.parquet",
+    "spy_eod_2017.parquet",
+    "spy_eod_2018.parquet",
+    "spy_eod_2019.parquet",
+    "spy_eod_2020.parquet",
+    "spy_eod_2021.parquet",
+    "spy_eod_2022.parquet",
+    "spy_eod_2023.parquet"
+   ],
+   "rows": 9468584,
+   "first_date": "2010-01-04",
+   "last_date": "2023-12-29",
+   "dates": 3508,
+   "dates_per_year": {
+    "2010": 250,
+    "2011": 245,
+    "2012": 250,
+    "2013": 252,
+    "2014": 250,
+    "2015": 252,
+    "2016": 251,
+    "2017": 250,
+    "2018": 252,
+    "2019": 248,
+    "2020": 250,
+    "2021": 252,
+    "2022": 256,
+    "2023": 250
+   },
+   "call_bid_present": 0.9987621169120958,
+   "call_ask_present": 0.9987621169120958,
+   "underlying_present": 1.0,
+   "windows": {
+    "2020-21": {
+     "dates": 502,
+     "1m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.100440176070428,
+      "median": 1.3290674285755,
+      "max": 11.295083479383822
+     },
+     "1m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.082581117345694,
+      "median": 1.2129519849216122,
+      "max": 1.8032583012063177
+     },
+     "3m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.169679018315904,
+      "median": 1.402438614536118,
+      "max": 11.150825270347182
+     },
+     "3m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.152754788366044,
+      "median": 1.3866635151746882,
+      "max": 1.8901039557175643
+     },
+     "6m|any": {
+      "dates_with_quotes": 494,
+      "min": 1.1923088532705484,
+      "median": 1.479859504353961,
+      "max": 2.1151163313982266
+     },
+     "6m|bid>0": {
+      "dates_with_quotes": 494,
+      "min": 1.1863478736995803,
+      "median": 1.4715532241780078,
+      "max": 2.0926150938301604
+     },
+     "12m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.2414282336249705,
+      "median": 1.4965610543378205,
+      "max": 1.834461672854335
+     },
+     "12m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.2414282336249705,
+      "median": 1.4962465857877367,
+      "max": 1.834461672854335
+     }
+    },
+    "2023": {
+     "dates": 250,
+     "1m|any": {
+      "dates_with_quotes": 250,
+      "min": 1.1717253656008473,
+      "median": 1.4867847802783647,
+      "max": 1.8978333069745374
+     },
+     "1m|bid>0": {
+      "dates_with_quotes": 250,
+      "min": 1.1260727324451187,
+      "median": 1.1892814657833437,
+      "max": 1.3274671925965258
+     },
+     "3m|any": {
+      "dates_with_quotes": 250,
+      "min": 1.2079947287502746,
+      "median": 1.5151516542838985,
+      "max": 1.8978333069745374
+     },
+     "3m|bid>0": {
+      "dates_with_quotes": 250,
+      "min": 1.2079947287502746,
+      "median": 1.319075504962321,
+      "max": 1.5770252324037184
+     },
+     "6m|any": {
+      "dates_with_quotes": 236,
+      "min": 1.1866045530456184,
+      "median": 1.5838957163345975,
+      "max": 1.8978333069745374
+     },
+     "6m|bid>0": {
+      "dates_with_quotes": 236,
+      "min": 1.1866045530456184,
+      "median": 1.4821008335259869,
+      "max": 1.8906570033086498
+     },
+     "12m|any": {
+      "dates_with_quotes": 250,
+      "min": 1.4346716070581325,
+      "median": 1.5687866574821596,
+      "max": 1.8978333069745374
+     },
+     "12m|bid>0": {
+      "dates_with_quotes": 250,
+      "min": 1.4326647564469914,
+      "median": 1.5341896414277612,
+      "max": 1.8978333069745374
+     }
+    }
+   }
+  },
+  "kylegraupe/spy-daily-eod-options-quotes-2020-2022": {
+   "title": "$SPY Option Chains - Q1 2020 - Q4 2022",
+   "licenses": [
+    {
+     "name": "CC0-1.0"
+    }
+   ],
+   "command": "kaggle datasets download -d kylegraupe/spy-daily-eod-options-quotes-2020-2022",
+   "files": [
+    "spy_2020_2022.csv"
+   ],
+   "rows": 3589079,
+   "first_date": "2020-01-02",
+   "last_date": "2022-12-30",
+   "dates": 758,
+   "dates_per_year": {
+    "2020": 250,
+    "2021": 252,
+    "2022": 256
+   },
+   "call_bid_present": 0.9996389045769124,
+   "call_ask_present": 0.9996389045769124,
+   "underlying_present": 1.0,
+   "windows": {
+    "2020-21": {
+     "dates": 502,
+     "1m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.100440176070428,
+      "median": 1.3290674285755,
+      "max": 11.295083479383822
+     },
+     "1m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.082581117345694,
+      "median": 1.2129519849216122,
+      "max": 1.8032583012063177
+     },
+     "3m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.169679018315904,
+      "median": 1.402438614536118,
+      "max": 11.150825270347182
+     },
+     "3m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.152754788366044,
+      "median": 1.3866635151746882,
+      "max": 1.8901039557175643
+     },
+     "6m|any": {
+      "dates_with_quotes": 494,
+      "min": 1.1923088532705484,
+      "median": 1.479859504353961,
+      "max": 2.1151163313982266
+     },
+     "6m|bid>0": {
+      "dates_with_quotes": 494,
+      "min": 1.1863478736995803,
+      "median": 1.4715532241780078,
+      "max": 2.0926150938301604
+     },
+     "12m|any": {
+      "dates_with_quotes": 502,
+      "min": 1.2414282336249705,
+      "median": 1.4965610543378205,
+      "max": 1.834461672854335
+     },
+     "12m|bid>0": {
+      "dates_with_quotes": 502,
+      "min": 1.2414282336249705,
+      "median": 1.4962465857877367,
+      "max": 1.834461672854335
+     }
+    },
+    "2023": null
+   }
+  },
+  "kylegraupe/qqq-daily-option-chains-q1-2020-to-q4-2022": {
+   "title": "$QQQ Option Chains - Q1 2020 to Q4 2022",
+   "licenses": [
+    {
+     "name": "CC0-1.0"
+    }
+   ],
+   "command": "kaggle datasets download -d kylegraupe/qqq-daily-option-chains-q1-2020-to-q4-2022",
+   "files": [
+    "qqq_2020_2022.csv"
+   ],
+   "rows": 1775749,
+   "first_date": "2021-01-04",
+   "last_date": "2022-12-30",
+   "dates": 508,
+   "dates_per_year": {
+    "2021": 252,
+    "2022": 256
+   },
+   "call_bid_present": 0.9994210893544077,
+   "call_ask_present": 0.9994210893544077,
+   "underlying_present": 1.0,
+   "windows": {
+    "2020-21": {
+     "dates": 252,
+     "1m|any": {
+      "dates_with_quotes": 252,
+      "min": 1.162825817753481,
+      "median": 1.3898870789571163,
+      "max": 1.5460827312024736
+     },
+     "1m|bid>0": {
+      "dates_with_quotes": 252,
+      "min": 1.162825817753481,
+      "median": 1.2555398384999161,
+      "max": 1.4117996730569178
+     },
+     "3m|any": {
+      "dates_with_quotes": 252,
+      "min": 1.2770454745618414,
+      "median": 1.426899153252224,
+      "max": 1.6348046575251058
+     },
+     "3m|bid>0": {
+      "dates_with_quotes": 252,
+      "min": 1.2770454745618414,
+      "median": 1.4214641083073345,
+      "max": 1.6348046575251058
+     },
+     "6m|any": {
+      "dates_with_quotes": 223,
+      "min": 1.2649404961664559,
+      "median": 1.5030946065428823,
+      "max": 1.6848496980615886
+     },
+     "6m|bid>0": {
+      "dates_with_quotes": 223,
+      "min": 1.2649404961664559,
+      "median": 1.5030946065428823,
+      "max": 1.6681680178827611
+     },
+     "12m|any": {
+      "dates_with_quotes": 250,
+      "min": 1.2620950778291964,
+      "median": 1.506184010339238,
+      "max": 1.6848496980615886
+     },
+     "12m|bid>0": {
+      "dates_with_quotes": 250,
+      "min": 1.2620950778291964,
+      "median": 1.505006858704583,
+      "max": 1.6848496980615886
+     }
+    },
+    "2023": null
+   }
+  }
+ },
+ "spy_crosscheck": {
+  "2020-03-16": {
+   "common_contracts": 5648,
+   "n_set1": 5648,
+   "n_set2": 5648,
+   "max_abs_underlying_diff": 0.0,
+   "share_bid_equal_to_1c": 1.0,
+   "share_ask_equal_to_1c": 1.0
+  },
+  "2021-06-15": {
+   "common_contracts": 5113,
+   "n_set1": 5113,
+   "n_set2": 5113,
+   "max_abs_underlying_diff": 0.0,
+   "share_bid_equal_to_1c": 1.0,
+   "share_ask_equal_to_1c": 1.0
+  },
+  "2022-09-15": {
+   "common_contracts": 4101,
+   "n_set1": 4101,
+   "n_set2": 4101,
+   "max_abs_underlying_diff": 0.0,
+   "share_bid_equal_to_1c": 1.0,
+   "share_ask_equal_to_1c": 1.0
+  }
+ }
+}

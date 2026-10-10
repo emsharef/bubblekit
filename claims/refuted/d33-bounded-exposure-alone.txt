@@ -1,0 +1,7 @@
+# Bounded exposure alone does not imply finite-horizon martingality
+
+Target: every bounded predictable exposure to a driftless positive local-volatility price gives true-martingale stopped-exponential wealth.
+
+Counterexample: take claim 001's coefficient σ(x)=x², positive deterministic start and π_t=1. The exposure is bounded and deterministic, but I∞=∫_c^∞x^(−3)dx=1/(2c²)<∞ and π>1/2. Claim 001 therefore makes its wealth strict on every finite positive horizon, conditional on that claim's source inputs and wealth convention. This is an application of an established counterexample family, not a new stochastic construction.
+
+Corrected result proposed in claim 075: impose a deterministic locally integrable bound on π_t²σ²(S_t)/S_t² over the full source canonical space before its lifetime, then apply audited AX-64 under the specified Q_aux. In the geometric model bounded exposure supplies that bound, and a bounded deterministic schedule gives an infinite-horizon uniformly integrable martingale exactly when its squared schedule is integrable. The application awaits review; no claim is made for another default convention or an arbitrary auxiliary solution.

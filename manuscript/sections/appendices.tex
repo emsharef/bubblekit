@@ -1,0 +1,406 @@
+\clearpage
+\appendix
+\section{Notation and algorithm specifications}\label{app:algorithms}
+\subsection{Common notation}
+\begin{longtable}{@{}L{0.20\linewidth}L{0.74\linewidth}@{}}
+\toprule Symbol & Meaning\\\midrule\endhead
+$P,Q$ & Physical observation law and a specified pricing measure.\\
+$b_S(T)$ & Monetary defect $S_0-\E_Q[S_T]$.\\
+$\delta_T$ & Defect of a price normalized to start at one.\\
+$\sigma(x),p$ & Price diffusion coefficient; CEV price exponent in $\sigma(x)=\kappa x^p$.\\
+$I_0,I_\infty$ & Lower and upper integrals of $x/\sigma^2(x)$.\\
+$\pi$ & Portfolio exposure, not a significance level.\\
+$W,V^\pi,H^a$ & Finite-grid wealth, continuous wealth, and floor-liquidated wealth.\\
+$\beta$ & Full variance/price exponent; $\beta=2(p-1)$ in the CEV motivation.\\
+$A_t,v_t$ & Background variance and variance including the level term.\\
+$\mu,\nu$ & Return location and Student-$t$ degrees of freedom.\\
+$M_t,m_t$ & Lagged market squared-return scale and its training-normalized value.\\
+$h_d,c_j$ & Intraday background state for session $d$ and diurnal slot clock.\\
+$\alpha$ & Per-record calibration target.\\
+$n_i,\omega_i,\mu_i(t)$ & Fixed basket holdings, initial cap weights, and current cap weights.\\
+$\nu_T,\eta_T$ & Index pricing distribution and its size-biased subprobability measure.\\
+\bottomrule
+\end{longtable}
+Earlier papers and code use the letter $\beta$ for several different
+objects, including the CEV price exponent, the exponent of standard
+deviation, and the bubble amount. They are not identified with one another
+here. Monetary defects use $b$, CEV price elasticity uses $p$, and the
+statistical variance exponent uses $\beta$. The common D35 fitter used by experiments 050--051 and the D36 monitor
+in experiment 054 store $\beta/2$ in the present notation. Experiments
+049, 052--053, and D37 use the full variance exponent. Historical power figures quoted without an
+exponent should not be used to infer a different scaling convention.
+
+\subsection{\texorpdfstring{Student-$t$}{Student-t} density and the numerical profile}
+For variance parameter $v$ and $\nu>2$, the variance-one Student-$t$
+log density is
+\begin{align}\label{eq:tdensity}
+ \log f(r;\mu,v,\nu)
+ &=\log\Gamma\!\left(\frac{\nu+1}{2}\right)
+  -\log\Gamma\!\left(\frac\nu2\right)
+  -\frac12\log\bigl(\pi(\nu-2)v\bigr)\notag\\
+ &\quad-\frac{\nu+1}{2}
+      \log\!\left(1+\frac{(r-\mu)^2}{(\nu-2)v}\right).
+\end{align}
+With $v_t=A_t e^{\beta x_{t-1}}$, write
+$z_t=(r_t-\mu)^2/((\nu-2)A_t e^{\beta x_{t-1}})$.
+The derivative of a log-density contribution is
+\[
+ \frac{x_{t-1}}2\left(-1+(\nu+1)\frac{z_t}{1+z_t}\right),
+\]
+and the second derivative is nonpositive. This concavity motivates the
+half-line profile search. A boundary derivative is checked first;
+otherwise the implementation doubles the search magnitude up to
+$2^{30}$, then bisects a derivative bracket to width $10^{-10}$, with
+at most 200 bisections and 400 objective/derivative evaluations. These
+are floating-point stopping rules, not outward error enclosures.
+
+The profile may be flat, unbounded, or unresolved. Each case has a
+separate status. A failed required profile produces the failure score
+$-1$, which cannot create a positive alarm; a missing required history
+ends the supported prefix. An alarm already raised is not withdrawn by
+a later failure. Numerical failure handling is part of the calibrated
+map, not permission to remove difficult paths from the denominator.
+
+\subsection{Daily implementation}
+The daily prior fit uses $\mu\in[-0.1,0.1]$ per session,
+$w\in[10^{-8},0.25]$ in daily squared-log-return units,
+$g\in[0,2]$, and $\nu\in\{6,10\}$. For each $\nu$, three
+deterministic starts use $g=0,1,2$. The optimizer scales $\mu,g$
+linearly and $\log w$ linearly to unit intervals. It uses L-BFGS-B with
+fixed tolerances, and accepts a solution only after re-evaluating a
+finite objective with positive variances. Failed attempts are retained.
+The selected fit is shared by every subsequent exponent.
+
+The market proxy in \eqref{eq:marketscale} uses raw squared returns,
+not centered returns, intraday integrated variance, or the target day's
+SPY return. No forward filling is allowed. All 252 prior stock/scale
+rows are required. The real-data reference predicate uses the last
+126 training returns: stock annualized root-mean-square volatility at
+most 0.30 and drawdown at most 0.15, with corresponding SPY limits
+0.20 and 0.10. Reference scored suffixes must finish strictly before
+the target launch. The selected reference order is a fixed hash order,
+with at most one launch per symbol per quarter.
+
+The batch score uses \eqref{eq:batch}; the monitor uses
+\eqref{eq:monitor} and the same monotone bounded transformation on
+positive log evidence. Each is calibrated separately from its endpoint
+or its full-path maximum. With insufficient references for the rank,
+the threshold is infinite. The numerical domains make the procedure
+reproducible; they are not asserted to cover every true market parameter.
+
+\subsection{Intraday implementation}
+The intraday prior fit uses $\mu\in[-0.01,0.01]$ per five-minute
+return, $h_{\mathrm{init}}\in[10^{-12},0.04]$, and
+$\nu\in\{6,10\}$. The clock requires at least 200 prior sessions
+with at least 70 finite bars and sufficient observations in each
+scheduled slot; a declared whole-clock SPY fallback is used where
+allowed by the protocol. A full session contributes 77 adjacent
+returns from 78 bar closes. Overnight movement and the return into
+the first bar are excluded.
+
+Let $J_d$ be the supported scheduled returns of a completed session.
+The common background state updates as
+\[
+ h_{d+1}=\lambda h_d+(1-\lambda)
+       \frac1{|J_d|}\sum_{j\in J_d}\frac{(R_{d,j}-\mu)^2}{c_j},
+ \qquad\lambda=2^{-1/20}.
+\]
+The clock and the update coefficient are frozen; the state advances
+only after the session. The variance at each scored return is
+\eqref{eq:intradayscale}. The mixture is accumulated over all supported
+returns, even though the price anchor resets each session. Early
+closes have planned-closed slots rather than fictitious zero returns.
+
+The record is a retrospective replay of split-adjusted consolidated-tape
+closes with assumed availability one minute after the bar. Bar closes
+can be sub-cent even in raw data, so a cent-rounding likelihood does
+not automatically describe them. The numerical method here does not
+use the lab's certified rounded-price filter.
+
+\subsection{Comparators and differences between experiments}
+GSADF scans expanding and rolling subsamples for right-tailed
+Dickey--Fuller evidence \cite{phillips2012multiple}. The lab reproduced
+the published critical values and size tables within simulation
+tolerance. The published Table 4 power comparison was not reproduced:
+eight of ten cells were outside tolerance, with incompletely specified
+simulation details affecting that comparison. Later monitoring comparisons evaluate running
+statistics using prior-inclusive daily history. The level monitors
+learn nuisance from that history but begin accumulating their scored
+evidence at launch. Equal launch dates therefore do not imply equal
+evidence histories.
+
+The JKP implementation follows the volatility-tail method
+\cite{jarrow2011detect}; several operational choices, including
+bandwidth scaling and the decision that a fitted function is bounded,
+are the lab's readings where the paper is not fully explicit. The
+original licensed tick-data figures were not reproduced. Adverse
+simulation and daily-data results refer to this implementation and
+sampling design. They should not be described as a proof that every
+tail-based method fails under its own assumptions.
+
+The panel explosive-root method \cite{liu2022panel} and the
+intraday-signal dating method \cite{obayashi2015lifetime} add further
+comparisons in the research record. Their targets and data requirements
+differ from the daily level statistic. We do not combine all their
+rejection frequencies into a single cross-method size ranking.
+
+\clearpage
+\section{Selected derivations}\label{app:proofs}
+\subsection{The endpoint calculation}
+For $b_\pi(x)=\pi\sigma(x)/x$, the original diffusion has scale density
+$\rho=1$ and scale $s(x)=x-c$. In the martingale criterion, infinity
+is bad because $s(\infty)=\infty$. At zero, the goodness integrand is
+\[
+ \frac{(s(x)-s(0))b_\pi(x)^2}{\rho(x)\sigma(x)^2}
+     =\frac{\pi^2}{x},
+\]
+which is not integrable. Both endpoints are therefore bad for positive
+exposure.
+
+The auxiliary drift is $\pi\sigma^2(x)/x$, its scale density is
+$\widetilde\rho(x)=(x/c)^{-2\pi}$, and
+\[
+ \widetilde s(x)=
+ \begin{cases}
+ c^{2\pi}\dfrac{x^{1-2\pi}-c^{1-2\pi}}{1-2\pi},&\pi\ne1/2,\\[4pt]
+ c\log(x/c),&\pi=1/2.
+ \end{cases}
+\]
+For $\pi>1/2$, the scale has finite upper limit and
+\[
+ \frac{\widetilde s(\infty)-\widetilde s(x)}
+      {\widetilde\rho(x)\sigma^2(x)}
+   =\frac{x}{(2\pi-1)\sigma^2(x)}.
+\]
+For $0<\pi<1/2$, it has finite lower limit and the corresponding
+lower integrand is $x/((1-2\pi)\sigma^2(x))$. At one-half both
+scale endpoints are infinite in their respective directions. Applying
+the cited endpoint criterion yields Theorem~\ref{thm:exposure}.
+The integrability requirement on $b_\pi^2/\sigma^2=\pi^2/x^2$
+holds on every compact subinterval of $(0,\infty)$.
+
+\subsection{From tail completion to testing}
+Let $S$ be a strict alternative under $P=Q$ and choose $n>s_0$.
+Keep its coefficient below $n$ and complete it linearly above $n$.
+The completed upper integral is infinite, giving a martingale null.
+The original and completed laws agree until first hitting $n$ by
+stopped uniqueness in law. A coupling of the stopped observations and
+their continuations therefore bounds, for a test $0\leq\varphi\leq1$,
+\[
+ |\E_{P_n}\varphi-\E_P\varphi|
+ \leq P\!\left(\sup_{t\leq T}S_t\geq n\right)
+ \longrightarrow0.
+\]
+For finitely many paths, use the probability that any path reaches
+$n$. The finite-horizon maximum is finite almost surely, so the bound
+vanishes. Taking the supremum over null rejection probabilities gives
+the theorem. Allowing equivalent physical measures requires the
+additional change-of-measure construction in claim 006; the
+$P=Q$ subfamily already proves the central obstruction.
+
+\subsection{An honest likelihood-ratio guarantee}
+Condition on a training record. Suppose $q$ is a normalized forecast
+density for evaluation observations and the true conditional density
+is $p_{\theta_0}$ in the admitted null family. Then
+\[
+ E=\frac{q(Y)}{\sup_{\theta\in\Theta_0}p_\theta(Y)}
+       \leq\frac{q(Y)}{p_{\theta_0}(Y)},\qquad
+ \E_{\theta_0}[E\mid\text{training}]\leq1.
+\]
+Markov's inequality gives a fixed-record rejection bound at
+$E\geq1/\alpha$. The reasoning needs a density on the actual
+observation space. For rounded records this means cell probabilities
+or a filtered cell likelihood, not evaluating a continuous density
+at the reported tick. Observation noise requires its conditional law
+or an honest envelope as well.
+
+For a sequential coherent model, predictable normalized forecasts
+produce a likelihood-ratio martingale relative to each true null
+law. A score dominated at every time by that martingale inherits its
+crossing bound. The supremum in the denominator must cover the true
+whole-record law, including the conditioning convention. A nuisance
+estimate frozen from training does not generally equal the true
+nuisance, so the real-data monitors need their empirical calibration
+instead of an automatic appeal to this argument.
+
+If $E_1,\ldots,E_m$ are genuine e-values, e-BH uses the largest
+$k$ for which the $k$th largest value is at least $m/(qk)$ and
+rejects the top $k$. Its expected false-discovery proportion is at
+most $q$ under arbitrary dependence \cite{wang2020false}. This
+does not guarantee that a realized list has false-discovery
+proportion below $q$, nor justify applying the same threshold to
+scores whose null expectations are unknown.
+
+\subsection{The rank calibration bound}
+Under exchangeability, the target's rank among $m+1$ records is
+uniform when ties are randomized; strict exceedance of the reference
+order statistic can only reduce rejection when ties are retained.
+Thus the probability of exceeding the $k$th ordered reference is
+at most $(m+1-k)/(m+1)\leq\alpha$. Apply the argument to a whole
+path's maximum to bound a crossing within its declared horizon.
+The proof does not establish exchangeability after selecting calm
+reference records. That is an external property of the application.
+
+\clearpage
+\section{Research provenance and verification scope}\label{app:record}
+This manuscript is an editorial synthesis of the repository's existing
+claims and experiments. It neither runs new experiments nor promotes a
+numerical finding to a theorem. The original research record remains
+in \path{paper/PAPER.md}, the claim files, the experiment registrations,
+and their code and summaries. The source version used for generated
+tables and figures is recorded in
+\path{manuscript/generated/provenance.json}, together with SHA-256
+hashes of the input result files and bibliography registry.
+
+\subsection{Principal mathematical sources within the project}
+The following map uses stable claim IDs; theorem numbers in this
+manuscript are new and do not follow the original paper's numbering.
+Each claim file states its cited inputs, proof, review, and formal
+counterpart.
+
+\begin{longtable}{@{}L{0.18\linewidth}L{0.75\linewidth}@{}}
+\toprule Claims & Material used here\\\midrule\endhead
+001 & Two-endpoint exposure classification and absorbed-Brownian counterexample.\\
+002, 003, 006 & Compatible tails, broad testing obstruction, pricing-measure
+ambiguity, and the local-volatility specialization.\\
+008, 012, 013, 015 & Visited-range identity, compact estimation, declared power
+tails, and shared-tail occupation.\\
+004, 005, 007, 009 & Holding-period accounting, finite-grid inheritance,
+refinement, and convergence when the limit retains its mean.\\
+011, 018, 020 & Inverse and leveraged-long liquidation, sampled monitoring bounds.\\
+014, 021 & Option residual intervals and incomplete-call information.\\
+010, 016, 019, 044 & Basket additivity, killed weights, conditional recovery,
+dispersion sets, and synthetic estimation.\\
+017 & American-call inequality, distributions, and conditional basket tolerance bounds.\\
+051--058 & Exact-catalogue inference, price-law instances, e-BH, continuous
+Gaussian nuisance, and earlier-window parameter declarations.\\
+023--032, 059--061 & Misspecification, rounding, and jump/switch extensions.\\
+033--038, 064--067 & Clocks, observation noise, exact filtering, quadrature,
+and cross-sectional clock uncertainty.\\
+062--063 & Pooled likelihood constructions; comparisons are reviewer
+simulations in the claim files.\\
+039--042, 068--070 & Sequential scores, funded restarts, predictable implied
+volatility, and variance-switch profiles.\\
+045 & Empirical rank calibration and its post-selection premises.\\
+071--076 & Continuous-record elasticity, variation profiles, small-scale
+obstruction, infinite horizons, and independent assets.\\
+\bottomrule
+\end{longtable}
+
+The numerical statement about exact rounded filtering is supported by the
+claim-036--038 evaluators and checks, not by the Student-$t$ monitor.
+The exposure extensions use claims 074--076 and their separate checks.
+They should not be confused with later experiment numbers that happen to
+use similar direction labels.
+
+\subsection{Empirical source map}
+Every numbered experiment has a registration file directly in
+\path{experiments/} and, when run, code and outputs in the corresponding
+numbered subdirectory. A ``reproduced'' label below refers to the lab's
+recorded review, not a fresh full replication performed for this manuscript.
+
+\begin{longtable}{@{}L{0.16\linewidth}L{0.77\linewidth}@{}}
+\toprule Experiments & Use in this manuscript and principal limitation\\\midrule\endhead
+001, 006 & Exposure examples; numerical evidence about selected models.\\
+007--009, 012 & Measured ETF costs, finite rebalancing, and convergence; expectation
+convergence is not inferred from a path plot alone.\\
+013 & Sampled visited-integral estimator; not the same object as the exact
+continuous-path identity.\\
+017--018 & Liquidated funds and clipped monitoring; numerical defect
+estimates have sampling and monitoring error.\\
+002--005, 015 & Comparator implementations and simulation responses; different
+null targets, and original licensed data unavailable for some methods.\\
+019, 022--028 & Exact catalogues, nuisance flexibility, regimes, clocks, and
+rounding; guarantees stay within the stated observation laws.\\
+021, 030--033 & Historical daily, collapsed-name, and hourly comparisons;
+retrospective labels and incomplete free-data coverage.\\
+029, 034--038 & Common clocks, nuisance resets, wider forecasts, and
+restarts; no general power guarantee follows.\\
+010 & Free-data survivorship: no daily series for 57 of 506 January 2020
+members, 40 of 505 December 2021 members, and 27 of 503 January 2023 members.\\
+032--033, 035 & Earlier hourly likelihood scores: 0 of 21 press-labelled
+records versus GSADF's 18 of 21; the widened-scale GameStop flag was
+jump-sensitive.\\
+041 & Jump audit: 156 of 185 earlier flags survive filtering; rising
+within-window volatility is the stronger daily distinction.\\
+039--040, 045 & Broad universe and GSADF calibration; current constituents,
+overlapping windows, selected reference records.\\
+043, 047 & Implied-volatility scale; real-data silence does not verify
+the scale band or identify absence of a bubble.\\
+046 & Conditional basket recovery in synthetic terminal samples; fixed-bin
+bias and supplied smoothness restrict the practical result.\\
+049--051 & Diagnosis, repaired-score simulation, and daily replay; research
+redesign and calibration transport remain relevant.\\
+052--053 & Intraday description and estimator validation; coefficient
+sign is not specific to a local-volatility mechanism.\\
+054 & Intraday monitor replay; 499 references, 449 run-up launches,
+8,600 broad-draw launches; prior-inclusive GSADF and no untouched holdout.\\
+055 & Daily validation; 499 reference and 500 evaluation paths per main
+null cell; partial validation and large calibration-transport effects.\\
+056 & Daily replay; 153,716 reported universe launches, including 3,197
+without finite calibration; one market proxy and current constituents.\\
+\bottomrule
+\end{longtable}
+
+Selected numerical tables are generated directly from the result files
+for experiments 040, 054, 055, and 056. The calibration-transport and
+daily-cohort figures are vector plots of those same outputs. The
+liquidation figure is a schematic. Other numerical summaries in prose
+are transcribed from the registered reports and the original paper;
+their cited experiment identifies the relevant design and scope.
+The build records input hashes and checks the typeset document, but
+does not refit models, regenerate market data, or rerun the simulations.
+
+\subsection{What Lean verifies}
+The project uses Lean 4 with a pinned Mathlib. Its stochastic inputs,
+including diffusion existence, martingale criteria, bounded stopping,
+and occupation identities, enter as explicit hypotheses where the
+library does not supply the relevant theory. Selected deterministic
+analysis and conditional implications are proved from those inputs.
+
+For the exposure classification, the endpoint analysis is formalized
+without stochastic assumptions beyond its explicit deterministic
+setting. The wealth classification is a conditional theorem from
+the stated martingale criterion and representation. Some upstream
+structures have only vacuous instances because the pinned library
+does not construct the needed Brownian model; others have genuine
+but degenerate instances. They do not establish a nontrivial diffusion
+instance or add evidence that the supplied stochastic premises hold.
+
+The unconditional tail-completion algebra, several finite-dimensional
+interval calculations, and portions of the estimator mathematics
+have stronger formal coverage than the stochastic interpretations.
+Conversely, some prose corollaries---such as replacing a finite
+lower-endpoint integral by the event of reaching zero---use cited
+stochastic results beyond their formal counterparts. The exact scope
+is documented in \path{paper/PROOFMAP.md}, the original paper's
+Appendix A, and \path{board/FIDELITY.md}.
+
+Formal verification increases confidence in the statements actually
+encoded. It does not establish their novelty, the fidelity of every
+translation from a source, a model of actual traded contracts, or the
+validity of market-data assumptions. No new Lean theorem is claimed
+for this manuscript's empirical constructions.
+
+\subsection{Literature positioning}
+The mathematical results apply established martingale criteria, diffusion
+analysis, share-measure constructions, and stochastic-integral facts
+\cite{mijatovic2010martingale,ruf2015martingale,karatzas2015distribution,
+kardaras2015strict,etheridge2018continuous}. Likelihood envelopes, e-BH,
+rank calibration, and the option valuation conventions likewise have
+established antecedents. The contribution lies in the exposure
+classification, the precise identification results, the signal designs,
+and their measured behavior. No separate novelty claim is made for the
+finite-trading results.
+
+Section~\ref{sec:literature} supplies the substantive prior-art comparison.
+For this manuscript, the author versions of Cox--Hobson, Herdegen--Herrmann,
+and Herdegen--Schweizer and the Federal Reserve working paper by
+G\"urkaynak were retrieved and checked for the background statements cited
+there. Copies and edition metadata are retained in
+\path{manuscript/sources/}. In particular, the Herdegen--Herrmann citation
+uses the 2017 arXiv version read here, rather than the earlier working-paper
+year in the research registry. This comparison establishes the context of
+the contributions; it is not an exhaustive theorem-by-theorem novelty audit.
+Other references retain the repository's version years where a working
+paper was used.

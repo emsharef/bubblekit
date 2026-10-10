@@ -1,0 +1,303 @@
+{
+ "windows": [
+  {
+   "kind": "positive",
+   "group": "E5",
+   "name": "GME",
+   "record": [
+    "2020-06-01",
+    "2021-06-29"
+   ],
+   "checkpoint": "2021-04-30",
+   "a": "2020-10-31",
+   "b": "2021-04-30",
+   "key": "smoke0",
+   "clock": "prior-year",
+   "clock_sessions": 243,
+   "sip": {
+    "n": 9579,
+    "v1": -1477.8764305290567,
+    "c033": -2708.4693585332398,
+    "sadf": 16.844080948229276,
+    "gsadf": 16.844080948229276,
+    "c033_U": -3956.933598514809
+   },
+   "iex": {
+    "n": 9252,
+    "v1": -1583.250500034386,
+    "c033": -3655.134625871833,
+    "sadf": 16.698169603769887,
+    "gsadf": 16.698169603769887,
+    "clock": "U"
+   },
+   "sec": 68.67461585998535,
+   "cert": {
+    "key": "smoke0",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "positive",
+   "group": "E5",
+   "name": "GME",
+   "record": [
+    "2020-06-01",
+    "2021-06-29"
+   ],
+   "checkpoint": "2021-05-28",
+   "a": "2020-11-29",
+   "b": "2021-05-28",
+   "key": "smoke1",
+   "clock": "prior-year",
+   "clock_sessions": 242,
+   "sip": {
+    "n": 9659,
+    "v1": -101.36493896653155,
+    "c033": -6394.85066606882,
+    "sadf": 14.657091991516346,
+    "gsadf": 16.304880341420088,
+    "c033_U": -6396.292563367702
+   },
+   "iex": {
+    "n": 9400,
+    "v1": -44.3924535082956,
+    "c033": -6115.73558847126,
+    "sadf": 14.594235302772898,
+    "gsadf": 16.00015173142349,
+    "clock": "U"
+   },
+   "sec": 70.11997509002686,
+   "cert": {
+    "key": "smoke1",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "positive",
+   "group": "033-B",
+   "name": "NVDA",
+   "record": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "checkpoint": "2025-07-31",
+   "a": "2025-02-01",
+   "b": "2025-07-31",
+   "key": "smoke2",
+   "clock": "prior-year",
+   "clock_sessions": 250,
+   "sip": {
+    "n": 9672,
+    "v1": -8.168637444196065,
+    "c033": -1257.828450228404,
+    "sadf": 0.37446789281709764,
+    "gsadf": 3.9320684834928974
+   },
+   "iex": {
+    "n": 9565,
+    "v1": -17.248879008864606,
+    "c033": -1186.8031663558759,
+    "sadf": 0.40449851615783555,
+    "gsadf": 3.887381090650279,
+    "clock": "prior-year"
+   },
+   "sec": 71.70758986473083,
+   "cert": {
+    "key": "smoke2",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "positive",
+   "group": "033-B",
+   "name": "NVDA",
+   "record": [
+    "2025-01-01",
+    "2025-12-31"
+   ],
+   "checkpoint": "2025-08-29",
+   "a": "2025-03-01",
+   "b": "2025-08-29",
+   "key": "smoke3",
+   "clock": "prior-year",
+   "clock_sessions": 249,
+   "sip": {
+    "n": 9828,
+    "v1": -58.936102610743546,
+    "c033": -1837.9789580182842,
+    "sadf": 0.4611746410206919,
+    "gsadf": 3.834356476985798
+   },
+   "iex": {
+    "n": 9721,
+    "v1": -66.4543142513794,
+    "c033": -1761.6323920369468,
+    "sadf": 0.45165981485221274,
+    "gsadf": 3.8873810906502713,
+    "clock": "prior-year"
+   },
+   "sec": 72.00318598747253,
+   "cert": {
+    "key": "smoke3",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "control",
+   "group": "ctrl|2024-08-01|2025-07-31",
+   "name": "KO",
+   "record": [
+    "2024-08-01",
+    "2025-07-31"
+   ],
+   "checkpoint": "2024-10-31",
+   "a": "2024-05-01",
+   "b": "2024-10-31",
+   "key": "smoke4",
+   "clock": "prior-year",
+   "clock_sessions": 249,
+   "sip": {
+    "n": 9966,
+    "v1": -21.22578799531766,
+    "c033": -223.82650040641965,
+    "sadf": 0.8939381871137476,
+    "gsadf": 1.9713794602728367
+   },
+   "iex": {
+    "n": 9938,
+    "v1": -20.287078229281178,
+    "c033": -210.68129267904078,
+    "sadf": 0.8581201898598159,
+    "gsadf": 2.13017442248722,
+    "clock": "prior-year"
+   },
+   "sec": 73.78360295295715,
+   "cert": {
+    "key": "smoke4",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "control",
+   "group": "ctrl|2024-08-01|2025-07-31",
+   "name": "KO",
+   "record": [
+    "2024-08-01",
+    "2025-07-31"
+   ],
+   "checkpoint": "2024-11-29",
+   "a": "2024-05-30",
+   "b": "2024-11-29",
+   "key": "smoke5",
+   "clock": "prior-year",
+   "clock_sessions": 249,
+   "sip": {
+    "n": 9951,
+    "v1": -21.089093397818942,
+    "c033": -342.9971223453358,
+    "sadf": 0.8251180479104991,
+    "gsadf": 1.9713794602728032
+   },
+   "iex": {
+    "n": 9906,
+    "v1": -27.85841399918354,
+    "c033": -307.88177709382944,
+    "sadf": 0.7224694749898329,
+    "gsadf": 2.1301744224872516,
+    "clock": "prior-year"
+   },
+   "sec": 73.65206909179688,
+   "cert": {
+    "key": "smoke5",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "control",
+   "group": "ctrl|2024-04-01|2025-03-31",
+   "name": "SPY",
+   "record": [
+    "2024-04-01",
+    "2025-03-31"
+   ],
+   "checkpoint": "2024-06-28",
+   "a": "2023-12-29",
+   "b": "2024-06-28",
+   "key": "smoke6",
+   "clock": "prior-year",
+   "clock_sessions": 248,
+   "sip": {
+    "n": 9750,
+    "v1": -1.2131628098322835,
+    "c033": -127.55138394909955,
+    "sadf": 0.5058547659794655,
+    "gsadf": 1.2104909731184148
+   },
+   "iex": {
+    "n": 9748,
+    "v1": -1.7293684057622158,
+    "c033": -122.48644638825135,
+    "sadf": 0.5123286047915083,
+    "gsadf": 1.2931255032525575,
+    "clock": "prior-year"
+   },
+   "sec": 72.26787519454956,
+   "cert": {
+    "key": "smoke6",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  },
+  {
+   "kind": "control",
+   "group": "ctrl|2024-04-01|2025-03-31",
+   "name": "SPY",
+   "record": [
+    "2024-04-01",
+    "2025-03-31"
+   ],
+   "checkpoint": "2024-07-31",
+   "a": "2024-02-01",
+   "b": "2024-07-31",
+   "key": "smoke7",
+   "clock": "prior-year",
+   "clock_sessions": 248,
+   "sip": {
+    "n": 9749,
+    "v1": -75.51878282263715,
+    "c033": -267.07498955081974,
+    "sadf": -0.4912467964473348,
+    "gsadf": 1.1487204763658432
+   },
+   "iex": {
+    "n": 9712,
+    "v1": -68.54209078802523,
+    "c033": -252.89078921202236,
+    "sadf": -0.48482857861825956,
+    "gsadf": 1.1599040943642138,
+    "clock": "prior-year"
+   },
+   "sec": 63.69294810295105,
+   "cert": {
+    "key": "smoke7",
+    "status": "not covered (zero label or sub-cent tick)",
+    "log_e_bound": -Infinity
+   }
+  }
+ ],
+ "wall_s": 137.0956678390503,
+ "per_window_sec": 70.73773276805878,
+ "per_cert_sec": NaN,
+ "n_windows": {
+  "monitored": 1604,
+  "rolling": 10600
+ },
+ "projected_hours_columns_i_ii_iv": 34.25727344053132,
+ "projected_hours_column_iii_all": NaN
+}

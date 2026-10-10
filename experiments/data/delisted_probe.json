@@ -1,0 +1,384 @@
+{
+ "retrieved": "2026-10-07T14:00:07+00:00",
+ "tiingo": {
+  "url": "https://apimedia.tiingo.com/docs/tiingo/daily/supported_tickers.zip",
+  "status": 200,
+  "sha256": "56786d86314fa0fe90cee3be5c7f0291c8ab1d3f2f60f67838252dac853418a6",
+  "rows": 108954
+ },
+ "alphavantage_listing_status": {
+  "url": "https://www.alphavantage.co/query?function=LISTING_STATUS&state=delisted&apikey=demo",
+  "status": 200,
+  "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "rows": 0
+ },
+ "eodhd_demo_probe": {
+  "AAPL": {
+   "status": 200,
+   "head": "[{\"date\":\"1999-01-04\",\"open\":42.1232,\"high\":42.2464,\"low\":39.9952,\"close\":41.2496,\"adjusted_close\":0.3084,\"volume\":95288"
+  },
+  "ETYS": {
+   "status": 403,
+   "head": "Forbidden"
+  }
+ },
+ "names": {
+  "eToys": {
+   "group": "JKP",
+   "symbols": {
+    "ETYS": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    },
+    "ETYSQ": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "InfoSpace": {
+   "group": "JKP",
+   "symbols": {
+    "INSP": {
+     "tiingo": [
+      {
+       "exchange": "NYSE",
+       "assetType": "Stock",
+       "startDate": "2018-05-03",
+       "endDate": "2026-10-06"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 200,
+      "name": "Inspire Medical Systems, Inc.",
+      "first": "2018-05-03",
+      "last": "2026-10-07",
+      "rows": 2119
+     }
+    }
+   }
+  },
+  "GeoCities": {
+   "group": "JKP",
+   "symbols": {
+    "GCTY": {
+     "tiingo": [
+      {
+       "exchange": "OTCCE",
+       "assetType": "Stock",
+       "startDate": "2020-01-24",
+       "endDate": "2021-03-16"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Lastminute.com": {
+   "group": "JKP",
+   "symbols": {
+    "LMIN": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    },
+    "LMC": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Pets.com": {
+   "group": "dotcom",
+   "symbols": {
+    "IPET": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Webvan": {
+   "group": "dotcom",
+   "symbols": {
+    "WBVN": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Exodus": {
+   "group": "dotcom",
+   "symbols": {
+    "EXDS": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "theglobe.com": {
+   "group": "dotcom",
+   "symbols": {
+    "TGLO": {
+     "tiingo": [
+      {
+       "exchange": "PINK",
+       "assetType": "Stock",
+       "startDate": "2017-09-22",
+       "endDate": "2026-10-06"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 200,
+      "name": "theglobe.com, inc.",
+      "first": "1998-11-13",
+      "last": "2026-10-07",
+      "rows": 7016
+     }
+    }
+   }
+  },
+  "CMGI": {
+   "group": "dotcom",
+   "symbols": {
+    "CMGI": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Yahoo (old)": {
+   "group": "dotcom",
+   "symbols": {
+    "YHOO": {
+     "tiingo": [
+      {
+       "exchange": "NASDAQ",
+       "assetType": "Stock",
+       "startDate": "1996-04-12",
+       "endDate": "2017-06-26"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "America Online": {
+   "group": "dotcom",
+   "symbols": {
+    "AOL": {
+     "tiingo": [
+      {
+       "exchange": "NYSE",
+       "assetType": "Stock",
+       "startDate": "2009-11-24",
+       "endDate": "2015-06-22"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Nortel": {
+   "group": "dotcom",
+   "symbols": {
+    "NT": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "WorldCom": {
+   "group": "dotcom",
+   "symbols": {
+    "WCOM": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Lehman Brothers": {
+   "group": "crisis",
+   "symbols": {
+    "LEH": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Bear Stearns": {
+   "group": "crisis",
+   "symbols": {
+    "BSC": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Wachovia": {
+   "group": "crisis",
+   "symbols": {
+    "WB": {
+     "tiingo": [
+      {
+       "exchange": "NASDAQ",
+       "assetType": "Stock",
+       "startDate": "2014-04-17",
+       "endDate": "2026-10-06"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 200,
+      "name": "Weibo Corporation",
+      "first": "2014-04-17",
+      "last": "2026-10-07",
+      "rows": 3137
+     }
+    }
+   }
+  },
+  "Washington Mutual": {
+   "group": "crisis",
+   "symbols": {
+    "WM": {
+     "tiingo": [
+      {
+       "exchange": "NYSE",
+       "assetType": "Stock",
+       "startDate": "1991-09-30",
+       "endDate": "2026-10-06"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 200,
+      "name": "Waste Management, Inc.",
+      "first": "1988-06-22",
+      "last": "2026-10-07",
+      "rows": 9645
+     }
+    }
+   }
+  },
+  "Countrywide": {
+   "group": "crisis",
+   "symbols": {
+    "CFC": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "New Century": {
+   "group": "crisis",
+   "symbols": {
+    "NEW": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "IndyMac": {
+   "group": "crisis",
+   "symbols": {
+    "IMB": {
+     "tiingo": [],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  },
+  "Merrill Lynch": {
+   "group": "crisis",
+   "symbols": {
+    "MER": {
+     "tiingo": [
+      {
+       "exchange": "NYSE",
+       "assetType": "Stock",
+       "startDate": "2006-12-28",
+       "endDate": "2008-12-31"
+      }
+     ],
+     "alphavantage_delisted": [],
+     "yahoo": {
+      "status": 404,
+      "error": "No data found, symbol may be delisted"
+     }
+    }
+   }
+  }
+ }
+}

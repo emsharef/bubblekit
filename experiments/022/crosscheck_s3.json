@@ -1,0 +1,9 @@
+{
+ "paths_checked": 675,
+ "max_abs_diff_finite": 4.2246028897352517e-10,
+ "infinite_diffs": 0,
+ "decision_mismatches": 0,
+ "status_counts": {
+  "ok": 675
+ }
+}

@@ -1,0 +1,28 @@
+Refuted within the declared scalar observation contract: call/put price
+vectors alone always identify one of expectation pricing, parity-restoring
+pricing, or an American-call benchmark, given only AX-18 and claim 017's
+American lower-bound restriction.
+
+Normalize spot to one, take terminal mean m=3/5 and defect delta=2/5.
+A finite terminal-payoff fixture gives equal mass to 0 and 6/5. At strikes
+1/4, 3/4, 3/2 the expectation calls are (19/40, 9/40, 0) and the puts
+are (1/8, 3/8, 9/10). Restored calls add delta, giving
+(7/8, 5/8, 2/5). The declared American equality benchmark A_Q=c+delta
+gives exactly the same vector, and satisfies the supplied lower bound.
+Both residual vectors are zero despite positive delta. A common quote
+observation mechanism acting on these vectors gives the same law under
+both labels, so no test on that price subvector distinguishes them.
+
+This is scalar compatibility, not a proof that the finite terminal fixture
+extends to a local-martingale process or that its American stopping value
+equals that benchmark. Claim 017 does not assert attainability of every
+scalar value satisfying its bound. Contract metadata can distinguish
+exercise styles; equal price vectors do not hide those metadata.
+
+Strongest corrected design: specify the contracts and valuation rules,
+report compatible conventions, and test European zero residual using
+supplied simultaneous price coverage. The expectation/restored residual
+gap is delta, with a guaranteed strict separation at delta>2h under
+quote-error bound h. Restored-versus-American separation fails on the
+equality face unless an additional observable and its own pricing law
+break the overlap. See checks/d31-option-design/README.md and check.py.

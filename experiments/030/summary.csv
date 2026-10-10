@@ -1,0 +1,6 @@
+name,series,n,v1_log_e,054_raw_log_e,v1_5%,v1_10%,jkp_m1,jkp_m2,jkp_published,sadf,gsadf,sadf_5%,gsadf_5%
+InfoSpace,"wiki, split-adjusted (primary)",945,-2311.3167727457076,-1004.0906001694981,False,False,inconclusive,bubble,bubble,4.84264522050767,7.527206958837225,True,True
+InfoSpace,"sye close (cross-check, unknown provenance)",945,-2596.022339462379,-1245.7897952662704,False,False,inconclusive,bubble,bubble,4.83054593469834,7.520588714075598,True,True
+InfoSpace,"wiki, split dates shifted -1 day (sensitivity)",945,-130257.43740870088,-127499.41471313547,False,False,inconclusive,bubble,bubble,4.189083466299588,7.527206958837225,True,True
+InfoSpace,"wiki, split dates shifted +1 day (sensitivity)",945,-14877.93351752998,-8471.375878473835,False,False,inconclusive,bubble,bubble,3.286652389632175,7.527206958837225,True,True
+GeoCities,sye single daily price (unknown provenance),202,-1007.2963887174358,-632.2024516262725,False,False,inconclusive,bubble,no bubble,1.8563897640500602,4.134782216857101,True,True

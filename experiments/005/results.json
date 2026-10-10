@@ -1,0 +1,127 @@
+{
+ "viterbi": {
+  "cases": 500,
+  "T": 12,
+  "mismatches": 0,
+  "max_logprob_gap": 0.0
+ },
+ "filter_checks": [
+  {
+   "lifetimes": [
+    8
+   ],
+   "expected": [
+    8
+   ],
+   "kinds": [
+    "birth",
+    "death"
+   ],
+   "expected_kinds": [
+    "birth",
+    "death"
+   ],
+   "ok": true
+  },
+  {
+   "lifetimes": [],
+   "expected": [],
+   "kinds": [
+    "suppressed"
+   ],
+   "expected_kinds": [
+    "suppressed"
+   ],
+   "ok": true
+  },
+  {
+   "lifetimes": [],
+   "expected": [],
+   "kinds": [
+    "birth"
+   ],
+   "expected_kinds": [
+    "birth"
+   ],
+   "ok": true
+  },
+  {
+   "lifetimes": [
+    6
+   ],
+   "expected": [
+    6
+   ],
+   "kinds": [
+    "death",
+    "birth",
+    "death"
+   ],
+   "expected_kinds": [
+    "death",
+    "birth",
+    "death"
+   ],
+   "ok": true
+  },
+  {
+   "lifetimes": [
+    8
+   ],
+   "expected": [
+    8
+   ],
+   "kinds": [
+    "birth",
+    "birth",
+    "death"
+   ],
+   "expected_kinds": [
+    "birth",
+    "birth",
+    "death"
+   ],
+   "ok": true
+  }
+ ],
+ "H_B": {
+  "b11": {
+   "published": 0.9,
+   "mean": 0.89995,
+   "sd": 0.00077,
+   "tol": 0.00066,
+   "reproduced": true
+  },
+  "b21": {
+   "published": 0.01,
+   "mean": 0.01002,
+   "sd": 0.00016,
+   "tol": 0.00053,
+   "reproduced": true
+  }
+ },
+ "H_G": {
+  "alpha": {
+   "published": 5.2478868,
+   "mean": 5.24749,
+   "sd": 0.01153,
+   "tol": 0.00245,
+   "reproduced": true
+  },
+  "sigma": {
+   "published": 0.9016828,
+   "mean": 0.90054,
+   "sd": 0.00585,
+   "tol": 0.00124,
+   "reproduced": true
+  },
+  "q": {
+   "published": -0.2339065,
+   "mean": -0.23519,
+   "sd": 0.01842,
+   "tol": 0.00391,
+   "reproduced": true
+  }
+ },
+ "all_filter_checks_ok": true
+}

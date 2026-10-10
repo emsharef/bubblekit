@@ -1,0 +1,314 @@
+{
+ "tickers": {
+  "SPY": {
+   "sha256": "3d11b9aad0c388ada75af58bc6a57f67febb8b08be178b2c6e2bd1f5cb33569a",
+   "days": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "bars_all": 8784,
+   "bars_rth": 3900,
+   "close_check": {
+    "2026-09-21": {
+     "rth_15_59_close": 773.52,
+     "frd_daily_close": 773.5,
+     "yahoo_close": 773.5
+    },
+    "2026-09-22": {
+     "rth_15_59_close": 773.36,
+     "frd_daily_close": 773.38,
+     "yahoo_close": 773.3800048828125
+    },
+    "2026-09-23": {
+     "rth_15_59_close": 767.75,
+     "frd_daily_close": 767.81,
+     "yahoo_close": 767.8099975585938
+    },
+    "2026-09-24": {
+     "rth_15_59_close": 767.25,
+     "frd_daily_close": 767.18,
+     "yahoo_close": 767.1799926757812
+    },
+    "2026-09-25": {
+     "rth_15_59_close": 771.3,
+     "frd_daily_close": 771.35,
+     "yahoo_close": 771.3499755859375
+    },
+    "2026-09-28": {
+     "rth_15_59_close": 765.56,
+     "frd_daily_close": 765.61,
+     "yahoo_close": 765.6099853515625
+    },
+    "2026-09-29": {
+     "rth_15_59_close": 764.23,
+     "frd_daily_close": 764.2,
+     "yahoo_close": 764.2000122070312
+    },
+    "2026-09-30": {
+     "rth_15_59_close": 762.46,
+     "frd_daily_close": 762.63,
+     "yahoo_close": 762.6300048828125
+    },
+    "2026-10-01": {
+     "rth_15_59_close": 764.03,
+     "frd_daily_close": 763.99,
+     "yahoo_close": 763.989990234375
+    },
+    "2026-10-02": {
+     "rth_15_59_close": 769.65,
+     "frd_daily_close": 769.64,
+     "yahoo_close": 769.6400146484375
+    }
+   },
+   "daily": {
+    "n": 10,
+    "min": 762.6300048828125,
+    "max": 773.5,
+    "width": 0.014253301138941854,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.6,
+      "count": 6
+     },
+     "2%": {
+      "fraction": 1.0,
+      "count": 10
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 10
+     }
+    },
+    "occupation_vs_1min_rth_max": {
+     "1%": {
+      "fraction": 0.5,
+      "count": 5
+     },
+     "2%": {
+      "fraction": 1.0,
+      "count": 10
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 10
+     }
+    }
+   },
+   "rth": {
+    "close_min": 759.08,
+    "close_max": 775.02,
+    "close_width": 0.02099910417874251,
+    "low_min": 758.7901,
+    "high_max": 775.14,
+    "hl_width": 0.021547329096676338,
+    "width_ratio_to_daily": 1.4732800474810888,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.6089743589743589,
+      "count": 2375,
+      "minutes": 2375
+     },
+     "2%": {
+      "fraction": 0.9969230769230769,
+      "count": 3888,
+      "minutes": 3888
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 3900,
+      "minutes": 3900
+     }
+    }
+   },
+   "all": {
+    "close_min": 759.08,
+    "close_max": 775.02,
+    "close_width": 0.02099910417874251,
+    "low_min": 758.7901,
+    "high_max": 775.14,
+    "hl_width": 0.021547329096676338,
+    "width_ratio_to_daily": 1.4732800474810888,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.5384790528233151,
+      "count": 4730,
+      "minutes": 4730
+     },
+     "2%": {
+      "fraction": 0.9986338797814208,
+      "count": 8772,
+      "minutes": 8772
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 8784,
+      "minutes": 8784
+     }
+    }
+   }
+  },
+  "QQQ": {
+   "sha256": "dab6fa4c5b38ae51a9c867453254b8c1cf23dd364bd26fb7f51b4f1bc6a95fa2",
+   "days": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02"
+   ],
+   "bars_all": 9182,
+   "bars_rth": 3900,
+   "close_check": {
+    "2026-09-21": {
+     "rth_15_59_close": 741.39,
+     "frd_daily_close": 741.47,
+     "yahoo_close": 741.469970703125
+    },
+    "2026-09-22": {
+     "rth_15_59_close": 747.465,
+     "frd_daily_close": 747.46,
+     "yahoo_close": 747.4600219726562
+    },
+    "2026-09-23": {
+     "rth_15_59_close": 741.17,
+     "frd_daily_close": 741.21,
+     "yahoo_close": 741.2100219726562
+    },
+    "2026-09-24": {
+     "rth_15_59_close": 741.06,
+     "frd_daily_close": 741.1,
+     "yahoo_close": 741.0999755859375
+    },
+    "2026-09-25": {
+     "rth_15_59_close": 744.45,
+     "frd_daily_close": 744.5,
+     "yahoo_close": 744.5
+    },
+    "2026-09-28": {
+     "rth_15_59_close": 736.53,
+     "frd_daily_close": 736.53,
+     "yahoo_close": 736.530029296875
+    },
+    "2026-09-29": {
+     "rth_15_59_close": 737.98,
+     "frd_daily_close": 737.93,
+     "yahoo_close": 737.9299926757812
+    },
+    "2026-09-30": {
+     "rth_15_59_close": 739.84,
+     "frd_daily_close": 739.77,
+     "yahoo_close": 739.77001953125
+    },
+    "2026-10-01": {
+     "rth_15_59_close": 742.04,
+     "frd_daily_close": 742.03,
+     "yahoo_close": 742.030029296875
+    },
+    "2026-10-02": {
+     "rth_15_59_close": 749.55,
+     "frd_daily_close": 749.58,
+     "yahoo_close": 749.5800170898438
+    }
+   },
+   "daily": {
+    "n": 10,
+    "min": 736.530029296875,
+    "max": 749.5800170898438,
+    "width": 0.017718201938659472,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.3,
+      "count": 3
+     },
+     "2%": {
+      "fraction": 1.0,
+      "count": 10
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 10
+     }
+    },
+    "occupation_vs_1min_rth_max": {
+     "1%": {
+      "fraction": 0.2,
+      "count": 2
+     },
+     "2%": {
+      "fraction": 0.8,
+      "count": 8
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 10
+     }
+    }
+   },
+   "rth": {
+    "close_min": 728.02,
+    "close_max": 754.5,
+    "close_width": 0.03637262712562839,
+    "low_min": 727.81,
+    "high_max": 754.54,
+    "hl_width": 0.03672661821079681,
+    "width_ratio_to_daily": 2.0528396307678767,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.11,
+      "count": 429,
+      "minutes": 429
+     },
+     "2%": {
+      "fraction": 0.6358974358974359,
+      "count": 2480,
+      "minutes": 2480
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 3900,
+      "minutes": 3900
+     }
+    }
+   },
+   "all": {
+    "close_min": 727.0,
+    "close_max": 754.5,
+    "close_width": 0.03782668500687758,
+    "low_min": 724.36,
+    "high_max": 754.54,
+    "hl_width": 0.04166436578496868,
+    "width_ratio_to_daily": 2.134905400549887,
+    "occupation_own_max": {
+     "1%": {
+      "fraction": 0.1262252232629057,
+      "count": 1159,
+      "minutes": 1159
+     },
+     "2%": {
+      "fraction": 0.6492049662382923,
+      "count": 5961,
+      "minutes": 5961
+     },
+     "5%": {
+      "fraction": 1.0,
+      "count": 9182,
+      "minutes": 9182
+     }
+    }
+   }
+  }
+ }
+}

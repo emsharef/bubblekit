@@ -1,0 +1,213 @@
+{
+ "lower_score_mismatches": 0,
+ "cells": {
+  "N-in": {
+   "0.05": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "0.1": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "final_anchor79_widths": {
+    "numerator_log_median": 0.0,
+    "denominator_log_median": 1.0832527393952773,
+    "numerator_finite": 100,
+    "denominator_finite": 100
+   }
+  },
+  "N-switch": {
+   "0.05": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "0.1": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "final_anchor79_widths": {
+    "numerator_log_median": 0.0,
+    "denominator_log_median": 1.1154426831694764,
+    "numerator_finite": 100,
+    "denominator_finite": 100
+   }
+  },
+  "L-15": {
+   "0.05": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "0.1": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "final_anchor79_widths": {
+    "numerator_log_median": 0.0,
+    "denominator_log_median": 0.6714940545533068,
+    "numerator_finite": 100,
+    "denominator_finite": 100
+   }
+  },
+  "L-20": {
+   "0.05": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "0.1": {
+    "P1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "P0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S1": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    },
+    "S0": {
+     "certified crossing": 0,
+     "certified no crossing": 100,
+     "unresolved": 0
+    }
+   },
+   "final_anchor79_widths": {
+    "numerator_log_median": 0.0,
+    "denominator_log_median": 0.6749268154104016,
+    "numerator_finite": 100,
+    "denominator_finite": 100
+   }
+  }
+ }
+}

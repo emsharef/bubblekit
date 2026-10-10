@@ -1,0 +1,19 @@
+Refuted target: fitting the nuisance on prior data and freezing it makes a
+plug-in likelihood-profile process valid under the original nuisance-unknown
+null, without a further actual-law premise.
+
+The actual next bit is Bernoulli(1/2), a null with its correct nuisance.
+Before observing it, freeze a fitted null allowing probabilities p in [0,.01].
+Use the fair-bit predictive alternative. Its fitted null likelihood supremum
+is .01 on success and 1 on failure. The evidence is consequently 50 or .5.
+Under the actual law its mean is 101/4 and its probability of reaching 20 is
+1/2, exceeding alpha=.05. The fitting rule and forecast are predictable.
+The actual law is simply absent from the fitted family; AX-62 never promised
+validity there. An independent training sample alone does not prevent this.
+
+Corrected route: supply the actual conditional suffix-law membership premise
+at the fitted nuisance, or retain an honestly covering nuisance set in the
+denominator and pay any coverage error, or make an explicitly empirical
+calibration claim under claim045's separate post-selection law premises.
+The finite example is checked in checks/d36-monitor-input/check.py. It does
+not prove that every prefit method fails or that an intraday signal is absent.

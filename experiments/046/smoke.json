@@ -1,0 +1,2452 @@
+{
+ "summary": {
+  "PC0|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0,
+    0.0
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.0025641801689078427,
+     -0.0019643331826374928
+    ],
+    "rmse": [
+     0.005255737834293259,
+     0.004271483604017323
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 0.95,
+    "max_sum_identity_dev": 3.885780586188048e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.3328545126285154
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "PC0|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0,
+    0.0
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.0017938526600588035,
+     -0.001538620026468232
+    ],
+    "rmse": [
+     0.002280139794829367,
+     0.001961733377122691
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.5543122344752192e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.12760274857374296
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "PC0|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0,
+    0.0
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.0016408202121985516,
+     -0.0016196493830015924
+    ],
+    "rmse": [
+     0.00169233761111378,
+     0.0016435753254986799
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 3.0531133177191805e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.06543202568246004
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "PC1|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.1464479582199666,
+    0.14644795821996653
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.006010282275783291,
+     -0.005941861080015209
+    ],
+    "rmse": [
+     0.006986350541779102,
+     0.006734276199955051
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 5.551115123125783e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.3179414009820955
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "PC1|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.1464479582199666,
+    0.14644795821996653
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.006030075793468648,
+     -0.006288903882231939
+    ],
+    "rmse": [
+     0.006214397362898006,
+     0.006404652232228518
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.3322676295501878e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.14309491791089757
+    },
+    "percell": {
+     "reject": 20,
+     "unresolved": 0,
+     "rate": 1.0,
+     "wilson95": [
+      0.8388698745050667,
+      1.0
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "PC1|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.1464479582199666,
+    0.14644795821996653
+   ],
+   "label": "positive control (review's terminal-law model; analytic L_B: verification of claim 044's size/coverage under its premises)",
+   "J=20": {
+    "bias": [
+     0.0062917250067002495,
+     -0.0062647724548059724
+    ],
+    "rmse": [
+     0.006302970273996861,
+     0.006270397710652404
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 4.440892098500626e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 20,
+     "unresolved": 0,
+     "rate": 1.0,
+     "wilson95": [
+      0.8388698745050667,
+      1.0
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.08748765655675479
+    },
+    "percell": {
+     "reject": 20,
+     "unresolved": 0,
+     "rate": 1.0,
+     "wilson95": [
+      0.8388698745050667,
+      1.0
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R0|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     -7.517946165328231e-05,
+     -5.38368278329926e-05,
+     -8.254192997031173e-05
+    ],
+    "rmse": [
+     0.0015049356725147303,
+     0.00035095623148045013,
+     0.0006402334269186066
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0036060402298453862,
+     -0.002123080777425984,
+     -0.001694517671878809
+    ],
+    "rmse": [
+     0.003997729749525133,
+     0.002340261425625299,
+     0.0021874652376392646
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 6.661338147750939e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.8831552045827462
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0036276127547642976,
+     -0.0020948693461008,
+     -0.0017443016281229796
+    ],
+    "rmse": [
+     0.004003002452574426,
+     0.0023194540080915117,
+     0.0022258039067581037
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 4.996003610813204e-16,
+    "mean_empty_cells": 0.15,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R0|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     0.0001906030755382624,
+     -2.120251865567191e-06,
+     3.466828162747848e-05
+    ],
+    "rmse": [
+     0.0005138385884926424,
+     0.00015261071796406932,
+     0.00026887763237143006
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003807163721169826,
+     -0.0019471526552905405,
+     -0.0016368599605812134
+    ],
+    "rmse": [
+     0.003830957741779079,
+     0.0019693134363425024,
+     0.0016701126143129257
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 2.220446049250313e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.3296781921484242
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0037882558826274806,
+     -0.0019052543432338698,
+     -0.0016598504340957971
+    ],
+    "rmse": [
+     0.0038123965145649913,
+     0.001927961878629459,
+     0.0016924191272847716
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.1102230246251565e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.4807636458425196
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R0|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     4.686641080739462e-05,
+     -1.6930066337936255e-05,
+     -1.2940477632727988e-06
+    ],
+    "rmse": [
+     0.00014665179176667745,
+     5.89646691622359e-05,
+     0.00010367873126319798
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003657902857195752,
+     -0.0019332488676556709,
+     -0.0016960116928367575
+    ],
+    "rmse": [
+     0.0036611427596540285,
+     0.001935374817719185,
+     0.0016993888127574365
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 8.548717289613705e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.17650327384438766
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0036445912300458096,
+     -0.0018932337822618079,
+     -0.001722715151081275
+    ],
+    "rmse": [
+     0.003647872752057874,
+     0.0018953999299123469,
+     0.0017260506123576193
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 3.3306690738754696e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.1882168092070245
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R1|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     4.646126709084708e-05,
+     -2.8815376682803094e-05,
+     1.9889658802349498e-05
+    ],
+    "rmse": [
+     0.0013917008816268406,
+     0.0004699672244887188,
+     0.0009164077305334408
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0036460632873868137,
+     -0.0019610799284895757,
+     -0.0016474478096944855
+    ],
+    "rmse": [
+     0.003944019109429944,
+     0.002318679490476673,
+     0.002039106919574986
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 8.326672684688674e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.9454750076131571
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0036589740475293977,
+     -0.001958572129071817,
+     -0.0016628663692547507
+    ],
+    "rmse": [
+     0.003956127483645501,
+     0.0023275735605204793,
+     0.002041277437113753
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 3.3306690738754696e-16,
+    "mean_empty_cells": 0.2,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R1|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     1.136767576853659e-05,
+     1.2039586704393201e-05,
+     3.4281507889194486e-05
+    ],
+    "rmse": [
+     0.0003729638532264251,
+     0.00013967697848230552,
+     0.0002577770904810719
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0036249241778396977,
+     -0.0018467008376395506,
+     -0.001720534569846524
+    ],
+    "rmse": [
+     0.0036403546366812543,
+     0.0018688019286516781,
+     0.0017384046405137235
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.9984014443252818e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.34273672484967355
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0036299322762818748,
+     -0.0018524411229750488,
+     -0.0017198023829532616
+    ],
+    "rmse": [
+     0.003645234295047398,
+     0.001874392153022073,
+     0.0017375882566883702
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.2212453270876722e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.670622769392883
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "R1|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.004139776883850976,
+    0.0,
+    0.0
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     4.0521426280762385e-05,
+     -2.6327042062676554e-05,
+     -2.6049235046890494e-05
+    ],
+    "rmse": [
+     0.00014828927849157086,
+     5.1268916175759e-05,
+     8.52677356791451e-05
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003537394615469208,
+     -0.0018409003792417388,
+     -0.001708349087070582
+    ],
+    "rmse": [
+     0.003541096474196057,
+     0.0018434168994323184,
+     0.0017119353248362598
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 7.66053886991358e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.18288738145751682
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0035384024856490674,
+     -0.0018417542644514507,
+     -0.0017085030720393913
+    ],
+    "rmse": [
+     0.0035420630767635107,
+     0.0018442316881426514,
+     0.0017121137255516172
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 5.218048215738236e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.23817613217292777
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V1|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0006780696120770591,
+    0.001103006286553243,
+    0.00225429352262585
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     -0.00012826227791967184,
+     -4.9892709956134195e-05,
+     -9.03038121865484e-05
+    ],
+    "rmse": [
+     0.0016947238797315669,
+     0.00037311336842009175,
+     0.0007038510197263291
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0035824587932550504,
+     -0.0019210322478443093,
+     -0.0019298853454645132
+    ],
+    "rmse": [
+     0.003782450327145452,
+     0.002052746789659014,
+     0.002336933829076688
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 0.9,
+    "max_sum_identity_dev": 1.4432899320127035e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.8539980572724334
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003553201045527976,
+     -0.0018754489933256874,
+     -0.001946210852256125
+    ],
+    "rmse": [
+     0.003752671959107571,
+     0.002016190572939932,
+     0.00235311872526958
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 0.85,
+    "max_sum_identity_dev": 5.551115123125783e-16,
+    "mean_empty_cells": 0.15,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V1|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0006780696120770591,
+    0.001103006286553243,
+    0.00225429352262585
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     0.00012700626272487412,
+     4.210326901389616e-05,
+     7.325229332928469e-05
+    ],
+    "rmse": [
+     0.000444225428240909,
+     0.000130309367153106,
+     0.00022700900132319133
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003847382741125882,
+     -0.0019152177306854755,
+     -0.0016898031853625818
+    ],
+    "rmse": [
+     0.0038735577783222293,
+     0.0019313288254653145,
+     0.0017432711826967586
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.8318679906315083e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.31564827299331544
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0038321144594191366,
+     -0.0018776040766119411,
+     -0.001712148557729365
+    ],
+    "rmse": [
+     0.0038582554501238064,
+     0.0018944672305599053,
+     0.001766307346230968
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.7208456881689926e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.4875793976779563
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V1|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.0006780696120770591,
+    0.001103006286553243,
+    0.00225429352262585
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     0.00011817717343557137,
+     2.2032571285524917e-06,
+     8.97508756751448e-06
+    ],
+    "rmse": [
+     0.0002139970937737325,
+     3.893404838780655e-05,
+     7.025389581741056e-05
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003663322583659345,
+     -0.0018626921999323643,
+     -0.0016712748655865917
+    ],
+    "rmse": [
+     0.003667278472246107,
+     0.001865602155118523,
+     0.0016769561489538263
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 7.882583474838611e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.16836028896177918
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003652359068250735,
+     -0.0018263584928840892,
+     -0.001696645057225335
+    ],
+    "rmse": [
+     0.0036562892367597243,
+     0.0018294144182105705,
+     0.0017023048251502927
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 3.4416913763379853e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.18499152402857955
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V2|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.005419157257470275,
+    0.003139756313136788,
+    0.006314770365598132
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     1.570131028576227e-05,
+     6.868575455854517e-05,
+     0.00011558683735457022
+    ],
+    "rmse": [
+     0.001330608398824646,
+     0.00032840524919923377,
+     0.0006027163023217833
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0036379642508379247,
+     -0.0018510757645373189,
+     -0.0015869145841002543
+    ],
+    "rmse": [
+     0.004000438828197812,
+     0.0020185971660324226,
+     0.0019076075418186689
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 0.95,
+    "max_sum_identity_dev": 8.326672684688674e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.7507897730869616
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0036232642018505456,
+     -0.001809691930889945,
+     -0.0016135983687604188
+    ],
+    "rmse": [
+     0.003992042280346925,
+     0.0019833202822066966,
+     0.0019401079992827992
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 0.95,
+    "max_sum_identity_dev": 4.996003610813204e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V2|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.005419157257470275,
+    0.003139756313136788,
+    0.006314770365598132
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     9.354382167648355e-05,
+     -3.3023590178008974e-06,
+     -1.6459392205040932e-06
+    ],
+    "rmse": [
+     0.0005781491974133334,
+     0.00012970804112662977,
+     0.00024178399158983485
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0037435732628262526,
+     -0.0019124539012194408,
+     -0.0017425238381697603
+    ],
+    "rmse": [
+     0.0037644064587217443,
+     0.0019318220889591874,
+     0.0017840482528539766
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.6653345369377348e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.2934411186332901
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0037312472565087045,
+     -0.0018750980878863067,
+     -0.0017675536451853685
+    ],
+    "rmse": [
+     0.0037525137673646517,
+     0.0018938195313403631,
+     0.001808402714875263
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 8.881784197001252e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.4825444792840775
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V2|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    -0.005419157257470275,
+    0.003139756313136788,
+    0.006314770365598132
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     8.691360636515176e-05,
+     1.0449789108060627e-05,
+     1.8058849181487764e-05
+    ],
+    "rmse": [
+     0.00014995820060965321,
+     2.8583822178102852e-05,
+     5.512888827209134e-05
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003652386772950253,
+     -0.0018629990712700274,
+     -0.0016739654570252695
+    ],
+    "rmse": [
+     0.0036537486186803327,
+     0.0018645536476735703,
+     0.001680666372418554
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 7.93809462606987e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.16137384929900211
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003640285277867336,
+     -0.0018263637760440848,
+     -0.0016984992571677324
+    ],
+    "rmse": [
+     0.0036416128210605757,
+     0.0018280008105040855,
+     0.0017050855618077577
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 5.828670879282072e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.18437349558508584
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V3|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.010490327453118287,
+    0.0033200660887911515,
+    -0.00977502412064668
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     0.0005976681190124067,
+     0.00010712436506205838,
+     0.0002984641947234492
+    ],
+    "rmse": [
+     0.0011284429418917433,
+     0.00036935222541917674,
+     0.0008101746590619879
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0038445645150705643,
+     -0.0015737010128187346,
+     -0.0012676068234503592
+    ],
+    "rmse": [
+     0.003962957818364118,
+     0.001739204854158378,
+     0.001879463877345056
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.1102230246251565e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.9602340591343537
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003882272732646635,
+     -0.0015776564849747988,
+     -0.001301359568870234
+    ],
+    "rmse": [
+     0.00398706897688175,
+     0.0017505405282683994,
+     0.0019256602272769959
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 2.7755575615628914e-16,
+    "mean_empty_cells": 0.35,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V3|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.010490327453118287,
+    0.0033200660887911515,
+    -0.00977502412064668
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     8.898007226139024e-05,
+     1.4710546820051289e-05,
+     2.365589405105631e-05
+    ],
+    "rmse": [
+     0.0003827297174772147,
+     0.00010038185737096439,
+     0.00019067198915041439
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0035429547567587087,
+     -0.001818497831795865,
+     -0.0015971104118267711
+    ],
+    "rmse": [
+     0.003559171550971618,
+     0.0018346486165335789,
+     0.001645057864199716
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 2.9976021664879227e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.3685634725227741
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003531682323963097,
+     -0.0017871144385915693,
+     -0.0016172213722353938
+    ],
+    "rmse": [
+     0.003547583464150533,
+     0.0018030639136003563,
+     0.0016647274684448933
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.8318679906315083e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.5016615202794037
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V3|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.010490327453118287,
+    0.0033200660887911515,
+    -0.00977502412064668
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     9.494614306803685e-05,
+     6.888859136844165e-06,
+     1.8956018933910523e-05
+    ],
+    "rmse": [
+     0.0001516617495990394,
+     3.326464187437035e-05,
+     7.159303662412278e-05
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0034991248590644473,
+     -0.0018360530423060435,
+     -0.0015422807956229322
+    ],
+    "rmse": [
+     0.003501377916944636,
+     0.0018379477791880458,
+     0.0015471318185625292
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 6.716849298982197e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.1962369182843836
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003487988749047724,
+     -0.0017983233427151218,
+     -0.0015688743851981959
+    ],
+    "rmse": [
+     0.0034902439920023245,
+     0.0018002894552257192,
+     0.0015737050145529995
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 4.773959005888173e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.19986554437939938
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V4|N=10000": {
+   "reps": 20,
+   "oracle_b": [
+    0.016396436707768358,
+    0.006379974886955242,
+    -0.01874104217345779
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     8.66121772600606e-05,
+     4.604364448743386e-05,
+     0.00012332502285741093
+    ],
+    "rmse": [
+     0.001557683907239808,
+     0.0004392976029588493,
+     0.0009195733567514676
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003510194890933488,
+     -0.0018359160645249704,
+     -0.0014182979818037449
+    ],
+    "rmse": [
+     0.0037891051757374928,
+     0.002023919547102317,
+     0.002092974323558697
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 8.881784197001252e-16,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.003540494195829018,
+     -0.0018260581986540595,
+     -0.0014584551525702455
+    ],
+    "rmse": [
+     0.0038140240309314996,
+     0.002018115481074336,
+     0.002177030292526932
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 5.551115123125783e-16,
+    "mean_empty_cells": 0.2,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 1.0
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V4|N=100000": {
+   "reps": 20,
+   "oracle_b": [
+    0.016396436707768358,
+    0.006379974886955242,
+    -0.01874104217345779
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     0.00011760926323495582,
+     3.441501403359838e-05,
+     4.310725172571375e-05
+    ],
+    "rmse": [
+     0.00043197062025643806,
+     0.0001342124673428857,
+     0.00031521021325052836
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.0035440649231178907,
+     -0.0017929822577863515,
+     -0.001555951136337528
+    ],
+    "rmse": [
+     0.003571950477780338,
+     0.0018217097049426647,
+     0.0016036170723562483
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 2.3314683517128287e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.3966602623897197
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.00353191119231314,
+     -0.0017615400654784012,
+     -0.001575239597840776
+    ],
+    "rmse": [
+     0.003560087968017902,
+     0.001789669561537227,
+     0.0016213906180346156
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 1.7763568394002505e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.524109933851653
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  },
+  "V4|N=1000000": {
+   "reps": 20,
+   "oracle_b": [
+    0.016396436707768358,
+    0.006379974886955242,
+    -0.01874104217345779
+   ],
+   "label": "price-path basket: diagnostic (L_B not a supplied bound; fixed B, J give a fixed-bin approximation limit, not the claim's consistency scheme)",
+   "oracle_weights": {
+    "bias": [
+     7.699288703594959e-05,
+     7.061988075723717e-06,
+     2.0025994473517328e-05
+    ],
+    "rmse": [
+     0.00016228063602886805,
+     4.473919243828979e-05,
+     9.010927849548782e-05
+    ],
+    "estimation_records": 20,
+    "missing_records": 0,
+    "label": "oracle conditional-weight approximation on the same pricing sample; diagnostic"
+   },
+   "J=20": {
+    "bias": [
+     0.003415770135306674,
+     -0.001840795552928984,
+     -0.0014708937127985607
+    ],
+    "rmse": [
+     0.0034179699611174884,
+     0.001842357808937551,
+     0.0014789830290413448
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 8.826273045769994e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.21729219488453327
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   },
+   "J=40": {
+    "bias": [
+     0.0034075397324386386,
+     -0.0018069065127643696,
+     -0.001496552350094514
+    ],
+    "rmse": [
+     0.003409712743879582,
+     0.001808433283832419,
+     0.0015045181948532046
+    ],
+    "estimation_records": 20,
+    "failed_records": 0,
+    "failure_errors": {},
+    "negative_b_share": 1.0,
+    "max_sum_identity_dev": 2.7755575615628914e-15,
+    "mean_empty_cells": 0.0,
+    "common": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target",
+     "eN_median": 0.21019871121462727
+    },
+    "percell": {
+     "reject": 0,
+     "unresolved": 0,
+     "rate": 0.0,
+     "wilson95": [
+      -1.3877787807814457e-17,
+      0.16113012549493322
+     ],
+     "test_records": 20,
+     "coverage": 1.0,
+     "coverage_records": 20,
+     "coverage_unknown": 0,
+     "coverage_scope": "among records with an evaluable lower bound and target"
+    }
+   }
+  }
+ },
+ "seconds": 19.29113793373108,
+ "alpha": [
+  0.025,
+  0.025
+ ],
+ "label": "floating point; no certified arithmetic; non-rejection is not acceptance of the restriction"
+}

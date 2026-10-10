@@ -1,0 +1,642 @@
+{
+"N-in|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-in|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"N-in|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-in|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"N-k60|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-k60|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"N-k60|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-k60|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"N-b40|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-b40|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"N-b40|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-b40|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"N-outU|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-outU|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"N-outU|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-outU|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"N-in-$5|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-in-$5|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"N-in-$5|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"N-in-$5|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"A-15-30|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-15-30|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"A-15-30|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-15-30|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"A-15-45|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-15-45|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"A-15-45|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-15-45|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"A-20-30|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-30|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"A-20-30|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-30|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"A-20-45|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-45|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"A-20-45|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-45|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+},
+"A-20-45-$5|60|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-45-$5|60|5m_034_subset": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h4_l2": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h4_l2": 0
+}
+},
+"A-20-45-$5|250|5m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0
+}
+},
+"A-20-45-$5|250|60m": {
+"failures": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+},
+"zero_scores": {
+"E033_exact": 0,
+"E033_round": 0,
+"E034_W_h2_l2": 0,
+"E034_W_h2_l4": 0,
+"E034_W_h4_l2": 0,
+"E034_W_h4_l4": 0,
+"E034_N_h2_l2": 0,
+"E034_N_h2_l4": 0,
+"E034_N_h4_l2": 0,
+"E034_N_h4_l4": 0
+}
+}
+}

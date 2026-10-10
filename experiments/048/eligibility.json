@@ -1,0 +1,7 @@
+{
+ "status": "PENDING: no IV release schedule or pre-2003 construction is documented yet; every window is unavailable until this file is filled from archived sources (librarian request 2026-10-08-d28-iv-timing-sources.md)",
+ "VIX": {"eras": []},
+ "VXN": {"eras": []},
+ "index_close_local": "16:00 America/New_York",
+ "schema": "eras: list of {from, to, close_local_time, documented_by, retrospective} giving, for IV observation dates in [from, to], the documented time at which that date's published close becomes available (local New York time), the archived source, and whether the value is a retrospective reconstruction. An IV observation is eligible for the return (t_(j-1), t_j] only if its availability time is no later than t_(j-1); a date outside every documented era is ineligible."
+}

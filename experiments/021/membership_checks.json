@@ -1,0 +1,14 @@
+{
+ "note": "Spot-checks of the pinned Wikipedia DJIA component history (oldid 1369743926) against independent listings, searched 2026-10-06. Every event below matched the Wikipedia section: date, names added and names removed.",
+ "events": {
+  "1991-05-06": {"added": ["Caterpillar", "J.P. Morgan & Co.", "Walt Disney"], "removed": ["Navistar", "Primerica", "USX"], "sources": ["https://www.deseret.com/1991/5/3/18918772/3-stocks-being-replaced-in-dow-jones-average/", "https://www.tampabay.com/archive/1991/05/03/disney-is-named-to-list-for-dow-jones-industrial-average"]},
+  "1997-03-17": {"added": ["Travelers", "Hewlett-Packard", "Johnson & Johnson", "Wal-Mart"], "removed": ["Westinghouse", "Texaco", "Bethlehem Steel", "Woolworth"], "sources": ["https://money.cnn.com/1997/03/12/markets/dow/", "https://www.benzinga.com/general/education/22/03/20213759/this-day-in-market-history-walmart-johnson-johnson-join-dow-jones-1"]},
+  "1999-11-01": {"added": ["Microsoft", "Intel", "SBC", "Home Depot"], "removed": ["Goodyear", "Sears", "Union Carbide", "Chevron"], "sources": ["https://money.cnn.com/2000/10/26/news/dowindustrials/", "https://www.fool.com/archive/dripport/1999/10/26/dow-now-intel.aspx"]},
+  "2004-04-08": {"added": ["AIG", "Pfizer", "Verizon"], "removed": ["AT&T Corp.", "Eastman Kodak", "International Paper"], "sources": ["https://www.nbcnews.com/id/wbna4645588", "https://www.lightreading.com/cable-technology/dow-jones-replaces-three-stocks"]},
+  "2008-02-19": {"added": ["Bank of America", "Chevron"], "removed": ["Altria", "Honeywell"], "sources": ["https://money.cnn.com/2008/02/11/markets/dow_jones/index.htm", "https://www.plansponsor.com/dow-undergoes-rare-revision/"]},
+  "2008-09-22": {"added": ["Kraft Foods"], "removed": ["AIG"], "sources": ["https://money.cnn.com/2008/09/18/news/companies/aig_dow/index.htm", "https://www.upi.com/Business_News/2008/09/19/Kraft-replaces-AIG-on-Dow-Jones-index/62361221833414/"]},
+  "2009-06-08": {"added": ["Cisco", "Travelers"], "removed": ["General Motors", "Citigroup"], "sources": ["https://money.cnn.com/2009/06/01/news/companies/dow_jones/index.htm", "https://www.nbcnews.com/news/amp/wbna31044039"]},
+  "2013-09-23": {"added": ["Goldman Sachs", "Visa", "Nike"], "removed": ["Bank of America", "Hewlett-Packard", "Alcoa"], "sources": ["https://www.npr.org/sections/thetwo-way/2013/09/10/220994808/alcoas-out-nikes-in-as-dow-industrials-gets-a-facelift", "https://www.nbcnews.com/businessmain/major-changes-dow-goldman-nike-alcoa-bofa-out-8c11120802"]},
+  "2020-08-31": {"added": ["Salesforce", "Amgen", "Honeywell"], "removed": ["Exxon Mobil", "Pfizer", "Raytheon Technologies"], "sources": ["https://press.spglobal.com/2020-08-24-Salesforce-com-Amgen-and-Honeywell-International-Set-to-Join-Dow-Jones-Industrial-Average", "https://www.cnbc.com/amp/2020/08/24/salesforce-amgen-and-honeywell-added-to-dow-in-major-shakeup-to-the-average.html"]}
+ }
+}

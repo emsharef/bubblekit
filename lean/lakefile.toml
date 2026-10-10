@@ -1,0 +1,19 @@
+name = "lab"
+defaultTargets = ["Upstream", "Novel", "Standalone", "Audit"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "6ebcdee77a1b7bf10f211d4c993d85fbb19644bc"
+
+[[lean_lib]]
+name = "Upstream"
+
+[[lean_lib]]
+name = "Novel"
+
+[[lean_lib]]
+name = "Standalone"
+
+[[lean_lib]]
+name = "Audit"

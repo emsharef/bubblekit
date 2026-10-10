@@ -1,0 +1,338 @@
+{
+"const_b+0.00_k0.20|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.20|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.20|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.20|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.35|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.35|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.35|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.00_k0.35|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.20|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.20|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.20|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.20|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.35|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.35|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.35|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"const_b+0.10_k0.35|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.15|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.15|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.15|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.15|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.50|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.50|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.50|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.20to0.45_s0.50|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.15|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.15|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.15|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.15|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.50|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.50|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.50|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"switch_k0.45to0.20_s0.50|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.50_k0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.50_k0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.50_k0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.50_k0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.75_k0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.75_k0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.75_k0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevnull_p0.75_k0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.20|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.20|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.20|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.20|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.45|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.45|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.45|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.25_k0.45|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.20|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.20|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.20|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.20|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.45|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.45|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.45|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p1.50_k0.45|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.20|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.20|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.20|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.20|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.30|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.30|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.30|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.30|5|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.45|2|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.45|2|daily": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.45|5|monthly": {
+"n": 1000,
+"not_ok": []
+},
+"cevalt_p2.00_k0.45|5|daily": {
+"n": 1000,
+"not_ok": []
+}
+}

@@ -1,0 +1,494 @@
+{
+ "n_obs": 234256,
+ "paths": 200,
+ "cases": {
+  "C1": {
+   "mirrors": "Infospace",
+   "true_alpha": 3.58,
+   "c": 4.150985825513617e-06,
+   "paper_verdict": "bubble",
+   "method2": {
+    "bubble": [
+     0.93,
+     0.01804161855266871
+    ],
+    "no bubble": [
+     0.055,
+     0.016120638945153507
+    ],
+    "inconclusive": [
+     0.015,
+     0.008595056718835542
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "modal_verdict": "bubble",
+   "verdict_matches": true,
+   "alpha_hat_median_ci": [
+    3.584761430049749,
+    3.2685083362013154,
+    3.9322403831233665
+   ],
+   "m_hat_median_ci": [
+    6.169522860099498,
+    5.537016672402631,
+    6.864480766246733
+   ],
+   "alpha_hat_iqr": [
+    2.2907661108922435,
+    4.913607342064426
+   ],
+   "stopped_at_step_iii": 0,
+   "method1_strict": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     1.0,
+     0.0
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "method1_band": {
+    "bubble": [
+     0.03,
+     0.012062338081814818
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     0.97,
+     0.012062338081814825
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "gcj_alpha_f1_median_ci": [
+    3.5794011915254544,
+    3.57686130940121,
+    3.5820865673960336
+   ],
+   "gcj_alpha_f2_median_ci": [
+    3.5866644677554875,
+    3.5761078198899146,
+    3.5939219744468467
+   ],
+   "relerr_jkp_median": 0.008845796220833868,
+   "relerr_fz_median": 0.015244104646129075,
+   "fz_coverage_mean": 0.5188715728715728,
+   "grid_points_median": 11.0,
+   "absorbed": 0,
+   "tikhonov_used": 15,
+   "range_median": [
+    66.48533400535186,
+    126.52534029444568
+   ],
+   "alpha_within_25pct": true
+  },
+  "C2": {
+   "mirrors": "Infospace, fixed alpha",
+   "true_alpha": 1.8,
+   "c": 0.015071318589057477,
+   "paper_verdict": "bubble",
+   "method2": {
+    "bubble": [
+     0.73,
+     0.03139267430468452
+    ],
+    "no bubble": [
+     0.2,
+     0.028284271247461905
+    ],
+    "inconclusive": [
+     0.07,
+     0.01804161855266872
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "modal_verdict": "bubble",
+   "verdict_matches": true,
+   "alpha_hat_median_ci": [
+    1.617595066653816,
+    1.4462469676385994,
+    1.8327150530587613
+   ],
+   "m_hat_median_ci": [
+    2.235190133307632,
+    1.8924939352771986,
+    2.6654301061175225
+   ],
+   "alpha_hat_iqr": [
+    1.0694673853053878,
+    2.4499576930496016
+   ],
+   "stopped_at_step_iii": 0,
+   "method1_strict": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     1.0,
+     0.0
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "method1_band": {
+    "bubble": [
+     0.095,
+     0.020733427116615334
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     0.905,
+     0.02073342711661533
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "gcj_alpha_f1_median_ci": [
+    1.800308025775847,
+    1.7990945823165445,
+    1.801577441628029
+   ],
+   "gcj_alpha_f2_median_ci": [
+    1.8001019410956784,
+    1.795418790987189,
+    1.8032462095328348
+   ],
+   "relerr_jkp_median": 0.0066896922546845206,
+   "relerr_fz_median": 0.009011405085389279,
+   "fz_coverage_mean": 0.614090909090909,
+   "grid_points_median": 11.0,
+   "absorbed": 0,
+   "tikhonov_used": 17,
+   "range_median": [
+    62.8731796890162,
+    136.77312348745465
+   ]
+  },
+  "C3": {
+   "mirrors": "Lastminute.com",
+   "true_alpha": 4.63,
+   "c": 3.297245243145749e-08,
+   "paper_verdict": "bubble",
+   "method2": {
+    "bubble": [
+     0.97,
+     0.012062338081814825
+    ],
+    "no bubble": [
+     0.015,
+     0.008595056718835542
+    ],
+    "inconclusive": [
+     0.015,
+     0.008595056718835542
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "modal_verdict": "bubble",
+   "verdict_matches": true,
+   "alpha_hat_median_ci": [
+    4.641893525111177,
+    4.148338080520145,
+    4.974315076754196
+   ],
+   "m_hat_median_ci": [
+    8.283787050222355,
+    7.29667616104029,
+    8.948630153508391
+   ],
+   "alpha_hat_iqr": [
+    3.1443032427893303,
+    6.185328969013529
+   ],
+   "stopped_at_step_iii": 0,
+   "method1_strict": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     1.0,
+     0.0
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "method1_band": {
+    "bubble": [
+     0.03,
+     0.012062338081814818
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     0.97,
+     0.012062338081814825
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "gcj_alpha_f1_median_ci": [
+    4.6306421053553155,
+    4.629533141773823,
+    4.634101955615469
+   ],
+   "gcj_alpha_f2_median_ci": [
+    4.624029241025751,
+    4.607612729004009,
+    4.638607670737784
+   ],
+   "relerr_jkp_median": 0.010214676499372355,
+   "relerr_fz_median": 0.01842686412838479,
+   "fz_coverage_mean": 0.504135101010101,
+   "grid_points_median": 11.0,
+   "absorbed": 0,
+   "tikhonov_used": 9,
+   "range_median": [
+    69.37949032884981,
+    127.95791275651828
+   ],
+   "alpha_within_25pct": true
+  },
+  "C4": {
+   "mirrors": "eToys",
+   "true_alpha": 1.0,
+   "c": 0.6,
+   "paper_verdict": "inconclusive",
+   "method2": {
+    "bubble": [
+     0.42,
+     0.034899856733230296
+    ],
+    "no bubble": [
+     0.48,
+     0.03532704346531139
+    ],
+    "inconclusive": [
+     0.1,
+     0.021213203435596427
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "modal_verdict": "no bubble",
+   "verdict_matches": false,
+   "alpha_hat_median_ci": [
+    0.9334430512357588,
+    0.8141172355768339,
+    1.0326605775003062
+   ],
+   "m_hat_median_ci": [
+    0.8668861024715175,
+    0.6282344711536678,
+    1.0653211550006125
+   ],
+   "alpha_hat_iqr": [
+    0.5700052019400981,
+    1.5133745386711697
+   ],
+   "stopped_at_step_iii": 0,
+   "method1_strict": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     1.0,
+     0.0
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "method1_band": {
+    "bubble": [
+     0.19,
+     0.027739863013360393
+    ],
+    "no bubble": [
+     0.07,
+     0.01804161855266872
+    ],
+    "inconclusive": [
+     0.74,
+     0.031016124838541645
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "gcj_alpha_f1_median_ci": [
+    1.0013857296557582,
+    0.9995107419367671,
+    1.0018705288420382
+   ],
+   "gcj_alpha_f2_median_ci": [
+    1.0022641853661027,
+    0.9999562808397208,
+    1.0035200037742482
+   ],
+   "relerr_jkp_median": 0.006035449040712959,
+   "relerr_fz_median": 0.006053558383215807,
+   "fz_coverage_mean": 0.7381818181818182,
+   "grid_points_median": 11.0,
+   "absorbed": 0,
+   "tikhonov_used": 21,
+   "range_median": [
+    60.229504108206825,
+    137.09656320746365
+   ]
+  },
+  "C5": {
+   "mirrors": "Geocities",
+   "true_alpha": 0.0,
+   "c": 30.0,
+   "paper_verdict": "no bubble",
+   "method2": {
+    "bubble": [
+     0.265,
+     0.031206970375222264
+    ],
+    "no bubble": [
+     0.705,
+     0.03224709289222828
+    ],
+    "inconclusive": [
+     0.03,
+     0.012062338081814818
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "modal_verdict": "no bubble",
+   "verdict_matches": true,
+   "alpha_hat_median_ci": [
+    1.0658354161503172,
+    0.7289395616652956,
+    1.578720028240864
+   ],
+   "m_hat_median_ci": [
+    1.1316708323006344,
+    0.4578791233305913,
+    2.157440056481728
+   ],
+   "alpha_hat_iqr": [
+    0.5,
+    2.570220774762524
+   ],
+   "stopped_at_step_iii": 91,
+   "method1_strict": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.0,
+     0.0
+    ],
+    "inconclusive": [
+     1.0,
+     0.0
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "method1_band": {
+    "bubble": [
+     0.0,
+     0.0
+    ],
+    "no bubble": [
+     0.855,
+     0.02489728900904675
+    ],
+    "inconclusive": [
+     0.145,
+     0.02489728900904675
+    ],
+    "failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "gcj_alpha_f1_median_ci": [
+    -0.0009303976009650973,
+    -0.004137006836954577,
+    0.0014347178433667329
+   ],
+   "gcj_alpha_f2_median_ci": [
+    -0.0009291563066076265,
+    -0.004147636882441732,
+    0.001433954119127726
+   ],
+   "relerr_jkp_median": 0.005988655847157687,
+   "relerr_fz_median": 0.003487418780886875,
+   "fz_coverage_mean": 0.9563636363636363,
+   "grid_points_median": 11.0,
+   "absorbed": 0,
+   "tikhonov_used": 0,
+   "range_median": [
+    78.25986880375274,
+    118.98427550033605
+   ]
+  }
+ },
+ "hypothesis_holds": false
+}

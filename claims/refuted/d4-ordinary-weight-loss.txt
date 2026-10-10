@@ -1,0 +1,42 @@
+# Theorem C's ordinary-weight strict-supermartingale assertion fails
+
+This is the discarded charter assertion, not a numbered claim. The corrected
+statement and its new source input await review; nothing here is formalized.
+
+Target in PROPOSAL Section 3, Theorem C(3): a bubbly constituent's ordinary
+cap weight μ_i is a strict supermartingale under the index share probability,
+with deficit equal to its bubble share.
+
+Obstruction: a finite family of nonnegative supermartingales summing to one
+under one probability must all be martingales. For s≤t, each conditional
+loss μ_i(s)−E[μ_i(t)|F_s] is nonnegative and their sum is zero, so each is
+zero. Thus ordinary weights cannot all have the proposed strict losses.
+
+Concrete proportional-name counterexample: take a strictly positive strict
+local Q-martingale S starting at one, set S_1=S_2=S and n_1=n_2=1. Then
+I=2S and the two ordinary weights equal 1/2. Continue them as 1/2 on any
+added explosion paths. Under every probability measure their deficits are
+zero, while n_iβ_i(T)/I₀=(1−E_Q[S_T])/2>0 at any strict horizon. A supplied
+diffusion dS=S²dW gives such a positive strict model conditional on audited
+AX-02 and AX-03: its lower integral ∫₀¹ x^(−3)dx diverges, excluding zero,
+and its upper integral ∫₁∞ x^(−3)dx is finite. This is a conditional
+counterexample, not a construction of the diffusion or an experiment.
+
+Strongest corrected route: terminal density measures satisfy the exact
+finite-measure mixture q_(I,t)=Σ_i ω_i q_(i,t). Their mass is below one
+when the index is strict, so the density is not itself a probability.
+Given the survival identity of [kardaras2015strict] Theorem 2.12 (registered
+as AX-17, source audit pending), set every basket weight to zero at and after
+the index lifetime. These killed weights sum to 1_{t<τ^I}. The proposed
+identity becomes E_(Q̃_I)[μ_i†(t)]=n_i E_Q[S_(i,t)]/I₀, with loss exactly
+n_iβ_i(t)/I₀. Their supermartingale inequality can be checked against
+F_s events using the survival identity and the Q-supermartingale property.
+This does not license a global mixture of arbitrary constituent extensions,
+a claim about ordinary weights after explosion, or use of a completed
+filtration in place of the source's raw standard system.
+
+The associated hazard statement also needs correction. If surviving masses
+are positive and absolutely continuous, p_I=Σ_i ω_i p_i implies
+h_I=Σ_i (ω_i p_i/p_I)h_i almost everywhere. Initial weights mix surviving
+masses, not instantaneous hazards. The corrected D4 claim must state this
+regularity assumption instead of asserting a hazard exists automatically.

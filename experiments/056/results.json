@@ -1,0 +1,6006 @@
+{
+ "wall_h": 0.8000947264167998,
+ "code": "730e6046604c61389b98795ba7ae69562d23e1ff",
+ "uv_lock": "d2ead2c1fddd8b1ce4fe69ac8356c56d3936ef3d1d0f138a3647485cab6fd000",
+ "launch_counts": {
+  "universe": 191140,
+  "episode": 6785,
+  "w051": 9955
+ },
+ "universe_status": {
+  "incomplete_prior": 37424,
+  "ok": 153705,
+  "unsupported_suffix": 11
+ },
+ "calibration": {
+  "months": 380,
+  "months_with_full_499": 359,
+  "months_infinite": 12,
+  "first_month_with_refs": "1995-03-01",
+  "first_month_full": "1995-12-01",
+  "by_year": {
+   "1994": {
+    "batch": null,
+    "monitor": null,
+    "gsadf": null,
+    "n_median": 0.0
+   },
+   "1995": {
+    "batch": 0.8963384949519961,
+    "monitor": 0.922956645488739,
+    "gsadf": 2.7100801933739134,
+    "n_median": 266.5
+   },
+   "1996": {
+    "batch": 0.9405373698694888,
+    "monitor": 0.9480118155479431,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "1997": {
+    "batch": 0.9411316087183748,
+    "monitor": 0.945364773273468,
+    "gsadf": 2.986596928720745,
+    "n_median": 499.0
+   },
+   "1998": {
+    "batch": 0.9537847935681535,
+    "monitor": 0.956400603055954,
+    "gsadf": 3.01506830534814,
+    "n_median": 499.0
+   },
+   "1999": {
+    "batch": 0.956640933443988,
+    "monitor": 0.9564658403396606,
+    "gsadf": 3.01506830534814,
+    "n_median": 499.0
+   },
+   "2000": {
+    "batch": 0.9597286785992188,
+    "monitor": 0.9598804116249084,
+    "gsadf": 3.0795717520822703,
+    "n_median": 499.0
+   },
+   "2001": {
+    "batch": 0.9621771072540198,
+    "monitor": 0.9633013606071472,
+    "gsadf": 3.1440751988164006,
+    "n_median": 499.0
+   },
+   "2002": {
+    "batch": 0.9621771072540198,
+    "monitor": 0.9633013606071472,
+    "gsadf": 3.1440751988164006,
+    "n_median": 499.0
+   },
+   "2003": {
+    "batch": 0.9597286785992188,
+    "monitor": 0.9598804116249084,
+    "gsadf": 3.2527626241341463,
+    "n_median": 499.0
+   },
+   "2004": {
+    "batch": 0.9597286785992188,
+    "monitor": 0.9598804116249084,
+    "gsadf": 3.2527626241341463,
+    "n_median": 499.0
+   },
+   "2005": {
+    "batch": 0.9578000802714663,
+    "monitor": 0.9611038863658905,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2006": {
+    "batch": 0.9619395451644663,
+    "monitor": 0.9633013606071472,
+    "gsadf": 2.9716696686316517,
+    "n_median": 499.0
+   },
+   "2007": {
+    "batch": 0.9597286785992188,
+    "monitor": 0.9607338905334473,
+    "gsadf": 2.9298285435502187,
+    "n_median": 499.0
+   },
+   "2008": {
+    "batch": 0.9608585214017247,
+    "monitor": 0.9614738821983337,
+    "gsadf": 2.8844110240574663,
+    "n_median": 499.0
+   },
+   "2009": {
+    "batch": 0.9608585214017247,
+    "monitor": 0.9614738821983337,
+    "gsadf": 2.8844110240574663,
+    "n_median": 499.0
+   },
+   "2010": {
+    "batch": 0.9608585214017247,
+    "monitor": 0.9614738821983337,
+    "gsadf": 2.8844110240574663,
+    "n_median": 499.0
+   },
+   "2011": {
+    "batch": 0.960835688501312,
+    "monitor": 0.9607338905334473,
+    "gsadf": 2.8892848715388086,
+    "n_median": 499.0
+   },
+   "2012": {
+    "batch": 0.9593690761356087,
+    "monitor": 0.9598804116249084,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2013": {
+    "batch": 0.9595488773674138,
+    "monitor": 0.9603071510791779,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2014": {
+    "batch": 0.9583352584829407,
+    "monitor": 0.9607338905334473,
+    "gsadf": 2.8892848715388086,
+    "n_median": 499.0
+   },
+   "2015": {
+    "batch": 0.9580676693772034,
+    "monitor": 0.9611038863658905,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2016": {
+    "batch": 0.9570840854959509,
+    "monitor": 0.9520847201347351,
+    "gsadf": 2.9452975155032908,
+    "n_median": 499.0
+   },
+   "2017": {
+    "batch": 0.9570840854959509,
+    "monitor": 0.9520847201347351,
+    "gsadf": 2.9452975155032908,
+    "n_median": 499.0
+   },
+   "2018": {
+    "batch": 0.9550896743298883,
+    "monitor": 0.9492421448230743,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2019": {
+    "batch": 0.9558447901178521,
+    "monitor": 0.9517512917518616,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2020": {
+    "batch": 0.9554672322238702,
+    "monitor": 0.9507165551185608,
+    "gsadf": 2.9452975155032988,
+    "n_median": 499.0
+   },
+   "2021": {
+    "batch": 0.9550896743298883,
+    "monitor": 0.94968181848526,
+    "gsadf": 3.013168035321378,
+    "n_median": 499.0
+   },
+   "2022": {
+    "batch": 0.9550896743298883,
+    "monitor": 0.94968181848526,
+    "gsadf": 2.966946844866596,
+    "n_median": 499.0
+   },
+   "2023": {
+    "batch": 0.9550896743298883,
+    "monitor": 0.94968181848526,
+    "gsadf": 2.966946844866596,
+    "n_median": 499.0
+   },
+   "2024": {
+    "batch": 0.9550896743298883,
+    "monitor": 0.94968181848526,
+    "gsadf": 2.966946844866596,
+    "n_median": 499.0
+   },
+   "2025": {
+    "batch": 0.9500114624413204,
+    "monitor": 0.94968181848526,
+    "gsadf": 2.966946844866596,
+    "n_median": 499.0
+   }
+  }
+ },
+ "universe_calibrated_months": {
+  "all": {
+   "n": 150519,
+   "batch": 0.02913253476305317,
+   "monitor": 0.030494489067825325,
+   "gsadf": 0.0686225659219102
+  },
+  "calm": {
+   "n": 50298,
+   "batch": 0.03894787069068353,
+   "monitor": 0.039584078889816694,
+   "gsadf": 0.04882897928347051
+  },
+  "other": {
+   "n": 100221,
+   "batch": 0.024206503626984364,
+   "monitor": 0.02593268875784516,
+   "gsadf": 0.07855639037726624
+  },
+  "first_month": "1995-03-01"
+ },
+ "universe": {
+  "all": {
+   "n": 153716,
+   "batch": 0.028526633531968045,
+   "monitor": 0.029860261781467123,
+   "gsadf": 0.06719534726378516
+  },
+  "calm": {
+   "n": 51533,
+   "batch": 0.038014476160906606,
+   "monitor": 0.038635437486659034,
+   "gsadf": 0.04765878175149904
+  },
+  "other": {
+   "n": 102183,
+   "batch": 0.02374171828973508,
+   "monitor": 0.025434759206521634,
+   "gsadf": 0.07704804125930928
+  },
+  "periods": {
+   "1994-99": {
+    "all": {
+     "n": 20760,
+     "batch": 0.06339113680154143,
+     "monitor": 0.060549132947976876,
+     "gsadf": 0.08169556840077072
+    },
+    "calm": {
+     "n": 6121,
+     "batch": 0.08871099493546807,
+     "monitor": 0.08103251102760987,
+     "gsadf": 0.06404182323149812
+    },
+    "other": {
+     "n": 14639,
+     "batch": 0.0528041532891591,
+     "monitor": 0.051984425165653395,
+     "gsadf": 0.08907712275428649
+    }
+   },
+   "2000-02": {
+    "all": {
+     "n": 12516,
+     "batch": 0.01757750079897731,
+     "monitor": 0.01821668264621285,
+     "gsadf": 0.07110898050495366
+    },
+    "calm": {
+     "n": 238,
+     "batch": 0.0,
+     "monitor": 0.0,
+     "gsadf": 0.08823529411764706
+    },
+    "other": {
+     "n": 12278,
+     "batch": 0.017918227724385078,
+     "monitor": 0.018569799641635444,
+     "gsadf": 0.07077699951132106
+    }
+   },
+   "2003-07": {
+    "all": {
+     "n": 22737,
+     "batch": 0.043057571359458154,
+     "monitor": 0.040506663148172584,
+     "gsadf": 0.045124686634120593
+    },
+    "calm": {
+     "n": 11161,
+     "batch": 0.04945793387689275,
+     "monitor": 0.04596362333124272,
+     "gsadf": 0.03359913986201953
+    },
+    "other": {
+     "n": 11576,
+     "batch": 0.03688666205943331,
+     "monitor": 0.035245335176226675,
+     "gsadf": 0.05623704215618521
+    }
+   },
+   "2008-09": {
+    "all": {
+     "n": 9754,
+     "batch": 0.008509329505843757,
+     "monitor": 0.010764814435103548,
+     "gsadf": 0.05864260816075456
+    },
+    "calm": {
+     "n": 408,
+     "batch": 0.0024509803921568627,
+     "monitor": 0.007352941176470588,
+     "gsadf": 0.0392156862745098
+    },
+    "other": {
+     "n": 9346,
+     "batch": 0.008773806976246523,
+     "monitor": 0.01091375989728226,
+     "gsadf": 0.05949069120479349
+    }
+   },
+   "2010-19": {
+    "all": {
+     "n": 53715,
+     "batch": 0.02014334915759099,
+     "monitor": 0.023103416177976357,
+     "gsadf": 0.061938006143535326
+    },
+    "calm": {
+     "n": 24768,
+     "batch": 0.02769702842377261,
+     "monitor": 0.030563630490956072,
+     "gsadf": 0.05224483204134367
+    },
+    "other": {
+     "n": 28947,
+     "batch": 0.013680174111306872,
+     "monitor": 0.016720212802708398,
+     "gsadf": 0.07023180295021937
+    }
+   },
+   "2020-21": {
+    "all": {
+     "n": 11560,
+     "batch": 0.014186851211072665,
+     "monitor": 0.019290657439446367,
+     "gsadf": 0.14731833910034603
+    },
+    "calm": {
+     "n": 3359,
+     "batch": 0.01518309020541828,
+     "monitor": 0.019053289669544508,
+     "gsadf": 0.05269425424233403
+    },
+    "other": {
+     "n": 8201,
+     "batch": 0.013778807462504573,
+     "monitor": 0.019387879526886965,
+     "gsadf": 0.1860748689184246
+    }
+   },
+   "2022-26": {
+    "all": {
+     "n": 22674,
+     "batch": 0.02385992767045956,
+     "monitor": 0.02712357766604922,
+     "gsadf": 0.04917526682543883
+    },
+    "calm": {
+     "n": 5478,
+     "batch": 0.023001095290251915,
+     "monitor": 0.028842643300474625,
+     "gsadf": 0.0330412559328222
+    },
+    "other": {
+     "n": 17196,
+     "batch": 0.024133519423121655,
+     "monitor": 0.02657594789485927,
+     "gsadf": 0.05431495696673645
+    }
+   }
+  },
+  "by_year": {
+   "1994": {
+    "n": 2652,
+    "batch": 0.0,
+    "monitor": 0.0,
+    "gsadf": 0.0
+   },
+   "1995": {
+    "n": 3337,
+    "batch": 0.0934971531315553,
+    "monitor": 0.08990110878034162,
+    "gsadf": 0.08390770152831885
+   },
+   "1996": {
+    "n": 3479,
+    "batch": 0.05202644438056913,
+    "monitor": 0.04886461626904283,
+    "gsadf": 0.08508192009198046
+   },
+   "1997": {
+    "n": 3637,
+    "batch": 0.10475666758317294,
+    "monitor": 0.0956832554302997,
+    "gsadf": 0.10228210063238934
+   },
+   "1998": {
+    "n": 3737,
+    "batch": 0.06127910088306128,
+    "monitor": 0.06341985549906343,
+    "gsadf": 0.08375702435108376
+   },
+   "1999": {
+    "n": 3918,
+    "batch": 0.05436447166921899,
+    "monitor": 0.0515569167942828,
+    "gsadf": 0.1110260336906585
+   },
+   "2000": {
+    "n": 4026,
+    "batch": 0.03129657228017884,
+    "monitor": 0.03502235469448584,
+    "gsadf": 0.08991554893194237
+   },
+   "2001": {
+    "n": 4179,
+    "batch": 0.012682459918640823,
+    "monitor": 0.012203876525484566,
+    "gsadf": 0.05814788226848528
+   },
+   "2002": {
+    "n": 4311,
+    "batch": 0.00951055439573185,
+    "monitor": 0.008350730688935281,
+    "gsadf": 0.06610995128740431
+   },
+   "2003": {
+    "n": 4418,
+    "batch": 0.0726573110004527,
+    "monitor": 0.07129923042100499,
+    "gsadf": 0.036894522408329564
+   },
+   "2004": {
+    "n": 4464,
+    "batch": 0.037858422939068104,
+    "monitor": 0.035618279569892476,
+    "gsadf": 0.031586021505376344
+   },
+   "2005": {
+    "n": 4518,
+    "batch": 0.03297919433377601,
+    "monitor": 0.02633908809207614,
+    "gsadf": 0.0467020805666224
+   },
+   "2006": {
+    "n": 4617,
+    "batch": 0.019926359107645657,
+    "monitor": 0.017760450508988522,
+    "gsadf": 0.04158544509421702
+   },
+   "2007": {
+    "n": 4720,
+    "batch": 0.05254237288135593,
+    "monitor": 0.05211864406779661,
+    "gsadf": 0.06758474576271187
+   },
+   "2008": {
+    "n": 4819,
+    "batch": 0.001867607387424777,
+    "monitor": 0.007262917617763021,
+    "gsadf": 0.07221415231375804
+   },
+   "2009": {
+    "n": 4935,
+    "batch": 0.014994934143870315,
+    "monitor": 0.014184397163120567,
+    "gsadf": 0.04539007092198582
+   },
+   "2010": {
+    "n": 4964,
+    "batch": 0.011885576148267527,
+    "monitor": 0.011281224818694601,
+    "gsadf": 0.04069298952457696
+   },
+   "2011": {
+    "n": 5066,
+    "batch": 0.0031583103039873666,
+    "monitor": 0.006711409395973154,
+    "gsadf": 0.045400710619818395
+   },
+   "2012": {
+    "n": 5182,
+    "batch": 0.015245079120030876,
+    "monitor": 0.015438054805094558,
+    "gsadf": 0.037051331532226936
+   },
+   "2013": {
+    "n": 5256,
+    "batch": 0.02054794520547945,
+    "monitor": 0.02073820395738204,
+    "gsadf": 0.03976407914764079
+   },
+   "2014": {
+    "n": 5364,
+    "batch": 0.015473527218493661,
+    "monitor": 0.013795674869500374,
+    "gsadf": 0.0436241610738255
+   },
+   "2015": {
+    "n": 5447,
+    "batch": 0.008261428309161005,
+    "monitor": 0.009913713970993207,
+    "gsadf": 0.03212777675784836
+   },
+   "2016": {
+    "n": 5513,
+    "batch": 0.02122256484672592,
+    "monitor": 0.0246689642662797,
+    "gsadf": 0.045165971340467986
+   },
+   "2017": {
+    "n": 5586,
+    "batch": 0.05513784461152882,
+    "monitor": 0.06552094522019335,
+    "gsadf": 0.06784819190834228
+   },
+   "2018": {
+    "n": 5653,
+    "batch": 0.028303555634176542,
+    "monitor": 0.03520254732000708,
+    "gsadf": 0.052361577923226606
+   },
+   "2019": {
+    "n": 5684,
+    "batch": 0.018824771287825476,
+    "monitor": 0.023399014778325122,
+    "gsadf": 0.2042575650950035
+   },
+   "2020": {
+    "n": 5755,
+    "batch": 0.016507384882710686,
+    "monitor": 0.023631624674196352,
+    "gsadf": 0.25699391833188534
+   },
+   "2021": {
+    "n": 5805,
+    "batch": 0.011886304909560724,
+    "monitor": 0.014987080103359173,
+    "gsadf": 0.03858742463393626
+   },
+   "2022": {
+    "n": 5875,
+    "batch": 0.008680851063829787,
+    "monitor": 0.011574468085106383,
+    "gsadf": 0.02825531914893617
+   },
+   "2023": {
+    "n": 5903,
+    "batch": 0.015754700999491784,
+    "monitor": 0.018465187192952735,
+    "gsadf": 0.05116042690157547
+   },
+   "2024": {
+    "n": 5925,
+    "batch": 0.028354430379746835,
+    "monitor": 0.03729957805907173,
+    "gsadf": 0.05957805907172996
+   },
+   "2025": {
+    "n": 4971,
+    "batch": 0.04606718970026152,
+    "monitor": 0.043653188493260914,
+    "gsadf": 0.05914302957151479
+   }
+  },
+  "status_counts": {
+   "ok": 153705,
+   "fit_failure": 0,
+   "unsupported_suffix": 11
+  },
+  "beta_hat": {
+   "n": 153705,
+   "median": -0.7836831996391993,
+   "share_pos": 0.3369116164080544
+  },
+  "proxy_corr_median": -0.01606633738535563
+ },
+ "forward": {
+  "n": 150728,
+  "regressions": {
+   "mdd63|batch": {
+    "coef": [
+     0.009523392791021785
+    ],
+    "t_dk": [
+     2.669901095171521
+    ],
+    "n": 150728,
+    "oos_r2": 0.0004484517150443734,
+    "oos_se": 0.001077609942192986,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd63|monitor": {
+    "coef": [
+     0.011640735322718646
+    ],
+    "t_dk": [
+     3.4556430686093083
+    ],
+    "n": 150728,
+    "oos_r2": 0.0014480520850511658,
+    "oos_se": 0.0011530733127087737,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd63|gsadf": {
+    "coef": [
+     0.02722615700749769
+    ],
+    "t_dk": [
+     6.663417275000748
+    ],
+    "n": 150728,
+    "oos_r2": 0.009795711016240327,
+    "oos_se": 0.0018884216048204738,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd63|batch+monitor+gsadf": {
+    "coef": [
+     0.003443791374008118,
+     0.007032582065421792,
+     0.02609424295447739
+    ],
+    "t_dk": [
+     1.1739359160802594,
+     2.732869265782173,
+     6.608844633884424
+    ],
+    "n": 150728,
+    "oos_r2": 0.010173952200517977,
+    "oos_se": 0.0023246275044472024,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret63|batch": {
+    "coef": [
+     -0.0001835440505740545
+    ],
+    "t_dk": [
+     -0.05010989662101976
+    ],
+    "n": 150728,
+    "oos_r2": -8.04719157463385e-05,
+    "oos_se": 0.00010432087401295467,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret63|monitor": {
+    "coef": [
+     -0.001856796988089558
+    ],
+    "t_dk": [
+     -0.4545279041431912
+    ],
+    "n": 150728,
+    "oos_r2": -0.00018472063763241842,
+    "oos_se": 0.00020975407291508842,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret63|gsadf": {
+    "coef": [
+     0.008820333495946391
+    ],
+    "t_dk": [
+     2.0217981062498227
+    ],
+    "n": 150728,
+    "oos_r2": 0.000316045547137489,
+    "oos_se": 0.00021031192996842293,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret63|batch+monitor+gsadf": {
+    "coef": [
+     0.0004127802869835474,
+     -0.003078971429219008,
+     0.009122851350745932
+    ],
+    "t_dk": [
+     0.15004093584621267,
+     -0.908930821961761,
+     2.126352611927487
+    ],
+    "n": 150728,
+    "oos_r2": 0.00017035757667538398,
+    "oos_se": 0.00037768007690057144,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd126|batch": {
+    "coef": [
+     0.011979934795626208
+    ],
+    "t_dk": [
+     2.287716724764196
+    ],
+    "n": 150728,
+    "oos_r2": 0.0003104173504339114,
+    "oos_se": 0.0011244925007086813,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd126|monitor": {
+    "coef": [
+     0.016030860713417413
+    ],
+    "t_dk": [
+     3.382708811202874
+    ],
+    "n": 150728,
+    "oos_r2": 0.0016272495092047867,
+    "oos_se": 0.0012527609653889928,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd126|gsadf": {
+    "coef": [
+     0.03398703541673688
+    ],
+    "t_dk": [
+     6.64692731739262
+    ],
+    "n": 150728,
+    "oos_r2": 0.009280368229222846,
+    "oos_se": 0.00193586723837608,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "mdd126|batch+monitor+gsadf": {
+    "coef": [
+     0.0034559168704306363,
+     0.010707371023943871,
+     0.03244332180183254
+    ],
+    "t_dk": [
+     0.8014893885688791,
+     3.1005643918628354,
+     6.638302476020711
+    ],
+    "n": 150728,
+    "oos_r2": 0.009746317702321261,
+    "oos_se": 0.002275903448724541,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret126|batch": {
+    "coef": [
+     0.0021411633373882464
+    ],
+    "t_dk": [
+     0.3037819356103151
+    ],
+    "n": 150728,
+    "oos_r2": -0.00022736719522797877,
+    "oos_se": 0.00012707727125704795,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret126|monitor": {
+    "coef": [
+     -0.0015417929983387248
+    ],
+    "t_dk": [
+     -0.21323621433785
+    ],
+    "n": 150728,
+    "oos_r2": -0.00045450455108242416,
+    "oos_se": 0.00028822504492387606,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret126|gsadf": {
+    "coef": [
+     0.016019743856463542
+    ],
+    "t_dk": [
+     1.8615795576234342
+    ],
+    "n": 150728,
+    "oos_r2": 0.0003208697978868136,
+    "oos_se": 0.00016039524112939962,
+    "n_train": 63702,
+    "n_test": 74503
+   },
+   "ret126|batch+monitor+gsadf": {
+    "coef": [
+     0.0028443698695591463,
+     -0.004757148669817536,
+     0.016265339218658165
+    ],
+    "t_dk": [
+     0.5366283560033587,
+     -0.8632692400381309,
+     1.9302605480838553
+    ],
+    "n": 150728,
+    "oos_r2": -4.426583440575449e-05,
+    "oos_se": 0.0004006475074152061,
+    "n_train": 63702,
+    "n_test": 74503
+   }
+  }
+ },
+ "episodes": [
+  {
+   "set": "021",
+   "row": "E1",
+   "sign": "positive",
+   "name": "^IXIC",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 9,
+    "batch": 12
+   },
+   "peak": "2000-03-10",
+   "onset": "1995-01-03",
+   "monitor_first_alarm": "1995-08-02",
+   "gsadf_first_alarm": "1995-07-07",
+   "monitor_sessions_from_peak": -1163,
+   "gsadf_sessions_from_peak": -1181,
+   "monitor_sessions_from_onset": 147,
+   "gsadf_sessions_from_onset": 129
+  },
+  {
+   "set": "021",
+   "row": "E1",
+   "sign": "positive",
+   "name": "^NDX",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 7,
+    "batch": 9
+   },
+   "peak": "2000-03-27",
+   "onset": "1995-01-03",
+   "monitor_first_alarm": "1995-08-01",
+   "gsadf_first_alarm": "1995-07-13",
+   "monitor_sessions_from_peak": -1175,
+   "gsadf_sessions_from_peak": -1188,
+   "monitor_sessions_from_onset": 146,
+   "gsadf_sessions_from_onset": 133
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "CSCO",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2000-03-27",
+   "onset": "1995-01-30",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "MSFT",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 0,
+    "batch": 8
+   },
+   "peak": "1999-12-27",
+   "onset": "1995-01-30",
+   "monitor_first_alarm": "1995-07-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1121,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 118,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "ORCL",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 20,
+    "batch": 0
+   },
+   "peak": "2000-09-01",
+   "onset": "1995-01-30",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "1999-11-18",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -199,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": 1214
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "QCOM",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 52,
+    "batch": 10
+   },
+   "peak": "2000-01-03",
+   "onset": "1995-01-13",
+   "monitor_first_alarm": "1999-04-20",
+   "gsadf_first_alarm": "1997-01-21",
+   "monitor_sessions_from_peak": -179,
+   "gsadf_sessions_from_peak": -744,
+   "monitor_sessions_from_onset": 1076,
+   "gsadf_sessions_from_onset": 511
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "AMZN",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1997-05-15",
+   "launches_requested": 84,
+   "launches_scored": 43,
+   "status_counts": {
+    "incomplete_prior": 41,
+    "ok": 43
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 17,
+    "batch": 1
+   },
+   "peak": "1999-12-10",
+   "onset": "1997-05-22",
+   "monitor_first_alarm": "1999-01-22",
+   "gsadf_first_alarm": "1998-06-17",
+   "monitor_sessions_from_peak": -224,
+   "gsadf_sessions_from_peak": -375,
+   "monitor_sessions_from_onset": 420,
+   "gsadf_sessions_from_onset": 269
+  },
+  {
+   "set": "021",
+   "row": "E2",
+   "sign": "positive",
+   "name": "EBAY",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1998-09-24",
+   "launches_requested": 84,
+   "launches_scored": 27,
+   "status_counts": {
+    "incomplete_prior": 57,
+    "ok": 27
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2000-03-24",
+   "onset": "1998-10-08",
+   "monitor_first_alarm": "2002-05-15",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 535,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 903,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "DHI",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2005-07-20",
+   "onset": "2003-03-06",
+   "monitor_first_alarm": "2003-12-10",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -404,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 194,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "LEN",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2005-07-28",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": "2003-12-09",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -411,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 190,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "PHM",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 5,
+    "gsadf": 0,
+    "batch": 5
+   },
+   "peak": "2005-07-28",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": "2004-01-09",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -390,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 211,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "TOL",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 14,
+    "batch": 1
+   },
+   "peak": "2005-07-20",
+   "onset": "2003-03-10",
+   "monitor_first_alarm": "2004-01-21",
+   "gsadf_first_alarm": "2005-02-08",
+   "monitor_sessions_from_peak": -377,
+   "gsadf_sessions_from_peak": -112,
+   "monitor_sessions_from_onset": 219,
+   "gsadf_sessions_from_onset": 484
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "KBH",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2005-07-20",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E3",
+   "sign": "positive",
+   "name": "XHB",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "2006-02-06",
+   "launches_requested": 72,
+   "launches_scored": 22,
+   "status_counts": {
+    "incomplete_prior": 50,
+    "ok": 22
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2006-04-05",
+   "onset": "2006-03-09",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "C",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2006-12-27",
+   "onset": "2003-02-12",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "BAC",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2007-10-05",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": "2008-09-15",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 237,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1389,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "JPM",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2007-05-09",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": "2008-09-22",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 346,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1394,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "WFC",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2008-09-19",
+   "onset": "2003-03-12",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "AIG",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 21,
+    "batch": 0
+   },
+   "peak": "2004-04-12",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": "2008-11-20",
+   "gsadf_first_alarm": "2007-08-03",
+   "monitor_sessions_from_peak": 1163,
+   "gsadf_sessions_from_peak": 834,
+   "monitor_sessions_from_onset": 1437,
+   "gsadf_sessions_from_onset": 1108
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "GS",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1999-05-04",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2007-10-31",
+   "onset": "2003-03-12",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "MS",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-02-23",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2007-06-14",
+   "onset": "2003-03-12",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E4",
+   "sign": "positive",
+   "name": "FNMA",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 22,
+    "batch": 1
+   },
+   "peak": "2004-02-19",
+   "onset": "2003-03-10",
+   "monitor_first_alarm": "2008-10-27",
+   "gsadf_first_alarm": "2007-11-20",
+   "monitor_sessions_from_peak": 1181,
+   "gsadf_sessions_from_peak": 946,
+   "monitor_sessions_from_onset": 1420,
+   "gsadf_sessions_from_onset": 1185
+  },
+  {
+   "set": "021",
+   "row": "E5",
+   "sign": "positive",
+   "name": "GME",
+   "start": "2020-06-01",
+   "end": "2021-06-29",
+   "exclusion": null,
+   "first_close": "2002-02-13",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 13,
+    "batch": 7
+   },
+   "peak": "2021-01-27",
+   "onset": "2020-07-20",
+   "monitor_first_alarm": "2021-01-14",
+   "gsadf_first_alarm": "2020-09-01",
+   "monitor_sessions_from_peak": -8,
+   "gsadf_sessions_from_peak": -101,
+   "monitor_sessions_from_onset": 124,
+   "gsadf_sessions_from_onset": 31
+  },
+  {
+   "set": "021",
+   "row": "E5",
+   "sign": "positive",
+   "name": "AMC",
+   "start": "2020-06-01",
+   "end": "2021-06-29",
+   "exclusion": null,
+   "first_close": "2013-12-18",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 13,
+    "batch": 7
+   },
+   "peak": "2021-06-02",
+   "onset": "2021-01-05",
+   "monitor_first_alarm": "2021-01-27",
+   "gsadf_first_alarm": "2021-05-27",
+   "monitor_sessions_from_peak": -87,
+   "gsadf_sessions_from_peak": -3,
+   "monitor_sessions_from_onset": 15,
+   "gsadf_sessions_from_onset": 99
+  },
+  {
+   "set": "021",
+   "row": "E5",
+   "sign": "positive",
+   "name": "KOSS",
+   "start": "2020-06-01",
+   "end": "2021-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 11,
+    "gsadf": 13,
+    "batch": 11
+   },
+   "peak": "2021-01-29",
+   "onset": "2020-06-01",
+   "monitor_first_alarm": "2020-08-20",
+   "gsadf_first_alarm": "2021-01-26",
+   "monitor_sessions_from_peak": -111,
+   "gsadf_sessions_from_peak": -3,
+   "monitor_sessions_from_onset": 57,
+   "gsadf_sessions_from_onset": 165
+  },
+  {
+   "set": "021",
+   "row": "E5",
+   "sign": "positive",
+   "name": "BB",
+   "start": "2020-06-01",
+   "end": "2021-06-29",
+   "exclusion": null,
+   "first_close": "1999-02-04",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 13,
+    "batch": 8
+   },
+   "peak": "2021-01-27",
+   "onset": "2020-10-02",
+   "monitor_first_alarm": "2021-01-19",
+   "gsadf_first_alarm": "2020-06-01",
+   "monitor_sessions_from_peak": -6,
+   "gsadf_sessions_from_peak": -166,
+   "monitor_sessions_from_onset": 73,
+   "gsadf_sessions_from_onset": -87
+  },
+  {
+   "set": "021",
+   "row": "E6",
+   "sign": "positive",
+   "name": "000660.KS",
+   "start": "2023-01-01",
+   "end": "2026-10-05",
+   "exclusion": "non-US exchange calendar",
+   "first_close": "2002-12-27",
+   "launches_requested": 34,
+   "launches_scored": 0,
+   "status_counts": {
+    "unsupported_calendar": 34
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2026-06-22",
+   "onset": "2023-01-03",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E7",
+   "sign": "positive",
+   "name": "^N225",
+   "start": "1985-01-01",
+   "end": "1992-12-30",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": null,
+   "onset": null,
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E8",
+   "sign": "positive",
+   "name": "000001.SS",
+   "start": "2014-01-01",
+   "end": "2015-12-29",
+   "exclusion": "non-US exchange calendar",
+   "first_close": "1997-07-02",
+   "launches_requested": 24,
+   "launches_scored": 0,
+   "status_counts": {
+    "unsupported_calendar": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-06-12",
+   "onset": "2014-03-20",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "E9",
+   "sign": "positive",
+   "name": "ARKK",
+   "start": "2019-01-02",
+   "end": "2022-06-29",
+   "exclusion": null,
+   "first_close": "2014-10-31",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 2,
+    "batch": 7
+   },
+   "peak": "2021-02-12",
+   "onset": "2020-03-18",
+   "monitor_first_alarm": "2021-01-27",
+   "gsadf_first_alarm": "2021-01-08",
+   "monitor_sessions_from_peak": -12,
+   "gsadf_sessions_from_peak": -24,
+   "monitor_sessions_from_onset": 217,
+   "gsadf_sessions_from_onset": 205
+  },
+  {
+   "set": "021",
+   "row": "E9",
+   "sign": "positive",
+   "name": "TSLA",
+   "start": "2019-01-02",
+   "end": "2022-06-29",
+   "exclusion": null,
+   "first_close": "2010-06-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 11,
+    "gsadf": 41,
+    "batch": 11
+   },
+   "peak": "2021-11-04",
+   "onset": "2019-06-03",
+   "monitor_first_alarm": "2020-02-05",
+   "gsadf_first_alarm": "2020-01-13",
+   "monitor_sessions_from_peak": -442,
+   "gsadf_sessions_from_peak": -458,
+   "monitor_sessions_from_onset": 171,
+   "gsadf_sessions_from_onset": 155
+  },
+  {
+   "set": "021",
+   "row": "E9",
+   "sign": "positive",
+   "name": "ZM",
+   "start": "2019-01-02",
+   "end": "2022-06-29",
+   "exclusion": null,
+   "first_close": "2019-04-18",
+   "launches_requested": 42,
+   "launches_scored": 26,
+   "status_counts": {
+    "incomplete_prior": 16,
+    "ok": 26
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 15,
+    "batch": 0
+   },
+   "peak": "2020-10-19",
+   "onset": "2019-04-18",
+   "monitor_first_alarm": "2021-10-28",
+   "gsadf_first_alarm": "2020-05-01",
+   "monitor_sessions_from_peak": 259,
+   "gsadf_sessions_from_peak": -118,
+   "monitor_sessions_from_onset": 638,
+   "gsadf_sessions_from_onset": 261
+  },
+  {
+   "set": "021",
+   "row": "E9",
+   "sign": "positive",
+   "name": "PTON",
+   "start": "2019-01-02",
+   "end": "2022-06-29",
+   "exclusion": null,
+   "first_close": "2019-09-26",
+   "launches_requested": 42,
+   "launches_scored": 21,
+   "status_counts": {
+    "incomplete_prior": 21,
+    "ok": 21
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 4,
+    "batch": 0
+   },
+   "peak": "2021-01-13",
+   "onset": "2020-03-12",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2020-10-12",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -64,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": 148
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 0,
+    "batch": 6
+   },
+   "peak": "2018-01-26",
+   "onset": "2011-10-03",
+   "monitor_first_alarm": "2018-02-27",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 21,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1610,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 15,
+    "batch": 7
+   },
+   "peak": "2018-01-26",
+   "onset": "2011-10-03",
+   "monitor_first_alarm": "2018-02-21",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": 17,
+   "gsadf_sessions_from_peak": -7,
+   "monitor_sessions_from_onset": 1606,
+   "gsadf_sessions_from_onset": 1582
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2018-01-26",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "MDLZ",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "2001-06-13",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 9
+   },
+   "peak": "2017-06-02",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": "2013-03-26",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1055,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 407,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "T",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-03-17",
+   "onset": "2011-09-09",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 12
+   },
+   "peak": "2018-01-22",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": "2013-05-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1171,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 451,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N84m-1",
+   "sign": "negative",
+   "name": "IBM",
+   "start": "2011-07-01",
+   "end": "2018-06-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 6,
+    "gsadf": 0,
+    "batch": 5
+   },
+   "peak": "2013-03-14",
+   "onset": "2011-08-19",
+   "monitor_first_alarm": "2018-03-23",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 1266,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1658,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-06-19",
+   "onset": "2011-10-03",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 5,
+    "batch": 1
+   },
+   "peak": "2017-06-19",
+   "onset": "2011-10-03",
+   "monitor_first_alarm": "2018-04-10",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": 203,
+   "gsadf_sessions_from_peak": 146,
+   "monitor_sessions_from_onset": 1639,
+   "gsadf_sessions_from_onset": 1582
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-06-05",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "MDLZ",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "2001-06-13",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 9
+   },
+   "peak": "2017-06-02",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": "2013-03-26",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1055,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 407,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "T",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-03-17",
+   "onset": "2011-09-09",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 12
+   },
+   "peak": "2017-06-23",
+   "onset": "2011-08-10",
+   "monitor_first_alarm": "2013-05-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1026,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 451,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N72m-1",
+   "sign": "negative",
+   "name": "IBM",
+   "start": "2011-07-01",
+   "end": "2017-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2013-03-14",
+   "onset": "2011-08-19",
+   "monitor_first_alarm": "2018-04-18",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 1283,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1675,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 4,
+    "gsadf": 0,
+    "batch": 3
+   },
+   "peak": "2018-09-20",
+   "onset": "2017-10-02",
+   "monitor_first_alarm": "2018-02-27",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -143,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 101,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 3,
+    "gsadf": 7,
+    "batch": 3
+   },
+   "peak": "2018-10-03",
+   "onset": "2017-10-02",
+   "monitor_first_alarm": "2018-02-21",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": -156,
+   "gsadf_sessions_from_peak": -180,
+   "monitor_sessions_from_onset": 97,
+   "gsadf_sessions_from_onset": 73
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2018-10-31",
+   "onset": "2018-05-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "MMM",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2018-01-26",
+   "onset": "2017-10-02",
+   "monitor_first_alarm": "2018-02-08",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 9,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 89,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 5,
+    "batch": 0
+   },
+   "peak": "2018-10-30",
+   "onset": "2018-03-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2017-10-02",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -272,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": -104
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2018-01-22",
+   "onset": "2017-10-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-1",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2017-10-02",
+   "end": "2018-11-01",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 14,
+   "launches_scored": 14,
+   "status_counts": {
+    "ok": 14
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2018-11-01",
+   "onset": "2018-05-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-02",
+   "onset": "1993-11-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-01-31",
+   "onset": "1993-10-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "GE",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-03",
+   "onset": "1993-11-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "XOM",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-16",
+   "onset": "1993-11-26",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "CVX",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-10-01",
+   "onset": "1993-10-01",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "MMM",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-09-19",
+   "onset": "1994-04-22",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-2",
+   "sign": "negative",
+   "name": "CAT",
+   "start": "1993-10-01",
+   "end": "1994-10-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 8,
+   "launches_scored": 8,
+   "status_counts": {
+    "ok": 8
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-03-23",
+   "onset": "1993-10-01",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-05-21",
+   "onset": "2014-10-15",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-05-19",
+   "onset": "2014-10-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-07-31",
+   "onset": "2014-12-15",
+   "monitor_first_alarm": "2015-10-23",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 59,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 216,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2014-12-08",
+   "onset": "2014-10-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2015-01-08",
+   "onset": "2014-08-05",
+   "monitor_first_alarm": "2015-05-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 90,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 198,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2014-12-26",
+   "onset": "2014-07-31",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N13m-3",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2014-07-01",
+   "end": "2015-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 13,
+   "launches_scored": 13,
+   "status_counts": {
+    "ok": 13
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2014-11-28",
+   "onset": "2014-08-05",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 0,
+    "batch": 6
+   },
+   "peak": "2018-01-26",
+   "onset": "2016-02-11",
+   "monitor_first_alarm": "2018-02-27",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 21,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 514,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 14,
+    "batch": 7
+   },
+   "peak": "2018-01-26",
+   "onset": "2016-02-11",
+   "monitor_first_alarm": "2018-02-21",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": 17,
+   "gsadf_sessions_from_peak": -7,
+   "monitor_sessions_from_onset": 510,
+   "gsadf_sessions_from_onset": 486
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 22,
+    "batch": 0
+   },
+   "peak": "2018-01-26",
+   "onset": "2014-12-15",
+   "monitor_first_alarm": "2015-10-23",
+   "gsadf_first_alarm": "2017-04-25",
+   "monitor_sessions_from_peak": -568,
+   "gsadf_sessions_from_peak": -191,
+   "monitor_sessions_from_onset": 216,
+   "gsadf_sessions_from_onset": 593
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2018-01-22",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2018-01-29",
+   "onset": "2015-11-13",
+   "monitor_first_alarm": "2015-05-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -679,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": -125,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-09-20",
+   "onset": "2015-09-14",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2014-07-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2018-01-26",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-08-31",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "MRK",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-02-11",
+   "onset": "1993-02-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "XOM",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-04-16",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "MMM",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-06-07",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "GE",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-07-16",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-2",
+   "sign": "negative",
+   "name": "KO",
+   "start": "1990-01-02",
+   "end": "1993-10-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-09-13",
+   "onset": "1993-04-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-12-31",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-12-31",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 11
+   },
+   "peak": "2013-11-25",
+   "onset": "2010-07-22",
+   "monitor_first_alarm": "2013-05-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -126,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 717,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "IBM",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-03-14",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-04-12",
+   "onset": "2010-05-26",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-11-25",
+   "onset": "2010-07-06",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N45m-3",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2010-04-01",
+   "end": "2013-12-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 45,
+   "launches_scored": 45,
+   "status_counts": {
+    "ok": 45
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-12-03",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 0,
+    "batch": 6
+   },
+   "peak": "2018-01-26",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": "2018-02-27",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 21,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1926,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 14,
+    "batch": 7
+   },
+   "peak": "2018-01-26",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": "2018-02-21",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": 17,
+   "gsadf_sessions_from_peak": -7,
+   "monitor_sessions_from_onset": 1922,
+   "gsadf_sessions_from_onset": 1898
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 12
+   },
+   "peak": "2018-01-22",
+   "onset": "2010-07-22",
+   "monitor_first_alarm": "2013-05-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -1171,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 717,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "IBM",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 6,
+    "gsadf": 0,
+    "batch": 5
+   },
+   "peak": "2013-03-14",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": "2018-03-23",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 1266,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1944,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 22,
+    "batch": 0
+   },
+   "peak": "2018-01-26",
+   "onset": "2010-05-26",
+   "monitor_first_alarm": "2015-10-23",
+   "gsadf_first_alarm": "2017-04-25",
+   "monitor_sessions_from_peak": -568,
+   "gsadf_sessions_from_peak": -191,
+   "monitor_sessions_from_onset": 1363,
+   "gsadf_sessions_from_onset": 1740
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-09-20",
+   "onset": "2010-07-06",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N96m-1",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2010-04-01",
+   "end": "2018-03-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 96,
+   "launches_scored": 96,
+   "status_counts": {
+    "ok": 96
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2018-01-29",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": "2015-05-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -679,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 1227,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-05-21",
+   "onset": "2014-10-15",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2015-05-19",
+   "onset": "2014-10-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 2,
+    "batch": 0
+   },
+   "peak": "2016-05-10",
+   "onset": "2014-12-15",
+   "monitor_first_alarm": "2015-10-23",
+   "gsadf_first_alarm": "2017-04-25",
+   "monitor_sessions_from_peak": -136,
+   "gsadf_sessions_from_peak": 241,
+   "monitor_sessions_from_onset": 216,
+   "gsadf_sessions_from_onset": 593
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2016-06-30",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2015-01-08",
+   "onset": "2014-08-05",
+   "monitor_first_alarm": "2015-05-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 90,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 198,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2014-12-26",
+   "onset": "2014-07-31",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2014-07-01",
+   "end": "2016-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 24,
+   "launches_scored": 24,
+   "status_counts": {
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2016-04-04",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-02",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-01-31",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "MMM",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-09-19",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "XOM",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-16",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "MO",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-02-01",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "GE",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-02-03",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-2",
+   "sign": "negative",
+   "name": "PG",
+   "start": "1992-10-01",
+   "end": "1994-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 7,
+   "launches_scored": 7,
+   "status_counts": {
+    "ok": 7
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1994-08-31",
+   "onset": "1993-08-13",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2026-06-02",
+   "onset": "2025-04-08",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2026-06-30",
+   "onset": "2025-04-08",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "V",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "2008-03-19",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2025-06-11",
+   "onset": "2024-07-25",
+   "monitor_first_alarm": "2025-04-21",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -36,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 184,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2024-12-02",
+   "onset": "2024-07-31",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 5,
+    "gsadf": 0,
+    "batch": 3
+   },
+   "peak": "2026-05-19",
+   "onset": "2024-08-07",
+   "monitor_first_alarm": "2025-03-10",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -300,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 146,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2026-06-10",
+   "onset": "2025-01-06",
+   "monitor_first_alarm": "2025-05-12",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -271,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 86,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N24m-3",
+   "sign": "negative",
+   "name": "TRV",
+   "start": "2024-07-01",
+   "end": "2026-06-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 16,
+   "launches_scored": 16,
+   "status_counts": {
+    "ok": 16
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2026-06-29",
+   "onset": "2024-07-05",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 6,
+    "gsadf": 0,
+    "batch": 6
+   },
+   "peak": "2017-12-18",
+   "onset": "2016-02-11",
+   "monitor_first_alarm": "2018-02-27",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 47,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 514,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 7,
+    "gsadf": 11,
+    "batch": 7
+   },
+   "peak": "2017-12-28",
+   "onset": "2016-02-11",
+   "monitor_first_alarm": "2018-02-21",
+   "gsadf_first_alarm": "2018-01-17",
+   "monitor_sessions_from_peak": 36,
+   "gsadf_sessions_from_peak": 12,
+   "monitor_sessions_from_onset": 510,
+   "gsadf_sessions_from_onset": 486
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 20,
+    "batch": 0
+   },
+   "peak": "2017-12-18",
+   "onset": "2014-12-15",
+   "monitor_first_alarm": "2015-10-23",
+   "gsadf_first_alarm": "2017-04-25",
+   "monitor_sessions_from_peak": -542,
+   "gsadf_sessions_from_peak": -165,
+   "monitor_sessions_from_onset": 216,
+   "gsadf_sessions_from_onset": 593
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 1
+   },
+   "peak": "2017-12-13",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2017-12-28",
+   "onset": "2015-11-13",
+   "monitor_first_alarm": "2015-05-19",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -659,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": -125,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-09-20",
+   "onset": "2015-09-14",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-1",
+   "sign": "negative",
+   "name": "KO",
+   "start": "2014-07-01",
+   "end": "2017-12-29",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2017-11-14",
+   "onset": "2015-08-25",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-03-10",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "MRK",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-02-11",
+   "onset": "1993-02-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "XOM",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-04-16",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "MMM",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-06-07",
+   "onset": "1993-01-29",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "GE",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-06-23",
+   "onset": "1993-02-18",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-2",
+   "sign": "negative",
+   "name": "KO",
+   "start": "1990-01-02",
+   "end": "1993-07-01",
+   "exclusion": "window ends before the first possible launch (SPY inception; first launch 1994-03)",
+   "first_close": "1993-01-29",
+   "launches_requested": 0,
+   "launches_scored": 0,
+   "status_counts": {},
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1993-03-08",
+   "onset": "1993-02-10",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "^GSPC",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-09-18",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "^DJI",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-09-18",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "JNJ",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 0,
+    "batch": 11
+   },
+   "peak": "2013-08-02",
+   "onset": "2010-07-22",
+   "monitor_first_alarm": "2013-05-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -46,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 717,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "IBM",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-03-14",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "MCD",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-04-12",
+   "onset": "2010-05-26",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "PG",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-08-08",
+   "onset": "2010-07-06",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "021",
+   "row": "N42m-3",
+   "sign": "negative",
+   "name": "WMT",
+   "start": "2010-04-01",
+   "end": "2013-09-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 42,
+   "launches_scored": 42,
+   "status_counts": {
+    "ok": 42
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2013-05-15",
+   "onset": "2010-07-02",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "InfoSpace",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1998-12-15",
+   "launches_requested": 84,
+   "launches_scored": 24,
+   "status_counts": {
+    "incomplete_prior": 60,
+    "ok": 24
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 10,
+    "batch": 0
+   },
+   "peak": "2000-03-02",
+   "onset": "1998-12-15",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2000-01-03",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -41,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": 264
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "CMGI",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1994-01-31",
+   "launches_requested": 84,
+   "launches_scored": 83,
+   "status_counts": {
+    "incomplete_prior": 1,
+    "ok": 83
+   },
+   "flags": {
+    "monitor": 23,
+    "gsadf": 61,
+    "batch": 22
+   },
+   "peak": "2000-01-03",
+   "onset": "1995-05-22",
+   "monitor_first_alarm": "1995-11-20",
+   "gsadf_first_alarm": "1995-11-17",
+   "monitor_sessions_from_peak": -1039,
+   "gsadf_sessions_from_peak": -1040,
+   "monitor_sessions_from_onset": 127,
+   "gsadf_sessions_from_onset": 126
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "Exodus",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": "no prices in the source (missing delisted prices)",
+   "first_close": null,
+   "launches_requested": 84,
+   "launches_scored": 0,
+   "status_counts": {
+    "no_series: empty": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": null,
+   "onset": null,
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "JDS Uniphase",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1993-11-17",
+   "launches_requested": 84,
+   "launches_scored": 84,
+   "status_counts": {
+    "ok": 84
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 22,
+    "batch": 7
+   },
+   "peak": "2000-03-06",
+   "onset": "1995-01-23",
+   "monitor_first_alarm": "1996-07-11",
+   "gsadf_first_alarm": "1999-10-29",
+   "monitor_sessions_from_peak": -921,
+   "gsadf_sessions_from_peak": -87,
+   "monitor_sessions_from_onset": 371,
+   "gsadf_sessions_from_onset": 1205
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "VA Linux",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": "no launch with 252 prior returns (series starts 1999-12-09)",
+   "first_close": "1999-12-09",
+   "launches_requested": 84,
+   "launches_scored": 0,
+   "status_counts": {
+    "incomplete_prior": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "1999-12-17",
+   "onset": "1999-12-14",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "theglobe.com",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": null,
+   "first_close": "1998-11-13",
+   "launches_requested": 84,
+   "launches_scored": 25,
+   "status_counts": {
+    "incomplete_prior": 59,
+    "ok": 25
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 3,
+    "batch": 0
+   },
+   "peak": "1999-04-09",
+   "onset": "1998-12-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2002-09-18",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": 865,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": 950
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class B",
+   "name": "Commerce One",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": "no launch with 252 prior returns (series starts 2001-04-11)",
+   "first_close": "2001-04-11",
+   "launches_requested": 84,
+   "launches_scored": 0,
+   "status_counts": {
+    "incomplete_prior": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2001-04-19",
+   "onset": "2001-04-16",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E2-C",
+   "sign": "class C",
+   "name": "Global Crossing",
+   "start": "1995-01-03",
+   "end": "2001-12-28",
+   "exclusion": "no prices in the source (missing delisted prices)",
+   "first_close": null,
+   "launches_requested": 84,
+   "launches_scored": 0,
+   "status_counts": {
+    "no_series: empty": 84
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": null,
+   "onset": null,
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E4-C",
+   "sign": "class C",
+   "name": "Lehman",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "2000-02-01",
+   "launches_requested": 72,
+   "launches_scored": 70,
+   "status_counts": {
+    "incomplete_prior": 2,
+    "ok": 70
+   },
+   "flags": {
+    "monitor": 6,
+    "gsadf": 0,
+    "batch": 8
+   },
+   "peak": "2007-02-02",
+   "onset": "2003-02-12",
+   "monitor_first_alarm": "2006-08-29",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -107,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 893,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E4-C",
+   "sign": "class C",
+   "name": "Wachovia",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 70,
+   "status_counts": {
+    "incomplete_prior": 2,
+    "ok": 59,
+    "unsupported_suffix": 11
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2006-04-28",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E4-C",
+   "sign": "class C",
+   "name": "Countrywide",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 67,
+   "status_counts": {
+    "incomplete_prior": 5,
+    "ok": 55,
+    "unsupported_suffix": 12
+   },
+   "flags": {
+    "monitor": 5,
+    "gsadf": 0,
+    "batch": 5
+   },
+   "peak": "2007-02-02",
+   "onset": "2003-03-12",
+   "monitor_first_alarm": "2003-10-10",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": -833,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 148,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E4-C",
+   "sign": "class C",
+   "name": "Merrill Lynch",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 70,
+   "status_counts": {
+    "incomplete_prior": 2,
+    "ok": 59,
+    "unsupported_suffix": 11
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2007-01-24",
+   "onset": "2003-03-11",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "031",
+   "row": "E4-C",
+   "sign": "class C",
+   "name": "Freddie Mac",
+   "start": "2003-01-02",
+   "end": "2008-12-30",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 72,
+   "launches_scored": 72,
+   "status_counts": {
+    "ok": 72
+   },
+   "flags": {
+    "monitor": 1,
+    "gsadf": 20,
+    "batch": 1
+   },
+   "peak": "2006-11-08",
+   "onset": "2003-06-12",
+   "monitor_first_alarm": "2008-11-05",
+   "gsadf_first_alarm": "2007-11-20",
+   "monitor_sessions_from_peak": 501,
+   "gsadf_sessions_from_peak": 259,
+   "monitor_sessions_from_onset": 1361,
+   "gsadf_sessions_from_onset": 1119
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "GME",
+   "start": "2023-06-01",
+   "end": "2024-05-31",
+   "exclusion": null,
+   "first_close": "2002-02-13",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 12,
+    "batch": 7
+   },
+   "peak": "2024-05-14",
+   "onset": "2024-04-22",
+   "monitor_first_alarm": "2024-05-14",
+   "gsadf_first_alarm": "2024-05-14",
+   "monitor_sessions_from_peak": 0,
+   "gsadf_sessions_from_peak": 0,
+   "monitor_sessions_from_onset": 16,
+   "gsadf_sessions_from_onset": 16
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "AMC",
+   "start": "2023-06-01",
+   "end": "2024-05-31",
+   "exclusion": null,
+   "first_close": "2013-12-18",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2023-07-24",
+   "onset": "2023-06-23",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "DJT",
+   "start": "2023-05-01",
+   "end": "2024-04-30",
+   "exclusion": null,
+   "first_close": "2021-09-30",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 10,
+    "gsadf": 12,
+    "batch": 9
+   },
+   "peak": "2024-03-27",
+   "onset": "2023-06-23",
+   "monitor_first_alarm": "2023-07-24",
+   "gsadf_first_alarm": "2024-01-22",
+   "monitor_sessions_from_peak": -171,
+   "gsadf_sessions_from_peak": -46,
+   "monitor_sessions_from_onset": 20,
+   "gsadf_sessions_from_onset": 145
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "SMCI",
+   "start": "2023-12-01",
+   "end": "2024-11-29",
+   "exclusion": null,
+   "first_close": "2007-03-29",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 12,
+    "batch": 0
+   },
+   "peak": "2024-03-13",
+   "onset": "2023-12-06",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2023-12-01",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -69,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": -3
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "PLTR",
+   "start": "2024-09-01",
+   "end": "2025-08-29",
+   "exclusion": null,
+   "first_close": "2020-09-30",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 3,
+    "gsadf": 8,
+    "batch": 0
+   },
+   "peak": "2025-08-12",
+   "onset": "2024-09-05",
+   "monitor_first_alarm": "2025-03-14",
+   "gsadf_first_alarm": "2024-11-15",
+   "monitor_sessions_from_peak": -103,
+   "gsadf_sessions_from_peak": -182,
+   "monitor_sessions_from_onset": 130,
+   "gsadf_sessions_from_onset": 51
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "CRWV",
+   "start": "2025-01-01",
+   "end": "2025-12-31",
+   "exclusion": "no launch with 252 prior returns (series starts 2025-03-28)",
+   "first_close": "2025-03-28",
+   "launches_requested": 10,
+   "launches_scored": 0,
+   "status_counts": {
+    "incomplete_prior": 10
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2025-06-20",
+   "onset": "2025-04-21",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "NVDA",
+   "start": "2025-01-01",
+   "end": "2025-12-31",
+   "exclusion": null,
+   "first_close": "1999-01-22",
+   "launches_requested": 10,
+   "launches_scored": 10,
+   "status_counts": {
+    "ok": 10
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2025-10-29",
+   "onset": "2025-04-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "OPEN",
+   "start": "2024-11-01",
+   "end": "2025-10-31",
+   "exclusion": null,
+   "first_close": "2020-06-18",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 12,
+    "batch": 8
+   },
+   "peak": "2025-09-11",
+   "onset": "2025-06-25",
+   "monitor_first_alarm": "2025-07-16",
+   "gsadf_first_alarm": "2025-07-16",
+   "monitor_sessions_from_peak": -40,
+   "gsadf_sessions_from_peak": -40,
+   "monitor_sessions_from_onset": 14,
+   "gsadf_sessions_from_onset": 14
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "BYND",
+   "start": "2024-11-01",
+   "end": "2025-10-31",
+   "exclusion": null,
+   "first_close": "2019-05-02",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2024-11-06",
+   "onset": "2024-11-04",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "KSS",
+   "start": "2024-08-01",
+   "end": "2025-07-31",
+   "exclusion": null,
+   "first_close": "1993-01-29",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 3,
+    "gsadf": 0,
+    "batch": 3
+   },
+   "peak": "2024-09-30",
+   "onset": "2024-08-22",
+   "monitor_first_alarm": "2025-07-24",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 203,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 229,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "DNUT",
+   "start": "2024-08-01",
+   "end": "2025-07-31",
+   "exclusion": null,
+   "first_close": "2021-07-01",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 0,
+    "batch": 2
+   },
+   "peak": "2024-11-06",
+   "onset": "2024-08-07",
+   "monitor_first_alarm": "2025-10-22",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 239,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 303,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "GPRO",
+   "start": "2024-08-01",
+   "end": "2025-07-31",
+   "exclusion": null,
+   "first_close": "2014-06-26",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 5,
+    "gsadf": 0,
+    "batch": 5
+   },
+   "peak": "2024-11-11",
+   "onset": "2024-08-07",
+   "monitor_first_alarm": "2025-09-11",
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": 207,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": 274,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "IONQ",
+   "start": "2024-04-01",
+   "end": "2025-03-31",
+   "exclusion": null,
+   "first_close": "2021-01-04",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 12,
+    "batch": 8
+   },
+   "peak": "2025-01-06",
+   "onset": "2024-08-05",
+   "monitor_first_alarm": "2024-11-19",
+   "gsadf_first_alarm": "2024-10-25",
+   "monitor_sessions_from_peak": -31,
+   "gsadf_sessions_from_peak": -48,
+   "monitor_sessions_from_onset": 75,
+   "gsadf_sessions_from_onset": 58
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "RGTI",
+   "start": "2024-04-01",
+   "end": "2025-03-31",
+   "exclusion": null,
+   "first_close": "2021-04-22",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 12,
+    "batch": 5
+   },
+   "peak": "2025-01-02",
+   "onset": "2024-09-09",
+   "monitor_first_alarm": "2024-11-29",
+   "gsadf_first_alarm": "2024-12-06",
+   "monitor_sessions_from_peak": -22,
+   "gsadf_sessions_from_peak": -17,
+   "monitor_sessions_from_onset": 58,
+   "gsadf_sessions_from_onset": 63
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "QBTS",
+   "start": "2024-04-01",
+   "end": "2025-03-31",
+   "exclusion": null,
+   "first_close": "2020-12-11",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 9,
+    "gsadf": 12,
+    "batch": 0
+   },
+   "peak": "2025-03-17",
+   "onset": "2024-08-08",
+   "monitor_first_alarm": "2024-08-29",
+   "gsadf_first_alarm": "2024-04-01",
+   "monitor_sessions_from_peak": -135,
+   "gsadf_sessions_from_peak": -240,
+   "monitor_sessions_from_onset": 15,
+   "gsadf_sessions_from_onset": -90
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "OKLO",
+   "start": "2025-08-01",
+   "end": "2026-07-31",
+   "exclusion": null,
+   "first_close": "2021-07-08",
+   "launches_requested": 3,
+   "launches_scored": 3,
+   "status_counts": {
+    "ok": 3
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 1,
+    "batch": 0
+   },
+   "peak": "2025-10-14",
+   "onset": "2025-08-19",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2025-08-01",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -51,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": -12
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "MSTR",
+   "start": "2024-10-01",
+   "end": "2025-09-30",
+   "exclusion": null,
+   "first_close": "1998-06-11",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 12,
+    "batch": 0
+   },
+   "peak": "2024-11-20",
+   "onset": "2024-10-01",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": "2024-10-01",
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": -36,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": 0
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "BMNR",
+   "start": "2024-11-01",
+   "end": "2025-10-31",
+   "exclusion": "no launch with 252 prior returns (series starts 2025-06-05)",
+   "first_close": "2025-06-05",
+   "launches_requested": 12,
+   "launches_scored": 0,
+   "status_counts": {
+    "incomplete_prior": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2025-07-03",
+   "onset": "2025-06-27",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "SBET",
+   "start": "2024-11-01",
+   "end": "2025-10-31",
+   "exclusion": null,
+   "first_close": "1997-05-21",
+   "launches_requested": 12,
+   "launches_scored": 12,
+   "status_counts": {
+    "ok": 12
+   },
+   "flags": {
+    "monitor": 8,
+    "gsadf": 12,
+    "batch": 6
+   },
+   "peak": "2025-05-29",
+   "onset": "2025-04-22",
+   "monitor_first_alarm": "2025-05-27",
+   "gsadf_first_alarm": "2025-05-27",
+   "monitor_sessions_from_peak": -2,
+   "gsadf_sessions_from_peak": -2,
+   "monitor_sessions_from_onset": 24,
+   "gsadf_sessions_from_onset": 24
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "NAKA",
+   "start": "2024-11-01",
+   "end": "2025-10-31",
+   "exclusion": null,
+   "first_close": "2024-05-31",
+   "launches_requested": 12,
+   "launches_scored": 4,
+   "status_counts": {
+    "incomplete_prior": 8,
+    "ok": 4
+   },
+   "flags": {
+    "monitor": 2,
+    "gsadf": 4,
+    "batch": 2
+   },
+   "peak": "2025-05-27",
+   "onset": "2024-11-13",
+   "monitor_first_alarm": "2026-03-05",
+   "gsadf_first_alarm": "2025-07-01",
+   "monitor_sessions_from_peak": 194,
+   "gsadf_sessions_from_peak": 24,
+   "monitor_sessions_from_onset": 325,
+   "gsadf_sessions_from_onset": 155
+  },
+  {
+   "set": "033-B",
+   "row": "033-B",
+   "sign": "positive",
+   "name": "CRCL",
+   "start": "2024-08-01",
+   "end": "2025-07-31",
+   "exclusion": "no launch with 252 prior returns (series starts 2025-06-05)",
+   "first_close": "2025-06-05",
+   "launches_requested": 12,
+   "launches_scored": 0,
+   "status_counts": {
+    "incomplete_prior": 12
+   },
+   "flags": {
+    "monitor": 0,
+    "gsadf": 0,
+    "batch": 0
+   },
+   "peak": "2025-06-23",
+   "onset": "2025-06-05",
+   "monitor_first_alarm": null,
+   "gsadf_first_alarm": null,
+   "monitor_sessions_from_peak": null,
+   "gsadf_sessions_from_peak": null,
+   "monitor_sessions_from_onset": null,
+   "gsadf_sessions_from_onset": null
+  }
+ ],
+ "consensus_negatives": {
+  "records": 103,
+  "launches_scored": 3556,
+  "batch": 0.045838020247469066,
+  "monitor": 0.047806524184476944,
+  "gsadf": 0.03852643419572553
+ },
+ "compare_051": {
+  "common_windows": 9840,
+  "spearman_batch_vs_051": 0.33459727369140063,
+  "regressions": {
+   "mdd63|batch": {
+    "coef": [
+     0.010146886605590261
+    ],
+    "t_dk": [
+     2.119229177636877
+    ],
+    "n": 9840
+   },
+   "mdd63|s051": {
+    "coef": [
+     0.0015048642035943472
+    ],
+    "t_dk": [
+     0.3968759585341215
+    ],
+    "n": 9840
+   },
+   "mdd63|batch+s051": {
+    "coef": [
+     0.011901626742479013,
+     -0.003879027301793763
+    ],
+    "t_dk": [
+     2.3537098682637674,
+     -1.0081191722428717
+    ],
+    "n": 9840
+   },
+   "ret63|batch": {
+    "coef": [
+     0.00029147415213429584
+    ],
+    "t_dk": [
+     0.04949024759827243
+    ],
+    "n": 9840
+   },
+   "ret63|s051": {
+    "coef": [
+     -0.004931257333603258
+    ],
+    "t_dk": [
+     -0.9836354902809475
+    ],
+    "n": 9840
+   },
+   "ret63|batch+s051": {
+    "coef": [
+     0.0031711320543213765,
+     -0.006365769715745799
+    ],
+    "t_dk": [
+     0.4327713827749688,
+     -0.9925801868565081
+    ],
+    "n": 9840
+   },
+   "mdd126|batch": {
+    "coef": [
+     0.013830402006202438
+    ],
+    "t_dk": [
+     2.22612072995545
+    ],
+    "n": 9840
+   },
+   "mdd126|s051": {
+    "coef": [
+     0.004535770896659567
+    ],
+    "t_dk": [
+     0.9277085312706197
+    ],
+    "n": 9840
+   },
+   "mdd126|batch+s051": {
+    "coef": [
+     0.014809016745899364,
+     -0.0021633250493447633
+    ],
+    "t_dk": [
+     2.410306539148495,
+     -0.4884448944118703
+    ],
+    "n": 9840
+   },
+   "ret126|batch": {
+    "coef": [
+     -0.0021594927925927647
+    ],
+    "t_dk": [
+     -0.22465547288824592
+    ],
+    "n": 9840
+   },
+   "ret126|s051": {
+    "coef": [
+     -0.016660807665454535
+    ],
+    "t_dk": [
+     -1.747574495227534
+    ],
+    "n": 9840
+   },
+   "ret126|batch+s051": {
+    "coef": [
+     0.006760783463706928,
+     -0.019719156364133236
+    ],
+    "t_dk": [
+     0.7143043456202821,
+     -2.1381230883579554
+    ],
+    "n": 9840
+   }
+  }
+ },
+ "compare_054": [
+  {
+   "sym": "AMC",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": 64,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2023-07-24",
+   "s054_peak": "2023-11-07"
+  },
+  {
+   "sym": "AMC",
+   "group": "E5",
+   "d37_monitor_from_peak": -87,
+   "d37_gsadf_from_peak": -3,
+   "s054_monitor_from_peak": -205,
+   "s054_gsadf_from_peak": -87,
+   "d37_peak": "2021-06-02",
+   "s054_peak": "2021-06-02"
+  },
+  {
+   "sym": "ARKK",
+   "group": "E9",
+   "d37_monitor_from_peak": -12,
+   "d37_gsadf_from_peak": -24,
+   "s054_monitor_from_peak": 306,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2021-02-12",
+   "s054_peak": "2021-02-12"
+  },
+  {
+   "sym": "BB",
+   "group": "E5",
+   "d37_monitor_from_peak": -6,
+   "d37_gsadf_from_peak": -166,
+   "s054_monitor_from_peak": -72,
+   "s054_gsadf_from_peak": -166,
+   "d37_peak": "2021-01-27",
+   "s054_peak": "2021-01-27"
+  },
+  {
+   "sym": "BMNR",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -13,
+   "d37_peak": "2025-07-03",
+   "s054_peak": "2025-07-03"
+  },
+  {
+   "sym": "BYND",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": 13,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2024-11-06",
+   "s054_peak": "2024-11-06"
+  },
+  {
+   "sym": "CRCL",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2025-06-23",
+   "s054_peak": "2025-06-23"
+  },
+  {
+   "sym": "CRWV",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -20,
+   "d37_peak": "2025-06-20",
+   "s054_peak": "2025-06-20"
+  },
+  {
+   "sym": "DJT",
+   "group": "033-B",
+   "d37_monitor_from_peak": -171,
+   "d37_gsadf_from_peak": -46,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -46,
+   "d37_peak": "2024-03-27",
+   "s054_peak": "2024-03-27"
+  },
+  {
+   "sym": "DNUT",
+   "group": "033-B",
+   "d37_monitor_from_peak": 239,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": -61,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2024-11-06",
+   "s054_peak": "2024-11-06"
+  },
+  {
+   "sym": "GME",
+   "group": "033-B",
+   "d37_monitor_from_peak": 0,
+   "d37_gsadf_from_peak": 0,
+   "s054_monitor_from_peak": -111,
+   "s054_gsadf_from_peak": 0,
+   "d37_peak": "2024-05-14",
+   "s054_peak": "2024-05-14"
+  },
+  {
+   "sym": "GME",
+   "group": "E5",
+   "d37_monitor_from_peak": -8,
+   "d37_gsadf_from_peak": -101,
+   "s054_monitor_from_peak": -142,
+   "s054_gsadf_from_peak": -101,
+   "d37_peak": "2021-01-27",
+   "s054_peak": "2021-01-27"
+  },
+  {
+   "sym": "GPRO",
+   "group": "033-B",
+   "d37_monitor_from_peak": 207,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": 71,
+   "s054_gsadf_from_peak": 172,
+   "d37_peak": "2024-11-11",
+   "s054_peak": "2024-11-11"
+  },
+  {
+   "sym": "IONQ",
+   "group": "033-B",
+   "d37_monitor_from_peak": -31,
+   "d37_gsadf_from_peak": -48,
+   "s054_monitor_from_peak": -171,
+   "s054_gsadf_from_peak": -48,
+   "d37_peak": "2025-01-06",
+   "s054_peak": "2025-01-06"
+  },
+  {
+   "sym": "KOSS",
+   "group": "E5",
+   "d37_monitor_from_peak": -111,
+   "d37_gsadf_from_peak": -3,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -3,
+   "d37_peak": "2021-01-29",
+   "s054_peak": "2021-01-29"
+  },
+  {
+   "sym": "KSS",
+   "group": "033-B",
+   "d37_monitor_from_peak": 203,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": 136,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2024-09-30",
+   "s054_peak": "2024-09-30"
+  },
+  {
+   "sym": "MSTR",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": -36,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -36,
+   "d37_peak": "2024-11-20",
+   "s054_peak": "2024-11-20"
+  },
+  {
+   "sym": "NAKA",
+   "group": "033-B",
+   "d37_monitor_from_peak": 194,
+   "d37_gsadf_from_peak": 24,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -120,
+   "d37_peak": "2025-05-27",
+   "s054_peak": "2025-05-22"
+  },
+  {
+   "sym": "NVDA",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": null,
+   "s054_monitor_from_peak": -142,
+   "s054_gsadf_from_peak": null,
+   "d37_peak": "2025-10-29",
+   "s054_peak": "2025-10-29"
+  },
+  {
+   "sym": "OKLO",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": -51,
+   "s054_monitor_from_peak": -2,
+   "s054_gsadf_from_peak": -51,
+   "d37_peak": "2025-10-14",
+   "s054_peak": "2025-10-14"
+  },
+  {
+   "sym": "OPEN",
+   "group": "033-B",
+   "d37_monitor_from_peak": -40,
+   "d37_gsadf_from_peak": -40,
+   "s054_monitor_from_peak": -108,
+   "s054_gsadf_from_peak": -40,
+   "d37_peak": "2025-09-11",
+   "s054_peak": "2025-09-11"
+  },
+  {
+   "sym": "PLTR",
+   "group": "033-B",
+   "d37_monitor_from_peak": -103,
+   "d37_gsadf_from_peak": -182,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -180,
+   "d37_peak": "2025-08-12",
+   "s054_peak": "2025-08-08"
+  },
+  {
+   "sym": "PTON",
+   "group": "E9",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": -64,
+   "s054_monitor_from_peak": -44,
+   "s054_gsadf_from_peak": -64,
+   "d37_peak": "2021-01-13",
+   "s054_peak": "2021-01-13"
+  },
+  {
+   "sym": "QBTS",
+   "group": "033-B",
+   "d37_monitor_from_peak": -135,
+   "d37_gsadf_from_peak": -240,
+   "s054_monitor_from_peak": -189,
+   "s054_gsadf_from_peak": -240,
+   "d37_peak": "2025-03-17",
+   "s054_peak": "2025-03-17"
+  },
+  {
+   "sym": "RGTI",
+   "group": "033-B",
+   "d37_monitor_from_peak": -22,
+   "d37_gsadf_from_peak": -17,
+   "s054_monitor_from_peak": -180,
+   "s054_gsadf_from_peak": -50,
+   "d37_peak": "2025-01-02",
+   "s054_peak": "2025-01-02"
+  },
+  {
+   "sym": "SBET",
+   "group": "033-B",
+   "d37_monitor_from_peak": -2,
+   "d37_gsadf_from_peak": -2,
+   "s054_monitor_from_peak": null,
+   "s054_gsadf_from_peak": -2,
+   "d37_peak": "2025-05-29",
+   "s054_peak": "2025-05-29"
+  },
+  {
+   "sym": "SMCI",
+   "group": "033-B",
+   "d37_monitor_from_peak": null,
+   "d37_gsadf_from_peak": -69,
+   "s054_monitor_from_peak": 67,
+   "s054_gsadf_from_peak": -69,
+   "d37_peak": "2024-03-13",
+   "s054_peak": "2024-03-13"
+  },
+  {
+   "sym": "TSLA",
+   "group": "E9",
+   "d37_monitor_from_peak": -442,
+   "d37_gsadf_from_peak": -458,
+   "s054_monitor_from_peak": -461,
+   "s054_gsadf_from_peak": -458,
+   "d37_peak": "2021-11-04",
+   "s054_peak": "2021-11-04"
+  },
+  {
+   "sym": "ZM",
+   "group": "E9",
+   "d37_monitor_from_peak": 259,
+   "d37_gsadf_from_peak": -118,
+   "s054_monitor_from_peak": -158,
+   "s054_gsadf_from_peak": -146,
+   "d37_peak": "2020-10-19",
+   "s054_peak": "2020-10-19"
+  }
+ ]
+}

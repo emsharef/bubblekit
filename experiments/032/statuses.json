@@ -1,0 +1,114 @@
+{
+"E6|full|000660.KS": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "not covered: variable KRX tick"
+},
+"E6|to_peak|000660.KS": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "not covered: variable KRX tick"
+},
+"N24m-3|full|^GSPC": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|full|^DJI": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|full|V": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|full|PG": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|full|WMT": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "budget exhausted"
+},
+"N24m-3|full|KO": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "budget exhausted"
+},
+"N24m-3|full|TRV": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|to_peak|^GSPC": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|to_peak|^DJI": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|to_peak|V": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|to_peak|PG": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+},
+"N24m-3|to_peak|WMT": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "budget exhausted"
+},
+"N24m-3|to_peak|KO": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "budget exhausted"
+},
+"N24m-3|to_peak|TRV": {
+"v1": [
+"ok"
+],
+"c033_fail": false,
+"cert": "tolerance met"
+}
+}

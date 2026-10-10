@@ -1,0 +1,1986 @@
+{
+ "retrieved": "2026-10-07T07:01:09+00:00",
+ "symbols": {
+  "^IXIC": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "00115e6b2cc29fefe02a3aed8284499d4d6a4cc1ffe308e07410ed2d4aaa2318"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "81d944f7e78d1676de947813fed5c840e6ec07478d3c21ce5df42d5d28c1f26c"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "48ebf9e466d3f9c33e9cc600d1d7913c42f65e0d24351cbd78d0b30b9b8638ca"
+   }
+  },
+  "^NDX": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "0d66166b511599037fbe076cb07f2c47a9fbcce08a0ef3ee3285bbb48e597d10"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "23b85e4a8c106f3066a32d31456e27504380bcc72cbeadf501697d2c967fad59"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "7ab1cff8078720d955ef65c9dc039d9892aeedba3a5c11849c74d2d29e0da1a7"
+   }
+  },
+  "CSCO": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "39354a35de2ea57ce3e660f78bc314eaf318781343398ee86dea67716fca5f04"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "25b013d565c25a4893fa77d308b4380b119ccc4a8aaf5d2560bfb9fa83435af3"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "afee5bd95d6ba21c293991684ad95b24d74e97395e6b22a6ec4f6ca339f97eaf"
+   }
+  },
+  "MSFT": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ee5a3e09233210fff2586176df79a58289217ec64b22d1e938f76df3194378af"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "bb02d093aef4bb661ae74f6eca233293049b472550388b04cee72c503ad827d9"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "96530e23718bf6800814d64142032cb954bd6eb6c60d6696a1d5776dda597e6c"
+   }
+  },
+  "ORCL": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a6f5e52270752464481a8850ab24cafbf0b6da12e38f00b9d2a4787edd1cfffb"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e06a4f8d5bec9c8e0d6327f69c598cdc17d8c2e4b7515d343ffbd20f5442b637"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "df89d3d469a907c135173c8a73d87435d2892ac4dc4811af8dc4e1ac8b187cd0"
+   }
+  },
+  "QCOM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "4bc9aef794bc5e749fb5143b166d462861f2eb346898dda01cddd7951f53480c"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e65a7f47fd7f1b6ab1f78965fff3d31a665de3d3985034203bb2003a0a09a548"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "2c6758e639bcaf59d80ff847595e1cd50032f80f9ab1f14e887dad8f43103a9d"
+   }
+  },
+  "AMZN": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fd005f7859aa8da7121739ade5e39a9515e04bb571ca7bc226d3be18e97a258d"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "bf27ea86cde75a663e2a9441cfc47f89f32d4dedfb2c9a32b93802fee680fc33"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "7e83d5a84956a5c7e046a2b95c99adefc47aa6ddfa62e7a546c6f6a7c5ca631c"
+   }
+  },
+  "EBAY": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 72,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "b890da212d4138d503cfd6ce24d7ad8dccdb9c67c8349ff925850db59889bc9d"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "848cd4eec6a44967eca40ae129e43e1459488ee30fa177d480ad14b8eb0ea8e2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "33cdea7dde497a679dae878c5dcce1cf886846960c7c7f35038f51f059b945c8"
+   }
+  },
+  "DHI": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 30,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3ae5fc1838d5d3728e42bda3381ba8d3441b49114a09d17741d0808c16ae7946"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "c57d595f53d914ad2c477cbe0da1e192aad4c03a03ddfd9cc8427a1cc98d1e50"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "b5262cd64177a7b6f5895cb4386bde8b5547f9fdf727a800fa19580eaa326d77"
+   }
+  },
+  "LEN": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8ee3e215d766cbdcc18b6b10d23f67a192f368310e8d3c449db64c44324e73f3"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fa97cd04aeba4af5f7eb8e07cf7d0a4ad2514027048969b6ad9c20c32c33e196"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "29fd95021a4a346be4402c7dc2eea205f407599f6b067a2d5c29f91ce295a8c9"
+   }
+  },
+  "PHM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 164,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "91959f16f307f555880ba9751e2c7b3a54b8ff822d6131847d5d660f189f7173"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "968631fd6243553754cbcd4247c15e4575d49d378fded30fec1f4b8f7bed0da7"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "14a385cc0063d4039dc37a7306fba917823182396bcf41e2183c890bafa205bd"
+   }
+  },
+  "TOL": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 323,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1cd6811c39e11106eee2dcea4df59b70a64739f6735fda2d298bb505da9b50cb"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 11,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "eee517941ef7d717165dd00b75b9a6ba6caf314f44463f958b0fa7654faf2ca9"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a282fc4e4660262cf945243878ea2e96cbed45ff167075b7ba052360f6d17d5e"
+   }
+  },
+  "KBH": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 281,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1f9d749c19aa896c9bc31616796114d51bf701fe31184da6e79494b34a659e3d"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 5,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "5ff7bbf26312243b5d5cbdc76b6e81137dc136c94ad72ee42a7de46c4cd474da"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "2e7e7fad659c2a6b158a6df7af240aff123e20013c69afd37f5be510d36f5f46"
+   }
+  },
+  "XHB": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 131,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a7d86638017ea31675266fe61cacb12ea8ac7216b2cf83153645deac901ba277"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "467e539b93a4b55f8c3630446b944b8b3edb5f14288a485304bcfea004bf7fd9"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "de08b63b0770ea8b0eae967f8551ef2006ff38cd25961e8407c8db22222777f8"
+   }
+  },
+  "C": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9d6ea0416c912a7a897ec52a98ea021fdb2ff574824c92b14d5e935e35549872"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9021d5c0cd43fcee2b82f315b16005219d891b2b3a8c6ca8b8bae7d0883d9528"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "424d0ed1807987ea70d7e70175ef918804bf5bae7334cbbce35a04ff0891b5c2"
+   }
+  },
+  "BAC": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fef9520e640ea86df9d6245e6e43ad1bfd4d7ef82b4c30ad5ece35b5c23d7dc5"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "cdb0db905afd88e11257cd32b4dfe6e4bdf57b8e2fb6934877513601bc3c1495"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "533861b7548c48f2a488a712088bd53dba362fcb22c7adad97c8f8f22382f30e"
+   }
+  },
+  "JPM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "b8315616ae2c3acf0734ea119eaacce684ea95009f32d502bedb206ff0c28720"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "b6759732eebccc6eb6794eb8104832cbb7a5fe01740cd162852c0f7e007d01ee"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "023607c1c0b7404c00d60f4ad6e532ed2afc080b60ad60d1eac91b7e984bbd89"
+   }
+  },
+  "WFC": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1ae0214e3208a6bd277262e175a5d363d78dd8f18d075121d67206bb0928541a"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ca24b5786a27235ffd4b3e584844aa3546139b2fc2ab6aef51eab72e116cdbda"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "83d4dc3bf243da856a23f8d901c4c774384e7b32e5a03a3d49786bdbb8310368"
+   }
+  },
+  "AIG": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 6,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "0b1792650d12f5547a181f4c673cedaef8bfcc04780ab059bc062e208a816940"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "27381e18343875ebb3895278034781249c8eaf8469915f99187bc1edf0845a28"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "b72db69b6ce5eee6a7fcb65760bda25f67a7fb43823700d4b5b5378c4f0c09b7"
+   }
+  },
+  "GS": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 6,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a9ef18967c39431756aaaaeea654a6457caa04eac6a3a08a0d9292624ef64ae2"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "cb6f0cf9556edc32df8e3eea1cb39711340a0ea51f19694888004ef988f5dba0"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6d84ce80086e3123650cf6d88e24f7464ce8b3ae45edb3eb84cf2a54cce68b53"
+   }
+  },
+  "MS": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "349cc172b99123e0f25ae1e724ad808977aa11603c4273748f29394ee18a9a0f"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "38b2f673d845bd939b2197356972d76ffa64108779e0d9fca7bcddfe9a52dc47"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "12f11ad1a5a8be070edd4cdd8ed4870a74263a712812d79f655b0f1b33503126"
+   }
+  },
+  "FNMA": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 634,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ca0d2a19446faa41002951f1fef3607fd37bab7856886754812671d1aad394bd"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 160,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6189aca194d1c77fc552ec357e2efc72ca9d92e8d735b890af4a0cb7990de2e2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 12,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "15b2d9446b7186f61cc7102adad4c1d54ff50c07aabe3246bd2def3817cc1f3b"
+   }
+  },
+  "GME": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3ac33ee2c800d302d57c0c2b55aec3abf0841fc17e007005792b3d077499a97b"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "5266d2262afd57f54f77178797d5d766d0ef4e6b7d63cb50f06f7ef3d26d76ee"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "bebfb9afb1e1420843cffdfb8839a0eadfc817b31d195ea557cac4a6b31a2fe6"
+   }
+  },
+  "AMC": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9b0939da1d9f60b06489dad6aef317a63731e99cc22acafad7d1ad2b3deb50a4"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1938a35dab43ecfb3e109f5388742d22db36646d77cb343eac9eb33f8176d745"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9bd9c4f0ec5b652125baf925c2a84c9842076ea9aebaf42d7d89e1241bba0eab"
+   }
+  },
+  "KOSS": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 2520,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fb8365173d74c55c87649ad23fa1b47dcefdbf5edbf70e1fd5a87e4e089bc8a4"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 3643,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1eb6847fa41cc282574108421cc324738d07d4ae6b17e4bebbc84c07e6597d50"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 287,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1847f875853a3b29222f0cf601c7f3ae9ff655f0378ab1103d56453b626aca7c"
+   }
+  },
+  "BB": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "32a5dfc566ffae003a53e947736324ec84f7affae05f291876ca4919eb5f5004"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "f26238956639a1fb59348433915b35dd1f7451c76d60cb9f6e688fca4320df1d"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "de210760f6c97adc51ab8098783a4d9c9e9292c64c2db4014857b7291b44fda5"
+   }
+  },
+  "000660.KS": {
+   "1m": {
+    "rows": 2521,
+    "first": "2026-09-28T00:00:00+00:00",
+    "last": "2026-10-07T06:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 360,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Seoul",
+    "sha256": "b8a13ee236f62b87053946173bec9caa8cca625b5642171b9267914d1cd0a2a7"
+   },
+   "5m": {
+    "rows": 4321,
+    "first": "2026-07-09T00:00:00+00:00",
+    "last": "2026-10-07T06:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 72,
+    "short_sessions": 0,
+    "null_close": 15,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Seoul",
+    "sha256": "b1fed8cf6e05349f34a697ff30a193e7eeb78a6a975c23ae581c4da1fa5806d7"
+   },
+   "60m": {
+    "rows": 4381,
+    "first": "2023-10-06T00:00:00+00:00",
+    "last": "2026-10-07T06:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 6,
+    "short_sessions": 0,
+    "null_close": 13,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Seoul",
+    "sha256": "166592940cb57ef1fbe218ac47dd5d489ac0f02f271a1d8e34832c407645f07f"
+   }
+  },
+  "^N225": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-29T00:00:00+00:00",
+    "last": "2026-10-07T06:30:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 406,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Tokyo",
+    "sha256": "7a56540af7597d47d23f40b8534efc40df591d709a862536ab87bfb740f7fc41"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-09T00:00:00+00:00",
+    "last": "2026-10-07T06:30:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 600,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Tokyo",
+    "sha256": "3957c7acc153a1f9725a22d47f9232cb91cd0798da17b82a0c4a3c036a1623ba"
+   },
+   "60m": {
+    "rows": 5111,
+    "first": "2023-10-10T00:00:00+00:00",
+    "last": "2026-10-07T06:30:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 0,
+    "null_close": 14,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Tokyo",
+    "sha256": "fbefdfb3291aae2e9a42609520f1160c71d8b0374279a565598a1ea60dc53343"
+   }
+  },
+  "000001.SS": {
+   "1m": {
+    "rows": 2311,
+    "first": "2026-09-21T01:30:00+00:00",
+    "last": "2026-09-30T07:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 330,
+    "short_sessions": 0,
+    "null_close": 637,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Shanghai",
+    "sha256": "567c54f9f8f8e26c14c8e806fd909fbb6e82929e2cca2fd9ecf8596dea427dba"
+   },
+   "5m": {
+    "rows": 3961,
+    "first": "2026-07-08T01:30:00+00:00",
+    "last": "2026-09-30T07:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 66,
+    "short_sessions": 0,
+    "null_close": 1020,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Shanghai",
+    "sha256": "cf1b3eef773f6abe9105e0c93faba1d7e27f33e05d39f0a66d9558deef732b60"
+   },
+   "60m": {
+    "rows": 4381,
+    "first": "2023-09-25T01:30:00+00:00",
+    "last": "2026-09-30T07:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 6,
+    "short_sessions": 0,
+    "null_close": 9,
+    "has_adjclose": false,
+    "exchange_timezone": "Asia/Shanghai",
+    "sha256": "aebdf2e03e9393165a63f27c459beb3010980706387ba1ed7e0c7673649044f7"
+   }
+  },
+  "ARKK": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 2,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fe8e3d0f43cda6661926c5dbbaa4ccfd38ad6e44cd54c00b7814df9fbae7f089"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "5075b2a5e2122347398e37d74443843a8404680c28f4c058fef70b9564f59034"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1750a9bd87002cbb2d18a364c71bc8a1d86f923ae1c4c1017d15ec4b2331e9a5"
+   }
+  },
+  "TSLA": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "30293ee74f15efe216c83ec540a73b5331ed9c64ec433ba1fa6613514eaaff33"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3e20eed20a3a3b7b0dbf85689770b3cafc179193bc9a2030b94b4add46540794"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "59f59d7a2936f51bff03dcd799be4b4fc912e84b607074fc8d4b4f893c54bdb7"
+   }
+  },
+  "ZM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 53,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "bac0ef62f21fc0da6c0edc0e4af0b3f8321f8203a1d120dc9e45802851248ad5"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ef3df049b31b5a7c762b7cbe6796dacdf6603e7071b85c319bdef515eb583d6f"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "f597d2c5caabaedeaeb18d2b8041141b4cda09c20caa1e5383196bc0848587ba"
+   }
+  },
+  "PTON": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 77,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "14ce1f1f363f57cc0bce556d883e86b94b1b4daa7fc555954a1c74fb4a99ef84"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e1a6f9a0e78284c804cc51c612864e06949e207d06a2a5007126bd33a3533abf"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6106d17ca8e5fbb1e7d47939f428f3532d6eac4b043714a8a29bc6f013a88c49"
+   }
+  },
+  "^GSPC": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e0f4b1812505f1db4035110e9fc3cd13427213faf8d9c25446d175d7ede4bf2d"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "f9d099012eac92cc09d6c658828b992328a434831120fccb6dcefa806c278ca2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ed7d57df1b8a00f6de28be1fd7b7e1d0618b35540d009f140bb21d2c9ef6c2ed"
+   }
+  },
+  "^DJI": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "890c0da9bb56ed78408e8ad274c463ab9f153c6f2f2bdb01397da4b01b786afa"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "772685128173a2ee1cd20686a4a97457c8d0f55e0da3bbf6d6fa1bc5434ef21b"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ab01b9264ed65d413b3a3ee1ba09a58ee055bade1652454e65e18123d0adaaf1"
+   }
+  },
+  "KO": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "11d1843385fc62646ae76c09826b95183876716582728df30b4bd0dadec39818"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6f5a7d4db78114273d375e4826781046e3210f384418066cb92a1cd9d9275d75"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "c8baf76b1719bc576422493eeb52b11d1c5b4279d3ad8541157dd953f2d846ab"
+   }
+  },
+  "MDLZ": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "dc5deae3f40d54693d411bf3fdeb2e834b92166fdc686631ae3ce6aab3c6e4fe"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "88bb9e28040e060582d9ac85d6c28f061b03d64948d2c7ffdeab7150e23e12c2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9de3344a7a40c1b6ae574f922ff038307739d1c3a5abf53529e0c045aba014bb"
+   }
+  },
+  "T": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e8008e4687b5051be2021ccf024e1e55f4878df89760ee571f12d629ff6d05a9"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8434a9fc9883212f35e9591a3aa6c725b96b5a8c81b7ab29d88e3391a5af07a9"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "25514247d70558f1e066256ecc2857a9976053bf5ba42b4a35a1153a6ba73c15"
+   }
+  },
+  "JNJ": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "5ce402b9f48a980ab3257674c8247bab5c4ede39d41da91faf2dac6291cbc82d"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9af2230acc2204d660edf96db567e5ed922da83f6127b6dceb073382954f821f"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9568c643711d1df6fc9aa47b6869e5adfeb3a2c77060759d4996c367c04b4845"
+   }
+  },
+  "IBM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 3,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "e29714203c1eac8b95115593b79dc9acd7117754c3a7b63b4c152df2131b8d55"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "da8e41e9db1badbfd4da7c0bad3ec23b48652a73cca6c9229e3ebbc8d009dc4f"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8109ace50762de9a6e757e397b20da63538748863d22fc0468a1d58a177be3fd"
+   }
+  },
+  "MMM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 41,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "4b00c307a68f2c576209de4bebb9b925cf86bd4cc7846befe9c9305dac225829"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "2b6e90e2d226624a7e2924e0e982c411b8128fda710b3fca608580fea9b3d4f2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8e98ab9312793b9db71cd6bfea6e3eaeaa0ca3ad0f5e6431ea6da4760d8c2733"
+   }
+  },
+  "MCD": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3850e991609132902d503f8ff041498d450c8527eecc542d58bceb909694a3e7"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8c3b5e11a1488e9759aa1839d2fe90b8d623dbb4e26f41678d5ffbf551556f11"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "8bdb16b11394621f7a508d23caea5e1588db33fb43841aa75916a514412126fc"
+   }
+  },
+  "PG": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "fb44ab0d1c8383e79f438fa46bd857652ed2a903ab9b45de754bd627f6e5e847"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "955cf53d52ccd9076e9d94164378a7ec214dda93786c540ef764fd29b1f28792"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ad551fa36c118d2c3a84430f3d42a760ca1044886245e7f283f389cde1a2ad0b"
+   }
+  },
+  "GE": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a21e699f1988c059bd96716f8d27f3acdad218b924b48663b06c2b39f8c55b24"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3aa9bef5bc54cea6b7efd677f11c8ddea69e2d36876006f93e10a167547d21e2"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "26d5b29ab097697264b515b0800c2207e2a5554a55504e0b4d540b3ff345f905"
+   }
+  },
+  "XOM": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "489764b134550fcae086bfac02441a86ca0eba2a1418872a21553042fffae42e"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "199731c23a6844caf54192bd900c9bbf2755e5d965daa6172b726bc5188e004b"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "69c9ac35f0b0b33fc4d8716bf155216dd90d88f30f742bf4c06fda006fdfd5bd"
+   }
+  },
+  "CVX": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 1,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1066aa618547fe59cc7f1f312bb96c34117b416d6091ce9ae9c578722b6c2b82"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1f18732e75654d2fcf8d8730a19986ea5b23a29a746eadbc60357d6fdbb88b0c"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "447874f4e73706678e27734f35df738dce5f47cb1a9953d2aac60ff0e2b1d274"
+   }
+  },
+  "CAT": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 2,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "404174511964e9e73ffcffe185b81a6995346a2a037fa536ea5eed405ad65c4e"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "85d91cc3b815d9fe5ab17d85943dab7c9c6a9616523a4ec0a1554a0b0f8718a6"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "af403fbe01c6842c9332d85a5d7692dab3f96b7af37505d92f15d4859cfe7182"
+   }
+  },
+  "WMT": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6b3224ea0071eac1ba8ba2885f18e6a3b064d5ea8639e127dd1b1f58411e188c"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "9162c4389f7240536e6cb3fef96d042a7d054989a2a1c2e0d5497eadb56e8e76"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "1381840fda9d555ced6f9ccb9375fe69935143dd72c57f9c2e317c3e65e7fa9d"
+   }
+  },
+  "MRK": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "3d87e82119efdde1c75689c623d12ab07d7049ca8c4d3c6523a21b814b4540b2"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "d6bb124deb78068ec07f59738f84f7450e3693a7797f530ead9b29f042e007a0"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "c12d6649bc6efa05a1657b546f03762c287ddb051ee808b9b0655e1710394c4a"
+   }
+  },
+  "MO": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "6b2bfa01668f13f994963218b86e859cb1d6abaa1b1872dd2b5622178f6232bc"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "a9e690ea3b058e47f13e35c41c79457c10a6fbff93cb7305208f43a9786ddf86"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "524640c6a708c1e3dd4634eb1a39fa50f1b99ac6822a389a357e3e93bbd2e966"
+   }
+  },
+  "V": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "60141223c33a7581de9f66755161febc18901c726e8bd05ca07713f3315b2d1b"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ff1b669e319a0246dd00f980722dff0ea018d7ac5200e218283366b6bd7a7768"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "938377f816b9fd0b726da6cf81350d13938242dcb19a8b45bf57cf1bf4f5545a"
+   }
+  },
+  "TRV": {
+   "1m": {
+    "rows": 2731,
+    "first": "2026-09-28T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 7,
+    "modal_bars_per_session": 390,
+    "short_sessions": 0,
+    "null_close": 89,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "c6f357a6704acdc4c9953d4aeb34ee618ccb4a00b89fb74b055760b54a182e31"
+   },
+   "5m": {
+    "rows": 4681,
+    "first": "2026-07-14T13:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 60,
+    "modal_bars_per_session": 78,
+    "short_sessions": 0,
+    "null_close": 0,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "66e01cb43b99a42f2cfff0815ef3fcc5f1f951948f34917f290429ddaed49292"
+   },
+   "60m": {
+    "rows": 5097,
+    "first": "2023-11-07T14:30:00+00:00",
+    "last": "2026-10-06T20:00:00+00:00",
+    "sessions": 730,
+    "modal_bars_per_session": 7,
+    "short_sessions": 7,
+    "null_close": 7,
+    "has_adjclose": false,
+    "exchange_timezone": "America/New_York",
+    "sha256": "ddba8213d4a9efb6828547fdc035baddaa7793152fa881b4afe80b6fa9e7340b"
+   }
+  }
+ },
+ "limit_messages": {
+  "1m": "1m data not available for startTime=1788764579 and endTime=1791356579. Only 8 days worth of 1m granularity data are allowed to be fetched per request.",
+  "5m": "5m data not available for startTime=1759820580 and endTime=1791356580. The requested range must be within the last 60 days.",
+  "60m": "1h data not available for startTime=1640995200 and endTime=1672531200. The requested range must be within the last 730 days."
+ }
+}

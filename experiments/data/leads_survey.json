@@ -1,0 +1,144 @@
+{
+ "probed_on": "2026-10-06",
+ "leads": {
+  "historicaldata_net_options": {
+   "url": "https://historicaldata.net/options.html",
+   "status": 200,
+   "snippets": [
+    " end-of-day chains Coverage: Options on US stocks, ETFs and indices, with archive history dating to February 2002. Data: Bid/ask quotes, volume, open interest, Greeks and implied volatility, across 34 documented columns. Files: Plain",
+    "t: 127 of 127 listed files present) == Datasets & Subscriptions Dataset Price Purchase Full archive February 2002 through the latest trading day \u00b7 Includes 2 months of daily updates \u00b7 724 GB $590 \u00b7 one-time Buy Most recent 10 years 1",
+    " archive February 2002 through the latest trading day \u00b7 Includes 2 months of daily updates \u00b7 724 GB $590 \u00b7 one-time Buy Most recent 10 years 10 years counted back from purchase \u00b7 Includes 2 months of daily updates $699 \u00b7 one",
+    "e Buy Most recent 10 years 10 years counted back from purchase \u00b7 Includes 2 months of daily updates $699 \u00b7 one-time Buy Most recent 1 year 1 year counted back from purchase \u00b7 Includes 1 month of daily updates $199 \u00b7 one-time",
+    "e-time Buy Most recent 1 year 1 year counted back from purchase \u00b7 Includes 1 month of daily updates $199 \u00b7 one-time Buy Daily updates New trading days \u00b7 Starts with the latest three weeks \u00b7 Historical archives sold separatel",
+    "updates New trading days \u00b7 Starts with the latest three weeks \u00b7 Historical archives sold separately $79 / month Subscribe Instant delivery Your download link appears on the confirmation page and is emailed to you after paym"
+   ]
+  },
+  "historicaldata_net_samples": {
+   "url": "https://historicaldata.net/samples.html",
+   "status": 200,
+   "snippets": [
+    "sted stock. Stock sample \u00b7 8 MB Options sample \u00b7 239 MB Stock sample Tickers TSLA \u00b7 KO \u00b7 SPY \u00b7 TWTR Period July\u2013December 2022 \u00b7 127 trading days; 83 for TWTR, ending 27 October. Files Separate daily and 1-minute CSVs for each ticker: 8 data files, with 17 and 18 columns respectively. W",
+    "ember. View stock sample rows \u00b7 Stock field definitions Download stock sample (8 MB) Options sample Underlyings TSLA \u00b7 KO \u00b7 SPY \u00b7 SPX (including SPXW) Period July\u2013December 2022 \u00b7 127 trading days, matching the stock sample's window. Files One end-of-day CSV per trading day: 127 data files, with all 34 columns,",
+    "nt field availability across the full history. All columns are retained; fields unavailable in this period, such as options quote_time , remain blank. Review historical coverage and conventions: Stock coverage notes \u00b7 Options coverage notes . When the sample fits your "
+   ]
+  },
+  "historicaloptiondata": {
+   "url": "https://historicaloptiondata.com/",
+   "status": 200,
+   "snippets": [
+    "oing updates. No hidden fees. Description Level 1 Level 2 Level 3 24-Year Full History 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent ye",
+    "s. No hidden fees. Description Level 1 Level 2 Level 3 24-Year Full History 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent year $230 Buy",
+    "n fees. Description Level 1 Level 2 Level 3 24-Year Full History 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent year $230 Buy $315 Buy N",
+    "-Year Full History 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent year $230 Buy $315 Buy N/A Annual Subscription Ongoing daily updates",
+    "l History 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent year $230 Buy $315 Buy N/A Annual Subscription Ongoing daily updates $585/yr ",
+    " 2002\u2013Present $1,150 Buy $1,495 Buy $2,035 Buy 5-Year History Most recent 5 years $615 Buy $945 Buy $1,415 Buy 1-Year History Most recent year $230 Buy $315 Buy N/A Annual Subscription Ongoing daily updates $585/yr Buy $615/yr"
+   ]
+  },
+  "historicaloptiondata_free": {
+   "url": "https://historicaloptiondata.com/free-data/",
+   "status": 200,
+   "snippets": [
+    "me way it would be if you purchased our large packages which include all symbols. The sample begins January 2003 and extends through the most recent month. Each month contains ONE symbol, and each month the symbol changes. So the fi",
+    "bols. The sample begins January 2003 and extends through the most recent month. Each month contains ONE symbol, and each month the symbol changes. So the files are about 1/700th of the full dataset. The purpose of the free data is",
+    "nt month. Each month contains ONE symbol, and each month the symbol changes. So the files are about 1/700th of the full dataset. The purpose of the free data is for you to better familiarize yourself with the data. You can even"
+   ]
+  },
+  "firstratedata": {
+   "url": "https://firstratedata.com/free-intraday-data",
+   "status": 200,
+   "snippets": [
+    " Free Intraday Data Samples FirstRate Data FirstRate Data \u00d7 Bundles Complete Bundle (Stock, Futures, ETF, Index, Crypto) Stoc",
+    " Free Intraday Data Samples FirstRate Data FirstRate Data \u00d7 Bundles Complete Bundle (Stock, Futures, ETF, Index, Crypto) Stock and ETF Bundle Comp",
+    " Volume Social Sentiment About Data Quality About Us Blog FAQ Careers Privacy Policy Contact Home / Free Data Free Historical Data Samples Download two weeks of intraday data for any ticker listed below: 1-minute, 5-minute, ",
+    "cial Sentiment About Data Quality About Us Blog FAQ Careers Privacy Policy Contact Home / Free Data Free Historical Data Samples Download two weeks of intraday data for any ticker listed below: 1-minute, 5-minute, 30-minute,",
+    "Data Quality About Us Blog FAQ Careers Privacy Policy Contact Home / Free Data Free Historical Data Samples Download two weeks of intraday data for any ticker listed below: 1-minute, 5-minute, 30-minute, 1-hour and daily bars,",
+    "V format as the full datasets. No sign-up needed. 686 Tickers 5 Timeframes 21 Sep 2026 \u2013 2 Oct 2026 Sample period Browse tickers \u2193 Data specification Skip to ticker downloads \u2193 Sample period 21 Sep 2026 \u2013 2 Oct 2026 Files in e"
+   ]
+  },
+  "apify_delisted": {
+   "url": "https://apify.com/blackfalcondata/delisted-stocks-list",
+   "status": 200,
+   "snippets": [
+    " Delisted Stocks List \u2014 NYSE & NASDAQ Delistings (SEC EDGAR) \u00b7 Apify Skip to content Get started Log in Product Back Start here! Ready-to-run tools for your AI agents and apps. Ju",
+    " Delisted Stocks List \u2014 NYSE & NASDAQ Delistings (SEC EDGAR) \u00b7 Apify Skip to content Get started Log in Product Back Start here! Ready-to-run tools for your AI agents and apps. Just pick one and go. Browse 82,684 Actors Api",
+    " about this Actor 36,000+ delisted stocks from NYSE \u00b7 NASDAQ & OTC since 2002, refreshed daily from SEC EDGAR filings. Ticker \u00b7 CIK \u00b7 filing dates \u00b7 exchange & direct filing links. Incremental mode tracks new and changed delistin",
+    "PI Issues Changelog What does Delisted Stocks List do? Query a curated database of more than 36,000 SEC EDGAR delisting and deregistration filings from 2002 onward. Filter by filing date, ticker, CIK, issuer, exchange, filing typ",
+    "ith filing-level provenance. Look up a ticker, issuer, or CIK and follow the record directly to its SEC EDGAR source. How much does it cost to query delisted stock records? Delisted Stocks List uses pay-per-event pricing. You pay",
+    "loads manageable for an LLM context window. Is it legal to query delisted stock records? The source SEC EDGAR filings are public records. You remain responsible for validating the linked filings and for complying with any laws, p"
+   ]
+  },
+  "marketparquet": {
+   "url": "https://marketparquet.com/",
+   "status": 200,
+   "snippets": [
+    " Stock, ETF & Futures Data in Parquet Split-adjusted OHLCV for backtesting \u2014 1-minute to daily bars since 2000, delisted tickers included. > Get the Complete Archive -- $79 > Download a free daily sample 26 years of history \u00b7 no s",
+    "& Futures Data in Parquet Split-adjusted OHLCV for backtesting \u2014 1-minute to daily bars since 2000, delisted tickers included. > Get the Complete Archive -- $79 > Download a free daily sample 26 years of history \u00b7 no subscription \u00b7 pandas / Pola",
+    "sting \u2014 1-minute to daily bars since 2000, delisted tickers included. > Get the Complete Archive -- $79 > Download a free daily sample 26 years of history \u00b7 no subscription \u00b7 pandas / Polars / DuckDB ready > try it \u2014 free, ",
+    "free daily sample 26 years of history \u00b7 no subscription \u00b7 pandas / Polars / DuckDB ready > try it \u2014 free, no signup: copy curl -LO https://marketparquet.com/api/data/download/stock_daily/2026-10-05.parquet 2026-10-05 close \u00b7 download a",
+    "marketparquet.com/api/data/download/stock_daily/2026-10-05.parquet 2026-10-05 close \u00b7 download also free, no signup: intraday sample pack \u00b7 1 week of 1-min to 1-hour bars, 30 symbols (zip, 3.6 MB) on a phone? register free and the welc",
+    "ricing Buy the archive once -- no subscription. See pricing . Feature Free sample Complete Archive ($79) Daily (EOD) data Last 1 year Full history Intraday (1min-1hour) sample pack (1 week, 30 symbols) Full history Asset ty"
+   ]
+  },
+  "norgate_prices": {
+   "url": "https://norgatedata.com/prices.php",
+   "status": 200,
+   "snippets": [
+    "tory End-of-day updates Current major-exchange-listed securities Current fundamentals Extras Select Platinum Daily price history back to 1990 End-of-day updates Current major-exchange-listed securities Delisted securities Curren",
+    "ay updates Current major-exchange-listed securities Delisted securities Current fundamentals Extras Historical index constituents Suitable for backtesting Select Diamond Daily price history back to 1950 End-of-day updates Current major-exchange-list",
+    "ecurities Current fundamentals Extras Historical index constituents Suitable for backtesting Select Diamond Daily price history back to 1950 End-of-day updates Current major-exchange-listed securities Delisted securities Curren",
+    "ay updates Current major-exchange-listed securities Delisted securities Current fundamentals Extras Historical index constituents Suitable for backtesting Select Add-on: OTC Currently-listed OTC securities End-of-day updates Add-on Australian Stocks",
+    "history Hourly progressive snapshots Currently-listed securities Current fundamentals Extras Select Platinum Daily price history back to 1992 Hourly progressive snapshots Currently-listed securities Delisted securities Current f",
+    "y progressive snapshots Currently-listed securities Delisted securities Current fundamentals Extras Historical index constituents Suitable for backtesting Select Add-on: Derivatives Currently-listed ETOs Currently-listed Warrants Add-on Canadian Sto"
+   ]
+  },
+  "nasdaq_sharadar_sfa": {
+   "url": "https://data.nasdaq.com/databases/SFA",
+   "status": 200,
+   "snippets": []
+  },
+  "robotwealth_spx": {
+   "url": "https://robotwealth.com/how-to-get-historical-spx-constituents-data-for-free/",
+   "status": 200,
+   "snippets": [
+    "'#constituents') %>% html_table(header = TRUE) currentconstituents Getting S&P 500 Changes for Free Wikipedia also publishes \u201cSelected Changes to the list of S&P 500 components\u201d on the same page. This lists stocks that have been added or remove",
+    "table(header = TRUE) currentconstituents Getting S&P 500 Changes for Free Wikipedia also publishes \u201cSelected Changes to the list of S&P 500 components\u201d on the same page. This lists stocks that have been added or removed from the index a"
+   ]
+  }
+ },
+ "wikipedia_sp500_revision": {
+  "revid": 1292523673,
+  "timestamp": "2025-05-27T11:51:04Z",
+  "has_selected_changes": true,
+  "dated_entries": 512,
+  "years_1990_on": [
+   1994,
+   2025
+  ]
+ },
+ "edgar_form25_counts": {
+  "25 2001": {
+   "value": 16,
+   "relation": "eq"
+  },
+  "25 2008": {
+   "value": 295,
+   "relation": "eq"
+  },
+  "25 2020": {
+   "value": 109,
+   "relation": "eq"
+  },
+  "25-NSE 2001": {
+   "value": 0,
+   "relation": "eq"
+  },
+  "25-NSE 2008": {
+   "value": 768,
+   "relation": "eq"
+  },
+  "25-NSE 2020": {
+   "value": 902,
+   "relation": "eq"
+  }
+ }
+}

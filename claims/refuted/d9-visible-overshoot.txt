@@ -1,0 +1,26 @@
+# Visible overshoot cannot certify continuous floor monitoring
+
+Target: clipping a sampled floor breach and observing no remaining overshoot
+certifies, or bounds by a quantity vanishing with the sampling mesh, the
+error against continuous floor liquidation on every continuous price path.
+
+Counterexample (claim 020, proposed): take one holding interval [0,1], pi=2,
+floor a=1/2, and any finite monitoring set containing 0 and 1. Give every
+sampled price the value 1. The constant path has wealth and liquidated
+terminal value 1. A continuous strictly positive path can instead fall to
+1/2 and recover to 1 strictly between two adjacent observations. Signed
+wealth W=2X-1 crosses below the floor, so continuous liquidation pays 1/2,
+while sampled clipping pays 1. Every sampled overshoot is zero, yet the error
+is 1/2. Such a path exists for any finite mesh. This refutes a uniform
+pathwise bound from mesh and visible overshoot alone; no pricing law for
+these deterministic paths is asserted.
+
+Corrected result proposed in claim 020: with every trading time monitored,
+clipping at detected breaches overestimates continuously liquidated terminal
+wealth, so its exact Q-mean defect is a lower bound on the continuous-fund
+defect. For a fixed price process and fixed trading grid, monitoring mesh
+tending to zero detects every genuine open excursion eventually on each
+path. The finite-grid dominator gives L1 convergence. This supplies neither
+a finite-mesh rate nor a guarantee when the trading grid changes at the same
+time. A model-specific bridge or another proved error bound is additional
+input; comparing two close numerical resolutions is not such a bound.

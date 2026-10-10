@@ -1,0 +1,20 @@
+[
+ {
+  "cell": "N-in",
+  "max_abs_score_diff": {
+   "expanding": 3.524291969370097e-12,
+   "frozen": 2.2737367544323206e-12
+  },
+  "max_abs_log_denominator_diff": 1.1368683772161603e-13,
+  "statuses_match": true
+ },
+ {
+  "cell": "L-20",
+  "max_abs_score_diff": {
+   "expanding": 2.5011104298755527e-12,
+   "frozen": 1.4210854715202004e-12
+  },
+  "max_abs_log_denominator_diff": 1.1368683772161603e-13,
+  "statuses_match": true
+ }
+]

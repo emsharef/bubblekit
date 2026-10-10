@@ -1,0 +1,27 @@
+Refuted target: stationarity, identical score marginals, a fixed window length,
+or removing overlap is enough to give a finite-sample level-alpha guarantee for
+a threshold estimated from earlier calm windows.
+
+For any integer cycle length m > 19, let U be uniform on {0,...,m-1} and
+S_t=(U+t) mod m for all integer t. This is strictly stationary because shifting
+time permutes the uniform phase. With 19 calibration scores S_0,...,S_18 and
+alpha=1/20, even the conservative conformal cutoff is their maximum. The event
+S_19 > max(S_0,...,S_18) has probability (m-19)/m, tending to one. At m=1000
+the exact probability is 981/1000. Sampling every second time gives 962/1000
+and can be represented as terminal-value scores of disjoint length-two windows.
+This is an observation-law obstruction, not a GSADF process construction or a
+proof that no useful guarantee exists under quantified dependence conditions.
+
+The existing interpolated, inclusive rule has separate problems even with
+exchangeability: constant scores trigger with probability one; uniformly
+permuting 20 distinct scores gives a 10% rejection rate at its interpolated
+lower 5% cutoff using 19 calibration scores. Neither example estimates the
+error rate in experiments 040/045.
+
+Corrected route: apply the existing conformal rank result only after supplying
+joint exchangeability (or an audited quantitative replacement), with the
+finite-sample order statistic, conservative ties and infinite-threshold case.
+The source [angelopoulos2021gentle] is registered; its ledger/source audit is
+requested, not completed. Scope is marginal false alarms under the specified
+calm-window law, not every non-bubble process or repeated-date error control.
+Exact finite fixtures: checks/d34-calibration-input/check.py. D34 remains open.

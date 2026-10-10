@@ -1,0 +1,29 @@
+{
+ "retrieved": "2026-10-08",
+ "files": {
+  "yahoo_GSPC.json": {
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=0&period2=9999999999&interval=1d",
+   "sha256": "8249f5e5483a467a65bdb07cb566a3a4e9a6e3c33afa884b1169a00ce355493b"
+  },
+  "yahoo_NDX.json": {
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?period1=0&period2=9999999999&interval=1d",
+   "sha256": "c61fc73b0e0158c5dbd5d8362ee921f259557e7ca77a99af4b47ffe9e8e3219e"
+  },
+  "yahoo_VIX.json": {
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?period1=0&period2=9999999999&interval=1d",
+   "sha256": "2cc45831012709fc3dbf347f784efa75ee23b2f0a98506b74949021a2faf5a23"
+  },
+  "yahoo_VXN.json": {
+   "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVXN?period1=0&period2=9999999999&interval=1d",
+   "sha256": "32f8921b9b71d9654457b4026f3f7bc48b952c5f09828aa3305f280309506372"
+  },
+  "cboe_VIX.csv": {
+   "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+   "sha256": "5c2f2ed585842efb26eb040cd18a1f7f092e92f6db94fc68756d48078b15bb32"
+  },
+  "cboe_VXN.csv": {
+   "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VXN_History.csv",
+   "sha256": "e9bad9708869c17ee780c698949b7e3aa7126be6f6c775fb209f4957a3e97eb6"
+  }
+ }
+}

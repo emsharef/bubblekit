@@ -1,0 +1,209 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{1.0in}
+{\color{accent}\large RESEARCH MANUSCRIPT\par}
+\vspace{0.4in}
+{\color{ink}\fontsize{34}{39}\selectfont\bfseries Asset Price Bubbles\par}
+\vspace{0.22in}
+{\color{ink}\LARGE Theory, Signals, and Traded Contracts\par}
+\vspace{0.5in}
+{\large Rebalancing and identification\par
+Daily and intraday monitoring\par
+Leveraged funds, options, and constituents\par}
+\vfill
+\noindent A unified account of the research, with economic explanations,
+principal mathematical results, and evidence from simulations and market data.
+\par\bigskip
+\noindent Draft prepared 9 October 2026\par
+\noindent Evidence through the research snapshot documented in Appendix~\ref{app:record}.
+\end{titlepage}
+\pagenumbering{roman}
+\markboth{Overview}{}
+\section*{Abstract}
+\phantomsection
+\addcontentsline{toc}{section}{Abstract}
+In the strict-local-martingale theory of asset prices, a bubble is a
+shortfall of expected future value under a pricing measure relative to the
+current price. This manuscript studies how that valuation concept relates
+to patterns in observed prices and to the wealth produced by trading
+strategies. We classify constant-proportion wealth by exposure and the
+asset's behavior near zero and at very high prices. Continuous rebalancing
+can create a strict local martingale from a true-martingale asset, and the
+classification can reverse when rebalancing occurs on a finite grid. We
+also establish limits on identification from price paths and examine what
+liquidation rules, option contracts, and constituent information add to
+the valuation problem.
+
+The empirical work develops daily and intraday signals of return variance
+rising with the price level. This pattern has a connection to bubble
+mechanisms in both local-volatility and stochastic-volatility models.
+The measurement problem is to distinguish it from changes in background
+volatility. The daily method uses a predictable market volatility scale;
+the intraday method compares price movements within each session while
+updating its background state between sessions. We evaluate the methods
+in simulations and historical records, with particular attention to how
+calibration changes their alarm patterns.
+
+The results show substantial sensitivity in the intended simulation
+families and distinct behavior on market data. In shared-market-scale
+and constant-elasticity simulations, the daily statistic detects 39--72\%
+of the specified alternatives, compared with 7--14\% for a calibrated
+explosive-price benchmark. It remains relatively quiet in crisis cohorts
+and flags all four studied homebuilders about 400 trading sessions before
+their 2005 peaks, versus one for the benchmark. The intraday score adds
+out-of-sample drawdown information to that benchmark. These findings
+support the signals as measurements of price--variance behavior, with
+the theory specifying the additional assumptions needed to interpret
+such behavior as a pricing bubble.
+
+\section*{How to read the manuscript}
+\phantomsection
+\addcontentsline{toc}{section}{How to read the manuscript}
+The four parts answer different questions within one framework.
+Part~\ref{part:theory} defines the economic object and establishes what
+rebalancing and observation can change. Part~\ref{part:signals} introduces the
+proposed signals, their calibration, and their daily and intraday evidence.
+Part~\ref{part:funds} follows the theory into finite trading and liquidation.
+Part~\ref{part:options} asks what options and index constituents add to prices
+alone. A reader interested primarily in monitoring can begin with
+Section~\ref{sec:targets}, then read Part~\ref{part:signals}; the preceding
+theory explains the limits on interpretation.
+
+Section~\ref{sec:literature} introduces the relevant literature and explains
+how the contributions build on it. The main text includes the short arguments that explain the results. Longer
+derivations, implementation specifications, and the research-to-manuscript map
+are in the appendices. Experiment numbers identify reproducible research
+records, not a sequence the reader must follow. No new empirical experiment is
+introduced in this manuscript: the tables and figures reorganize existing
+results. The selected generated tables are read directly from the stored
+experiment summaries at build time.
+
+\clearpage
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\section{The questions and the contributions}\label{sec:targets}
+An investor confronted with a rapidly appreciating stock might ask whether
+the price is detached from fundamental value, whether volatility rises as
+the price rises, whether a crash is becoming more likely, and whether a
+leveraged position changes those risks. These questions concern different
+aspects of the same episode. Understanding their connections helps determine
+what to measure and how to interpret the result.
+
+We focus on a particular pattern: return variance increasing with the price
+level. It appears in models where the price is a strict local martingale,
+and it offers something concrete to look for in market data. Measuring it
+requires separating movements associated with the stock's price from changes
+in market conditions and background volatility. The daily and intraday
+signals developed here make that separation in different ways. Alongside
+them, the theoretical analysis explains how the bubble concept changes
+when we move from an asset to a rebalanced portfolio or an option contract.
+
+Our starting point is the strict-local-martingale definition of a bubble
+\cite{jarrow2007complete}. In discounted units, under a specified pricing
+measure $Q$, a nonnegative local martingale $S$ is a supermartingale. Its
+finite-horizon defect is
+\begin{equation}\label{eq:defect}
+ b_S(T)=S_0-\E_Q[S_T]\geq0.
+\end{equation}
+A positive defect means that $S$ fails to be a true martingale on that horizon.
+The physical measure $P$ describes the distribution from which historical
+observations are drawn. An expectation under $Q$ is a valuation object, not an
+estimate of the investor's average realized return under $P$.
+
+A widely used approach to monitoring bubbles looks for explosive price
+growth: intervals on which prices behave like an autoregression with a
+root greater than one. The generalized supremum augmented Dickey--Fuller
+test (GSADF) is a prominent example \cite{phillips2012multiple}. We use an
+empirically calibrated version as a benchmark. Its focus on price dynamics
+provides a useful comparison with our focus on the relationship between
+price and return variance. A third question, whether a signal predicts a future drawdown,
+concerns outcomes under $P$. The literature already documents that large
+run-ups and their characteristics can carry crash information without run-ups
+necessarily predicting low average returns \cite{greenwood2017bubbles}.
+Forecasting is therefore one way to examine usefulness, not the definition of
+the object studied here.
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabularx}{\linewidth}{@{}L{0.22\linewidth}YY@{}}
+\toprule
+Object & Evidence it requires & What a positive finding means \\
+\midrule
+Pricing defect & A pricing law and a valuation convention & A shortfall of
+terminal expectation relative to current value \\
+Explosive behavior & A specified time-series null and calibration & Departure
+toward explosive price dynamics in that testing framework \\
+Price-level variance dependence & A variance model, nuisance treatment, and
+calibration & An observed pattern better fitted by positive level dependence \\
+Future loss risk & A forecast design and genuinely later outcomes & An
+association with losses over a specified horizon \\
+\bottomrule
+\end{tabularx}
+\caption{Four questions often grouped under the word ``bubble.'' A result in
+one row does not automatically establish a result in another.}
+\label{tab:objects}
+\end{table}
+
+\subsection{What this research adds}
+The theoretical centerpiece is a classification of constant-proportion
+wealth. An investor who continually restores a fixed fraction of wealth
+to an asset can inherit its strictness or acquire strictness through a
+different mechanism: rebalancing into an asset that can reach zero.
+The result depends on exposure and on the asset's behavior at both ends
+of its price range. Finite rebalancing and liquidation change the answer,
+which gives the classification a direct interpretation for traded funds.
+The result applies established martingale criteria; its prior-art comparison
+is incomplete, and we make no separate novelty claim for the finite-trading
+results.
+
+The identification results explain what observed prices can contribute to
+that theory. A finite record reveals behavior within a visited range, while
+the martingale classification can depend on an unvisited tail. Stochastic
+volatility adds another connection and another distinction. In Sin's model,
+positive alignment of price and volatility shocks is central to strictness,
+but different pricing measures can give the same observed law different
+valuation implications. These results motivate measuring price--variance
+association while keeping its statistical and valuation interpretations
+explicit.
+
+The methodological contribution is a pair of daily and intraday signals
+built around that association. Both compare positive and nonpositive level
+dependence using the same background-variance specification. The daily
+method adjusts for recent market volatility, leaving the stock's own level
+available to explain additional variation. The intraday method anchors
+prices within each session and updates its background state between
+sessions. Their construction addresses a recurring measurement problem:
+a sufficiently flexible volatility adjustment can absorb the pattern we
+want to detect.
+
+The empirical contribution is an evaluation of those choices, including
+simulation sensitivity, calibration, historical alarms, and a supplementary
+forecasting comparison. In the shared-market-scale simulations and a
+constant-elasticity diffusion family, the daily statistic detects roughly
+39--72\% of the specified alternatives, against 7--14\% for calibrated
+GSADF. In historical data, its sparse crisis-cohort alarms coexist with a
+coherent early signal across D.R. Horton, Lennar, Pulte, and Toll Brothers,
+all around 400 sessions before their 2005 peaks. The intraday score adds
+modest out-of-sample drawdown information to GSADF. Part~\ref{part:signals}
+presents these findings alongside the settings where each method is weaker.
+Calibration is part of the result: the reference distribution determines
+what counts as unusual and can materially change the resulting alarms.
+
+\subsection{How to assess the evidence}
+The principal distinction is between a pricing defect under $Q$ and a
+measured pattern under $P$. Simulation detection rates have known generating
+models; historical episode and calm-control labels are comparison groups.
+Reported calibration and forecast results describe the evaluated procedures
+and populations. Across those comparisons, GSADF remains the stronger general
+run-up benchmark, the intraday score contributes incremental drawdown
+information, and the daily statistic's contribution is its sensitivity and
+selective historical alarm pattern rather than a demonstrated forecasting
+gain.
+
+The research used retrospective episodes and current-constituent universes,
+with overlapping windows and repeated method development. Chronological
+out-of-sample fits therefore test temporal transfer within this research
+record, rather than an untouched research holdout. These shared qualifications
+apply throughout the empirical part. More specific limitations are stated
+where they change the interpretation of a result.

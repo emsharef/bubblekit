@@ -1,0 +1,21 @@
+Refuted: replacing large returns by zero preserves a Gaussian monitor's
+nominal calibration because the remaining returns are a continuous component.
+
+Take R standard normal, known cutoff a=1, and Y=R inside [-1,1], zero
+outside. The zero atom has probability about 0.31731. In the one-return
+claim-042 null with Delta=v=w_L=w_H=1, profiling arbitrary drift gives
+D=1/sqrt(2pi). A fixed normalized N(0,0.01^2) forecast gives the score
+100 exp(-r^2/(2*0.01^2)). Its raw null mean is 1/sqrt(1+0.01^2)<1.
+On the zero atom the filtered score is 100, exceeding the 5% threshold
+20, hence the filtered false-alarm probability exceeds 0.317>0.05.
+
+The corrected observation law has both a zero atom and a retained
+continuous density. At zero use erased-tail probabilities, not the
+original density heights. Proposed claim 043 states and proves the
+general obstruction and the corrected fixed-observation likelihood;
+checks/043/check.py checks it numerically without simulation.
+
+This is not a calculation for the specific forecast in experiment 043
+or the estimated centered filter in experiment 041. It refutes an
+automatic inheritance claim. Existing conditional jump-budget and
+Poisson-jump results (026, 060-061) retain their separate hypotheses.

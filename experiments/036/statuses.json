@@ -1,0 +1,46 @@
+{
+"N-in": {
+"denominator_status": {
+"budget exhausted": 1427,
+"tolerance met": 573
+},
+"zero_label_paths": 0,
+"zero_factor_paths": {
+"expanding": 0,
+"frozen": 0
+}
+},
+"N-switch": {
+"denominator_status": {
+"budget exhausted": 1125,
+"tolerance met": 875
+},
+"zero_label_paths": 0,
+"zero_factor_paths": {
+"expanding": 0,
+"frozen": 0
+}
+},
+"L-15": {
+"denominator_status": {
+"budget exhausted": 643,
+"tolerance met": 1357
+},
+"zero_label_paths": 0,
+"zero_factor_paths": {
+"expanding": 0,
+"frozen": 0
+}
+},
+"L-20": {
+"denominator_status": {
+"budget exhausted": 664,
+"tolerance met": 1336
+},
+"zero_label_paths": 0,
+"zero_factor_paths": {
+"expanding": 0,
+"frozen": 0
+}
+}
+}

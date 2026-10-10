@@ -1,0 +1,17 @@
+cell,mode,alpha,cross_rate,se
+N-in,expanding,0.05,0.0,0.0
+N-in,expanding,0.1,0.0,0.0
+N-in,frozen,0.05,0.0,0.0
+N-in,frozen,0.1,0.0,0.0
+N-switch,expanding,0.05,0.01,0.0099498743710662
+N-switch,expanding,0.1,0.02,0.014
+N-switch,frozen,0.05,0.0,0.0
+N-switch,frozen,0.1,0.01,0.0099498743710662
+L-15,expanding,0.05,0.0,0.0
+L-15,expanding,0.1,0.0,0.0
+L-15,frozen,0.05,0.0,0.0
+L-15,frozen,0.1,0.0,0.0
+L-20,expanding,0.05,0.0,0.0
+L-20,expanding,0.1,0.0,0.0
+L-20,frozen,0.05,0.0,0.0
+L-20,frozen,0.1,0.0,0.0

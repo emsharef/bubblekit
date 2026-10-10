@@ -1,0 +1,25 @@
+index,lag,band,alpha,windows,calm_windows,calm_cross,all_cross
+SPX,lag2,"primary [0.3,1.0]",0.05,141,65,0,0
+SPX,lag2,"primary [0.3,1.0]",0.1,141,65,0,0
+SPX,lag2,"band M [0.25,1.25]",0.05,141,65,0,0
+SPX,lag2,"band M [0.25,1.25]",0.1,141,65,0,0
+SPX,lag2,"sensitivity [0.5,1.0]",0.05,141,65,0,1
+SPX,lag2,"sensitivity [0.5,1.0]",0.1,141,65,0,2
+SPX,lag1,"primary [0.3,1.0]",0.05,141,65,0,0
+SPX,lag1,"primary [0.3,1.0]",0.1,141,65,0,0
+SPX,lag1,"band M [0.25,1.25]",0.05,141,65,0,0
+SPX,lag1,"band M [0.25,1.25]",0.1,141,65,0,0
+SPX,lag1,"sensitivity [0.5,1.0]",0.05,141,65,0,1
+SPX,lag1,"sensitivity [0.5,1.0]",0.1,141,65,0,2
+NDX,lag2,"primary [0.3,1.0]",0.05,97,14,0,0
+NDX,lag2,"primary [0.3,1.0]",0.1,97,14,0,0
+NDX,lag2,"band M [0.25,1.25]",0.05,97,14,0,0
+NDX,lag2,"band M [0.25,1.25]",0.1,97,14,0,0
+NDX,lag2,"sensitivity [0.5,1.0]",0.05,97,14,0,0
+NDX,lag2,"sensitivity [0.5,1.0]",0.1,97,14,0,0
+NDX,lag1,"primary [0.3,1.0]",0.05,97,14,0,0
+NDX,lag1,"primary [0.3,1.0]",0.1,97,14,0,0
+NDX,lag1,"band M [0.25,1.25]",0.05,97,14,0,0
+NDX,lag1,"band M [0.25,1.25]",0.1,97,14,0,0
+NDX,lag1,"sensitivity [0.5,1.0]",0.05,97,14,0,0
+NDX,lag1,"sensitivity [0.5,1.0]",0.1,97,14,0,0

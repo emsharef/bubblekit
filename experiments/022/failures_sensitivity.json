@@ -1,0 +1,197 @@
+{
+ "cells": {
+  "cev0.50|5|5min": {
+   "records": 20,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "cev0.50|5|daily": {
+   "records": 9,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "cev0.50|5|weekly": {
+   "records": 4,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|1|monthly": {
+   "records": 2,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|1|weekly": {
+   "records": 2,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|1|daily": {
+   "records": 3,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|1|5min": {
+   "records": 5,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|2|5min": {
+   "records": 20,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|2|daily": {
+   "records": 5,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|2|monthly": {
+   "records": 3,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|2|weekly": {
+   "records": 3,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|5|monthly": {
+   "records": 18,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|5|weekly": {
+   "records": 22,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|5|daily": {
+   "records": 30,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_mart|5|5min": {
+   "records": 51,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|1|5min": {
+   "records": 1,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|2|monthly": {
+   "records": 2,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|2|weekly": {
+   "records": 2,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|2|daily": {
+   "records": 3,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|2|5min": {
+   "records": 3,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|5|monthly": {
+   "records": 15,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|5|weekly": {
+   "records": 17,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|5|daily": {
+   "records": 18,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  },
+  "sin_strict|5|5min": {
+   "records": 24,
+   "still_failed": 0,
+   "S1_05": 0,
+   "S3_05": 0,
+   "S1_10": 0,
+   "S3_10": 0
+  }
+ },
+ "records": 282
+}

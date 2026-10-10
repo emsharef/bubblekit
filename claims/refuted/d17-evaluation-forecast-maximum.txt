@@ -1,0 +1,15 @@
+Refuted target: after fixing a valid null likelihood denominator, selecting
+the normalized forecast with the largest completed evaluation score is valid
+without a penalty or normalization.
+
+Take 21 outcomes, the uniform null g(z)=1/21, and normalized point-mass
+forecasts q_j(z)=1_{j=z}. The denominator D=g dominates the sole null.
+Then max_j q_j(z)/D(z)=21 for every z. At the strict threshold 20
+(alpha=.05), the rejection probability is one, not at most .05.
+The uniform fixed mixture instead gives q_mix=g and score one everywhere.
+
+Corrected route: select the forecast using training only, or use a convex
+mixture with weights fixed given training, then apply the existing AX-58
+domination contract. Proposed claim 035 checks the CEV-clock application;
+checks/035/check.py verifies this finite counterexample with exact rationals.
+No general claim that clock-aware forecasts improve power follows.

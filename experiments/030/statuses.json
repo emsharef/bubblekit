@@ -1,0 +1,37 @@
+{
+"InfoSpace|wiki, split-adjusted (primary)": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"InfoSpace|sye close (cross-check, unknown provenance)": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"InfoSpace|wiki, split dates shifted -1 day (sensitivity)": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"InfoSpace|wiki, split dates shifted +1 day (sensitivity)": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+},
+"GeoCities|sye single daily price (unknown provenance)": {
+"status": [
+"ok"
+],
+"jkp_m1": "inconclusive",
+"jkp_m2": "bubble"
+}
+}

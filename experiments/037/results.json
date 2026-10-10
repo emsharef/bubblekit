@@ -1,0 +1,418 @@
+{
+  "N1": {
+    "common": {
+      "n": 2000,
+      "mean_e": 0.3531366840588138,
+      "se_mean_e": 0.008238352423765463,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 0.0,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint1": {
+      "n": 2000,
+      "mean_e": 0.023611408094715975,
+      "se_mean_e": 0.0008628657111063232,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 3.120255373073064,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint3": {
+      "n": 2000,
+      "mean_e": 4.1879874198471794e-05,
+      "se_mean_e": 3.031647015112414e-06,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 10.675218959492668,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint10": {
+      "n": 2000,
+      "mean_e": 6.822930261897016e-11,
+      "se_mean_e": 1.6560442540230277e-11,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 28.63790783203217,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint59": {
+      "n": 2000,
+      "mean_e": 7.136439057435633e-23,
+      "se_mean_e": 3.151612171893533e-23,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 67.96400415818107,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free0": {
+      "n": 2000,
+      "mean_e": 4.115122550585555e-11,
+      "se_mean_e": 1.91017715159018e-11,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 31.556642206539777,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free3": {
+      "n": 2000,
+      "mean_e": 9.255689754977016e-14,
+      "se_mean_e": 6.142842808980739e-14,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 39.89791672732986,
+      "failures": 0,
+      "singularities": 0
+    }
+  },
+  "N-common3": {
+    "common": {
+      "n": 2000,
+      "mean_e": 66476952.054870136,
+      "se_mean_e": 64053067.55705314,
+      "rejections": 47,
+      "rate": 0.0235,
+      "se_rate": 0.0033873108803297047,
+      "median_log_gap": 0.0,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint1": {
+      "n": 2000,
+      "mean_e": 1.0416613755383593e-08,
+      "se_mean_e": 9.874182397171767e-09,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 49.20202987196808,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint3": {
+      "n": 2000,
+      "mean_e": 5.41831708649882e-24,
+      "se_mean_e": 5.4156263201387915e-24,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 102.0789991697194,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint10": {
+      "n": 2000,
+      "mean_e": 1.7117365199167734e-32,
+      "se_mean_e": 1.7115764430752374e-32,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 123.51394574756239,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint59": {
+      "n": 2000,
+      "mean_e": 9.471125297461765e-50,
+      "se_mean_e": 9.466517873113463e-50,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 164.77512109546933,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free0": {
+      "n": 2000,
+      "mean_e": 3.514756841942729e-05,
+      "se_mean_e": 3.512282659736283e-05,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 31.445779195965656,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free3": {
+      "n": 2000,
+      "mean_e": 8.354483969096228e-33,
+      "se_mean_e": 8.354482475044596e-33,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 131.77143317631783,
+      "failures": 0,
+      "singularities": 0
+    }
+  },
+  "N-joint3": {
+    "common": {
+      "n": 2000,
+      "mean_e": 302311.53737047175,
+      "se_mean_e": 267062.13788422523,
+      "rejections": 38,
+      "rate": 0.019,
+      "se_rate": 0.003052785613173647,
+      "median_log_gap": 0.0,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint1": {
+      "n": 2000,
+      "mean_e": 1.358072076875361e-10,
+      "se_mean_e": 7.256390966580224e-11,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 48.32792561308065,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint3": {
+      "n": 2000,
+      "mean_e": 4.948982080548639e-18,
+      "se_mean_e": 4.69481370047471e-18,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 101.66260304919183,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint10": {
+      "n": 2000,
+      "mean_e": 3.6467570257845306e-26,
+      "se_mean_e": 3.6448693459055567e-26,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 123.5527020132057,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint59": {
+      "n": 2000,
+      "mean_e": 1.7911533371068532e-40,
+      "se_mean_e": 1.7911533370425082e-40,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 165.28050266590515,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free0": {
+      "n": 2000,
+      "mean_e": 9.406712605535525e-09,
+      "se_mean_e": 6.8609931088401186e-09,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 31.41315979097351,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free3": {
+      "n": 2000,
+      "mean_e": 7.724747967459883e-29,
+      "se_mean_e": 7.72153652723189e-29,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 131.34805703432448,
+      "failures": 0,
+      "singularities": 0
+    }
+  },
+  "N-daily3": {
+    "common": {
+      "n": 2000,
+      "mean_e": 320516.28426873917,
+      "se_mean_e": 319310.1931714348,
+      "rejections": 45,
+      "rate": 0.0225,
+      "se_rate": 0.0033161536454151216,
+      "median_log_gap": 0.0,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint1": {
+      "n": 2000,
+      "mean_e": 4.1677006298403396e-10,
+      "se_mean_e": 3.6973534659094113e-10,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 49.142891005594606,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint3": {
+      "n": 2000,
+      "mean_e": 7.001232566991921e-26,
+      "se_mean_e": 6.988507504963344e-26,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 99.83074934970261,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint10": {
+      "n": 2000,
+      "mean_e": 4.188447183966308e-34,
+      "se_mean_e": 4.180101430757875e-34,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 121.86907190854231,
+      "failures": 0,
+      "singularities": 0
+    },
+    "joint59": {
+      "n": 2000,
+      "mean_e": 5.943098789891865e-48,
+      "se_mean_e": 5.936744311286169e-48,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 163.9927049728309,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free0": {
+      "n": 2000,
+      "mean_e": 1.9312495294434794e-08,
+      "se_mean_e": 1.2410835239886153e-08,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 31.274250600325445,
+      "failures": 0,
+      "singularities": 0
+    },
+    "free3": {
+      "n": 2000,
+      "mean_e": 3.254743534601853e-35,
+      "se_mean_e": 3.2533106621740926e-35,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 130.92890754666018,
+      "failures": 0,
+      "singularities": 0
+    }
+  },
+  "A": {
+    "common": {
+      "n": 2000,
+      "mean_e": 3.1862535518213126e+36,
+      "se_mean_e": 3.186253551821195e+36,
+      "rejections": 547,
+      "rate": 0.2735,
+      "se_rate": 0.00996739058129057,
+      "median_log_gap": 0.0,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 1.0,
+      "paired_power_loss": 0.0,
+      "se_paired_loss": 0.0
+    },
+    "joint1": {
+      "n": 2000,
+      "mean_e": 750275793368.7017,
+      "se_mean_e": 750275793366.8965,
+      "rejections": 9,
+      "rate": 0.0045,
+      "se_rate": 0.0014966211945579282,
+      "median_log_gap": 4.483657231761413,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.016453382084095063,
+      "paired_power_loss": 0.269,
+      "se_paired_loss": 0.009918098827001627
+    },
+    "joint3": {
+      "n": 2000,
+      "mean_e": 0.00831143130142835,
+      "se_mean_e": 0.008108469798915923,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 12.543939315802277,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.0,
+      "paired_power_loss": 0.2735,
+      "se_paired_loss": 0.009969883363768282
+    },
+    "joint10": {
+      "n": 2000,
+      "mean_e": 1.1655794937055583e-10,
+      "se_mean_e": 3.189654877650928e-11,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 31.180056860322566,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.0,
+      "paired_power_loss": 0.2735,
+      "se_paired_loss": 0.009969883363768282
+    },
+    "joint59": {
+      "n": 2000,
+      "mean_e": 5.096997862772346e-23,
+      "se_mean_e": 3.179291600453015e-23,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 71.01538970312038,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.0,
+      "paired_power_loss": 0.2735,
+      "se_paired_loss": 0.009969883363768282
+    },
+    "free0": {
+      "n": 2000,
+      "mean_e": 1.883622327597551e+20,
+      "se_mean_e": 1.8836223219031782e+20,
+      "rejections": 4,
+      "rate": 0.002,
+      "se_rate": 0.0009989994994993741,
+      "median_log_gap": 31.257038990339993,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.007312614259597806,
+      "paired_power_loss": 0.2715,
+      "se_paired_loss": 0.009947027026872734
+    },
+    "free3": {
+      "n": 2000,
+      "mean_e": 2.4995702011540617e-13,
+      "se_mean_e": 1.3336877139953618e-13,
+      "rejections": 0,
+      "rate": 0.0,
+      "se_rate": 0.0,
+      "median_log_gap": 42.11652047338919,
+      "failures": 0,
+      "singularities": 0,
+      "power_ratio_to_common": 0.0,
+      "paired_power_loss": 0.2735,
+      "se_paired_loss": 0.009969883363768282
+    }
+  }
+}

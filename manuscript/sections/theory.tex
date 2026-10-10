@@ -1,0 +1,301 @@
+\partopening{Theory and the Limits of Identification}{part:theory}
+{When does a strategy inherit a bubble, and what can observed prices determine?}
+
+\section{Constant exposure and the two endpoints}\label{sec:classification}
+Consider a discounted asset satisfying
+\begin{equation}\label{eq:localvol}
+ \mathrm{d}S_t=\sigma(S_t)\,\mathrm{d}W_t,\qquad S_0=s_0>0,
+\end{equation}
+under $Q$. The coefficient is Borel and nowhere zero on $(0,\infty)$, with
+$1/\sigma^2$ integrable on every compact subinterval. The nonnegative solution
+is absorbed at zero. These assumptions allow weak diffusion laws; differentiability
+of the coefficient is unnecessary for the criterion below.
+
+An investor maintains exposure $\pi>0$ to the asset and the rest of wealth in
+cash. Before the asset reaches zero, self-financing gives
+$\mathrm{d}V_t^\pi=\pi V_t^\pi\mathrm{d}S_t/S_t$. The wealth under study is
+defined at all times by
+\begin{equation}\label{eq:wealth}
+ V_t^\pi=v_0\mathcal E\!\left(\pi\int_0^\cdot
+                   \frac{\mathrm{d}S_u}{S_u}\right)_t .
+\end{equation}
+The exponential is continued at exit according to the convention in the
+martingale criterion of Mijatovi\'c and Urusov
+\cite{mijatovic2010martingale}: it is set to zero when its quadratic-variation
+integral diverges at exit. We call this the \emph{wealth representation}.
+It is the specified model of wealth, not a proof that every implementable
+strategy through default has this value. In this driftless diffusion the
+integral diverges when $S$ reaches zero, so this wealth is then zero.
+
+For any fixed $c>0$, define
+\begin{equation}\label{eq:integrals}
+ I_0=\int_0^c\frac{x}{\sigma^2(x)}\dd x,
+ \qquad I_\infty=\int_c^\infty\frac{x}{\sigma^2(x)}\dd x.
+\end{equation}
+Local integrability makes their finiteness independent of $c$. The established
+driftless criterion says that $S$ is strict on every positive finite horizon
+exactly when $I_\infty<\infty$; the corresponding lower-endpoint test says that
+zero is accessible exactly when $I_0<\infty$
+\cite{mijatovic2010martingale,karatzas2015distribution}.
+
+\begin{theorem}[Constant-proportion classification]\label{thm:exposure}
+Under \eqref{eq:localvol}, the stated coefficient assumptions, and the wealth
+representation \eqref{eq:wealth}, for every finite $T>0$,
+\begin{equation}\label{eq:classification}
+ V^\pi\text{ is strict on }[0,T]\quad\Longleftrightarrow\quad
+ \left(0<\pi<\tfrac12\ \text{and}\ I_0<\infty\right)
+ \ \text{or}\ 
+ \left(\pi>\tfrac12\ \text{and}\ I_\infty<\infty\right).
+\end{equation}
+In particular, $\pi=1/2$ always gives a martingale on each finite horizon.
+\end{theorem}
+
+\noindent The result is conditional on the cited martingale criterion and
+the wealth representation. Its deterministic endpoint calculation is the
+project's proof. The auxiliary-diffusion family already appears in
+Karatzas and Ruf, equation (7.4) \cite{karatzas2015distribution}; the
+contribution here is the classification across exposure and its implications
+for rebalancing and default.
+
+\begin{table}[htbp]\centering
+\begin{tabular}{@{}lll@{}}\toprule
+Exposure & True martingale on every finite horizon iff & Endpoint that matters\\
+\midrule
+$0<\pi<1/2$ & $I_0=\infty$ & Zero\\
+$\pi=1/2$ & Always & Neither permits auxiliary exit\\
+$\pi>1/2$ & $I_\infty=\infty$ & Infinity\\
+\bottomrule\end{tabular}
+\caption{The exposure classification under the stated wealth convention.}
+\end{table}
+
+\subsection{Why one-half appears}
+The criterion examines an auxiliary diffusion with drift
+$\pi\sigma^2(x)/x$ and the original diffusion coefficient. Its scale density is
+$(x/c)^{-2\pi}$. Above one-half, the upper endpoint of its scale is finite;
+below one-half, the lower endpoint is finite. The corresponding Feller
+integrands reduce to
+\begin{equation}\label{eq:fellerkernels}
+ \frac{1}{2\pi-1}\frac{x}{\sigma^2(x)}\quad(\pi>1/2),
+ \qquad
+ \frac{1}{1-2\pi}\frac{x}{\sigma^2(x)}\quad(0<\pi<1/2).
+\end{equation}
+At one-half the scale is logarithmic and neither endpoint allows this exit.
+Neither endpoint is ``good'' in the terminology of the cited criterion, so
+auxiliary exit decides strictness. Appendix~\ref{app:proofs} gives the
+calculation in detail.
+
+The lower endpoint changes the usual inheritance intuition. Below one-half,
+continuous rebalancing into an asset that can reach zero creates strict wealth
+even when the asset itself is a martingale. The investor buys more units as
+the price declines, continually replenishing the risky fraction from cash.
+The model rides this process all the way to zero wealth. That pathwise
+description is one part of the exposure classification, which also accounts
+for gains on surviving paths through their expectation under $Q$.
+
+\begin{example}[Two reversals at a quarter allocation]\label{ex:reversal}
+For absorbed Brownian motion, $\sigma(x)=1$, $I_0<\infty$ and
+$I_\infty=\infty$. The asset is a martingale but $V^{1/4}$ is strict.
+For $\sigma(x)=x^2$, $I_0=\infty$ and $I_\infty<\infty$.
+The asset is strict but $V^{1/4}$ is a martingale. Part~\ref{part:funds}
+shows that every finite rebalancing grid reverses the continuous-wealth
+classification in both examples.
+\end{example}
+
+At $\sigma(x)=1+x^2$, both integrals are finite. Every positive exposure except
+one-half then produces strict wealth. The boundary behavior, as well as
+the exposure, determines the outcome.
+\source{claim 001; experiments 001 and 006}
+
+\subsection{Long horizons, changing exposure, and independent assets}
+Three extensions help delimit the classification. Applying the
+infinite-horizon criterion of Mijatovi\'c and Urusov, constant nonnegative
+exposure gives a \emph{uniformly integrable martingale over all time} only at
+$\pi=0$ \cite{mijatovic2010martingale}. Here uniform integrability is required together with the martingale
+property. For example, geometric Brownian wealth at positive constant
+exposure is a martingale on each finite horizon but fails uniform
+integrability over all time.
+
+Changing exposure can restore uniform integrability. For geometric Brownian
+motion $\sigma(x)=\kappa x$, with $\kappa>0$, a bounded deterministic schedule
+$\pi(t)$ gives a uniformly integrable martingale exactly when
+$\int_0^\infty\pi(t)^2\dd t<\infty$. For example,
+$\pi(t)=(1+t)^{-\gamma}$ qualifies exactly when $\gamma>1/2$.
+For an adaptive schedule, the relevant almost-sure energy condition is under
+the auxiliary measure in Ruf's criterion, not simply under $Q$
+\cite{ruf2015martingale}. Bounded exposure alone is insufficient for a general
+local-volatility asset.
+
+If two full asset--wealth systems are independent under $Q$ and their
+product is a continuous local martingale in the common filtration, the
+product wealth has multiplying mean factors. Writing their normalized defects as
+$\delta_1$ and $\delta_2$, the product defect is
+\begin{equation}\label{eq:productdefect}
+ \delta_{12}=\delta_1+\delta_2-\delta_1\delta_2.
+\end{equation}
+It vanishes exactly when both defects vanish. An independent
+true-martingale factor does not remove the strictness of another factor.
+Independence of the full systems is the key assumption behind this
+factorization.
+\source{claims 074--076; numerical checks summarized in the
+original paper's Section 3.1}
+
+\section{What prices identify}\label{sec:identification}
+The classification depends on what happens near zero and infinity. A finite
+record occupies a finite price range. Better measurement inside that range
+does not by itself supply the missing behavior outside it. This is the
+extrapolation problem already recognized by Jarrow, Kchia, and Protter
+\cite{jarrow2011detect}.
+
+\begin{proposition}[Compatible tails]\label{prop:tails}
+Suppose $\sigma$ is known exactly on $(0,R]$, with $c<R$. Set
+$J=\int_c^R x/\sigma^2(x)\dd x$. Over all admissible coefficients agreeing
+with $\sigma$ on that interval, the upper-endpoint integral ranges over
+$(J,\infty]$. Its finiteness can take either value. If $\sigma$ is positive
+and continuous, the compatible coefficients can be chosen positive and
+continuous. If only $[r,R]$, $r>0$, is known, the lower and upper unknown tails
+can be varied independently.
+\end{proposition}
+
+\begin{proof}
+Keep $\sigma$ unchanged below $R$ and set
+$g_p(x)=\sigma(R)(x/R)^p$ above it. For $p=1$ the tail integral diverges;
+for $p>1$ it equals
+\[
+ \int_R^\infty \frac{x}{g_p(x)^2}\dd x
+ =\frac{R^2}{2(p-1)\sigma(R)^2}.
+\]
+Varying $p$ yields every strictly positive finite tail contribution, together
+with infinity. A similar completion below $r$ varies the lower tail. The
+known middle contribution is unaffected.
+\end{proof}
+
+This proposition grants much more than actual observations: exact knowledge
+of a coefficient on an interval. It is an identified-set statement, not a
+confidence interval or a finite-sample testing theorem. The latter requires
+comparing observation laws.
+
+\begin{theorem}[Finite-horizon testing obstruction]\label{thm:nogo}
+Fix a positive finite horizon and finitely many observed price paths. In the
+class of driftless local-volatility diffusions described above, including
+$P=Q$, every bounded randomized test has power at each strict alternative no
+larger than its rejection probability maximized over all true-martingale
+nulls. The conclusion persists when coefficients are required to be positive
+and continuous. It also has a version allowing equivalent physical measures.
+\end{theorem}
+
+For $P=Q$, the argument is particularly transparent. Replace the coefficient
+above a large level $n$ by a linear tail. The completed price is a martingale
+and agrees in stopped law with the alternative until the price reaches $n$.
+The probability of reaching that level before the horizon tends to zero, so
+the observed path laws become arbitrarily close. A finite number of paths
+does not change the argument. Weak existence and stopped uniqueness in law
+are cited diffusion inputs; their full reconstruction is not part of the
+project. Appendix~\ref{app:proofs} records the probability comparison.
+
+The theorem concerns \emph{uniform} size over a broad null class.
+Restricted models can support informative tests by excluding the compatible
+completions, for example through a specified tail law. Under $P=Q$, a known
+full law identifies $\E_Q[S_T]$; the obstruction concerns inference from
+finite records uniformly across the admitted laws.
+\source{claims 002, 003, 006, and 013}
+
+\subsection{Sin's model: feedback and the pricing measure}\label{sec:sin}
+Sin's stochastic-volatility model provides a second theoretical reason to
+study positive price--volatility association \cite{sin1995complications}.
+Under a specified pricing probability $Q^s$, write its dynamics as
+\begin{equation}\label{eq:sin}
+ \mathrm{d}S_t=S_t v_t^\alpha\gamma\cdot\mathrm{d}W_t,\qquad
+ \mathrm{d}v_t=v_t a\cdot\mathrm{d}W_t+\kappa(L-v_t)\mathrm{d}t,
+\end{equation}
+where $W$ is two-dimensional Brownian motion, $\alpha,\kappa,L>0$,
+$a,\gamma$ are nonzero constant vectors, $S_0>0$, and $v_0=1$.
+The price and volatility factor remain positive. Sin's Theorem 3.2 says
+that $S$ is a martingale on all finite horizons exactly when
+$a\cdot\gamma\leq0$. Positive alignment therefore produces strictness
+on some finite horizon.
+
+The dot product is also the sign of the instantaneous association between
+price and volatility shocks. When it is positive, upward price shocks
+arrive with upward volatility shocks. Under the auxiliary change of measure
+used to examine the price's expectation, that alignment adds an upward
+term of order $v^{1+\alpha}$ to the volatility drift. The resulting
+explosion mechanism creates the expectation shortfall. This is a
+stochastic-volatility route to a bubble, alongside the local-volatility
+route in which the diffusion coefficient grows rapidly with the price.
+
+That connection changes how a signal should be interpreted. A positive
+fitted level exponent may summarize explicit local-level dependence or
+correlated volatility shocks. Those are different explanations of the
+coefficient, but both warrant attention when studying bubble-related
+price--variance behavior. The simulation response to correlation in
+Part~\ref{part:signals} is informative about that broader sensitivity.
+The model must still be specified to turn the association into a strictness
+criterion: Sin's multiplicative volatility dynamics differ from the
+square-root variance dynamics used in those simulations.
+
+Sin's model also separates this mechanism from identification of a pricing
+measure. With nonparallel vectors,
+$|a\cdot\gamma|<|a||\gamma|$, his Theorem 3.6 supplies an equivalent
+measure under which the same price is a martingale on any specified finite
+horizon. Taking $P=Q^s$ and choosing a horizon with strictness gives one
+physical law compatible with both positive and zero pricing defects.
+The change of measure alters the volatility drift while preserving the
+instantaneous covariance structure. Thus covariance information helps
+characterize the observed feedback, while a valuation conclusion additionally
+requires a pricing law. The two roles of Sin's model---a positive feedback
+mechanism and pricing-measure ambiguity---belong together.
+\source{claim 003, part 3; Sin's Theorems 3.2 and 3.6, as recorded in AX-05}
+
+\subsection{What is positively identified inside the range}
+There is a useful positive result. For a continuously observed path of the
+diffusion, let $L_T^x$ be semimartingale local time, normalized by the
+occupation identity
+$\int_0^T f(S_t)\sigma^2(S_t)\dd t=\int f(x)L_T^x\dd x$.
+With zero contribution when the denominator is zero, the visited-range
+identity is
+\begin{equation}\label{eq:visited}
+ \int_0^T\frac{S_t}{L_T^{S_t}}\,
+     \ind_{\{S_t>0,L_T^{S_t}>0\}}\dd t
+ =\int_{(\min S,\max S)\cap(0,\infty)}
+        \frac{x}{\sigma^2(x)}\dd x.
+\end{equation}
+It is an application of the occupation formula and positivity of local time
+on the visited interior. The identity is pathwise and transfers under
+equivalent physical measures. It identifies the visited portion, not its
+unobserved completion. Estimating it from sampled prices introduces another
+problem, especially near levels with little occupation.
+
+Under a declared common power tail, pooling names expands the union of
+visited price levels. Claim 015 gives a limiting detection probability at
+least as large as that for any one name, without assuming independence.
+This is a coverage gain; no estimation-rate improvement is asserted.
+Separate reviewer simulations of the later pooled likelihood constructions
+in claims 062--063 found no improvement over per-name testing.
+\source{claims 008, 012, 013, and 015; experiment 013 for sampled
+visited-integral estimation; reviewer simulations in claims 062--063 for pooling}
+
+\subsection{Why sampling frequency is not a universal cure}
+In a separable model for log price $X$, suppose its instantaneous variance is
+$v_t=\exp(a(t)+\beta X_t)$ and $a$ is deterministic, continuous, and of finite
+variation. Continuous observation yields
+\begin{equation}\label{eq:continuousbeta}
+ \beta=\frac{[\log v,X]_T}{[X]_T},
+ \qquad v_t=\frac{\mathrm{d}[X]_t}{\mathrm{d}t}.
+\end{equation}
+Finite variation contributes no quadratic covariation, so this follows by
+polarization. Stochastic volatility with nonzero quadratic variation does
+not satisfy that premise. Nor does \eqref{eq:continuousbeta} provide a
+noise-robust estimator of the derivative of quadratic variation from daily
+prices.
+
+Under $P=Q$ and the cited exact price laws, on every fixed finite grid the
+normalized laws of
+$\mathrm{d}S=\kappa S\,\mathrm{d}W$ and
+$\mathrm{d}S=\kappa S^2\,\mathrm{d}W$, started at one, approach one another in
+total variation as $\kappa\downarrow0$. The first is a martingale and the
+second strict, with a fixed separation in elasticity. Thus no uniform
+finite-grid power or required-frequency guarantee follows from elasticity
+separation and a time-variation budget alone. A lower bound on the relevant
+variance scale is missing. At a given scale, richer intraday observations can still provide the
+substantial gains documented in the next part.
+\source{claims 071--073}

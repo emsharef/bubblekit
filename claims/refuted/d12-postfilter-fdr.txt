@@ -1,0 +1,32 @@
+Refuted: an arbitrary subset of an e-BH rejection set inherits its FDR level.
+
+This finite example concerns reporting/selection, not a price-diffusion model.
+The base rank rule is [wang2020false] (5); general FDR control is registered
+as AX-53 for audit, not re-proved here.
+
+Take m=4, q_FDR=1/5, with true nulls 1 and 2 and alternatives 3 and 4.
+The joint e-values are:
+  probability 3/20: (20/3, 0,    20, 20)
+  probability 3/20: (0,    20/3, 20, 20)
+  probability 7/10: (0,    0,    20, 20).
+Each null e-value has mean exactly 1; the alternatives need no mean bound.
+The base e-BH rule rejects three names in the first two cases, and the
+two alternatives in the third. FDR=(3/20)/3+(3/20)/3=1/10.
+
+Now keep only reported indices in the fixed subset {1,2}. The retained
+list is a singleton false discovery in the first two cases, and empty
+otherwise. Its FDR is 3/10, exceeding 1/5. It is not enough that every
+retained name was in the original valid list.
+
+Likewise, selecting S_sel={i in {1,2}: E_i>0} and rerunning at level 1/5
+with the denominator reset to |S_sel| gives FDR 3/10: whenever nonempty,
+the selected singleton has e-value 20/3>5.
+
+The source Section 5.1 correction is to rerun on the selected set at
+level q_FDR |S_sel|/m (empty set gives no discoveries). Equivalently,
+set discarded e-values to zero and retain denominator m in the rank rule.
+Here that corrected procedure never rejects, so its FDR is zero. This
+is a source procedure, not a new general selection theorem.
+
+Exact enumeration is committed in checks/d12-ebh-input/check.py; no
+simulation or empirical false-discovery claim is made.

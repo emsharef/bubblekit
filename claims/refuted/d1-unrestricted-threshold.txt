@@ -1,0 +1,9 @@
+# D1's unrestricted threshold: proposed refutation under the stopped-exponential convention
+
+This is the discarded charter target, not a separately numbered claim. The author's refutation is pending adversarial review; no formalized result is asserted here. The corrected claim is proposed in `claims/001-d1-two-endpoint-criterion.md` and must not be used as an established premise before review.
+
+Target: Vπ is strict exactly when S is strict and π > 1/2, without a hypothesis on zero.
+
+Reason: Take σ ≡ 1 and S started at 1, absorbed at zero, and define Vπ by wealth representation (W). AX-03 from [mijatovic2010martingale] classifies S as a martingale because ∫₁∞ x dx = ∞. For π = 1/4 the auxiliary scale density is x^(−1/2) and its scale based at 1 is 2(√x−1). Its lower scale limit is −2 and its left Feller integrand is 2x, integrable near zero. AX-02 therefore gives auxiliary exit at zero. The original scale is x−1, and the goodness integrand at zero is 1/(16x), which is not integrable there. AX-01 then gives a strict exponential on every finite positive horizon. These are conditional applications of the source-audited inputs, not reconstructed stochastic proofs.
+
+Strongest corrected criterion proposed: under the coefficient and wealth hypotheses of the proposed claim, strictness occurs exactly for (0 < π < 1/2 and I₀ < ∞) or (π > 1/2 and I∞ < ∞). The original threshold is recovered for all positive exposures if I₀ = ∞. No assertion is made here about another convention for holdings or wealth at zero.

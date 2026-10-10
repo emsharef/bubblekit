@@ -1,0 +1,123 @@
+{
+ "2020-21": {
+  "member_months": {
+   "no series": 1003,
+   "series does not cover the month": 157,
+   "listing-month artifact": 1
+  },
+  "names": {
+   "no series": [
+    "ABMD",
+    "ADS",
+    "AGN",
+    "ALXN",
+    "ANSS",
+    "ARNC",
+    "ATVI",
+    "BK",
+    "CERN",
+    "CMA",
+    "CTLT",
+    "CTRA",
+    "CTXS",
+    "CXO",
+    "DAY",
+    "DFS",
+    "DISCA",
+    "DISCK",
+    "DISH",
+    "DRE",
+    "ETFC",
+    "FBHS",
+    "FI",
+    "FLIR",
+    "FRC",
+    "GPS",
+    "HBI",
+    "HES",
+    "HFC",
+    "HOLX",
+    "IPG",
+    "JNPR",
+    "JWN",
+    "K",
+    "KSU",
+    "MMC",
+    "MRO",
+    "MXIM",
+    "NBL",
+    "NLSN",
+    "PBCT",
+    "PXD",
+    "RTN",
+    "SEE",
+    "SIVB",
+    "TIF",
+    "TWTR",
+    "VAR",
+    "WBA",
+    "XEC",
+    "XLNX"
+   ],
+   "series does not cover the month": [
+    "AVB",
+    "EA",
+    "EQR",
+    "INFO",
+    "LEG",
+    "PARA",
+    "QRVO",
+    "SBNY"
+   ],
+   "listing-month artifact": [
+    "PARA"
+   ]
+  }
+ },
+ "2023-26": {
+  "member_months": {
+   "no series": 558,
+   "series does not cover the month": 134,
+   "listing-month artifact": 3
+  },
+  "names": {
+   "no series": [
+    "ANSS",
+    "ATVI",
+    "BK",
+    "CMA",
+    "CTLT",
+    "CTRA",
+    "DAY",
+    "DFS",
+    "DISH",
+    "FI",
+    "FRC",
+    "HES",
+    "HOLX",
+    "IPG",
+    "JNPR",
+    "K",
+    "MMC",
+    "MRO",
+    "PXD",
+    "SEE",
+    "SIVB",
+    "WBA"
+   ],
+   "series does not cover the month": [
+    "AVB",
+    "EA",
+    "EQR",
+    "PSKY",
+    "QRVO",
+    "SBNY"
+   ],
+   "listing-month artifact": [
+    "AMTM",
+    "HONA",
+    "VLTO"
+   ]
+  }
+ }
+}

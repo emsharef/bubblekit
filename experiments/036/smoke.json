@@ -1,0 +1,29 @@
+{
+ "wall_s": 24.350164890289307,
+ "sec_per_path": 11.149646013975143,
+ "projected_hours_100": 0.1769785081583356,
+ "denominator_status": {
+  "N-in": {
+   "budget exhausted": 27,
+   "tolerance met": 13
+  },
+  "N-switch": {
+   "budget exhausted": 10,
+   "tolerance met": 30
+  },
+  "L-15": {
+   "tolerance met": 28,
+   "budget exhausted": 12
+  },
+  "L-20": {
+   "budget exhausted": 12,
+   "tolerance met": 28
+  }
+ },
+ "zero_label_paths": {
+  "N-in": 0,
+  "N-switch": 0,
+  "L-15": 0,
+  "L-20": 0
+ }
+}

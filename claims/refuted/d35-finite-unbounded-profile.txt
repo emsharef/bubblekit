@@ -1,0 +1,38 @@
+D35 input refuted: bounding the positive baseline variance away from zero
+makes the conditional density profile finite when beta ranges over beta<=0.
+
+The mechanism is the narrow-scale likelihood singularity already recorded
+in D15's unrestricted-null-supremum refutation (related prior art:
+[snoussi2001mixtures]). This is an explicit application counterexample,
+not a new general singularity theorem or a claim of impossibility for D35.
+
+Use any continuous everywhere-positive density f with 0<f(0)<infinity,
+including the candidate standardized Student-t. Set h_t=1 for every t,
+s=S_0, x_(t-1)=log(S_(t-1)/s), v_t=exp(2 beta x_(t-1)), and
+p_t(r)=f((r-mu)/sqrt(v_t))/sqrt(v_t). The nuisance location mu is common
+to both returns and is fitted over a domain containing the second return.
+For R_1=a>0 and R_2=b, take mu=b. Then
+
+    p_1(a) p_2(b) = f(a-b) f(0) exp(-beta a) -> infinity
+
+as beta -> -infinity, although the baseline h is identically one. This
+occurs on an open set of two-return records when mu ranges over an interval,
+not merely at a prespecified zero-probability return. Each finite candidate
+is a proper conditional density; it is the supremum that is infinite.
+
+The baseline recursion in checks/d35-repair-input/README.md admits h_t=1
+with omega_h=1 and a_h=c_h=b_h=0, h_init=1. The example also permits a
+fixed smaller baseline by the corresponding rescaling.
+
+Strongest corrected route at this stage: keep the unrestricted null and
+define its profiled evidence as zero whenever that prefix profile is
+infinite, subject to measurability and the actual-law assumptions in the
+later application. Do not erase earlier evidence. No claim that all later
+prefixes remain infinite is established. Restricting beta or flooring the
+total variance could change this obstruction, but changes the model; neither
+is silently adopted. A local or finite-grid maximum is a lower bound on the
+profile and cannot replace the dominating denominator of a valid e-process.
+
+The deterministic fixtures in checks/d35-repair-input/check.py verify the
+displayed log likelihood's growth; they are not a fitted score or a proof
+that the requested repair lacks useful power.

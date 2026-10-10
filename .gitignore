@@ -1,0 +1,12 @@
+ops/logs/
+paper/build/
+.worktrees/
+__pycache__/
+*.pyc
+.DS_Store
+manuscript/build/
+/lean/.lake/
+.venv/
+/data/
+manuscript/sources/
+/public/

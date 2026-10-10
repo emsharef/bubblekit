@@ -1,0 +1,8 @@
+{
+ "yahoo_VIAV.json": {
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/VIAV?period1=0&period2=9999999999&interval=1d&events=div%2Csplit",
+  "sha256": "d57d96769508baab1d01709dc4c462eb5e73f3ff12768e6b8e1b5fb992b2d64b",
+  "bytes": 905764,
+  "retrieved": "2026-10-07"
+ }
+}

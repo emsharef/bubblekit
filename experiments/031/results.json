@@ -1,0 +1,1123 @@
+{
+ "names": [
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "InfoSpace",
+   "sources": [
+    "wiki/wiki_subset.csv"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "1998-12-15",
+    "2001-12-28"
+   ],
+   "rows": 763,
+   "ref_days": 763,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "CMGI",
+   "sources": [
+    "wayback_yahoo/merged_CMGI.csv"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "1995-01-03",
+    "2001-12-28"
+   ],
+   "rows": 1762,
+   "ref_days": 1762,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "Exodus",
+   "sources": [
+    "wayback_yahoo/merged_EXDS.csv"
+   ],
+   "sye": false,
+   "not_joinable_at": "first segment has no usable adjusted close",
+   "tested": false,
+   "reason": "segments cannot be chain-linked (no overlapping day)"
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "JDS Uniphase",
+   "sources": [
+    "VIAV"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "1995-01-03",
+    "2001-12-28"
+   ],
+   "rows": 1762,
+   "ref_days": 1762,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "VA Linux",
+   "sources": [
+    "wayback_yahoo/merged_LNUX.csv"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "1999-12-09",
+    "2001-12-28"
+   ],
+   "rows": 506,
+   "ref_days": 515,
+   "coverage": 0.9825242718446602,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "theglobe.com",
+   "sources": [
+    "yahoo/yahoo_TGLO.json"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "1998-11-13",
+    "2001-12-28"
+   ],
+   "rows": 784,
+   "ref_days": 784,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E2-C",
+   "class": "B",
+   "name": "Commerce One",
+   "sources": [
+    "wayback_yahoo/merged_CMRC.csv"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "2001-04-11",
+    "2001-12-28"
+   ],
+   "rows": 111,
+   "ref_days": 178,
+   "coverage": 0.6235955056179775,
+   "tested": false,
+   "reason": "coverage 0.624 below 0.9"
+  },
+  {
+   "row": "E2-C",
+   "class": "C",
+   "name": "Global Crossing",
+   "sources": [
+    "wayback_yahoo/merged_GBLX.csv",
+    "wayback_yahoo/merged_GX.csv"
+   ],
+   "sye": false,
+   "not_joinable_at": "first segment has no usable adjusted close",
+   "tested": false,
+   "reason": "segments cannot be chain-linked (no overlapping day)"
+  },
+  {
+   "row": "E4-C",
+   "class": "C",
+   "name": "Lehman",
+   "sources": [
+    "qstk/LEHMQ.csv"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "2003-01-02",
+    "2008-12-30"
+   ],
+   "rows": 1510,
+   "ref_days": 1510,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E4-C",
+   "class": "C",
+   "name": "Wachovia",
+   "sources": [
+    "wayback_yahoo/merged_WB.csv",
+    "qstk/WB.csv"
+   ],
+   "sye": false,
+   "joins": [
+    "2006-05-22"
+   ],
+   "span": [
+    "2003-01-02",
+    "2008-12-30"
+   ],
+   "rows": 1510,
+   "ref_days": 1510,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E4-C",
+   "class": "C",
+   "name": "Countrywide",
+   "sources": [
+    "wayback_yahoo/merged_CFC.csv",
+    "sye/CFC.csv"
+   ],
+   "sye": true,
+   "joins": [
+    "2006-01-04"
+   ],
+   "span": [
+    "2003-01-02",
+    "2008-06-30"
+   ],
+   "rows": 1383,
+   "ref_days": 1383,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E4-C",
+   "class": "C",
+   "name": "Merrill Lynch",
+   "sources": [
+    "wayback_yahoo/merged_MER.csv",
+    "sye/MER.csv"
+   ],
+   "sye": true,
+   "joins": [
+    "2007-04-12"
+   ],
+   "span": [
+    "2003-01-02",
+    "2008-12-30"
+   ],
+   "rows": 1510,
+   "ref_days": 1510,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  },
+  {
+   "row": "E4-C",
+   "class": "C",
+   "name": "Freddie Mac",
+   "sources": [
+    "yahoo/yahoo_FMCC.json"
+   ],
+   "sye": false,
+   "joins": [],
+   "span": [
+    "2003-01-02",
+    "2008-12-30"
+   ],
+   "rows": 1510,
+   "ref_days": 1510,
+   "coverage": 1.0,
+   "tested": true,
+   "span_ends_before_peak": false
+  }
+ ],
+ "excluded": [
+  [
+   "Pets.com",
+   "W",
+   "bubble-era failure without a documented run-up"
+  ],
+  [
+   "Webvan",
+   "W",
+   "bubble-era failure without a documented run-up"
+  ],
+  [
+   "WorldCom",
+   "F",
+   "mainly an accounting fraud"
+  ],
+  [
+   "Enron",
+   "F",
+   "mainly an accounting fraud"
+  ]
+ ],
+ "series": [
+  {
+   "key": "E2-C|B|InfoSpace|full",
+   "n": 763,
+   "log_e": -733.3374108631956,
+   "raw_log_e": 450.32693946155143,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 4.84264522050767,
+   "gsadf": 7.527206958837225,
+   "jkp_m2": "inconclusive",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "InfoSpace",
+   "variant": "full",
+   "first": "1998-12-15",
+   "last": "2001-12-28",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": true,
+    "lab_0.1": false,
+    "lab054_0.1": true,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": false,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|InfoSpace|to_peak",
+   "n": 323,
+   "log_e": -209.9398285292283,
+   "raw_log_e": -12.144662991546454,
+   "status": [
+    "ok"
+   ],
+   "fit": 17,
+   "detail": null,
+   "sadf": 4.84264522050767,
+   "gsadf": 7.527206958837225,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "InfoSpace",
+   "variant": "to_peak",
+   "first": "1998-12-15",
+   "last": "2000-03-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|CMGI|full",
+   "n": 1762,
+   "log_e": -578.9118783031181,
+   "raw_log_e": 1633.5339684788805,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 10.087561679604594,
+   "gsadf": 10.087561679604594,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "CMGI",
+   "variant": "full",
+   "first": "1995-01-03",
+   "last": "2001-12-28",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": true,
+    "lab_0.1": false,
+    "lab054_0.1": true,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|CMGI|to_peak",
+   "n": 1322,
+   "log_e": -373.12290248668546,
+   "raw_log_e": 516.5656207652708,
+   "status": [
+    "ok"
+   ],
+   "fit": 14,
+   "detail": null,
+   "sadf": 10.087561679604594,
+   "gsadf": 10.087561679604594,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "CMGI",
+   "variant": "to_peak",
+   "first": "1995-01-03",
+   "last": "2000-03-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": true,
+    "lab_0.1": false,
+    "lab054_0.1": true,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|JDS Uniphase|full",
+   "n": 1762,
+   "log_e": -71.87635802983459,
+   "raw_log_e": 758.7493285022997,
+   "status": [
+    "ok"
+   ],
+   "fit": 11,
+   "detail": null,
+   "sadf": 11.95492750244702,
+   "gsadf": 11.95492750244702,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "JDS Uniphase",
+   "variant": "full",
+   "first": "1995-01-03",
+   "last": "2001-12-28",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": true,
+    "lab_0.1": false,
+    "lab054_0.1": true,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|JDS Uniphase|to_peak",
+   "n": 1322,
+   "log_e": -82.66978734241206,
+   "raw_log_e": 173.76672087726752,
+   "status": [
+    "ok"
+   ],
+   "fit": 11,
+   "detail": null,
+   "sadf": 11.95492750244702,
+   "gsadf": 11.95492750244702,
+   "jkp_m2": "no bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "JDS Uniphase",
+   "variant": "to_peak",
+   "first": "1995-01-03",
+   "last": "2000-03-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": true,
+    "lab_0.1": false,
+    "lab054_0.1": true,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": false,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|VA Linux|full",
+   "n": 506,
+   "log_e": -159.12785906756176,
+   "raw_log_e": -153.07650809208326,
+   "status": [
+    "ok"
+   ],
+   "fit": 2,
+   "detail": null,
+   "sadf": -1.3975746600764445,
+   "gsadf": 2.777548815450119,
+   "jkp_m2": "bubble",
+   "jkp_m1": "no bubble",
+   "row": "E2-C",
+   "class": "B",
+   "name": "VA Linux",
+   "variant": "full",
+   "first": "1999-12-09",
+   "last": "2001-12-28",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": true,
+    "sadf_10%": false,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|VA Linux|to_peak",
+   "n": 72,
+   "log_e": -3.642892406156733,
+   "raw_log_e": 0.0,
+   "status": [
+    "ok"
+   ],
+   "fit": 2,
+   "detail": null,
+   "sadf": -1.3484535215134432,
+   "gsadf": 1.338076634688957,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "VA Linux",
+   "variant": "to_peak",
+   "first": "1999-12-09",
+   "last": "2000-03-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|theglobe.com|full",
+   "n": 784,
+   "log_e": -217.1857858579956,
+   "raw_log_e": -202.58130163307715,
+   "status": [
+    "ok"
+   ],
+   "fit": 2,
+   "detail": null,
+   "sadf": -1.6363580046259256,
+   "gsadf": 1.3195620964873986,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E2-C",
+   "class": "B",
+   "name": "theglobe.com",
+   "variant": "full",
+   "first": "1998-11-13",
+   "last": "2001-12-28",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E2-C|B|theglobe.com|to_peak",
+   "n": 344,
+   "log_e": -16.88222296191475,
+   "raw_log_e": 0.0,
+   "status": [
+    "ok"
+   ],
+   "fit": 2,
+   "detail": null,
+   "sadf": -1.6363580046259256,
+   "gsadf": 1.5367770401199632,
+   "jkp_m2": "no bubble",
+   "jkp_m1": "bubble",
+   "row": "E2-C",
+   "class": "B",
+   "name": "theglobe.com",
+   "variant": "to_peak",
+   "first": "1998-11-13",
+   "last": "2000-03-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": false,
+    "jkp_m1": true
+   }
+  },
+  {
+   "key": "E4-C|C|Lehman|full",
+   "n": 1510,
+   "log_e": -1403.0761599349987,
+   "raw_log_e": -1403.0761599349987,
+   "status": [
+    "ok"
+   ],
+   "fit": 1,
+   "detail": null,
+   "sadf": 1.5639107099666243,
+   "gsadf": 2.055088030509124,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Lehman",
+   "variant": "full",
+   "first": "2003-01-02",
+   "last": "2008-12-30",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": true,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Lehman|to_peak",
+   "n": 1005,
+   "log_e": -41.342682734986965,
+   "raw_log_e": -34.272991059177,
+   "status": [
+    "ok"
+   ],
+   "fit": 1,
+   "detail": null,
+   "sadf": 1.5639107099666243,
+   "gsadf": 2.055088030509124,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Lehman",
+   "variant": "to_peak",
+   "first": "2003-01-02",
+   "last": "2006-12-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": false,
+    "sadf_10%": true,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Wachovia|full",
+   "n": 1510,
+   "log_e": -2472.7523337818347,
+   "raw_log_e": -2472.7523337818347,
+   "status": [
+    "ok"
+   ],
+   "fit": 0,
+   "detail": null,
+   "sadf": 1.502104563344695,
+   "gsadf": 2.5334035682863596,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Wachovia",
+   "variant": "full",
+   "first": "2003-01-02",
+   "last": "2008-12-30",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Wachovia|to_peak",
+   "n": 1005,
+   "log_e": -1.578938272291225,
+   "raw_log_e": 0.0,
+   "status": [
+    "ok"
+   ],
+   "fit": 0,
+   "detail": null,
+   "sadf": 0.3994341005731951,
+   "gsadf": 1.231546126215832,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Wachovia",
+   "variant": "to_peak",
+   "first": "2003-01-02",
+   "last": "2006-12-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Countrywide|full",
+   "n": 1383,
+   "log_e": -882.4374391814209,
+   "raw_log_e": -877.6989688804787,
+   "status": [
+    "ok"
+   ],
+   "fit": 7,
+   "detail": null,
+   "sadf": 1.8398135335634263,
+   "gsadf": 2.5146534920870374,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Countrywide",
+   "variant": "full",
+   "first": "2003-01-02",
+   "last": "2008-06-30",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Countrywide|to_peak",
+   "n": 1005,
+   "log_e": -6.458400136737168,
+   "raw_log_e": -6.458400136737168,
+   "status": [
+    "ok"
+   ],
+   "fit": 7,
+   "detail": null,
+   "sadf": 1.8398135335634263,
+   "gsadf": 2.5146534920870374,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Countrywide",
+   "variant": "to_peak",
+   "first": "2003-01-02",
+   "last": "2006-12-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": true,
+    "gsadf_5%": true,
+    "sadf_10%": true,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Merrill Lynch|full",
+   "n": 1510,
+   "log_e": -631.170998949653,
+   "raw_log_e": -631.170998949653,
+   "status": [
+    "ok"
+   ],
+   "fit": 1,
+   "detail": null,
+   "sadf": 0.8753271201624041,
+   "gsadf": 1.3528270602769294,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Merrill Lynch",
+   "variant": "full",
+   "first": "2003-01-02",
+   "last": "2008-12-30",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Merrill Lynch|to_peak",
+   "n": 1005,
+   "log_e": -21.89418583027532,
+   "raw_log_e": -17.261283230423942,
+   "status": [
+    "ok"
+   ],
+   "fit": 1,
+   "detail": null,
+   "sadf": 0.8753271201624041,
+   "gsadf": 1.277532935087564,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Merrill Lynch",
+   "variant": "to_peak",
+   "first": "2003-01-02",
+   "last": "2006-12-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Freddie Mac|full",
+   "n": 1510,
+   "log_e": -1183.3461297555511,
+   "raw_log_e": -1183.3461297555511,
+   "status": [
+    "ok"
+   ],
+   "fit": 0,
+   "detail": null,
+   "sadf": 1.2744756103712314,
+   "gsadf": 4.1509384545337165,
+   "jkp_m2": "bubble",
+   "jkp_m1": "inconclusive",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Freddie Mac",
+   "variant": "full",
+   "first": "2003-01-02",
+   "last": "2008-12-30",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": true,
+    "sadf_10%": false,
+    "gsadf_10%": true,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  },
+  {
+   "key": "E4-C|C|Freddie Mac|to_peak",
+   "n": 1005,
+   "log_e": -71.69692768030109,
+   "raw_log_e": -71.69692768030109,
+   "status": [
+    "ok"
+   ],
+   "fit": 1,
+   "detail": null,
+   "sadf": -0.6410567298322045,
+   "gsadf": 1.525406880546958,
+   "jkp_m2": "bubble",
+   "jkp_m1": "no bubble",
+   "row": "E4-C",
+   "class": "C",
+   "name": "Freddie Mac",
+   "variant": "to_peak",
+   "first": "2003-01-02",
+   "last": "2006-12-27",
+   "flags": {
+    "lab_0.05": false,
+    "lab054_0.05": false,
+    "lab_0.1": false,
+    "lab054_0.1": false,
+    "sadf_5%": false,
+    "gsadf_5%": false,
+    "sadf_10%": false,
+    "gsadf_10%": false,
+    "jkp_m2": true,
+    "jkp_m1": false
+   }
+  }
+ ],
+ "panels": {
+  "E2-C|B|full": {
+   "names": [
+    "CMGI",
+    "JDS Uniphase"
+   ],
+   "dropped_late_start": [
+    "InfoSpace",
+    "VA Linux",
+    "theglobe.com"
+   ],
+   "T": 1762,
+   "t": -0.017050925834622102,
+   "J": -0.06514614532592058,
+   "flags": {
+    "panel_t_5%": false,
+    "panel_t_10%": false,
+    "panel_J_5%": false,
+    "panel_J_10%": false
+   }
+  },
+  "E2-C|B|to_peak": {
+   "names": [
+    "CMGI",
+    "JDS Uniphase"
+   ],
+   "dropped_late_start": [
+    "InfoSpace",
+    "VA Linux",
+    "theglobe.com"
+   ],
+   "T": 1322,
+   "t": 1.4137213910336628,
+   "J": 5.679614293236934,
+   "flags": {
+    "panel_t_5%": false,
+    "panel_t_10%": true,
+    "panel_J_5%": true,
+    "panel_J_10%": true
+   }
+  },
+  "E4-C|C|full": {
+   "names": [
+    "Lehman",
+    "Wachovia",
+    "Countrywide",
+    "Merrill Lynch",
+    "Freddie Mac"
+   ],
+   "dropped_late_start": [],
+   "T": 1383,
+   "t": 1.0155313571250548,
+   "J": 1.7424777074801057,
+   "flags": {
+    "panel_t_5%": false,
+    "panel_t_10%": false,
+    "panel_J_5%": true,
+    "panel_J_10%": true
+   }
+  },
+  "E4-C|C|to_peak": {
+   "names": [
+    "Lehman",
+    "Wachovia",
+    "Countrywide",
+    "Merrill Lynch",
+    "Freddie Mac"
+   ],
+   "dropped_late_start": [],
+   "T": 1005,
+   "t": 0.20734624462555593,
+   "J": 0.2955805007587244,
+   "flags": {
+    "panel_t_5%": false,
+    "panel_t_10%": false,
+    "panel_J_5%": false,
+    "panel_J_10%": false
+   }
+  }
+ },
+ "critical_values": {
+  "72": {
+   "sadf": {
+    "5%": 1.2789708274955762,
+    "10%": 0.9838150492149861
+   },
+   "gsadf": {
+    "5%": 1.9215970208830795,
+    "10%": 1.6689872492222906
+   }
+  },
+  "323": {
+   "sadf": {
+    "5%": 1.4456828268098416,
+    "10%": 1.1449076040889712
+   },
+   "gsadf": {
+    "5%": 2.1849171421989118,
+    "10%": 1.9375958963303794
+   }
+  },
+  "344": {
+   "sadf": {
+    "5%": 1.421411709784418,
+    "10%": 1.1485447223292233
+   },
+   "gsadf": {
+    "5%": 2.224405373191744,
+    "10%": 1.9370904862387417
+   }
+  },
+  "506": {
+   "sadf": {
+    "5%": 1.4469081964787172,
+    "10%": 1.1953107193748396
+   },
+   "gsadf": {
+    "5%": 2.241294479372178,
+    "10%": 2.0085777781906407
+   }
+  },
+  "763": {
+   "sadf": {
+    "5%": 1.4899393501186486,
+    "10%": 1.2457949674263569
+   },
+   "gsadf": {
+    "5%": 2.2811686183747,
+    "10%": 2.054459733855435
+   }
+  },
+  "784": {
+   "sadf": {
+    "5%": 1.5911788698542593,
+    "10%": 1.2615524616846765
+   },
+   "gsadf": {
+    "5%": 2.324467027156132,
+    "10%": 2.1083641758772487
+   }
+  },
+  "1005": {
+   "sadf": {
+    "5%": 1.5063599783686545,
+    "10%": 1.2533807932189716
+   },
+   "gsadf": {
+    "5%": 2.360288970548473,
+    "10%": 2.13171584099837
+   }
+  },
+  "1322": {
+   "sadf": {
+    "5%": 1.5261086906532315,
+    "10%": 1.2499297781994136
+   },
+   "gsadf": {
+    "5%": 2.383876324103433,
+    "10%": 2.129305060054506
+   }
+  },
+  "1383": {
+   "sadf": {
+    "5%": 1.5626937310536464,
+    "10%": 1.2610337727155099
+   },
+   "gsadf": {
+    "5%": 2.375781588382752,
+    "10%": 2.15849539329166
+   }
+  },
+  "1510": {
+   "sadf": {
+    "5%": 1.6076546990427971,
+    "10%": 1.321926209598387
+   },
+   "gsadf": {
+    "5%": 2.36798117971314,
+    "10%": 2.149743510189414
+   }
+  },
+  "1762": {
+   "sadf": {
+    "5%": 1.5222230269280554,
+    "10%": 1.2412336449821866
+   },
+   "gsadf": {
+    "5%": 2.380181255210327,
+    "10%": 2.1799458667393576
+   }
+  }
+ }
+}

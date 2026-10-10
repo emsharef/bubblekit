@@ -1,0 +1,237 @@
+\section{Background and relation to existing work}\label{sec:literature}
+The literature approaches bubbles through several different observable
+features: prices relative to cash flows, explosive growth, volatility that
+increases with the price level, and run-ups followed by crashes. Each approach
+starts from an economic mechanism and then asks which implications can be
+measured. The present research connects the strict-local-martingale approach
+to practical monitoring and to traded contracts. Its closest predecessors
+therefore include both mathematical valuation papers and empirical detection
+methods.
+
+\subsection{From fundamental value to a pricing defect}
+In the classical present-value formulation, an asset's fundamental value is
+the discounted value of its future cash flows. A bubble is an additional
+price component consistent with the pricing equation but not explained by
+those cash flows. Empirical tests must consequently specify the cash-flow
+process and the way investors discount it. G\"urkaynak's survey explains why
+this creates an identification problem: evidence attributed to a bubble can
+also be explained by changes in fundamentals or discounting
+\cite{gurkaynak2005econometric}. A striking price path alone does not resolve
+that comparison.
+
+The strict-local-martingale literature provides a precise continuous-time
+valuation framework. Cox and Hobson study prices that are local martingales
+under a pricing measure but lose expectation, including local-volatility
+and feedback models \cite{cox2005local}. Jarrow, Protter, and Shimbo place
+such behavior in a theory of asset-price bubbles and market completeness
+\cite{jarrow2007complete}. In the finite-horizon, discounted setting used
+here, the object is the defect in \eqref{eq:defect}. This makes the
+mathematical question explicit: under which models and trading rules does
+current value exceed expected terminal value under the specified pricing law?
+
+The specification of that law matters in an incomplete market. Herdegen
+and Schweizer define fundamental value through superreplication and develop
+a symmetric treatment of assets and numeraires. Their strong-bubble concept
+differs from a bubble defined under one chosen equivalent local martingale
+measure; their Example~5.5 explicitly exhibits different martingale behavior
+under two such measures \cite{herdegen2016strong}. Our results concern the
+fixed-measure defect. The contribution of the identification analysis is to
+make the implications for observation precise: tail completions and changes
+of pricing measure can preserve the available price information while
+changing that defect.
+
+\subsection{What volatility can reveal about a bubble}
+Jarrow, Kchia, and Protter offer the closest methodological starting point
+for the signals in this manuscript \cite{jarrow2011detect}. For a suitable
+driftless diffusion $\dd S_t=\sigma(S_t)\dd W_t$, strictness is governed by
+the upper-tail integral
+\[
+ \int_c^\infty \frac{x}{\sigma^2(x)}\dd x.
+\]
+The economic idea is that sufficiently rapid growth of volatility at high
+prices can generate a pricing defect. Their detection procedure estimates
+the diffusion coefficient from observed prices and then assesses its tail
+behavior. They explicitly identify the extrapolation problem and propose
+parametric and reproducing-kernel methods for extending the estimate beyond
+the observed range.
+
+Nonparametric diffusion estimation supplies the local measurement tools.
+Florens-Zmirou studies estimation from discretely observed paths;
+Bandi and Phillips develop nonparametric methods using occupation-time
+information \cite{florenszmirou1993estimating,bandi2003fully}. Repeated visits
+to a price region provide information about volatility there. More frequent
+observations improve that local information, but need not reveal how the
+coefficient behaves at prices never reached. Obayashi, Protter, and Yang
+extend the detection approach toward dating bubble episodes: they construct
+daily signals from intraday observations and smooth the noisy classifications
+with a hidden Markov model \cite{obayashi2015lifetime}. Thus both
+volatility-based detection and the use of intraday data to produce a daily
+monitor have clear precedents.
+
+Our theory specifies exactly what remains undetermined when the coefficient
+is known only on a visited interval, including the lower endpoint that
+matters for rebalanced wealth. The testing results then turn this observation
+into a statistical statement: within the stated model classes, a
+true-martingale completion can approximate the observed law of a strict
+local martingale arbitrarily well. These are precise formulations of an
+existing identification concern, with consequences for what assumptions a
+useful test must impose.
+
+The empirical methods take a more local target. They measure whether
+\emph{return variance} rises with the price level after accounting for a
+declared background scale. For intuition, if $\sigma(x)=a x^p$, then return
+variance is $a^2x^{2(p-1)}$. The positive exponent estimated by a signal is
+therefore connected to the classical tail mechanism, while remaining an
+observable feature of the fitted window. Our methodological contribution is
+the construction of that measurement under changing market volatility,
+together with its calibration and comparative evidence. It is a different
+use of the volatility insight from extrapolating a fitted coefficient to
+infinity.
+
+\subsection{Explosive prices, episode dating, and crash risk}
+Another influential approach asks whether prices exhibit temporarily
+explosive autoregressive dynamics. In a simple representation, the question
+is whether the coefficient in $y_t=\rho y_{t-1}+u_t$ exceeds one over some
+interval. The generalized supremum augmented Dickey--Fuller test scans
+windows with varying starting and ending dates. This flexibility lets it
+detect multiple episodes that a test tied to one starting date may miss;
+the associated backward-window statistics support episode dating
+\cite{phillips2012multiple,phillips2013realtime}. Panel methods can gain
+information by grouping series with similar explosive behavior
+\cite{liu2022panel}.
+
+These tests give a natural practitioner benchmark because they formalize
+the familiar pattern of accelerating prices. Their statistical target is
+different from the tail condition above: explosive conditional-mean
+dynamics and price-dependent conditional variance can appear separately.
+This distinction makes the comparison informative. It lets us ask whether
+the proposed variance signals detect patterns that an explosive-price
+statistic tends to miss, and whether those patterns occur in different
+historical episodes.
+
+Volatility adjustment is already an important part of the explosive-testing
+literature. Kurozumi, Skrobotov, and Tsarev construct a time transformation
+to handle nonstationary volatility and recover a pivotal limiting null
+distribution \cite{kurozumi2021time}. Our findings about the calibration
+of GSADF belong in that context. The empirical comparisons here evaluate
+the specified GSADF implementation and its calibrated thresholds; they
+are not comparisons against every volatility-robust extension. The
+distinctive evidence is the side-by-side behavior of a variance signal
+and an explosive-price benchmark under common simulation and historical
+designs.
+
+A further strand studies what happens after observed run-ups. Greenwood,
+Shleifer, and You find that sharp increases do not generally imply low
+subsequent average returns, but do imply higher crash probabilities;
+characteristics such as volatility, turnover, and issuance help distinguish
+the outcomes \cite{greenwood2017bubbles}. This is the relevant precedent
+for our supplementary drawdown comparison. The intraday result adds
+information beyond the GSADF score in the reported forecasting design.
+Its contribution is that particular incremental comparison, rather than
+the general proposition that volatility or run-up characteristics can
+predict crashes.
+
+\subsection{Separating price dependence from background volatility}
+Financial volatility changes over time and responds asymmetrically to
+returns. Glosten, Jagannathan, and Runkle provide an influential model of
+that asymmetry \cite{glosten1993relation}. Such dynamics matter here
+because an observed price--variance association can arise through the
+joint evolution of prices and a separate volatility state. A useful
+measurement procedure must specify which variation its background model
+explains and which variation remains available to the price-level term.
+
+The connection to stochastic-volatility bubble theory is also substantive.
+In Sin's model, positive alignment of price and volatility shocks can
+produce strict-local-martingale behavior; the same model also illustrates
+the role of the pricing measure \cite{sin1995complications}. Price--volatility
+association is consequently of interest beyond one-dimensional local
+volatility. The simulations in this research examine how the signals respond
+to both structural level dependence and correlated volatility shocks.
+That response helps explain what the statistic measures across model
+families.
+
+The daily construction uses a predictable market volatility scale and
+compares positive and nonpositive price-level dependence with the same
+nuisance specification. The intraday construction anchors the price
+within each session and updates the background state between sessions.
+These choices preserve a distinction between movements inside the
+measurement window and changes in the background scale. Their value is
+assessed through simulation, historical alarm patterns, and calibration
+transfer. This is the central methodological addition to the earlier
+volatility-estimation approach.
+
+The statistical tools used to assess evidence also have established
+antecedents. Split-likelihood universal inference supplies a way to
+construct finite-sample evidence by estimating an alternative on separate
+data and bounding the null likelihood \cite{wasserman2019universal}.
+The e-BH procedure controls false discovery rate from valid e-values
+under arbitrary dependence \cite{wang2020false}. Rank calibration uses
+exchangeability to compare a new score with reference scores
+\cite{tibshirani2019conformal}. We apply these ideas to specified
+observation models and distinguish their guarantees from the empirical
+reference calibration used by the practical scores. The findings about
+how calibration changes sensitivity and historical alarms are part of
+the contribution, alongside the score designs themselves.
+
+\subsection{Investment, rebalancing, and leveraged funds}
+A bubble in an asset raises a separate question about the wealth generated
+by trading it. Herdegen and Herrmann connect strict local martingales with
+a generalized Johansen--Ledoit--Sornette crash model and solve a power-utility
+investment problem. Under their assumptions, investors with relative risk
+aversion above one continue to hold the bubble when instantaneous expected
+returns are positive \cite{herdegen2013strict}. This gives a useful
+investment perspective: the existence of a bubble does not by itself
+determine an optimal position. Their crash model also connects the
+strict-local-martingale literature to the separate tradition of modeling
+log-periodic behavior before crashes.
+
+Our investment question concerns a prescribed rule: keep a constant fraction
+of wealth in the asset. The tools are established martingale and diffusion
+criteria. Mijatovi\'c and Urusov give the stochastic-exponential criterion
+we apply, while Karatzas and Ruf analyze the auxiliary drift family that
+arises in the calculation \cite{mijatovic2010martingale,karatzas2015distribution}.
+The result developed here classifies the exposure rule across both price
+endpoints. In particular, continuous buying into an asset approaching zero
+can create strictness in wealth even when the asset is a true martingale.
+The comparison with finite trading makes the economic importance of that
+boundary mechanism concrete.
+
+For leveraged exchange-traded funds, Avellaneda and Zhang establish the
+path dependence of multi-period returns and their relationship to realized
+variance, financing, and expenses \cite{avellaneda2009path}. That work
+explains why a fund's cumulative return differs from a fixed multiple of
+the underlying's cumulative return. Part~\ref{part:funds} addresses a
+complementary issue: how finite rebalancing, nonnegativity, and liquidation
+affect the martingale classification. The empirical tracking-cost evidence
+then places those idealized wealth processes beside observed funds. The
+established variance-drag explanation and the endpoint classification
+answer different questions about the same trading rule.
+
+\subsection{What options and constituents add}
+The option-pricing consequences of strict local martingales are already
+central to Cox and Hobson: familiar put--call parity and European--American
+relations can change, and admissible trading strategies affect valuation
+\cite{cox2005local}. Carr, Fisher, and Ruf develop a joint-superreplication
+framework that produces a parity-restoring price \cite{carr2012hedging};
+Bayraktar, Kardaras, and Xing study related strict-local-martingale and
+American-option phenomena \cite{bayraktar2011strict}. These papers supply
+the valuation background for Part~\ref{part:options}.
+
+Our contribution in that part is to organize the information supplied by
+actual contract observations. A quote becomes informative about the defect
+only after its pricing convention and exercise rights have been specified.
+The resulting inequalities distinguish an expectation-priced European
+option, a parity-restored value, and an American exercise value. This
+provides a practical way to read option evidence and to understand why
+different contract conventions can reveal or absorb the same defect.
+
+Constituent information offers another route beyond an aggregate price.
+The underlying change-of-measure and explosion ideas come from the
+strict-local-martingale literature, including Kardaras, Kreher, and
+Nikeghbali \cite{kardaras2015strict}. We use them to express constituent
+defects through weights stopped at the basket's lifetime and their
+conditional expectations. The useful addition is an explicit attribution
+formula and an account of the extra information its recovery requires.
+Together, the fund, option, and constituent results extend the question
+from detecting a feature of one price series to understanding the
+exposures and contracts an investor actually holds.

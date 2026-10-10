@@ -1,0 +1,316 @@
+\partopening{Options and Constituent Information}{part:options}
+{What additional contracts reveal, and which valuation assumptions make that possible.}
+
+\section{Option prices do not have a unique bubble interpretation}\label{sec:optionrules}
+The option results explain how additional contracts can constrain a
+valuation amount. The practical difficulty appears in the observed quotes:
+on the sampled end-of-day SPY chains, the largest-strike calls at one to
+three months sit at the one-cent floor on most dates, at median strikes
+1.07--1.41 times spot. The available far wing is therefore measured only to
+the tick. Reading such quotes as a bubble bound can produce a very small
+number largely determined by the pricing convention and quote resolution.
+\source{experiment 014}
+
+The central issue is whether the observed call represents an expectation
+price, a parity-restoring price, or an exercise value. Assuming that a call
+carries the defect and then reading a tiny quote as evidence of its absence
+makes the conclusion depend on the premise being assessed. The results below
+are consequently valuation identities and bounds under named conventions;
+the research did not obtain a usable market bubble test from these quotes.
+The algebra is nevertheless informative about which observations would
+constrain a defect and which can leave it hidden.
+
+Normalize spot to one, take zero rates and dividends, and fix a common
+pricing law with $m=\E_Q[X_T]$ and $\delta=1-m$. European expectation
+prices satisfy
+\begin{equation}\label{eq:parityexpect}
+ c(K)=\E_Q[(X_T-K)^+],\quad p(K)=\E_Q[(K-X_T)^+],
+ \qquad c(K)-p(K)=m-K.
+\end{equation}
+Thus $1-K-c+p=\delta$. Under another declared rule, leave the put at
+$p$ and set the call to $C=c+\delta$. Then $1-K-C+p=0$ even when
+$\delta>0$. This second rule restores ordinary parity.
+
+The distinction builds on the strict-local-martingale option literature.
+Cox and Hobson explain how parity and exercise values depend on the
+admissible trading strategies \cite{cox2005local}.
+Carr, Fisher, and Ruf obtain parity restoration from their
+joint-superreplication setting \cite{carr2012hedging}; it is not a
+universal conclusion that market calls follow that rule. The lab uses the
+two rules as explicit alternatives and works out their implications for
+inference. Calling both simply ``risk-neutral option prices'' would hide
+the assumption that determines the answer.
+
+\subsection{Exercise value and the parity residual}
+For the corresponding continuously exercisable American call, the lab's
+localization argument gives $A_Q\geq c+\delta$. Write
+$A_Q=c+\delta+u_A$, where $u_A\geq0$ denotes any excess over that lower
+bound. With a European expectation put in every row:
+\begin{table}[htbp]\centering\small
+\begin{tabularx}{\linewidth}{@{}YllY@{}}\toprule
+Call convention & Call value & $1-K-C+p$ & Reading\\
+\midrule
+European expectation & $c$ & $\delta$ & Residual equals the defect\\
+European parity-restoring & $c+\delta$ & $0$ & A defect can be hidden by parity\\
+American exercise & $c+\delta+u_A$ & $-u_A$ & Residual concerns exercise excess\\
+\bottomrule\end{tabularx}
+\caption{Residuals under declared valuation rules. The table is not a
+classification algorithm for market quotes.}\label{tab:operators}
+\end{table}
+
+Contract metadata distinguish American from European exercise even if their
+prices coincide. Prices alone need not distinguish valuation mechanisms:
+on the equality face $u_A=0$, the parity-restored European value and the
+American value agree. Replacing the put by an American put adds its own
+exercise premium and changes the table. Neither a zero residual nor an
+American premium alone identifies a defect without the rest of the model.
+
+With simultaneous intervals for the relevant operator prices, one can
+propagate errors through the residual and test the zero-residual
+restriction. If the total call-plus-put error is bounded by $h$, a
+positive residual exceeding $2h$ in the expectation model is sufficient
+for rejection by a conservative lower-bound rule. That is a conditional
+separation statement. A bid--ask spread by itself does not establish the
+required coverage of a specified pricing operator.
+\source{claims 014 and 017; the D31 option-observables design. This
+design contains no real-data option test}
+
+\section{Which option observations are informative?}\label{sec:optioninfo}
+\subsection{The lowest strike matters}
+Suppose only expectation-priced calls are observed at finitely many
+strikes $K_1<\cdots<K_r$, all at or above normalized spot one. If their
+prices are compatible with a nonnegative terminal law of mean at most
+one, then they are also compatible with a terminal law of mean exactly
+one. They cannot exclude zero defect.
+
+The construction is simple. Starting from a compatible random variable
+$X$ with mean $m<1$, compare it with $Y=\max(X,K_1)$. Every observed
+call payoff is unchanged because the added mass lies below its strike.
+But $\E[Y]=K_1+c(K_1)\geq1$. Mixing the two terminal laws raises the
+mean to one while preserving the entire observed call panel.
+
+This is a statement about terminal laws, not a construction of a diffusion
+for every feasible law. It still makes a useful observation-design point:
+adding ever-higher call strikes does not automatically identify the mean
+missing below the lowest strike. An in-the-money call can exclude mean
+one in this model. A matched underlying call and put identify the mean
+directly through \eqref{eq:parityexpect}, conditional on expectation pricing.
+
+The lab also constructs computable outer intervals for the defect using
+call monotonicity, convex secant slopes, and quote intervals. Those
+inequalities alone are not always a sharp characterization of attainable
+terminal laws. Inconsistent observations must be reported as model
+incompatibility, not automatically as positive bubble evidence.
+\source{claim 021}
+
+\subsection{Do options on leveraged funds add information?}
+For a normalized fund, the same expectation-pricing identity yields its
+defect from a call--put pair. Finite-grid inheritance then links a
+positive fund defect to the underlying defect. For exposures
+$0<\pi\leq1$, the quantitative link uses the factor $\pi^N$; for
+liquidated long leverage it uses $\pi^N$ in the opposite inequality.
+Both become weak for monetary estimation at realistic numbers of resets.
+
+For example, $0.75^{252}$ is about $3\times10^{-32}$. An upper bound
+on the fund defect divided by this factor is normally uninformative
+about the underlying's defect. On the leveraged side, a positive fund
+defect divided by $\pi^N$ supplies a negligible lower bound. Zero
+exclusion can remain mathematically meaningful even when amount
+estimation is weak, but its practical power then depends on resolving a
+small residual amid costs, tracking, and quote uncertainty.
+
+If an exact expectation-priced underlying call--put pair is already
+available, it identifies the defect without fund options. Adding fund
+options cannot improve on exact identification. With only underlying
+out-of-the-money calls, a positive fund residual can add a restriction,
+but no empirical gain specific to leverage has been demonstrated. The
+inverse liquidation model in Part~\ref{part:funds} has zero fund defect
+even over a strict underlying, so it cannot supply the same zero-exclusion
+logic.
+\source{claims 014, 018, and 021; no real-data fund-option detection
+result is claimed}
+
+\subsection{Continuous exercise creates another limiting distinction}
+Let $G_t=\bar S_t+D_t$ be a finite continuous nonnegative
+$Q$-local martingale, where $\bar S_t=d_tS_t\geq0$ and $d_t$ is a
+positive deterministic continuous discount factor, bounded on $[0,T]$.
+The cumulative discounted distributions $D$ are adapted, nonnegative,
+nondecreasing and c\`adl\`ag, with $D_0=0$. A distribution jump may be
+offset by a price drop while the gain process remains continuous. Write
+$b_G(T)=G_0-\E_Q[G_T]$, and define
+\[
+ C_E(K,T)=\E_Q[(\bar S_T-d_TK)^+],\qquad
+ A_Q(K,T)=\sup_{\tau\leq T}\E_Q[(\bar S_\tau-d_\tau K)^+],
+\]
+where the supremum includes every stopping time in $[0,T]$.
+For this continuously exercisable American call,
+localization at high gain levels and bounded convergence of the capped
+payoff component give
+\begin{equation}\label{eq:american}
+ A_Q(K,T)\geq b_G(T)+C_E(K,T)\geq b_G(T).
+\end{equation}
+The relation between American exercise and bubbles has established
+antecedents \cite{bayraktar2011strict}; it is not presented as a new
+general pricing principle. The lab's treatment includes distributions
+and the transfer to fixed-basket bounds.
+
+The contrast with finite exercise is especially revealing. European
+expectation calls tend to zero as $K\to\infty$. The same is true when
+exercise is restricted to any fixed finite set of dates, because the
+exercise payoff is bounded by a finite sum of integrable call payoffs.
+Such prices therefore cannot uniformly bound a positive defect from
+above as the strike increases. Continuous exercise permits stopping at
+rare high levels in a way that a fixed finite exercise schedule does not.
+The order of these limiting operations matters.
+
+A tiny quoted call is consequently not an assumption-free certificate
+of a tiny bubble. To use \eqref{eq:american}, the quote must provide a
+justified upper bound on the specified continuous-exercise value. The
+model of exercise and its relation to observed market prices are
+substantive premises.
+
+\section{From an index to its constituents}\label{sec:baskets}
+For fixed positive holdings $n_i$ and a common pricing measure, let
+$I_t=\sum_i n_iS_{i,t}$, $\omega_i=n_iS_{i,0}/I_0$, and
+$b_i(T)=S_{i,0}-\E_Q[S_{i,T}]$. Linearity gives
+\begin{equation}\label{eq:basketadd}
+ b_I(T)=\sum_i n_i b_i(T),\qquad 0\leq n_i b_i(T)\leq b_I(T).
+\end{equation}
+This is a consequence of the definition, not a new diversification
+principle. It concerns fixed holdings under one measure; a rebalanced
+index needs its trading rule specified separately.
+
+\subsection{Ordinary weights can hide all of the effect}
+Suppose two names are proportional strict prices, with equal initial
+weights. Their ordinary cap weights remain exactly one-half. Both can
+have positive defects while neither weight declines. Thus a proposed
+attribution based solely on expected losses of ordinary weights cannot
+work in general.
+
+The corrected representation uses the index share probability. Its
+defining identity carries an explicit survival event up to a lifetime
+$\tau^I$ \cite{kardaras2015strict}. Let
+$\mu_i(t)=n_iS_{i,t}/I_t$ and
+$\mu_i^\dagger(t)=\mu_i(t)\ind_{\{t<\tau^I\}}$. Then
+\begin{equation}\label{eq:killed}
+ \omega_i-\E_{\widetilde Q_I}[\mu_i^\dagger(T)]
+       =\frac{n_i b_i(T)}{I_0},\qquad
+ \sum_i\mu_i^\dagger(T)=\ind_{\{T<\tau^I\}}.
+\end{equation}
+These survival-adjusted, or killed, weights need not sum to one after
+the lifetime. Ordinary weights do, which is why they cannot all be
+supermartingales with a positive total expected loss under a single
+probability. In the proportional example, all the loss is carried by
+the survival factor.
+
+The associated index hazard is also a survival-weighted mixture. If
+$p_i(t)=\E_Q[S_{i,t}]/S_{i,0}$ are absolutely continuous with
+$h_i=-p_i'/p_i$, then
+\begin{equation}\label{eq:hazard}
+ p_I=\sum_i\omega_i p_i,
+ \qquad h_I=\sum_i\frac{\omega_i p_i}{p_I}h_i.
+\end{equation}
+The weights are not simply today's or the initial cap weights. These
+are auxiliary-measure lifetimes and hazards, not directly observed
+physical crash probabilities.
+\source{claim 010}
+
+\subsection{A conditional recovery formula}
+Let $\nu_T$ be the pricing distribution of the terminal index. The recovery result takes this distribution as a supplied population
+input. Let
+$m_i(x)=\E_P[\mu_i(T)\mid I_T=x]$. If the terminal change of measure
+has the form $\mathrm{d}Q/\mathrm{d}P=k_T(I_T)$, then conditioning on
+the terminal index preserves the conditional mean weights. Hence
+\begin{equation}\label{eq:recovery}
+ \frac{n_i b_i(T)}{I_0}
+   =\omega_i-\frac1{I_0}\int x m_i(x)\nu_T(\mathrm{d}x).
+\end{equation}
+The weaker condition that the conditional mean weights agree under
+$P$ and $Q$ already suffices. The density condition is one way to imply
+it, and is much stronger than loosely saying that the pricing kernel
+``depends on the market.''
+
+The formula is an identification result under that restriction, not an
+estimator from one historical stock panel and today's finite option
+chain. The required conditional means and pricing distribution are
+population objects. The lab's estimator assumes independent physical
+terminal panels and an independent supplied pricing sample; it does
+not construct those inputs from overlapping historical windows.
+
+There is a necessary compatibility check:
+$0\leq\int x m_i(x)\nu_T(\mathrm{d}x)\leq n_iS_{i,0}$ for every
+name. The estimated contributions summing to the index contribution
+is not a check, because the identity follows automatically when the
+conditional weights sum to one. This distinction is useful whenever
+an attribution method appears to validate itself by matching a total.
+\source{claims 016 and 044}
+
+\subsection{What the synthetic estimation says}
+The recovery estimator preserves the total on every sample and is
+consistent under the stated sampling and approximation assumptions.
+A histogram-based necessary-compatibility test has a conditional
+finite-sample error bound with a supplied smoothness constant. In
+controlled terminal-law examples, finite-sample tests detect large
+violations; the fixed partitions used there do not implement an asymptotic
+power construction.
+
+In the more process-like basket example, however, the bubble contribution
+is about $0.0041$ while the fixed-partition estimator bias is about
+$0.0035$. Increasing the sample size does not remove fixed-range and
+fixed-partition bias. No compatibility rejection was observed in the
+basket cases tested. A numerical smoothness estimate gives convenient
+intervals but lacks a rigorous bound; the available rigorous bound is too
+large to make those intervals useful. The population identity is stronger
+than this estimator's demonstrated performance.
+\source{experiment 046}
+
+\subsection{What a basket budget can and cannot identify}
+Suppose an option on a tracking fund supplies a justified upper bound
+$U$ on its American exercise value, and $\eta$ bounds the expected
+tracking discrepancy under $Q$ relative to a frozen basket. With the
+appropriate scaling $a$, the total defect is bounded by
+$B_{\mathrm{cap}}=aU+\eta$. Then
+\begin{equation}\label{eq:budget}
+ \frac{b_i(T)}{S_{i,0}}
+    \leq\frac{B_{\mathrm{cap}}}{\omega_i I_0}.
+\end{equation}
+The same absolute budget can give an informative relative bound for
+a large constituent and a vacuous one for a tiny constituent. Tracking
+under the physical measure does not supply $\eta$, and fees and basket
+reconstitution can matter more than a small quoted wing call.
+
+An upper budget alone never forces any particular name to have a
+positive defect. Combined with individual intervals and a positive
+lower bound on the total, the lab derives exact coordinate bounds for
+the resulting box intersected by a weighted-sum constraint. That
+finite-dimensional calculation is useful bookkeeping, but it cannot
+create the missing monetary lower bound from a binary price-based
+signal. A small positive upper bound is a tolerance certificate, not
+proof of exact absence.
+\source{claims 017 and 019}
+
+\section{What the four parts establish}\label{sec:remaining}
+The research gives a connected account of three practical objects: a
+price--variance signal, the wealth produced by a trading rule, and an
+expectation shortfall under a pricing law. The daily statistic detects
+specified level alternatives substantially more often than calibrated
+GSADF and identifies a coherent early pattern across the four homebuilders.
+The intraday score adds drawdown information to the explosive-root
+benchmark. Calibration determines the reference against which either
+pattern is unusual.
+
+The theory explains why those measurements and a valuation defect are
+related but distinct. Rapidly growing local volatility and the positive
+shock alignment in Sin's model provide two mechanisms. The exposure
+classification shows how rebalancing can change strictness, and the
+finite-grid and liquidation results explain why actual contract rules
+matter. A bounded liquidated inverse fund and an unbounded leveraged-long
+fund can have different expectation properties over the same underlying.
+
+Options and constituent data then put structure on the valuation question.
+A matched expectation-priced call and put determine a terminal mean;
+a high-strike call panel alone can leave it unidentified. A fixed basket
+adds constituent defects, while attribution needs more information than
+ordinary weights. These results give the practitioner useful distinctions:
+which pattern a monitor measures, which exposure a contract creates, and
+which assumptions make a monetary bound informative.

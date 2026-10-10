@@ -1,0 +1,1259 @@
+{
+ "retrieved": "2026-10-08",
+ "iex_request": {
+  "timeframe": "5Min",
+  "feed": "iex",
+  "adjustment": "raw",
+  "start": "2020-07-27",
+  "end": "2026-10-07",
+  "kept": "regular session 09:30-16:00 ET"
+ },
+ "iex": {
+  "AAPL": {
+   "pages": null,
+   "bars": 120943,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "296648fb190bd9e79f8a45b558af8fe93391a0a9cdc4cb4e0183ab3d2d8db023",
+   "resumed": true
+  },
+  "ABT": {
+   "pages": null,
+   "bars": 119242,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "69515d4775af92d967a834da4ca2f556f4b7d7793c24ce82def4b035bf0c0f93",
+   "resumed": true
+  },
+  "ACGL": {
+   "pages": null,
+   "bars": 105885,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e3b4fa358fdd575e14deac1c932f83e468631145a07d96d2078e00d0c0113ce1",
+   "resumed": true
+  },
+  "ACN": {
+   "pages": null,
+   "bars": 114186,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "3a1369467c9687e63e8c9e78d87d5563a5e4e6dc78263d86c03aa94dda87926d",
+   "resumed": true
+  },
+  "ADP": {
+   "pages": null,
+   "bars": 104750,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "978832cfd3b8a131803e89bb7d83b1754962687c5a865f7046de60d877cbe5c8",
+   "resumed": true
+  },
+  "AIG": {
+   "pages": null,
+   "bars": 117523,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "675ad28d0a3b15aab51d4262779546b7e17bf39ea80f75391db9cd667409f36d",
+   "resumed": true
+  },
+  "ALL": {
+   "pages": null,
+   "bars": 106327,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "f1c6842420867302321fa2a1d924088877539060d196936aa6a69fefeb987f53",
+   "resumed": true
+  },
+  "ALLE": {
+   "pages": null,
+   "bars": 90027,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "fc92f7d5e1f3eed9137151a4b0559f8b0419a129225a8e6a0729ad8a187c662d",
+   "resumed": true
+  },
+  "AMC": {
+   "pages": null,
+   "bars": 113954,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "4137c7eddf9c02214bb8fd8da02e97cc78cb195edd748ca8d64c830ea8b1e3a4",
+   "resumed": true
+  },
+  "AMGN": {
+   "pages": null,
+   "bars": 112399,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "ecda580dff32bdcf90f2240d3852d70c936300419637b62acc276b6360464a5d",
+   "resumed": true
+  },
+  "AMP": {
+   "pages": null,
+   "bars": 77004,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a57752b55329cca06843ecad584ea03e0809dbc24d09f1b102bd75915e03ceaf",
+   "resumed": true
+  },
+  "AMZN": {
+   "pages": null,
+   "bars": 118418,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "2e985246cf4760f0fc010fa0dbc1342b172c1b31cfaaed710dd9491d8ca4cd9d",
+   "resumed": true
+  },
+  "AOS": {
+   "pages": null,
+   "bars": 97365,
+   "first": "2020-07-27T13:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "311dfc1af461710ace91baac99a1ad71804f501150a4449c5ce725aedfe0a92e",
+   "resumed": true
+  },
+  "APD": {
+   "pages": null,
+   "bars": 99143,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e48927eefc4e6656d6d910974d73d648b5659ed6640275e1f1c65ea661aaeceb",
+   "resumed": true
+  },
+  "APTV": {
+   "pages": null,
+   "bars": 112071,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a80e1990fc66baa81789c91757bdcba0310a56bd3b5d474af3f48d6249e0b085",
+   "resumed": true
+  },
+  "ARKK": {
+   "pages": null,
+   "bars": 112844,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "5453a87de4e29a7cc476dbbdc4d42506ff054f0ef246279e355b69db168a8171",
+   "resumed": true
+  },
+  "ATO": {
+   "pages": null,
+   "bars": 83534,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "6eb41d54da13a356afc1a79a7b53edf68effd1acd593fd0b9323d71ce27b87fa",
+   "resumed": true
+  },
+  "AXP": {
+   "pages": null,
+   "bars": 115317,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "045271bc40e4820a02630ff9a3669a80fcc35b2274ab8991590dc6beb5c4594e",
+   "resumed": true
+  },
+  "AZO": {
+   "pages": null,
+   "bars": 48177,
+   "first": "2020-07-27T13:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c8c8ea14e58839cd61fb3eeb1f4c01b566c67b9f5ba76c1662e7acd470e9d21e",
+   "resumed": true
+  },
+  "BA": {
+   "pages": null,
+   "bars": 118664,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "38b8af5bdaa79098ab0803429366d5095ff965424222a605133b05f8d172dbde",
+   "resumed": true
+  },
+  "BB": {
+   "pages": null,
+   "bars": 103925,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "5437557f523a8e7ec694d38a51d6371e059f9546da7587e298adffe68ae596a9",
+   "resumed": true
+  },
+  "BMNR": {
+   "pages": null,
+   "bars": 24994,
+   "first": "2025-06-05T14:55:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "bc78638c88378dceb9f23a05011ba95abff684ab83466f81f33b65d3fc76ca51",
+   "resumed": true
+  },
+  "BRO": {
+   "pages": null,
+   "bars": 102822,
+   "first": "2020-07-27T13:40:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "1beb1c2d5f44a31d5cd072b8b7ffd92c49f9dd3b2af71501e51ccb273fb56d35",
+   "resumed": true
+  },
+  "BSX": {
+   "pages": null,
+   "bars": 120060,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "5d9aac826eae84229f9b495795e437f7d4534152b456a9313aaf631ef8495c6a",
+   "resumed": true
+  },
+  "BYND": {
+   "pages": null,
+   "bars": 97881,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "33cf5ecb421533c5998e7e6c55da8b5705a6121b46e81a2703391acaf7af4040",
+   "resumed": true
+  },
+  "CASY": {
+   "pages": null,
+   "bars": 58655,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "44378afe3f35b985bd6f4566092fd8453dd8e7a5574d48e834ccaa271d656d19",
+   "resumed": true
+  },
+  "CAT": {
+   "pages": null,
+   "bars": 113816,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "18cdaa88f3ac0f71ce3a1db189e6f44c97ae81f5d55b3114d00067e17e7ed5bd",
+   "resumed": true
+  },
+  "CBOE": {
+   "pages": null,
+   "bars": 86874,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "69e555d2089d5d53f5ad9255d34982613acb326bb648239b1bc0f742d3c61e91",
+   "resumed": true
+  },
+  "CHD": {
+   "pages": null,
+   "bars": 106535,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "9f1d7babf827ee508d528479f5965ee209e6223c9b7d419d3b41d0fd5a8f142d",
+   "resumed": true
+  },
+  "CL": {
+   "pages": null,
+   "bars": 118595,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b9e767f363ffe26001d9667a35f46ec16c0b09bb852d6c9236291a52a4b18f39",
+   "resumed": true
+  },
+  "CMG": {
+   "pages": null,
+   "bars": 75113,
+   "first": "2020-07-27T13:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "cb59f49c3df9bb0d523596312fa45e63d26eb873029e4cbb349e36d047ac405a",
+   "resumed": true
+  },
+  "CMI": {
+   "pages": null,
+   "bars": 93998,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "9f79a1891649cd2453dc29994abb037216717e7439897f44e185b867d0794571",
+   "resumed": true
+  },
+  "CPT": {
+   "pages": null,
+   "bars": 89531,
+   "first": "2020-07-27T13:40:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "afa77fc85a5c1a335576b8f35773b34c7f1248a9683fc01b9e98329b601f6cba",
+   "resumed": true
+  },
+  "CRCL": {
+   "pages": null,
+   "bars": 25873,
+   "first": "2025-06-05T16:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "00f04d5ac78c71b752f7f4861094e39e4a0fc0ae7548882c328dda946d643835",
+   "resumed": true
+  },
+  "CRM": {
+   "pages": null,
+   "bars": 119784,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e00ceada4a04cf4234a87974d56caf3b93c0d71bd56bc330c8cbd91ce9df2fa3",
+   "resumed": true
+  },
+  "CRWV": {
+   "pages": null,
+   "bars": 29699,
+   "first": "2025-03-28T17:10:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c5a76db2037dd5cbd4d782b2648a5728eb37d766551a7099841946dd4adae1a5",
+   "resumed": true
+  },
+  "CSCO": {
+   "pages": null,
+   "bars": 120924,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b339302249bcc39b62f5cb8918873c9879cf338cd0db8e126a6b7710a6b770b0",
+   "resumed": true
+  },
+  "CTSH": {
+   "pages": null,
+   "bars": 116813,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "2f16e09b39217b2981ac9786cef056b19da0391bedecb0d867f3ce5e2c989f28",
+   "resumed": true
+  },
+  "CVX": {
+   "pages": null,
+   "bars": 120012,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "ce887c5294e3168c068976f6ad742e0263758c65434d3aa2ae6a3e77d21146df",
+   "resumed": true
+  },
+  "D": {
+   "pages": null,
+   "bars": 118348,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "3f753acb238c1d59eabd14157af54f63cde3736d5f49c5143e7d338dd70a610d",
+   "resumed": true
+  },
+  "DD": {
+   "pages": null,
+   "bars": 114240,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "2e641a141f9b1400666d04bcb5eedd42b8ffb7d22dc1e6bf9a8d6003741e647f",
+   "resumed": true
+  },
+  "DG": {
+   "pages": null,
+   "bars": 114778,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "f10cecb35c1871b4058e7d939df0563b9db64f45f64fd1be975ceb346a9f2fb9",
+   "resumed": true
+  },
+  "DHR": {
+   "pages": null,
+   "bars": 116351,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c425fd5455d1311c0c528c4ee2658087e78866e578898222ce4611c15298da02",
+   "resumed": true
+  },
+  "DIA": {
+   "pages": null,
+   "bars": 90577,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "266964d1af95a819e81eeaeed3d458f7288eef743fe42aa9ac2ec59945af0bf3",
+   "resumed": true
+  },
+  "DIS": {
+   "pages": null,
+   "bars": 120283,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "265a90afd35d6df1a1b653cf3d794bc7b6e7b843445d1fb8786d41cfad929d0f",
+   "resumed": true
+  },
+  "DJT": {
+   "pages": null,
+   "bars": 63557,
+   "first": "2021-09-30T18:20:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c237938b13c9228cd244292198be5e3dcce848ca43d452dfe0720bc4c2be32dd",
+   "resumed": true
+  },
+  "DLTR": {
+   "pages": null,
+   "bars": 114497,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "49478ba31db01a47102748dd504746d631434d71db7e5a47abd369125f725d27",
+   "resumed": true
+  },
+  "DNUT": {
+   "pages": null,
+   "bars": 76721,
+   "first": "2021-07-01T16:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a603b406079dc0006cbfe6581b3753761fe8f48472d94fe17c55764ad5abdd37",
+   "resumed": true
+  },
+  "DOV": {
+   "pages": null,
+   "bars": 90194,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "9a61edf9dc19a3ddcfa57a875391291e153dd670842a54344fadd11c5e59b541",
+   "resumed": true
+  },
+  "DOW": {
+   "pages": null,
+   "bars": 119210,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d70e147a7b2df0bcedf5d84d2226d2b6d232f93aaa02de5dcc8ca9fdfbdcb4e5",
+   "resumed": true
+  },
+  "DVN": {
+   "pages": null,
+   "bars": 120163,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "bb85b718dc977870fbfb12c078f02375e6c963e0e66fe343af5398172f1e594a",
+   "resumed": true
+  },
+  "DXCM": {
+   "pages": null,
+   "bars": 111066,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "f910d108bf701317688e35562551b7cbe695322eb7bcd0bf2e26fd3ebf3e6547",
+   "resumed": true
+  },
+  "ECL": {
+   "pages": null,
+   "bars": 100106,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "4fb606bb678398284d6508a627129957a3d6dec1ee56f2929e1adc89b09580bb",
+   "resumed": true
+  },
+  "EQIX": {
+   "pages": null,
+   "bars": 77979,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "da9637b7619558b4570102e472ae956b6adf54eed40eb725159d34c09b07e411",
+   "resumed": true
+  },
+  "EXC": {
+   "pages": null,
+   "bars": 119758,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e661e9567d446c2812593dfab4995e9c62619617def944ca53d3644f59495b42",
+   "resumed": true
+  },
+  "EXPD": {
+   "pages": null,
+   "bars": 100270,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b3b2f83c33ed9642761ccc7bda0e2895e95ad4960bcfcb2f1e7f77ae56087f77",
+   "resumed": true
+  },
+  "EXPE": {
+   "pages": null,
+   "bars": 113338,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "168f0b65d6065361c7c7376acffa8f0fa1d13fc02cd0279715acee26c3ae3498",
+   "resumed": true
+  },
+  "EXR": {
+   "pages": null,
+   "bars": 92887,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "3947db116c8db363c83c158d7e93d90b2beb25b8138580131c4e1160b99de610",
+   "resumed": true
+  },
+  "FCX": {
+   "pages": null,
+   "bars": 120636,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "84afbf34f9442367bb7380334190f48c513cd6b1ccb635f7afc63f54310cb465",
+   "resumed": true
+  },
+  "FDXF": {
+   "pages": null,
+   "bars": 6091,
+   "first": "2026-06-01T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "7f2d02840496656a2a908cf100001496183d2dc2f472e2dbd79bd9815b4ad228",
+   "resumed": true
+  },
+  "FIS": {
+   "pages": null,
+   "bars": 118954,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a9ad106bf3dc9f2b408eb93ba87c175e0a3c301d04d6f5566e52b0c84e4731d7",
+   "resumed": true
+  },
+  "FISV": {
+   "pages": null,
+   "bars": 117469,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e63a6fef1e7d2ba67ffe64be8c7c17e61afbba6527f19dcf2cc00b34e7be528a",
+   "resumed": true
+  },
+  "FOXA": {
+   "pages": null,
+   "bars": 116521,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "71fb6d0201c5b28c39c4724d602fd9ce66aabca2d98f81253e08315ce4565fe0",
+   "resumed": true
+  },
+  "FRT": {
+   "pages": null,
+   "bars": 78035,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "aa7e7bcf6fd72e577e41b991205b39dd4eed84205f3ad2254ff1773cc817dcda",
+   "resumed": true
+  },
+  "GE": {
+   "pages": null,
+   "bars": 119112,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "1e047126853c8c357a5b6a6bf0b56ef6f34940a9e9a873f310b0cc65d859b494",
+   "resumed": true
+  },
+  "GEV": {
+   "pages": null,
+   "bars": 47443,
+   "first": "2024-04-02T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "0d95bc48590be80bfd1227c39846b766b9f5b4da3b1807ba6ecb9a7c9af1978a",
+   "resumed": true
+  },
+  "GL": {
+   "pages": null,
+   "bars": 73660,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "468433effcfbfc625e95b1c41a61fe43b69c654d484cbe3926f04b71f5717196",
+   "resumed": true
+  },
+  "GME": {
+   "pages": null,
+   "bars": 112811,
+   "first": "2020-07-27T13:45:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "735b6a753d4ab5f35ac9ab382fba3b0043eb2f0e10cfd0bb1215686b2bd0c3ca",
+   "resumed": true
+  },
+  "GNRC": {
+   "pages": null,
+   "bars": 97757,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "43906c2143c5453779f2530077ae236a690cbf4cdb17b852c56347c1c1c20859",
+   "resumed": true
+  },
+  "GOOGL": {
+   "pages": null,
+   "bars": 115223,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "abe7375c4170361bfd3b9ac84d734e740967ad4bf0399aae9a5134a02cd52fb2",
+   "resumed": true
+  },
+  "GPC": {
+   "pages": null,
+   "bars": 90682,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d631b095b477333762945a2b84ef3e927a8e8d4adb01e14c0bcbbda759fd0fae",
+   "resumed": true
+  },
+  "GPRO": {
+   "pages": null,
+   "bars": 87839,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "fadad7677dd0c6b6d3f2bc07005e95cce8b4b44991aec303d8bb8cc71f35c7e2",
+   "resumed": true
+  },
+  "GS": {
+   "pages": null,
+   "bars": 108659,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "fc3c82f566b1c3e2ca9b0ea250c2163b0ff931d819a6bb7be1d91bb1d2661173",
+   "resumed": true
+  },
+  "GWW": {
+   "pages": null,
+   "bars": 56113,
+   "first": "2020-07-27T13:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "888a312ceaf98c6e55d5b5663e62d6a9cdc36f1aed16dc2ae3185ed51ecb4328",
+   "resumed": true
+  },
+  "HD": {
+   "pages": null,
+   "bars": 117001,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "8de6e2df7f73daa802457de7cf0b17a7f26be7ca8122875fbcb4b6953cf7cab9",
+   "resumed": true
+  },
+  "HON": {
+   "pages": null,
+   "bars": 114267,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d034c0706c3848046ff506d229ddb089d94fe60b03984656c8f0911468b23578",
+   "resumed": true
+  },
+  "HOOD": {
+   "pages": null,
+   "bars": 99457,
+   "first": "2021-07-29T16:20:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "caa26dc7f306c07a3b3e6db3b04eb5013b66f72901c782da332df38ab2871af6",
+   "resumed": true
+  },
+  "HSIC": {
+   "pages": null,
+   "bars": 98460,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "336485ff55e40cd7d87ab1af43cb09b32e9ddd46cfc12e656a5ba06c931e4635",
+   "resumed": true
+  },
+  "HUBB": {
+   "pages": null,
+   "bars": 75321,
+   "first": "2020-07-27T13:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d10f48b8f0c06ed758b3adb7dba1336be9aa6cfe976bfe8308e8c178a53aa37e",
+   "resumed": true
+  },
+  "HUM": {
+   "pages": null,
+   "bars": 100900,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b3a1198f2796802c6c5614231e8dd5bd275c0df3e2a649dabe9159906531a13c",
+   "resumed": true
+  },
+  "IBM": {
+   "pages": null,
+   "bars": 117391,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "52d58c31537b48c24a024e4b90006bb00f0be1c5cfad75b5e854ac363305294e",
+   "resumed": true
+  },
+  "ICE": {
+   "pages": null,
+   "bars": 114542,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "99d7a510054e4271c7568fbed42e1c201ff1efc6dd90de9be5d23cd593fb6ba4",
+   "resumed": true
+  },
+  "INTC": {
+   "pages": null,
+   "bars": 120936,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "cc26c9edbd172498089a75cb47b6a82f27f433c08fb5e43053ec8ff6aa99bfc3",
+   "resumed": true
+  },
+  "IONQ": {
+   "pages": null,
+   "bars": 94013,
+   "first": "2021-01-05T15:55:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "03c647d85309623989cf8a8af1973458124763920f5f04106f9cef479d2a56dd",
+   "resumed": true
+  },
+  "ISRG": {
+   "pages": null,
+   "bars": 103305,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "7e6e39476aa6ce8e090e700c75e68c56274f19916562de0e03897ecb8612b71d",
+   "resumed": true
+  },
+  "IVZ": {
+   "pages": null,
+   "bars": 117334,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "ae0ee4fe6d195f3b5224bf3bfe92ee9b55b8037312f72c5e5a018969e4b861d8",
+   "resumed": true
+  },
+  "JNJ": {
+   "pages": null,
+   "bars": 119794,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "68d130562fda3ddd2f671526af658436621e8732358566214213ecf553cabb9a",
+   "resumed": true
+  },
+  "JPM": {
+   "pages": null,
+   "bars": 119916,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "19a73e936ffda9cfc6e0c1ddf33547eb2e923ed7f8d4902200d6688a4bcf2d12",
+   "resumed": true
+  },
+  "KDP": {
+   "pages": null,
+   "bars": 120084,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d3e027574bf2dcd666a998a3e75bd39ae56c61bd8a1cb9dbb68f858140a6753b",
+   "resumed": true
+  },
+  "KEY": {
+   "pages": null,
+   "bars": 120043,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "8543bcd8447498ab08dbc61b2a7769747cf53f43514c56d0e56c967be3522703",
+   "resumed": true
+  },
+  "KO": {
+   "pages": null,
+   "bars": 120643,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "f78f7254746cc74e908fd978586651a8b5f07fe33d26c33770c62a68888e447a",
+   "resumed": true
+  },
+  "KOSS": {
+   "pages": null,
+   "bars": 12037,
+   "first": "2020-07-27T14:35:00Z",
+   "last": "2026-10-07T16:50:00Z",
+   "sha256": "dbe51b8ec3bcdf73def2ffc515589ee4e4f72cdad987fd995bc15ef67b4b2e3d",
+   "resumed": true
+  },
+  "KSS": {
+   "pages": null,
+   "bars": 118025,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c63277ff31b9909674d8c94d446815fdfd2634b76778aa67a8e0ff9e11662978",
+   "resumed": true
+  },
+  "KVUE": {
+   "pages": null,
+   "bars": 66222,
+   "first": "2023-05-04T16:45:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b0f34b48c3c062321b46467ea35c9d73dabfa9e10aca55e6b32e87605d29c2c2",
+   "resumed": true
+  },
+  "LEN": {
+   "pages": null,
+   "bars": 113598,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "69a90b3635312a4db6aaca6000bc35f696f8083f5444cddb79b56d4ca7827968",
+   "resumed": true
+  },
+  "LII": {
+   "pages": null,
+   "bars": 66797,
+   "first": "2020-07-27T13:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "699ab8123b6f9774424b3bd81afd60f9ea5e39e172b4124835beebc58346c177",
+   "resumed": true
+  },
+  "LLY": {
+   "pages": null,
+   "bars": 114562,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "627ec3455c982d9bfe3ee19e5eaf46c820af064427dfd01c95150ed4af1125f5",
+   "resumed": true
+  },
+  "LMT": {
+   "pages": null,
+   "bars": 99389,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c970bbb2ef3d5c4de5b1713234c7c6a9b9a10ade73a3ecc7d0f57deed7d794e5",
+   "resumed": true
+  },
+  "LRCX": {
+   "pages": null,
+   "bars": 106530,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "0ab615d49ba9de0cc4f59b8e4c1ceff20796f71c071c7cf844ec1db7159ebca0",
+   "resumed": true
+  },
+  "LUV": {
+   "pages": null,
+   "bars": 119777,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "9a3c39a9ae8bdce3066eac0c69c22530e3a6c4b863870ea32d2094797e54c52d",
+   "resumed": true
+  },
+  "LVS": {
+   "pages": null,
+   "bars": 119435,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c8312e634255b5b6967b4930efbc5e9affb3c67d9312d258d09f07ecd3f8fa67",
+   "resumed": true
+  },
+  "MA": {
+   "pages": null,
+   "bars": 115771,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "6d1a97c2a02808001f5dce29617eb661672634b0f3b29c1473bc632ad6484249",
+   "resumed": true
+  },
+  "MCD": {
+   "pages": null,
+   "bars": 115030,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e3632c4d18a46fa59f819b48e725c9be0f49f00783f6f3a29b50035f7c8707e7",
+   "resumed": true
+  },
+  "MGM": {
+   "pages": null,
+   "bars": 118717,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "301d30762a60c32626198265cd36ee0cd1632fee27b04c980ec337cc72c9a685",
+   "resumed": true
+  },
+  "MLM": {
+   "pages": null,
+   "bars": 73334,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e14fe386f7047662b2498b42754f0b6d98d0ab6ee12e437e39688fb5b7aa32b6",
+   "resumed": true
+  },
+  "MMM": {
+   "pages": null,
+   "bars": 113291,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "69f091b7e367a6d34f37e3e4751f3ef5278543359ada0a6d031846b9d16686b6",
+   "resumed": true
+  },
+  "MRK": {
+   "pages": null,
+   "bars": 120236,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "de8caa9492002d430309a76a5150f15dd4b65c166f11d71847841489dc685fe9",
+   "resumed": true
+  },
+  "MSFT": {
+   "pages": null,
+   "bars": 120882,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c75a1d7f49d4bfe75ca005b676245b90f595e913e7b645c620c19bcb0c0a3f09",
+   "resumed": true
+  },
+  "MSTR": {
+   "pages": null,
+   "bars": 83098,
+   "first": "2020-07-27T14:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "183f85f29eb8f9a5d361ab493ee398564a1d2b6a791ada8e30fbc9b9a0b5bf62",
+   "resumed": true
+  },
+  "NAKA": {
+   "pages": null,
+   "bars": 15637,
+   "first": "2024-05-31T16:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a7b32e56ad24142b36d656992403653bb4b7be5f7bd4514d59b39bfdd3f84a74",
+   "resumed": true
+  },
+  "NI": {
+   "pages": 42,
+   "bars": 117563,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "8e26cf3660eccc3a1de70f2c4dd9d68342780b986614dd7369e63b0f79850645"
+  },
+  "NKE": {
+   "pages": 53,
+   "bars": 120251,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "401da674a002339f851fb6aec63b53818e9bb3aba619ee19bbe8ee53fdd65fd6"
+  },
+  "NTAP": {
+   "pages": null,
+   "bars": 110076,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "ce612e6a258c3746d901e7cd5a290e594654844899f1432c08e97a9209fd4459",
+   "resumed": true
+  },
+  "NVDA": {
+   "pages": null,
+   "bars": 120753,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "71838d893687afca4ea4b0019a594c745b6aeedd906c0cd1f1a1dbbff9653028",
+   "resumed": true
+  },
+  "NVR": {
+   "pages": null,
+   "bars": 44663,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "1c31ddd99a582a1c23e76b68fe6c8bedc8021a0f41d41ade133c096f959fac1b",
+   "resumed": true
+  },
+  "NWSA": {
+   "pages": null,
+   "bars": 111219,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a08e0fe37dea1c79c7f7d20c0278d29a7f8954740339d0e638b053e7ed16de9f",
+   "resumed": true
+  },
+  "OKLO": {
+   "pages": null,
+   "bars": 48428,
+   "first": "2021-07-08T14:10:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "b3df91f803c161f1993c4173aa2d1ffff27a7edd1c12e15b63163ff35776f526",
+   "resumed": true
+  },
+  "ON": {
+   "pages": null,
+   "bars": 119667,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d12f280264a42035b012f3b863dac41b95b5875eaf36044f48995ecd33175ec9",
+   "resumed": true
+  },
+  "OPEN": {
+   "pages": null,
+   "bars": 114722,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "6010b969383d809ce2a32c1c1acda667ef9153dba8748c50db9e6c99b2dc6104",
+   "resumed": true
+  },
+  "OTIS": {
+   "pages": null,
+   "bars": 113793,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "df6f26da29f70da01c2627566069b65549750e9102cc22303041d9e2633775d7",
+   "resumed": true
+  },
+  "PANW": {
+   "pages": null,
+   "bars": 113513,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "99dc96e4912669ff491613c6cba4e3c70e79f9334c3b78bcd23720a131dd0ecf",
+   "resumed": true
+  },
+  "PFE": {
+   "pages": null,
+   "bars": 120623,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c900d9aa816e2718ab18dfb6f558e0cc79f277040b2450aebb619fa0815e8456",
+   "resumed": true
+  },
+  "PG": {
+   "pages": null,
+   "bars": 119490,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "0ecfa18ccc97d2d24bd2d06a46f8d8eb95fb03936f9115bfb0de7f61bafbca91",
+   "resumed": true
+  },
+  "PLTR": {
+   "pages": null,
+   "bars": 116861,
+   "first": "2020-09-30T17:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "a408a4f2fb13f16f8ef7fe0df415145a3f7c7492af48c1df3dbaac931f637271",
+   "resumed": true
+  },
+  "PM": {
+   "pages": null,
+   "bars": 117892,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "def97b086aaa8d7f04bd6307130b6b221df1c660addd77d98a8844ce03012160",
+   "resumed": true
+  },
+  "PNC": {
+   "pages": null,
+   "bars": 108979,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c9fb1c6fc68fc7a8c89ac85b75a8bf03083b22ced35d15ac9a664279c032221b",
+   "resumed": true
+  },
+  "PODD": {
+   "pages": null,
+   "bars": 85147,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "99017e8d641bf9dde6fa8f22bafc88020fb39d1bcd7719728528fa79e9819dd8",
+   "resumed": true
+  },
+  "PTON": {
+   "pages": null,
+   "bars": 119161,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "43c6b58c7c4ff18b3293f86db2150edfad39ec1f7484c6bfaf8b174d7020e1ca",
+   "resumed": true
+  },
+  "QBTS": {
+   "pages": null,
+   "bars": 55492,
+   "first": "2020-12-14T15:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "19c38230e0309a489f4c46bbc639558b0c0ce16c1457456dee40d20d22489c7b",
+   "resumed": true
+  },
+  "RDDT": {
+   "pages": null,
+   "bars": 47469,
+   "first": "2024-03-21T17:15:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "34a18d9302bfff1b5df259198c6b91bae3f3ce1770d4ba80a3bc7f76446d7fbb",
+   "resumed": true
+  },
+  "REG": {
+   "pages": null,
+   "bars": 95978,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "124042bd7105debfe37e984362d83d446db4969f5ab6ffc5f2f84f52cd51b55f",
+   "resumed": true
+  },
+  "RGTI": {
+   "pages": null,
+   "bars": 67645,
+   "first": "2021-05-04T18:20:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "be812f8a121b835cbfabd01090d43425a9f346cb370be208923cd0350f9c3002",
+   "resumed": true
+  },
+  "ROL": {
+   "pages": null,
+   "bars": 104509,
+   "first": "2020-07-27T13:35:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "5fee2761d303c70906f0aef3f95cc8b619d4aa40048eb242fe0df51833a1ed2d",
+   "resumed": true
+  },
+  "RTX": {
+   "pages": null,
+   "bars": 118705,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "6f915eb8b5723c80255819145194240913357b1e0408c1fe1efc462b37d99365",
+   "resumed": true
+  },
+  "SBET": {
+   "pages": null,
+   "bars": 30191,
+   "first": "2020-07-27T14:45:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "dbedf931c4fe6bff10bc0df46b2cac0440f0e18c50325582f334508f66b3ef05",
+   "resumed": true
+  },
+  "SBUX": {
+   "pages": null,
+   "bars": 120261,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "dae4e1600ca20a94f1fabd4d32bfd0b614cf8ee80f6862df7aed50ae9c8423f1",
+   "resumed": true
+  },
+  "SHW": {
+   "pages": null,
+   "bars": 106720,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "7c94f308e3b3d68f06a783d1c7db806343c0c36f8e51732931c11b0fb5b4aba6",
+   "resumed": true
+  },
+  "SLB": {
+   "pages": null,
+   "bars": 120505,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "53bdc09cfb2f9b4dcb1b9c17ea3a1c6df1c4b464c2eac327a75043edd09fd0bc",
+   "resumed": true
+  },
+  "SMCI": {
+   "pages": null,
+   "bars": 91460,
+   "first": "2020-07-27T13:50:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "e9025392846bf0dbf572c09ea07f99c5a01d666dc4a1833cef1a807fa686c732",
+   "resumed": true
+  },
+  "SPY": {
+   "pages": null,
+   "bars": 120971,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d837b4e1395eee9838a6cb2c214c2d8d8d19a79ab7295ff39d5a4a89e2a8fcd4",
+   "resumed": true
+  },
+  "STT": {
+   "pages": null,
+   "bars": 109078,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "45d3fe35de8ca6bada4aa4451581fabf8c1f7aa6a8749a2c63645cb809a48892",
+   "resumed": true
+  },
+  "TFC": {
+   "pages": null,
+   "bars": 119518,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "f207cb7a86e708c0d79f41af3c9199a9ac3d206e884b872d09c82d318474b444",
+   "resumed": true
+  },
+  "TGT": {
+   "pages": null,
+   "bars": 118326,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "10d3a26297162766063e6bcb2ede59383502153d535ed81a9d66ac8a29db0ac1",
+   "resumed": true
+  },
+  "TRV": {
+   "pages": null,
+   "bars": 101053,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "4d43b26ea52ee55710c912503d811ab0e6d03c3e271342f68707f15a6294cd77",
+   "resumed": true
+  },
+  "TSCO": {
+   "pages": null,
+   "bars": 110012,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "c81f3b06c5ae37efd1b832d46e53d7b81f8506f281f60a7d2998df1b83a5e914",
+   "resumed": true
+  },
+  "TSLA": {
+   "pages": null,
+   "bars": 120771,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "12dc473e916ef2bd46f4fe0b34091448afd44a66470a87982f7e666c115daaac",
+   "resumed": true
+  },
+  "UNH": {
+   "pages": null,
+   "bars": 117422,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "03254fa5f6afe583b32c9fa11e98c7f16d3c8d820c0c70ac52719cca667cc188",
+   "resumed": true
+  },
+  "URI": {
+   "pages": null,
+   "bars": 86502,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "20a0861a8cd5ed415f2588fe796b28400f5b5d98797ecc3e71c08dcbf7f21735",
+   "resumed": true
+  },
+  "V": {
+   "pages": null,
+   "bars": 119893,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "eddbf980955965c4a3c77455841f4fd84dfd9534769069ce821081c8bd6ab816",
+   "resumed": true
+  },
+  "VZ": {
+   "pages": null,
+   "bars": 120569,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "79c853719ffa9e634d9eef7391356a231cabd4fb694e0b6c5d7e03ade2013648",
+   "resumed": true
+  },
+  "WAB": {
+   "pages": null,
+   "bars": 93290,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "fc515ad7e6a06d33509f0c2f1ee15a5934c65d27c9f9596d4c64ff9744692eed",
+   "resumed": true
+  },
+  "WMT": {
+   "pages": null,
+   "bars": 120039,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "de85244231dcfffbda81c2bd9c60ec407a3014d88995585dcb4ec799c200945c",
+   "resumed": true
+  },
+  "XOM": {
+   "pages": null,
+   "bars": 120570,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "23be8a9457aa739105f3b9a67c4e5072d737938156e6a8a47a6f3f80e5f78ea6",
+   "resumed": true
+  },
+  "ZBH": {
+   "pages": null,
+   "bars": 108194,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "aa85f602444feb37afb232a8b72aaa681f62d47490673965f13df6d1894b59b9",
+   "resumed": true
+  },
+  "ZBRA": {
+   "pages": null,
+   "bars": 68800,
+   "first": "2020-07-27T13:55:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "afd1e7572274a9b517d0f5afdb336b15c8cf879cd458212fee5953e4ae25edb1",
+   "resumed": true
+  },
+  "ZM": {
+   "pages": null,
+   "bars": 116953,
+   "first": "2020-07-27T13:30:00Z",
+   "last": "2026-10-07T19:55:00Z",
+   "sha256": "d42e98bacf7890335cfe5e84a1a352ff4a5961837e797ec0b928d50b4be5f3d6",
+   "resumed": true
+  }
+ }
+}

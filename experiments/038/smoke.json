@@ -1,0 +1,69 @@
+{
+ "wall_s": 75.80548000335693,
+ "sec_per_path": 36.294411569833755,
+ "projected_hours_100": 0.5761017709497422,
+ "anchor_status": {
+  "N-in": {
+   "79": {
+    "tolerance met": 9,
+    "budget exhausted": 31
+   },
+   "119": {
+    "inactive": 10,
+    "budget exhausted": 20,
+    "tolerance met": 10
+   },
+   "159": {
+    "inactive": 20,
+    "budget exhausted": 15,
+    "tolerance met": 5
+   }
+  },
+  "N-switch": {
+   "79": {
+    "budget exhausted": 33,
+    "tolerance met": 7
+   },
+   "119": {
+    "inactive": 10,
+    "budget exhausted": 30
+   },
+   "159": {
+    "inactive": 20,
+    "budget exhausted": 20
+   }
+  },
+  "L-15": {
+   "79": {
+    "tolerance met": 34,
+    "budget exhausted": 6
+   },
+   "119": {
+    "inactive": 10,
+    "tolerance met": 29,
+    "budget exhausted": 1
+   },
+   "159": {
+    "inactive": 20,
+    "tolerance met": 16,
+    "budget exhausted": 4
+   }
+  },
+  "L-20": {
+   "79": {
+    "tolerance met": 27,
+    "budget exhausted": 13
+   },
+   "119": {
+    "inactive": 10,
+    "tolerance met": 26,
+    "budget exhausted": 4
+   },
+   "159": {
+    "inactive": 20,
+    "tolerance met": 13,
+    "budget exhausted": 7
+   }
+  }
+ }
+}

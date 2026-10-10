@@ -1,0 +1,458 @@
+[
+ {
+  "cell": "0000|f0.00|p0.0",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 1791.2132630650065,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 33336.38020334353,
+  "certified_logq_bounds": [
+   33336.380203343535,
+   33336.380203343535
+  ],
+  "seconds": 0.9521558284759521
+ },
+ {
+  "cell": "0000|f0.10|p1.5",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 1708.4983993307874,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 31278.892699714816,
+  "certified_logq_bounds": [
+   31278.892699714816,
+   31278.892699714816
+  ],
+  "seconds": 0.9604449272155762
+ },
+ {
+  "cell": "0000|f0.10|p2.0",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 1786.2706526500647,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 34572.44446806702,
+  "certified_logq_bounds": [
+   34572.44446806702,
+   34572.44446806702
+  ],
+  "seconds": 0.9543008804321289
+ },
+ {
+  "cell": "0000|f0.30|p1.5",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 1762.9495825633476,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 32296.133725484317,
+  "certified_logq_bounds": [
+   32296.133725484317,
+   32296.133725484317
+  ],
+  "seconds": 0.9343070983886719
+ },
+ {
+  "cell": "0000|f0.30|p2.0",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 1797.6776207332175,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 33514.48375776081,
+  "certified_logq_bounds": [
+   33514.483757760805,
+   33514.483757760805
+  ],
+  "seconds": 0.9282739162445068
+ },
+ {
+  "cell": "0101|f0.00|p0.0",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1738.0915138965674,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 35745.08842367564,
+  "certified_logq_bounds": [
+   35745.08842367564,
+   35745.08842367564
+  ],
+  "seconds": 0.9591751098632812
+ },
+ {
+  "cell": "0101|f0.10|p1.5",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1813.1899596418305,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 37133.26027917914,
+  "certified_logq_bounds": [
+   37133.26027917914,
+   37133.26027917914
+  ],
+  "seconds": 0.9377200603485107
+ },
+ {
+  "cell": "0101|f0.10|p2.0",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1817.4816054329601,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 35547.09032068591,
+  "certified_logq_bounds": [
+   35547.09032068591,
+   35547.09032068591
+  ],
+  "seconds": 0.9260859489440918
+ },
+ {
+  "cell": "0101|f0.30|p1.5",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1745.0259961275297,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 35123.01771649872,
+  "certified_logq_bounds": [
+   35123.01771649872,
+   35123.01771649872
+  ],
+  "seconds": 0.9182651042938232
+ },
+ {
+  "cell": "0101|f0.30|p2.0",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1747.8199375014813,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 36142.19234064718,
+  "certified_logq_bounds": [
+   36142.19234064718,
+   36142.19234064718
+  ],
+  "seconds": 0.9159560203552246
+ },
+ {
+  "cell": "S-shock",
+  "ordinary_retained": [
+   0,
+   5
+  ],
+  "certified_retained": [
+   0,
+   5
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion",
+   "certified retention"
+  ],
+  "min_exclusion_margin": 1807.5168293868971,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 34849.56720002101,
+  "certified_logq_bounds": [
+   34849.56720002101,
+   34849.56720002101
+  ],
+  "seconds": 1.0120761394500732
+ },
+ {
+  "cell": "S-025",
+  "ordinary_retained": [
+   0
+  ],
+  "certified_retained": [
+   0
+  ],
+  "match": true,
+  "reasons": [
+   "calendar retained",
+   "certified exclusion"
+  ],
+  "min_exclusion_margin": 377.25141564668036,
+  "excluded": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "ordinary_logq": 31289.197218320594,
+  "certified_logq_bounds": [
+   31289.197218320594,
+   31289.197218320594
+  ],
+  "seconds": 0.9797959327697754
+ }
+]

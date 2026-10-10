@@ -1,0 +1,65 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{libertinus-otf}
+\usepackage{amsmath,amsthm}
+\usepackage[margin=1in,headheight=15pt]{geometry}
+\usepackage{graphicx,booktabs,array,longtable,tabularx}
+\usepackage{microtype,enumitem,xcolor,fancyhdr}
+\usepackage{titlesec}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[unicode,colorlinks=true,linkcolor=ink,citecolor=ink,urlcolor=ink]{hyperref}
+\definecolor{ink}{HTML}{243E52}
+\definecolor{muted}{HTML}{59656E}
+\definecolor{accent}{HTML}{A45C36}
+\hypersetup{pdftitle={Asset Price Bubbles: Theory, Signals, and Traded Contracts},pdfauthor={Research manuscript},pdfsubject={Rebalancing, identification, daily and intraday monitoring, options and baskets}}
+\urlstyle{same}
+\linespread{1.035}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{1.1em}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.17}
+\setlist{nosep,leftmargin=*,topsep=0.4em}
+\clubpenalty=10000 \widowpenalty=10000
+\allowdisplaybreaks
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\titleformat{\part}[display]{\color{ink}\centering\Huge\bfseries}{\Large Part \Roman{part}}{0.5em}{}
+\titleformat{\section}{\color{ink}\Large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{2.3ex plus 1ex}{1ex}
+\titlespacing*{\subsection}{0pt}{1.8ex plus 1ex}{0.7ex}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Asset Price Bubbles}
+\fancyhead[R]{\small\color{muted}\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\renewcommand{\sectionmark}[1]{\markboth{\thesection\quad #1}{}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{Example}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Prob}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\ind}{\mathbf{1}}
+\newcommand{\dd}{\,\mathrm{d}}
+\newcommand{\scope}[1]{\par\smallskip\noindent\textit{Scope.} #1\par}
+\newcommand{\source}[1]{\par\smallskip{\footnotesize\noindent\textit{Research record:} #1.\par}}
+\newcommand{\tablerows}[1]{\csname @@input\endcsname #1 }
+\newcommand{\partopening}[3]{\clearpage\part{#1}\label{#2}\noindent\textit{#3}\par\medskip}
+\begin{document}
+\input{sections/front}
+\input{sections/literature}
+\input{sections/theory}
+\input{sections/signals}
+\input{sections/funds}
+\input{sections/options}
+\input{sections/appendices}
+\clearpage
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainnat}
+\bibliography{generated/references}
+\end{document}

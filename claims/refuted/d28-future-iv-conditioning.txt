@@ -1,0 +1,25 @@
+Refuted target: a predictable Gaussian scale permits treating the observed
+whole IV path as fixed exogenous data in the conditional validity proof.
+
+Let R1 be standard normal and IV0 a fixed positive constant. Set IV1=2
+when R1>0 and IV1=1 otherwise. Generate R2 conditionally normally using
+this known IV1. This is a predictable scale model: IV1 is observed before
+R2, and the time-1 return has its stated unconditional Gaussian law.
+Conditioning on the whole IV path reveals the sign of R1. Its conditional
+law is then a half-normal, not its original normal density p1.
+
+For the normalized, predictable forecast q1=2*p1*1_{r>0}, the first oracle
+factor has unconditional expectation 1 but expectation 2 given IV1=2.
+Worse, selecting q1's half-line to match IV1 after seeing the entire path
+makes the factor 2 on every outcome, giving rejection probability 1 at
+threshold 2 instead of at most 1/2.
+
+This example fits 042's drift convention too: take Delta1=Delta2=1,
+w=1, IV0=1, b=1/2, so R1 has mean zero; set R2's conditional mean to
+b-IV1^2/2 and variance IV1^2. No independent-IV premise is available.
+
+Corrected result: retain the full observed past filtration and integrate
+each return factor under its actual conditional law at that step. A
+single common parameter's product is the valid oracle; its current-prefix
+profile dominates it. Proposed claim 042 gives the application, conditional
+on the stated Gaussian return law, using the existing AX-62 theorem.

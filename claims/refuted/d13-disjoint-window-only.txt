@@ -1,0 +1,27 @@
+Refuted target: declaring finite drift/scale ranges from a disjoint earlier
+window automatically preserves claim 057's conditional calibration, or a
+small declaration failure probability controls the unbounded raw score mean.
+
+The missing premise is coverage of the actual later conditional law after
+conditioning on the entire earlier record. Constant parameters and independent
+increments supply the conditional likelihood, not probability-one membership
+in a range estimated from a finite earlier sample. The positive Gaussian
+finite-sample densities have identical null sets: probability-one coverage of
+every positive integer scale would force the scale upper bound to be infinite
+almost surely under every scale.
+
+A concrete price-kernel counterexample has actual driftless GBM scale one,
+finite catalogue {(p=1,κ=1/2),(p=2,κ=1)}, one training and one evaluation
+increment of duration one. On an independent earlier event of any positive
+probability at most δ, declare B={0}, C={1/2}; otherwise declare B={0}, C={1}.
+Large training endpoints select p=2 with positive probability. There its
+evaluation density has a positive y^(-4) tail (AX-54). With y=x exp(r), the
+actual expected raw-score integrand is asymptotic to a positive constant times
+exp(3r²/2−3r), so the raw score has infinite mean despite small coverage failure.
+The construction and diagnostic checks are in proposed claim 058 and checks/058/.
+
+Corrected target: conditional calibration on genuinely covered earlier records,
+or unconditional size and clipped-score guarantees with a proved declaration
+failure budget. A scale change requires a budget for the later law, not merely
+coverage of the earlier parameter. This does not refute every training-adaptive
+method with separately verified conditional-law and coverage premises.

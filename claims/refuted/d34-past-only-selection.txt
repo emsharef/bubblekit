@@ -1,0 +1,20 @@
+Refuted target: selecting calm calibration windows using only information before
+their starts preserves their exchangeability with evaluated windows.
+
+Take independent identically distributed blocks (B_pre,S), where B_pre is a fair
+bit and S equals B_pre with probability 99/100. Both bit marginals are fair.
+Retain 19 calibration blocks with B_pre=0; their scores are independent
+Bernoulli(1/100). Evaluate an independent unselected block with a fair score.
+The conservative 5% rank cutoff is the maximum calibration score. It is exceeded
+exactly when all 19 calibration scores are zero and the evaluation score is one,
+with probability (1/2)(99/100)^19, about 41.3%. All windows have the same length;
+there is no overlap or dependence across blocks, and selection uses only the past.
+
+Corrected premise: supply exchangeability after the actual selection, or a
+quantified replacement. Applying the same B_pre=0 selection to evaluation makes
+this particular example iid and yields error (1/100)(99/100)^19, about 0.826%.
+Past-only selection suffices only with additional conditions connecting it to
+the future score law; chronology alone is not that condition.
+
+Exact checks: checks/d34-selection-contract/check.py. This is not a GSADF
+counterexample, an observed panel error estimate, or a general conformal proof.

@@ -1,0 +1,1237 @@
+{
+ "end": "2026-10-07",
+ "calm_rule": {
+  "sigma_tr_max": 0.2,
+  "drawdown_max": 0.1,
+  "trailing_returns": 252
+ },
+ "clock": "elapsed UTC time between successive 16:00 New York closes / 365 days",
+ "indices": {
+  "SPX": {
+   "first_close": "1970-01-02",
+   "last_close": "2026-10-07",
+   "starts": [
+    {
+     "year": 1990,
+     "first_return_end": "1990-01-02",
+     "sigma_tr": 0.1321953045149795,
+     "drawdown": 0.07556977032765089,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1990-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1991-12-31",
+       "scored_returns": 506,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1991,
+     "first_return_end": "1991-01-02",
+     "sigma_tr": 0.1591699045196743,
+     "drawdown": 0.19918693134699017,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "1991-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1992-12-31",
+       "scored_returns": 507,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1992,
+     "first_return_end": "1992-01-02",
+     "sigma_tr": 0.14341491473369358,
+     "drawdown": 0.05603791573506445,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1992-12-31",
+       "scored_returns": 254,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1993-12-31",
+       "scored_returns": 507,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1993,
+     "first_return_end": "1993-01-04",
+     "sigma_tr": 0.09715837555955276,
+     "drawdown": 0.062433133777557215,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1993-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1994-12-30",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1994,
+     "first_return_end": "1994-01-03",
+     "sigma_tr": 0.08660560867238014,
+     "drawdown": 0.049941881309469194,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1994-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1995-12-29",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1995,
+     "first_return_end": "1995-01-03",
+     "sigma_tr": 0.09847535612908394,
+     "drawdown": 0.08937756550262577,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1995-12-29",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1996-12-31",
+       "scored_returns": 506,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1996,
+     "first_return_end": "1996-01-02",
+     "sigma_tr": 0.08010747524398334,
+     "drawdown": 0.02533416966357671,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1996-12-31",
+       "scored_returns": 254,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1997-12-31",
+       "scored_returns": 507,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1997,
+     "first_return_end": "1997-01-02",
+     "sigma_tr": 0.1188473695962701,
+     "drawdown": 0.07643215959256999,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "1997-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1998-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1998,
+     "first_return_end": "1998-01-02",
+     "sigma_tr": 0.1829832488818671,
+     "drawdown": 0.10795223920774988,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "1998-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "1999-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 1999,
+     "first_return_end": "1999-01-04",
+     "sigma_tr": 0.20356889733314115,
+     "drawdown": 0.1933599921661049,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "1999-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2000-12-29",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2000,
+     "first_return_end": "2000-01-03",
+     "sigma_tr": 0.18049637867594104,
+     "drawdown": 0.12078686729338572,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2000-12-29",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2001-12-31",
+       "scored_returns": 500,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2001,
+     "first_return_end": "2001-01-02",
+     "sigma_tr": 0.22223626921464273,
+     "drawdown": 0.17199794261178336,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2001-12-31",
+       "scored_returns": 248,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2002-12-31",
+       "scored_returns": 500,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2002,
+     "first_return_end": "2002-01-02",
+     "sigma_tr": 0.21171379397568513,
+     "drawdown": 0.29695063693418533,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2002-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2003-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2003,
+     "first_return_end": "2003-01-02",
+     "sigma_tr": 0.2596332204278468,
+     "drawdown": 0.3375237709732706,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2003-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2004-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2004,
+     "first_return_end": "2004-01-02",
+     "sigma_tr": 0.17074973570884108,
+     "drawdown": 0.14053409661238037,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2004-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2005-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2005,
+     "first_return_end": "2005-01-03",
+     "sigma_tr": 0.11069709654709278,
+     "drawdown": 0.08164907105058117,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2005-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2006-12-29",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2006,
+     "first_return_end": "2006-01-03",
+     "sigma_tr": 0.10277822625339662,
+     "drawdown": 0.07166354179327217,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2006-12-29",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2007-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2007,
+     "first_return_end": "2007-01-03",
+     "sigma_tr": 0.10021120912253248,
+     "drawdown": 0.07698985307108452,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2007-12-31",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2008-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2008,
+     "first_return_end": "2008-01-02",
+     "sigma_tr": 0.15900445959854442,
+     "drawdown": 0.10090409944571355,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2008-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2009-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2009,
+     "first_return_end": "2009-01-02",
+     "sigma_tr": 0.41164163095420553,
+     "drawdown": 0.48005750250840673,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2009-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2010-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2010,
+     "first_return_end": "2010-01-04",
+     "sigma_tr": 0.27244169621000675,
+     "drawdown": 0.27620624750026523,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2010-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2011-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2011,
+     "first_return_end": "2011-01-03",
+     "sigma_tr": 0.18041759541809002,
+     "drawdown": 0.15994677274011782,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2011-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2012-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2012,
+     "first_return_end": "2012-01-03",
+     "sigma_tr": 0.23339947625148233,
+     "drawdown": 0.19388242072358453,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2012-12-31",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2013-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2013,
+     "first_return_end": "2013-01-02",
+     "sigma_tr": 0.12689283725985626,
+     "drawdown": 0.09936294686452452,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2013-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2014-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2014,
+     "first_return_end": "2014-01-02",
+     "sigma_tr": 0.11168974533071727,
+     "drawdown": 0.05755593615479104,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2014-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2015-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2015,
+     "first_return_end": "2015-01-02",
+     "sigma_tr": 0.11380115715336245,
+     "drawdown": 0.07401459519995712,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2015-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2016-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2016,
+     "first_return_end": "2016-01-04",
+     "sigma_tr": 0.1547846741449986,
+     "drawdown": 0.12352525063764352,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2016-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2017-12-29",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2017,
+     "first_return_end": "2017-01-03",
+     "sigma_tr": 0.13098634856818248,
+     "drawdown": 0.10512049840551418,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2017-12-29",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2018-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2018,
+     "first_return_end": "2018-01-02",
+     "sigma_tr": 0.06770277280215628,
+     "drawdown": 0.02796791718481184,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2018-12-31",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2019-12-31",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2019,
+     "first_return_end": "2019-01-02",
+     "sigma_tr": 0.16973927004252,
+     "drawdown": 0.19778210435681998,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2019-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2020-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2020,
+     "first_return_end": "2020-01-02",
+     "sigma_tr": 0.1256675120116072,
+     "drawdown": 0.0683610804467385,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2020-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2021-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2021,
+     "first_return_end": "2021-01-04",
+     "sigma_tr": 0.3473760047625504,
+     "drawdown": 0.3392496000265327,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2021-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2022-12-30",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2022,
+     "first_return_end": "2022-01-03",
+     "sigma_tr": 0.13166536984830593,
+     "drawdown": 0.0521253759010486,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2022-12-30",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2023-12-29",
+       "scored_returns": 501,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2023,
+     "first_return_end": "2023-01-03",
+     "sigma_tr": 0.24135053146384222,
+     "drawdown": 0.2542509661923039,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2023-12-29",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2024-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2024,
+     "first_return_end": "2024-01-02",
+     "sigma_tr": 0.131751131822458,
+     "drawdown": 0.10276617093291363,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2024-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2025-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2025,
+     "first_return_end": "2025-01-02",
+     "sigma_tr": 0.12657971256545572,
+     "drawdown": 0.08485144350207374,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2025-12-31",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2026-10-07",
+       "scored_returns": 442,
+       "complete": false
+      }
+     }
+    },
+    {
+     "year": 2026,
+     "first_return_end": "2026-01-02",
+     "sigma_tr": 0.18495500675794024,
+     "drawdown": 0.1890220618428401,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2026-10-07",
+       "scored_returns": 192,
+       "complete": false
+      },
+      "2y": {
+       "last_close": null,
+       "scored_returns": 0,
+       "complete": false
+      }
+     }
+    }
+   ],
+   "gaps_days_quantiles": [
+    1.0,
+    1.0,
+    4.0,
+    7.0
+   ]
+  },
+  "NDX": {
+   "first_close": "1985-10-01",
+   "last_close": "2026-10-07",
+   "starts": [
+    {
+     "year": 2001,
+     "first_return_end": "2001-01-02",
+     "sigma_tr": 0.5665868653302881,
+     "drawdown": 0.5301919392748757,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2001-12-31",
+       "scored_returns": 248,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2002-12-31",
+       "scored_returns": 500,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2002,
+     "first_return_end": "2002-01-02",
+     "sigma_tr": 0.5483290485371176,
+     "drawdown": 0.5872053878075902,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2002-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2003-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2003,
+     "first_return_end": "2003-01-02",
+     "sigma_tr": 0.4301033804201125,
+     "drawdown": 0.5196265138087106,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2003-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2004-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2004,
+     "first_return_end": "2004-01-02",
+     "sigma_tr": 0.25660267955088806,
+     "drawdown": 0.13058168672146542,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2004-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2005-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2005,
+     "first_return_end": "2005-01-03",
+     "sigma_tr": 0.18363272907552247,
+     "drawdown": 0.16041474646050236,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2005-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2006-12-29",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2006,
+     "first_return_end": "2006-01-03",
+     "sigma_tr": 0.13886894721573104,
+     "drawdown": 0.13217406495301465,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2006-12-29",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2007-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2007,
+     "first_return_end": "2007-01-03",
+     "sigma_tr": 0.15707199342470135,
+     "drawdown": 0.1742424168788952,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2007-12-31",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2008-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2008,
+     "first_return_end": "2008-01-02",
+     "sigma_tr": 0.1857317739679846,
+     "drawdown": 0.11470399401931897,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2008-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2009-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2009,
+     "first_return_end": "2009-01-02",
+     "sigma_tr": 0.42428417999051915,
+     "drawdown": 0.4956425906221047,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2009-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2010-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2010,
+     "first_return_end": "2010-01-04",
+     "sigma_tr": 0.2654494172261437,
+     "drawdown": 0.18552648910967873,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2010-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2011-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2011,
+     "first_return_end": "2011-01-03",
+     "sigma_tr": 0.19481294569175536,
+     "drawdown": 0.15909372211542205,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2011-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2012-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2012,
+     "first_return_end": "2012-01-03",
+     "sigma_tr": 0.23843822023282538,
+     "drawdown": 0.16105372681493102,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2012-12-31",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2013-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2013,
+     "first_return_end": "2013-01-02",
+     "sigma_tr": 0.15334725204998384,
+     "drawdown": 0.11859858954006486,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2013-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2014-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2014,
+     "first_return_end": "2014-01-02",
+     "sigma_tr": 0.12472508407065094,
+     "drawdown": 0.05967725295044102,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2014-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2015-12-31",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2015,
+     "first_return_end": "2015-01-02",
+     "sigma_tr": 0.14089138955738728,
+     "drawdown": 0.08232840753683046,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2015-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2016-12-30",
+       "scored_returns": 504,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2016,
+     "first_return_end": "2016-01-04",
+     "sigma_tr": 0.17835124857988488,
+     "drawdown": 0.14175329990604113,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2016-12-30",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2017-12-29",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2017,
+     "first_return_end": "2017-01-03",
+     "sigma_tr": 0.16170510318578565,
+     "drawdown": 0.14052515265997712,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2017-12-29",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2018-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2018,
+     "first_return_end": "2018-01-02",
+     "sigma_tr": 0.10449939666994223,
+     "drawdown": 0.048993229456270715,
+     "calm": true,
+     "horizons": {
+      "1y": {
+       "last_close": "2018-12-31",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2019-12-31",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2019,
+     "first_return_end": "2019-01-02",
+     "sigma_tr": 0.22598204430680047,
+     "drawdown": 0.22986797147306204,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2019-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2020-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2020,
+     "first_return_end": "2020-01-02",
+     "sigma_tr": 0.16448426960841636,
+     "drawdown": 0.11059645987022071,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2020-12-31",
+       "scored_returns": 253,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2021-12-31",
+       "scored_returns": 505,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2021,
+     "first_return_end": "2021-01-04",
+     "sigma_tr": 0.3669750123897487,
+     "drawdown": 0.2803288390852875,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2021-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2022-12-30",
+       "scored_returns": 503,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2022,
+     "first_return_end": "2022-01-03",
+     "sigma_tr": 0.18590235028843705,
+     "drawdown": 0.10925933325954262,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2022-12-30",
+       "scored_returns": 251,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2023-12-29",
+       "scored_returns": 501,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2023,
+     "first_return_end": "2023-01-03",
+     "sigma_tr": 0.324962728000177,
+     "drawdown": 0.3528366867852477,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2023-12-29",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2024-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2024,
+     "first_return_end": "2024-01-02",
+     "sigma_tr": 0.18322139669475473,
+     "drawdown": 0.10932018669988341,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2024-12-31",
+       "scored_returns": 252,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2025-12-31",
+       "scored_returns": 502,
+       "complete": true
+      }
+     }
+    },
+    {
+     "year": 2025,
+     "first_return_end": "2025-01-02",
+     "sigma_tr": 0.1819676871803171,
+     "drawdown": 0.13581426808284125,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2025-12-31",
+       "scored_returns": 250,
+       "complete": true
+      },
+      "2y": {
+       "last_close": "2026-10-07",
+       "scored_returns": 442,
+       "complete": false
+      }
+     }
+    },
+    {
+     "year": 2026,
+     "first_return_end": "2026-01-02",
+     "sigma_tr": 0.23274621121854205,
+     "drawdown": 0.2293150718955158,
+     "calm": false,
+     "horizons": {
+      "1y": {
+       "last_close": "2026-10-07",
+       "scored_returns": 192,
+       "complete": false
+      },
+      "2y": {
+       "last_close": null,
+       "scored_returns": 0,
+       "complete": false
+      }
+     }
+    }
+   ],
+   "gaps_days_quantiles": [
+    1.0,
+    1.0,
+    4.0,
+    7.0
+   ]
+  }
+ },
+ "event_launches": {
+  "SPX 2000-01": "SPX launch 2000, two-year horizon",
+  "SPX 2020-21": "SPX launch 2020, two-year horizon",
+  "NDX 2020-21": "NDX launch 2020, two-year horizon"
+ }
+}
